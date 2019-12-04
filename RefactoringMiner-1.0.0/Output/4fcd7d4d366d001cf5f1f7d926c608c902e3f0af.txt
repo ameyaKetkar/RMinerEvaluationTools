@@ -1,0 +1,3 @@
+
+ŸMove Class org.apache.cassandra.locator.DynamicEndpointSnitchTest.ScoreUpdater moved to org.apache.cassandra.locator.DynamicEndpointSnitchLongTest.ScoreUpdater
+ÖMove Method public testConcurrency() : void from class org.apache.cassandra.locator.DynamicEndpointSnitchTest to public testConcurrency() : void from class org.apache.cassandra.locator.DynamicEndpointSnitchLongTest2(4fcd7d4d366d001cf5f1f7d926c608c902e3f0af

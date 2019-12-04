@@ -1,0 +1,3 @@
+
+ÎRename Method public testRegistrationAndDiscoveryServices() : void renamed to public testRegistrationAndInterestServices() : void in class com.netflix.eureka2.testkit.embedded.server.EmbeddedWriteServerTest
+ƒExtract Method public fillUpRegistryOfServer(serverIdx int, count int, instanceTemplate InstanceInfo) : void extracted from public fillUpRegistry(count int, instanceTemplate InstanceInfo) : void in class com.netflix.eureka2.integration.EurekaDeploymentClients2(5103ace802b2819438318dd53b5b07512aae0d25

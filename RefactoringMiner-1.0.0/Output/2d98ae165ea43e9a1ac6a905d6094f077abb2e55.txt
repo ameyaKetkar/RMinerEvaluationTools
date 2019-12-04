@@ -1,0 +1,3 @@
+
+ºExtract Method private dispatchMessage(msg Message) : void extracted from public onEvent(event MessageEvent) : void in class org.graylog2.shared.buffers.processors.ProcessBufferProcessor
+¨Extract Method private postProcessMessage(raw RawMessage, codec Codec, inputIdOnCurrentNode String, baseMetricName String, message Message, decodeTime long) : Message extracted from private processMessage(raw RawMessage) : Message in class org.graylog2.shared.buffers.processors.DecodingProcessor2(2d98ae165ea43e9a1ac6a905d6094f077abb2e55

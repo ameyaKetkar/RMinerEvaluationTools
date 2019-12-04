@@ -1,0 +1,2 @@
+
+êExtract Method package handleObject(nodeFactory NodeFactory, relFactory RelationshipFactory, key String, value Object, includeHiddenAndDeleted boolean, publicOnly boolean, level int) : Object extracted from public execute(query String, parameters Map, includeHiddenAndDeleted boolean, publicOnly boolean) : List in class org.structr.core.graph.CypherQueryCommand2(15afd616cba5fb3d432d11a6de0d4f7805b202db

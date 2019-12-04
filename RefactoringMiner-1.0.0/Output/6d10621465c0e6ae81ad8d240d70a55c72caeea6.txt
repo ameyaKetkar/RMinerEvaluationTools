@@ -1,0 +1,3 @@
+
+¯Push Down Method public getBlockSize() : long from class tachyon.worker.block.meta.BlockMetaBase to public getBlockSize() : long from class tachyon.worker.block.meta.BlockMeta
+®Push Down Attribute protected mBlockSize : long from class tachyon.worker.block.meta.BlockMetaBase to private mBlockSize : long from class tachyon.worker.block.meta.BlockMeta2(6d10621465c0e6ae81ad8d240d70a55c72caeea6

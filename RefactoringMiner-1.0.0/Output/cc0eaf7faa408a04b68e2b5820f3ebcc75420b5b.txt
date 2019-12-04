@@ -1,0 +1,2 @@
+
+€Extract Method private canBinaryExpressionBeUnboxed(lhs PsiExpression, rhs PsiExpression) : boolean extracted from private canBeUnboxed(expression PsiExpression) : boolean in class com.siyeh.ig.migration.UnnecessaryBoxingInspection.UnnecessaryBoxingVisitor2(cc0eaf7faa408a04b68e2b5820f3ebcc75420b5b

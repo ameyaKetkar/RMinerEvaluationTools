@@ -1,0 +1,2 @@
+
+õExtract Method public executeReloadAndWaitForCompletion(client ModelControllerClient, timeout int) : void extracted from public executeReloadAndWaitForCompletion(client ModelControllerClient) : void in class org.jboss.as.test.shared.ServerReload2(37d842bfed9779e662321a5ee43c36b058386843

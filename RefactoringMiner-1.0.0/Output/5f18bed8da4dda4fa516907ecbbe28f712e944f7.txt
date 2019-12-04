@@ -1,0 +1,2 @@
+
+^Move Class com.intellij.util.ui.components.JBPanel moved to com.intellij.ui.components.JBPanel2(5f18bed8da4dda4fa516907ecbbe28f712e944f7

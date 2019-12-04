@@ -1,0 +1,2 @@
+
+¯Extract Method private invokeMethod(methodToken MethodDescription.Token) : Implementation.SpecialMethodInvocation extracted from public invokeSuper(methodToken MethodDescription.Token) : Implementation.SpecialMethodInvocation in class net.bytebuddy.dynamic.scaffold.subclass.SubclassImplementationTarget2(fd000ca2e78fce2f8aa11e6a81e4f23c2f1348e6

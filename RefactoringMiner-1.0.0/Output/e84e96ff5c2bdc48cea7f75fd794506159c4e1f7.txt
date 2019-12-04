@@ -1,0 +1,9 @@
+
+ÈRename Method public getKeyTypeInsideMap(type String) : String renamed to public getFirstGenericParameterType(type String) : String in class com.hazelcast.client.protocol.generator.CodeGenerationUtils
+¾Rename Method public getTypeInsideCollection(type String) : String renamed to public getGenericType(type String) : String in class com.hazelcast.client.protocol.generator.CodeGenerationUtils
+¹Rename Method public calculateStringDataSize(string String) : int renamed to public calculateDataSize(string String) : int in class com.hazelcast.client.impl.protocol.util.ParameterUtil
+ºRename Method public calculateByteArrayDataSize(bytes byte[]) : int renamed to public calculateDataSize(bytes byte[]) : int in class com.hazelcast.client.impl.protocol.util.ParameterUtil
+ÕMove Attribute private DATA_FULL_NAME : String from class com.hazelcast.client.protocol.generator.CodecModel to public DATA_FULL_NAME : String from class com.hazelcast.client.protocol.generator.CodeGenerationUtils
+ûExtract Method private createCodecModel(methodElement ExecutableElement, lang Lang) : CodecModel extracted from public generateCodec(methodElement ExecutableElement, lang Lang) : void in class com.hazelcast.client.protocol.generator.CodecCodeGenerator
+„Move Method public convertTypeToCSharp(type String) : String from class com.hazelcast.client.protocol.generator.CodecModel.ParameterModel to public convertTypeToCSharp(type String) : String from class com.hazelcast.client.protocol.generator.CodeGenerationUtils
+ËRename Method public getValueTypeInsideMap(type String) : String renamed to public getSecondGenericParameterType(type String) : String in class com.hazelcast.client.protocol.generator.CodeGenerationUtils¶Rename Method public getTypeInsideData(type String) : String renamed to public getArrayType(type String) : String in class com.hazelcast.client.protocol.generator.CodeGenerationUtils2(e84e96ff5c2bdc48cea7f75fd794506159c4e1f7

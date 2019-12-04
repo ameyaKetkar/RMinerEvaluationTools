@@ -1,0 +1,7 @@
+
+ôMove Attribute private CONFIRM_NEW_PASSWORD_PARAMETER : String from class org.glyptodon.guacamole.auth.jdbc.user.UserContextService to private CONFIRM_NEW_PASSWORD_PARAMETER : String from class org.glyptodon.guacamole.auth.jdbc.user.UserService
+êMove Attribute private EXPIRED_PASSWORD : CredentialsInfo from class org.glyptodon.guacamole.auth.jdbc.user.UserContextService to private EXPIRED_PASSWORD : CredentialsInfo from class org.glyptodon.guacamole.auth.jdbc.user.UserService
+ÞMove Attribute private CONFIRM_NEW_PASSWORD : Field from class org.glyptodon.guacamole.auth.jdbc.user.UserContextService to private CONFIRM_NEW_PASSWORD : Field from class org.glyptodon.guacamole.auth.jdbc.user.UserService
+ÄMove Attribute private logger : Logger from class org.glyptodon.guacamole.auth.jdbc.user.UserContextService to private logger : Logger from class org.glyptodon.guacamole.auth.jdbc.user.UserService
+äMove Attribute private NEW_PASSWORD_PARAMETER : String from class org.glyptodon.guacamole.auth.jdbc.user.UserContextService to private NEW_PASSWORD_PARAMETER : String from class org.glyptodon.guacamole.auth.jdbc.user.UserService
+ÎMove Attribute private NEW_PASSWORD : Field from class org.glyptodon.guacamole.auth.jdbc.user.UserContextService to private NEW_PASSWORD : Field from class org.glyptodon.guacamole.auth.jdbc.user.UserService2(ce1f3d07976de31aed8f8189ec5e1a6453f4b580

@@ -1,0 +1,2 @@
+
+³Move Attribute private PATH_TO_URL : Function from class com.facebook.buck.util.ClassLoaderCache to private PATH_TO_URL : Function from class com.facebook.buck.java.JarBackedJavac“Move Attribute private PATH_TO_URL : Function from class com.facebook.buck.util.ClassLoaderCacheTest to class com.facebook.buck.java.JarBackedJavac2(be292763b8c4cb09988023d6081b0a2d57b4c778

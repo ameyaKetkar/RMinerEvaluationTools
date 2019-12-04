@@ -1,0 +1,3 @@
+
+…Inline Method private setBranch(property BranchJobProperty, branch Branch, project WorkflowJob) : void inlined to public setBranch(project WorkflowJob, branch Branch) : WorkflowJob in class org.jenkinsci.plugins.workflow.multibranch.WorkflowBranchProjectFactory
+åMove Attribute package SCRIPT : String from class org.jenkinsci.plugins.workflow.multibranch.WorkflowBranchProjectFactory to package SCRIPT : String from class org.jenkinsci.plugins.workflow.multibranch.WorkflowMultiBranchProject2(d0e374ce8ecb687b4dc046d1edea9e52da17706f

@@ -1,0 +1,3 @@
+
+†Move Class nl.javadude.sshj.connection.channel.ChannelCloseEofTest moved to com.hierynomus.sshj.connection.channel.ChannelCloseEofTest
+ƒExtract Superclass com.hierynomus.sshj.SshIntegrationTestBase from class com.hierynomus.sshj.connection.channel.ChannelCloseEofTest2(7c26ac669a4e17ca1d2319a5049a56424fd33104

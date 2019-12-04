@@ -1,0 +1,3 @@
+
+™Rename Method public testAnyType() : void renamed to public testAnyTypeParams() : void in class com.intellij.lang.java.parser.partial.ReferenceParserTest
+¿Extract Method private dummy(builder PsiBuilder) : void extracted from public parseTypeParameter(builder PsiBuilder) : PsiBuilder.Marker in class com.intellij.lang.java.parser.ReferenceParserÉExtract Method private isKeywordAny(builder PsiBuilder) : boolean extracted from public parseTypeParameter(builder PsiBuilder) : PsiBuilder.Marker in class com.intellij.lang.java.parser.ReferenceParser2(9f7de200c9aef900596b09327a52d33241a68d9c

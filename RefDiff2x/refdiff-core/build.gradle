@@ -1,0 +1,100 @@
+plugins {
+    id 'java'
+    id 'eclipse'
+    id 'signing'
+    id 'maven'
+}
+
+group = 'com.github.aserg-ufmg'
+version = '0.2.0'
+description = 'An automated tool to detect refactorings in version histories'
+
+signing {
+	sign configurations.archives
+}
+
+uploadArchives {
+    repositories {
+        mavenDeployer {
+            // POM signature
+            beforeDeployment { MavenDeployment deployment -> signing.signPom(deployment) }
+            // Target repository
+            repository(url: 'https://oss.sonatype.org/service/local/staging/deploy/maven2/') {
+                authentication(userName: findProperty('ossrhUser'), password: findProperty('ossrhPassword'))
+            }
+            snapshotRepository(url: 'https://oss.sonatype.org/content/repositories/snapshots') {
+                authentication(userName: findProperty('ossrhUser'), password: findProperty('ossrhPassword'))
+            }
+            pom.project {
+                name project.name
+                description project.description
+                packaging 'jar'
+                url 'https://github.com/aserg-ufmg/RefDiff'
+
+                scm {
+                    connection 'scm:git:https://github.com/aserg-ufmg/RefDiff.git'
+                    developerConnection 'scm:git:git@github.com:aserg-ufmg/RefDiff.git'
+                    url 'https://github.com/aserg-ufmg/RefDiff.git'
+                }
+
+                licenses {
+                    license {
+                        name 'The MIT License (MIT)'
+                        url 'http://opensource.org/licenses/MIT'
+                        distribution 'repo'
+                    }
+                }
+
+                developers {
+                    developer {
+                        id = 'danilofs'
+                        name = 'Danilo Ferreira e Silva'
+                        email = 'danilofs@dcc.ufmg.br'
+                    }
+                }
+            }
+        }
+    }
+}
+
+nexusStaging {  
+    username = findProperty('ossrhUser')
+    password = findProperty('ossrhPassword')
+}
+
+dependencies {
+//    compile project(':refdiff-git')
+    compile 'org.eclipse.jgit:org.eclipse.jgit:4.7.0.201704051617-r'
+    compile 'org.eclipse.jdt:org.eclipse.jdt.core:3.12.3'
+    compile 'com.fasterxml.jackson.core:jackson-core:2.8.9'
+    compile 'com.fasterxml.jackson.core:jackson-annotations:2.8.9'
+    compile 'com.fasterxml.jackson.core:jackson-databind:2.8.9'
+//    compile 'org.kohsuke:github-api:1.95'
+    compile 'com.ibm.icu:icu4j:61.1'
+    
+    testCompile 'junit:junit:4.11'
+}
+
+task javadocJar(type: Jar) {
+    classifier = 'javadoc'
+    from javadoc
+}
+
+task sourcesJar(type: Jar) {
+    classifier = 'sources'
+    from sourceSets.main.allSource
+}
+
+task testJar(type: Jar) {
+    classifier = 'tests'
+    from sourceSets.test.output
+}
+
+configurations {
+  testArtifacts
+}
+
+artifacts {
+    archives javadocJar, sourcesJar
+    testArtifacts testJar
+}

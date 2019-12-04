@@ -1,0 +1,33 @@
+
+eMove Class com.squareup.okhttp.internal.spdy.Spdy3 moved to com.squareup.okhttp.internal.framed.Spdy3
+mMove Class com.squareup.okhttp.internal.spdy.Http2Test moved to com.squareup.okhttp.internal.framed.Http2Test
+ÉMove Class com.squareup.okhttp.internal.spdy.Http2FrameLoggerTest moved to com.squareup.okhttp.internal.framed.Http2FrameLoggerTest
+mMove Class com.squareup.okhttp.internal.spdy.Spdy3Test moved to com.squareup.okhttp.internal.framed.Spdy3Test
+wMove Class com.squareup.okhttp.internal.spdy.hpackjson.Case moved to com.squareup.okhttp.internal.framed.hpackjson.Case
+sMove Class com.squareup.okhttp.internal.spdy.SettingsTest moved to com.squareup.okhttp.internal.framed.SettingsTest
+kMove Class com.squareup.okhttp.internal.spdy.Settings moved to com.squareup.okhttp.internal.framed.Settings
+áMove Class com.squareup.okhttp.internal.spdy.HpackDecodeInteropTest moved to com.squareup.okhttp.internal.framed.HpackDecodeInteropTest
+eMove Class com.squareup.okhttp.internal.spdy.Http2 moved to com.squareup.okhttp.internal.framed.Http2
+qMove Class com.squareup.okhttp.internal.spdy.FrameReader moved to com.squareup.okhttp.internal.framed.FrameReader
+eMove Class com.squareup.okhttp.internal.spdy.Hpack moved to com.squareup.okhttp.internal.framed.Hpack
+iMove Class com.squareup.okhttp.internal.spdy.Huffman moved to com.squareup.okhttp.internal.framed.Huffman
+sMove Class com.squareup.okhttp.internal.spdy.MockSpdyPeer moved to com.squareup.okhttp.internal.framed.MockSpdyPeer
+qMove Class com.squareup.okhttp.internal.spdy.HuffmanTest moved to com.squareup.okhttp.internal.framed.HuffmanTest
+cMove Class com.squareup.okhttp.internal.spdy.Ping moved to com.squareup.okhttp.internal.framed.Ping
+yRename Class com.squareup.okhttp.internal.http.SpdyTransport renamed to com.squareup.okhttp.internal.http.FramedTransport
+gMove Class com.squareup.okhttp.internal.spdy.Header moved to com.squareup.okhttp.internal.framed.Header
+yMove Class com.squareup.okhttp.internal.spdy.BaseTestHandler moved to com.squareup.okhttp.internal.framed.BaseTestHandler
+Move Class com.squareup.okhttp.internal.spdy.HpackRoundTripTest moved to com.squareup.okhttp.internal.framed.HpackRoundTripTest
+ÖMove Class com.squareup.okhttp.internal.spdy.IncomingStreamHandler moved to com.squareup.okhttp.internal.framed.IncomingStreamHandler
+yMove Class com.squareup.okhttp.internal.spdy.hpackjson.Story moved to com.squareup.okhttp.internal.framed.hpackjson.Story
+ÅMove Class com.squareup.okhttp.internal.spdy.HpackDecodeTestBase moved to com.squareup.okhttp.internal.framed.HpackDecodeTestBase
+ÅMove Class com.squareup.okhttp.internal.spdy.Spdy3ConnectionTest moved to com.squareup.okhttp.internal.framed.Spdy3ConnectionTest
+âMove Class com.squareup.okhttp.internal.spdy.hpackjson.HpackJsonUtil moved to com.squareup.okhttp.internal.framed.hpackjson.HpackJsonUtil
+sMove Class com.squareup.okhttp.internal.spdy.PushObserver moved to com.squareup.okhttp.internal.framed.PushObserver
+ùRename Class com.squareup.okhttp.mockwebserver.MockWebServer.SpdySocketHandler renamed to com.squareup.okhttp.mockwebserver.MockWebServer.FramedSocketHandler
+mMove Class com.squareup.okhttp.internal.spdy.HpackTest moved to com.squareup.okhttp.internal.framed.HpackTest
+qMove Class com.squareup.okhttp.internal.spdy.FrameWriter moved to com.squareup.okhttp.internal.framed.FrameWriter
+ÅMove Class com.squareup.okhttp.internal.spdy.Http2ConnectionTest moved to com.squareup.okhttp.internal.framed.Http2ConnectionTest
+ÉMove Class com.squareup.okhttp.internal.spdy.NameValueBlockReader moved to com.squareup.okhttp.internal.framed.NameValueBlockReader
+xRename Method package isSpdy() : boolean renamed to package isFramed() : boolean in class com.squareup.okhttp.Connection
+iMove Class com.squareup.okhttp.internal.spdy.Variant moved to com.squareup.okhttp.internal.framed.VariantèRename Class com.squareup.okhttp.internal.spdy.SpdyStream.SpdyTimeout renamed to com.squareup.okhttp.internal.framed.FramedStream.StreamTimeoutïRename Class com.squareup.okhttp.internal.spdy.SpdyStream.SpdyDataSource renamed to com.squareup.okhttp.internal.framed.FramedStream.FramedDataSourceuRename Class com.squareup.okhttp.internal.spdy.SpdyStream renamed to com.squareup.okhttp.internal.framed.FramedStreamëRename Class com.squareup.okhttp.internal.spdy.SpdyStream.SpdyDataSink renamed to com.squareup.okhttp.internal.framed.FramedStream.FramedDataSinkuRename Class com.squareup.okhttp.internal.spdy.SpdyServer renamed to com.squareup.okhttp.internal.framed.FramedServer}Rename Class com.squareup.okhttp.internal.spdy.SpdyConnection renamed to com.squareup.okhttp.internal.framed.FramedConnectionqMove Class com.squareup.okhttp.internal.spdy.HeadersMode moved to com.squareup.okhttp.internal.framed.HeadersModemMove Class com.squareup.okhttp.internal.spdy.ErrorCode moved to com.squareup.okhttp.internal.framed.ErrorCode2(c753d2e41ba667f9b5a31451a16ecbaecdc65d80

@@ -1,0 +1,2 @@
+
+ùPull Up Method public getDatabase() : ODatabaseDocumentInternal from class com.orientechnologies.orient.core.sql.parser.OStatement to public getDatabase() : ODatabaseDocumentInternal from class com.orientechnologies.orient.core.sql.parser.SimpleNode2(0a1ff849ec7709be8553383fe9c2c7301980dde0

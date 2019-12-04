@@ -1,0 +1,2 @@
+
+½Extract Method private getIconImageURL(size int, iconUrl String, blogUrl String) : String extracted from public getIconImageURL(size int) : String in class org.wordpress.android.models.Blog2(f8d5cf01f123a1d0a65857aa2db0571fe9cd1911

@@ -1,0 +1,2 @@
+
+‰Move Class org.sonar.server.computation.measure.Measure.QualityGateStatus moved to org.sonar.server.computation.measure.QualityGateStatus2(06fa57185cba7304c69a7d6c792a15f2632e3e02

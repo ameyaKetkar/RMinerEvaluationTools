@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package Models;
+//import "Results.proto";
+
+option java_package = "refdiff.core.ResultModels";
+
+message Results {
+   string projectName = 5;
+   string sha = 6;
+   repeated string truePositives = 1;
+   repeated string trueNegatives = 4;
+   repeated string falsePositives = 2;
+   repeated string falseNegatives = 3;
+}
+//protoc -I=/Users/ameya/RefactoringMiner/src/Protos --java_out=/Users/ameya/RefactoringMiner/src/ /Users/ameya/RefactoringMiner/src/Protos/*

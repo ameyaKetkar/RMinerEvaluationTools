@@ -1,0 +1,3 @@
+
+êMove Attribute private localPlayer : LocalPlayer from class org.terasology.world.chunks.remoteChunkProvider.RemoteChunkProvider.ChunkTaskRelevanceComparator to private localPlayer : LocalPlayer from class org.terasology.world.chunks.remoteChunkProvider.RemoteChunkProvider
+ëMove Attribute private localPlayer : LocalPlayer from class org.terasology.world.chunks.remoteChunkProvider.RemoteChunkProvider.ReadyChunkRelevanceComparator to private localPlayer : LocalPlayer from class org.terasology.world.chunks.remoteChunkProvider.RemoteChunkProvider2(dbd2d5048ae5e30fec98ddd969b6c1e91183fb65

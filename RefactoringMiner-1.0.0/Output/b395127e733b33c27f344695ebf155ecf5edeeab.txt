@@ -1,0 +1,20 @@
+
+ÊMove Method public save(parser Parser, fileName String) : void from class org.antlr.v4.runtime.RuleContext to public save(t Tree, parser Parser, fileName String) : void from class org.antlr.v4.gui.Trees
+rMove Class org.antlr.v4.runtime.tree.gui.TreePostScriptGenerator moved to org.antlr.v4.gui.TreePostScriptGenerator
+´Move Method public inspect(ruleNames List) : Future from class org.antlr.v4.runtime.RuleContext to public inspect(t Tree, ruleNames List) : Future from class org.antlr.v4.gui.Trees
+¾Inline Method public toStringTree(t Tree, nodeTextProvider TreeTextProvider) : String inlined to public toStringTree(t Tree, ruleNames List) : String in class org.antlr.v4.runtime.tree.Trees
+xMove Class org.antlr.v4.runtime.misc.JFileChooserConfirmOverwrite moved to org.antlr.v4.gui.JFileChooserConfirmOverwrite
+XMove Class org.antlr.v4.runtime.tree.gui.TreeViewer moved to org.antlr.v4.gui.TreeViewer
+ˆMove Method public save(parser Parser, fileName String, fontName String, fontSize int) : void from class org.antlr.v4.runtime.RuleContext to public save(t Tree, parser Parser, fileName String, fontName String, fontSize int) : void from class org.antlr.v4.gui.Trees
+ÙMove Method public writePS(t Tree, ruleNames List, fileName String) : void from class org.antlr.v4.runtime.tree.Trees to public writePS(t Tree, ruleNames List, fileName String) : void from class org.antlr.v4.gui.Trees
+—Move Method public writePS(t Tree, ruleNames List, fileName String, fontName String, fontSize int) : void from class org.antlr.v4.runtime.tree.Trees to public writePS(t Tree, ruleNames List, fileName String, fontName String, fontSize int) : void from class org.antlr.v4.gui.Trees
+dMove Class org.antlr.v4.runtime.tree.gui.TreeTextProvider moved to org.antlr.v4.gui.TreeTextProvider
+fMove Class org.antlr.v4.runtime.tree.gui.TreeLayoutAdaptor moved to org.antlr.v4.gui.TreeLayoutAdaptor
+·Move Method public getPS(t Tree, ruleNames List) : String from class org.antlr.v4.runtime.tree.Trees to public getPS(t Tree, ruleNames List) : String from class org.antlr.v4.gui.Trees
+dMove Class org.antlr.v4.runtime.tree.gui.BasicFontMetrics moved to org.antlr.v4.gui.BasicFontMetrics
+^Move Class org.antlr.v4.runtime.misc.GraphicsSupport moved to org.antlr.v4.gui.GraphicsSupport
+NMove Class org.antlr.v4.runtime.misc.TestRig moved to org.antlr.v4.gui.TestRig
+²Move Method public inspect(parser Parser) : Future from class org.antlr.v4.runtime.RuleContext to public inspect(t Tree, parser Parser) : Future from class org.antlr.v4.gui.Trees
+fMove Class org.antlr.v4.runtime.tree.gui.SystemFontMetrics moved to org.antlr.v4.gui.SystemFontMetrics
+õMove Method public getPS(t Tree, ruleNames List, fontName String, fontSize int) : String from class org.antlr.v4.runtime.tree.Trees to public getPS(t Tree, ruleNames List, fontName String, fontSize int) : String from class org.antlr.v4.gui.Trees
+hMove Class org.antlr.v4.runtime.tree.gui.PostScriptDocument moved to org.antlr.v4.gui.PostScriptDocumentŠMove Method public save(ruleNames List, fileName String, fontName String, fontSize int) : void from class org.antlr.v4.runtime.RuleContext to public save(t Tree, ruleNames List, fileName String, fontName String, fontSize int) : void from class org.antlr.v4.gui.TreesÌMove Method public save(ruleNames List, fileName String) : void from class org.antlr.v4.runtime.RuleContext to public save(t Tree, ruleNames List, fileName String) : void from class org.antlr.v4.gui.Trees2(b395127e733b33c27f344695ebf155ecf5edeeab

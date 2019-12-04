@@ -1,0 +1,6 @@
+
+þPull Up Method protected isKubernetesJsonArtifact(classifier String, type String) : boolean from class io.fabric8.maven.JsonMojo to package isKubernetesJsonArtifact(classifier String, type String) : boolean from class io.fabric8.maven.AbstractFabric8Mojo
+§Pull Up Method private getDependencies() : Set from class io.fabric8.maven.ApplyMojo to package getDependencies() : Set from class io.fabric8.maven.AbstractFabric8Mojo
+·Pull Up Attribute private combineDependencies : boolean from class io.fabric8.maven.JsonMojo to protected combineDependencies : boolean from class io.fabric8.maven.AbstractFabric8Mojo
+¾Pull Up Attribute private DEFAULT_CONFIG_FILE_NAME : String from class io.fabric8.maven.ApplyMojo to private DEFAULT_CONFIG_FILE_NAME : String from class io.fabric8.maven.AbstractFabric8Mojo
+¿Pull Up Method private hasKubernetesJson(f File) : boolean from class io.fabric8.maven.ApplyMojo to package hasKubernetesJson(f File) : boolean from class io.fabric8.maven.AbstractFabric8Mojo2(07807aed847e1d0589c094461544e54a2677cbf5

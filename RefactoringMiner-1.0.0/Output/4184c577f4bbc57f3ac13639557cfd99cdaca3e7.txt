@@ -1,0 +1,2 @@
+
+´Move Attribute package stopped : boolean from class org.infinispan.persistence.async.State to private stopped : boolean from class org.infinispan.persistence.async.AsyncCacheWriter2(4184c577f4bbc57f3ac13639557cfd99cdaca3e7

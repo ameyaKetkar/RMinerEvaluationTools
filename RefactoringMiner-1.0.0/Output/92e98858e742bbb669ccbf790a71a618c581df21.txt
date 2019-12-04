@@ -1,0 +1,2 @@
+
+±Extract Method public use(ctx ParserRuleContext, sql String) : Integer extracted from public use(ctx HplsqlParser.Use_stmtContext) : Integer in class org.apache.hive.hplsql.Stmt2(92e98858e742bbb669ccbf790a71a618c581df21

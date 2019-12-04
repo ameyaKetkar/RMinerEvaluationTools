@@ -1,0 +1,5 @@
+
+˛Pull Up Method protected wrap(values List) : ParameterList from class net.bytebuddy.description.method.ParameterList.ForLoadedExecutable to protected wrap(values List) : ParameterList from class net.bytebuddy.description.method.ParameterList.AbstractBase
+èPull Up Method protected wrap(values List) : ParameterList from class net.bytebuddy.description.method.ParameterList.ForLoadedExecutable.OfLegacyVmMethod to protected wrap(values List) : ParameterList from class net.bytebuddy.description.method.ParameterList.AbstractBase
+ÛPull Up Method protected wrap(values List) : ParameterList from class net.bytebuddy.description.method.ParameterList.Explicit to protected wrap(values List) : ParameterList from class net.bytebuddy.description.method.ParameterList.AbstractBase
+îPull Up Method protected wrap(values List) : ParameterList from class net.bytebuddy.description.method.ParameterList.ForLoadedExecutable.OfLegacyVmConstructor to protected wrap(values List) : ParameterList from class net.bytebuddy.description.method.ParameterList.AbstractBase2(f1dfb66a368760e77094ac1e3860b332cf0e4eb5

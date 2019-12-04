@@ -1,0 +1,3 @@
+
+~Extract Method private initTemplate() : void extracted from public initialize() : void in class buildcraft.builders.TileFiller
+€Extract Method private initTemplate() : void extracted from public updateEntity() : void in class buildcraft.builders.TileFilleråMove Attribute public BUTTON_TEXTURES : ResourceLocation from class buildcraft.core.lib.gui.buttons.GuiBetterButton to public BUTTON_TEXTURES : ResourceLocation from class buildcraft.core.lib.gui.buttons.StandardButtonTextureSets2(6abc40ed4850d74ee6c155f5a28f8b34881a0284

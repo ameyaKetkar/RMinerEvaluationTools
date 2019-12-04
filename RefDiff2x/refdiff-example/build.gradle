@@ -1,0 +1,13 @@
+plugins {
+    id 'java'
+    id 'eclipse'
+    id 'application'
+}
+
+mainClassName = 'refdiff.examples.RefDiffExample'
+
+dependencies {
+    compile project(':refdiff-js')
+    compile project(':refdiff-java')
+    compile project(':refdiff-c')
+}

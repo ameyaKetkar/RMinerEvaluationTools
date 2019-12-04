@@ -1,0 +1,2 @@
+
+²Inline Method private doClose() : void inlined to public close() : void in class org.springframework.integration.ip.tcp.connection.CachingClientConnectionFactory.CachedConnection2(ec5230abc7500734d7b78a176c291378e100a927

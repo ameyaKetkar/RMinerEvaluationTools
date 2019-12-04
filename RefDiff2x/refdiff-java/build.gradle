@@ -1,0 +1,12 @@
+plugins {
+    id 'java'
+    id 'eclipse'
+}
+
+dependencies {
+    compile project(':refdiff-core')
+	compile 'org.eclipse.jdt:org.eclipse.jdt.core:3.16.0'
+//    compile 'org.kohsuke:github-api:1.95'
+	testCompile 'junit:junit:4.11'
+	testCompile project(path: ':refdiff-core', configuration: 'testArtifacts')
+}

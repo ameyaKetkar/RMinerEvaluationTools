@@ -1,0 +1,6 @@
+
+¡Move Attribute public SKIP_PRETTIFY_EXT : List from class com.gh4a.Constants to private SKIP_PRETTIFY_EXT : List from class com.gh4a.activities.WebViewerActivity
+«Extract Method private isExtensionIn(filename String, extensions List) : boolean extracted from public isImage(filename String) : boolean in class com.gh4a.utils.FileUtils
+óMove Method private writeCssInclude(builder StringBuilder, cssType String) : void from class com.gh4a.utils.StringUtils to protected writeCssInclude(builder StringBuilder, cssType String) : void from class com.gh4a.activities.WebViewerActivity
+ÿMove Method private writeScriptInclude(builder StringBuilder, scriptName String) : void from class com.gh4a.utils.StringUtils to protected writeScriptInclude(builder StringBuilder, scriptName String) : void from class com.gh4a.activities.WebViewerActivity
+ÇMove Method public highlightImage(imageUrl String) : String from class com.gh4a.utils.StringUtils to private highlightImage(imageUrl String) : String from class com.gh4a.activities.FileViewerActivity2(b8fffb706258db4c4d2f608d8e8dad9312e2230d

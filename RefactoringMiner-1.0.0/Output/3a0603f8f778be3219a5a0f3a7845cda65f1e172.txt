@@ -1,0 +1,2 @@
+
+»Extract Method public values(names List, values List) : Insert extracted from public values(names String[], values Object[]) : Insert in class com.datastax.driver.core.querybuilder.Insert2(3a0603f8f778be3219a5a0f3a7845cda65f1e172

@@ -1,0 +1,5 @@
+
+{Move Class com.hazelcast.client.protocol.Int2ObjectHashMapTest moved to com.hazelcast.util.collection.Int2ObjectHashMapTest
+}Move Class com.hazelcast.client.impl.protocol.util.Int2ObjectHashMap moved to com.hazelcast.util.collection.Int2ObjectHashMap
+ŸMove Attribute public UTF_8 : Charset from class com.hazelcast.client.impl.protocol.util.SafeBuffer to public UTF_8 : Charset from class com.hazelcast.nio.Bits
+¡Move Attribute public UTF_8 : Charset from class com.hazelcast.client.impl.protocol.util.UnsafeBuffer to public UTF_8 : Charset from class com.hazelcast.nio.BitsÆRename Method public getOrDefault(key int, supplier Supplier) : V renamed to public computeIfAbsent(key int, mappingFunction IntFunction) : V in class com.hazelcast.util.collection.Int2ObjectHashMap{Move Class com.hazelcast.client.impl.protocol.util.Int2ObjectHashMap.Supplier moved to com.hazelcast.util.function.Supplier2(69dd55c93fc99c5f7a1e2c21f10e671e311be49e

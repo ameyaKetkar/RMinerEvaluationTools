@@ -1,0 +1,3 @@
+
+âExtract Method private initialize() : void extracted from public launchPig(physicalPlan PhysicalPlan, grpName String, pigContext PigContext) : PigStats in class org.apache.pig.backend.hadoop.executionengine.spark.SparkLauncher
+¦Rename Method private startSparkJob() : void renamed to private addFilesToSparkJob() : void in class org.apache.pig.backend.hadoop.executionengine.spark.SparkLauncher2(7a1659c12d76b510809dea1dea1f5100bcf4cd60

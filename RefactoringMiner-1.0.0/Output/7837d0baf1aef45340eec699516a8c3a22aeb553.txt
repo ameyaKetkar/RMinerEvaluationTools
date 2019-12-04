@@ -1,0 +1,2 @@
+
+¼Extract Method private signFrameworks(appDir File, getTaskAllow boolean) : void extracted from protected prepareLaunch(appDir File) : void in class org.robovm.compiler.target.ios.IOSTarget2(7837d0baf1aef45340eec699516a8c3a22aeb553

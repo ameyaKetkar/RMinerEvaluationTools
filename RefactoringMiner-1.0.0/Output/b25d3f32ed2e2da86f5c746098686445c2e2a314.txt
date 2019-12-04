@@ -1,0 +1,2 @@
+
+·Extract Method private putFilter(sName String, filter ZuulFilter, lastModified long) : void extracted from public putFilter(file File) : boolean in class com.netflix.zuul.FilterLoaderŸRename Method public getLocations() : String[] renamed to public getClassNames() : String[] in class com.netflix.zuul.FilterFileManager.FilterFileManagerConfig2(b25d3f32ed2e2da86f5c746098686445c2e2a314

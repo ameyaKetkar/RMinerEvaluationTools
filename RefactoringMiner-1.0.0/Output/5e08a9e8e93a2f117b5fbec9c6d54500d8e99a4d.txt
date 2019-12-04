@@ -1,0 +1,2 @@
+
+œExtract Method public copyAttachments(that Message) : void extracted from public copyFrom(that Message) : void in class org.apache.camel.impl.MessageSupport2(5e08a9e8e93a2f117b5fbec9c6d54500d8e99a4d

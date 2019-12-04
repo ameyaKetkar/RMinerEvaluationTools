@@ -1,0 +1,3 @@
+
+’Rename Method public getPayload() : Object renamed to public getFailure() : Throwable in class org.gradle.internal.progress.BuildOperationInternal
+˜Inline Method private adaptResult(result BuildResult, startTime long, endTime long) : AbstractOperationResult inlined to private adaptResult(source BuildOperationInternal) : AbstractOperationResult in class org.gradle.tooling.internal.provider.runner.ClientForwardingBuildListener2(f841d8dda2bf461f595755f85c3eba786783702d

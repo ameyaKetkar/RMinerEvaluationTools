@@ -1,0 +1,10 @@
+
+aMove Class com.google.common.truth.ListTest.Bar moved to com.google.common.truth.IterableTest.Bar
+¬Move Method public isOrderedFailure() : void from class com.google.common.truth.ListTest to public isOrderedFailure() : void from class com.google.common.truth.IterableTest
+œRename Method public listContainsExactlyArray() : void renamed to public iterableContainsExactlyArray() : void in class com.google.common.truth.IterableTest
+aMove Class com.google.common.truth.ListTest.Foo moved to com.google.common.truth.IterableTest.Foo
+µMove Attribute private FOO_COMPARATOR : Comparator from class com.google.common.truth.ListTest to private FOO_COMPARATOR : Comparator from class com.google.common.truth.IterableTest
+îMove Method public isStrictlyOrderedWithNonComparableElementsFailure() : void from class com.google.common.truth.ListTest to public isStrictlyOrderedWithNonComparableElementsFailure() : void from class com.google.common.truth.IterableTest
+¼Move Method public isStrictlyOrderedFailure() : void from class com.google.common.truth.ListTest to public isStrictlyOrderedFailure() : void from class com.google.common.truth.IterableTest
+ÞMove Method public isOrderedWithNonComparableElementsFailure() : void from class com.google.common.truth.ListTest to public isOrderedWithNonComparableElementsFailure() : void from class com.google.common.truth.IterableTest
+½Move Attribute private COMPARE_AS_DECIMAL : Comparator from class com.google.common.truth.ListTest to private COMPARE_AS_DECIMAL : Comparator from class com.google.common.truth.IterableTest2(1768840bf1e69892fd2a23776817f620edfed536

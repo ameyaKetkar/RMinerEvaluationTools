@@ -1,0 +1,5 @@
+
+ÀExtract Method private createNonOfficeElements(cons GridBagConstraints, portPanel JPanel) : void extracted from public show(rules List) : void in class org.languagetool.gui.ConfigurationDialog
+”Extract Method private getTreeButtonPanel() : JPanel extracted from public show(rules List) : void in class org.languagetool.gui.ConfigurationDialog
+­Extract Method private getMotherTonguePanel(cons GridBagConstraints) : JPanel extracted from public show(rules List) : void in class org.languagetool.gui.ConfigurationDialog
+·Extract Method private getTreeModel(rootNode DefaultMutableTreeNode) : DefaultTreeModel extracted from public show(rules List) : void in class org.languagetool.gui.ConfigurationDialog—Extract Method private getMouseAdapter() : MouseAdapter extracted from public show(rules List) : void in class org.languagetool.gui.ConfigurationDialog2(01cddc5afb590b4d36cb784637a8ea8aa31d3561

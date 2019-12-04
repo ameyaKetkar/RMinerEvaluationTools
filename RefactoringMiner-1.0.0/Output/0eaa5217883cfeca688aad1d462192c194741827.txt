@@ -1,0 +1,3 @@
+
+ÉMove Attribute private userWriter : UserJsonWriter from class org.sonar.server.issue.ws.IssueJsonWriter to private userWriter : UserJsonWriter from class org.sonar.server.issue.InternalRubyIssueService
+ÍMove Attribute private userWriter : UserJsonWriter from class org.sonar.server.issue.ws.IssueJsonWriter to package userWriter : UserJsonWriter from class org.sonar.server.issue.InternalRubyIssueServiceTest2(0eaa5217883cfeca688aad1d462192c194741827

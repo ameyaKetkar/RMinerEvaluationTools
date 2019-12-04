@@ -1,0 +1,3 @@
+
+ÚMove Method private printConstraint(indent int, table TableHandle, column ColumnHandle, constraint TupleDomain) : void from class com.facebook.presto.sql.planner.PlanPrinter to private printConstraint(indent int, table TableHandle, column ColumnHandle, constraint TupleDomain) : void from class com.facebook.presto.sql.planner.PlanPrinter.Visitor
+®Move Method private formatDomain(table TableHandle, column ColumnHandle, domain Domain) : String from class com.facebook.presto.sql.planner.PlanPrinter to private formatDomain(table TableHandle, column ColumnHandle, domain Domain) : String from class com.facebook.presto.sql.planner.PlanPrinter.Visitor2(11048642b1e6b0e35efefab9e4e693b09c8753f5

@@ -1,0 +1,4 @@
+
+‰Move Class springfox.documentation.spring.web.AbstractPathProvider moved to springfox.documentation.spring.web.paths.AbstractPathProvider
+‰Move Class springfox.documentation.spring.web.RelativePathProvider moved to springfox.documentation.spring.web.paths.RelativePathProvider
+kMove Class springfox.documentation.spring.web.Paths moved to springfox.documentation.spring.web.paths.Paths2(2307ff3a4ca367aaf64088b7b1e1bbf212c9bf3a

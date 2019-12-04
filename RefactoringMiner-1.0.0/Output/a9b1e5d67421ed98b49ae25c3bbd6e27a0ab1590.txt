@@ -1,0 +1,3 @@
+
+œExtract Method private bail(txt String) : void extracted from public processData() : Msg in class org.openhab.binding.insteonplm.internal.message.MsgFactory
+³Extract Method private processBindingConfiguration() : void extracted from public updated(config Dictionary) : void in class org.openhab.binding.insteonplm.InsteonPLMActiveBinding2(a9b1e5d67421ed98b49ae25c3bbd6e27a0ab1590

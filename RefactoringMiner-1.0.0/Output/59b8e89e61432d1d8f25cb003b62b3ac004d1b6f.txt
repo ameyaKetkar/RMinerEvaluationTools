@@ -1,0 +1,2 @@
+
+ Extract Method private setProtectionPassword(password String, hashAlgo HashAlgorithm) : void extracted from public setEnforcementEditValue(editValue STDocProtect, password String, hashAlgo HashAlgorithm) : void in class org.docx4j.openpackaging.parts.WordprocessingML.DocumentSettingsPart2(59b8e89e61432d1d8f25cb003b62b3ac004d1b6f

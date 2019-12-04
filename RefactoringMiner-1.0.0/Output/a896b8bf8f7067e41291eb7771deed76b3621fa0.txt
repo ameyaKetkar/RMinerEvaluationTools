@@ -1,0 +1,2 @@
+
+¼Move Attribute public m_framework : Framework from class org.voltdb.importer.ImportProcessor.BundleWrapper to private m_framework : Framework from class org.voltdb.importer.ImportProcessor2(a896b8bf8f7067e41291eb7771deed76b3621fa0

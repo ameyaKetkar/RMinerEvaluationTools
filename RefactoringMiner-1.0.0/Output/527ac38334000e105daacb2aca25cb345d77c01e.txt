@@ -1,0 +1,3 @@
+
+ÜMove Attribute private stopped : AtomicBoolean from class org.gradle.play.internal.run.PlayApplicationDeploymentHandle to private stopped : AtomicBoolean from class org.gradle.play.internal.run.PlayApplicationRunnerToken
+ïExtract And Move Method public isRunning() : boolean extracted from public isRunning() : boolean in class org.gradle.play.internal.run.PlayApplicationDeploymentHandle & moved to class org.gradle.play.internal.run.PlayApplicationRunnerToken2(527ac38334000e105daacb2aca25cb345d77c01e

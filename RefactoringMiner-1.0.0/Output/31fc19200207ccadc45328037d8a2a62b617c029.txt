@@ -1,0 +1,4 @@
+
+ Extract Method public tryParse(string String, radix int) : Long extracted from public tryParse(string String) : Long in class com.google.common.primitives.Longs
+¦Move Attribute private asciiDigits : byte[] from class com.google.common.primitives.Ints to private asciiDigits : byte[] from class com.google.common.primitives.Longs
+¡Move Method private digit(c char) : int from class com.google.common.primitives.Ints to private digit(c char) : int from class com.google.common.primitives.LongsëExtract And Move Method public tryParse(string String, radix int) : Long extracted from package tryParse(string String, radix int) : Integer in class com.google.common.primitives.Ints & moved to class com.google.common.primitives.Longs2(31fc19200207ccadc45328037d8a2a62b617c029

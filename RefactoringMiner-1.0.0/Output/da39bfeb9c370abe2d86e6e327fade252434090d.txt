@@ -1,0 +1,3 @@
+
+©Inline Method package watchDeploymentGroup(out PrintStream, name String, interval int, clients List) : void inlined to package run(options Namespace, client HeliosClient, out PrintStream, json boolean, stdin BufferedReader) : int in class com.spotify.helios.cli.command.DeploymentGroupWatchCommand
+³Extract Method package run0(client HeliosClient, out PrintStream, json boolean, name String, full boolean) : int extracted from package run(options Namespace, client HeliosClient, out PrintStream, json boolean, stdin BufferedReader) : int in class com.spotify.helios.cli.command.DeploymentGroupStatusCommand2(da39bfeb9c370abe2d86e6e327fade252434090d

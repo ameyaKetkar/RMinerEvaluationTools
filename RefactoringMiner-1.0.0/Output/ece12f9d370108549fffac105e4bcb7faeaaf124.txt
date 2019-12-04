@@ -1,0 +1,3 @@
+
+ÛExtract Method private assertMissingTextAttribute(attributes Map) : void extracted from public synthesizeAnnotationFromMapWithNullAttributeValue() : void in class org.springframework.core.annotation.AnnotationUtilsTests
+ÞExtract Method private assertMissingTextAttribute(attributes Map) : void extracted from public synthesizeAnnotationFromMapWithMissingAttributeValue() : void in class org.springframework.core.annotation.AnnotationUtilsTestsýRename Method private validateAttributes(attributes Map, annotationType Class) : void renamed to private enrichAndValidateAttributes(attributes Map, annotationType Class) : Map in class org.springframework.core.annotation.MapAnnotationAttributeExtractor2(ece12f9d370108549fffac105e4bcb7faeaaf124

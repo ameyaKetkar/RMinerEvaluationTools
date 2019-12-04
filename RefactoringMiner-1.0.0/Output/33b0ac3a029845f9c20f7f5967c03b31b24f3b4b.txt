@@ -1,0 +1,2 @@
+
+ÀPull Up Method private iterateRecursively(root VirtualFile, processor ContentIterator, indicator ProgressIndicator, visitedRoots Set, projectFileIndex ProjectFileIndex) : void from class com.intellij.util.indexing.FileBasedIndexImpl to public iterateRecursively(root VirtualFile, processor ContentIterator, indicator ProgressIndicator, visitedRoots Set, projectFileIndex ProjectFileIndex) : void from class com.intellij.util.indexing.FileBasedIndex2(33b0ac3a029845f9c20f7f5967c03b31b24f3b4b

@@ -1,0 +1,3 @@
+
+ÔInline Method public submitBackground(cfs ColumnFamilyStore, autoFill boolean) : List inlined to public submitBackground(cfs ColumnFamilyStore) : List in class org.apache.cassandra.db.compaction.CompactionManager
+¸Rename Class org.apache.cassandra.db.compaction.CompactionManager.BackgroundCompactionTask renamed to org.apache.cassandra.db.compaction.CompactionManager.BackgroundCompactionCandidate2(f283ed29814403bde6350a2598cdd6e2c8b983d5

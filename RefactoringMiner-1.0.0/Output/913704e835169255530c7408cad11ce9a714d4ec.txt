@@ -1,0 +1,2 @@
+
+cMove Class org.ansj.app.crf.pojo.TempFeature moved to org.ansj.app.crf.CrfppModelParser.TempFeature2(913704e835169255530c7408cad11ce9a714d4ec

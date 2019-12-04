@@ -1,0 +1,2 @@
+
+ÒMove Method public getAcidEventFields() : List from class org.apache.hadoop.hive.ql.io.orc.OrcRecordUpdater to package getAcidEventFields() : List from class org.apache.hadoop.hive.ql.io.orc.RecordReaderFactory2(240097b78b70172e1cf9bc37876a566ddfb9e115

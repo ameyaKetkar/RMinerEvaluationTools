@@ -1,0 +1,2 @@
+
+–Extract Method public createExpressionMessageMetadataSource(matcherToExpression LinkedHashMap, handler SecurityExpressionHandler) : MessageSecurityMetadataSource extracted from public createExpressionMessageMetadataSource(matcherToExpression LinkedHashMap) : MessageSecurityMetadataSource in class org.springframework.security.messaging.access.expression.ExpressionBasedMessageSecurityMetadataSourceFactory2(64938ebcfc2fc8cd9ccd6cf31dbcd8cdd0660aca

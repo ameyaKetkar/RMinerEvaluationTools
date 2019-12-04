@@ -1,0 +1,2 @@
+
+ÓMove Method private getInheritedPrivateFields(type Class) : Set from class org.atmosphere.inject.InjectableObjectFactory to public getInheritedPrivateFields(type Class) : Set from class org.atmosphere.util.Utils2(69c229b7611ff8c6a20ff2d4da917a68c1cde64a

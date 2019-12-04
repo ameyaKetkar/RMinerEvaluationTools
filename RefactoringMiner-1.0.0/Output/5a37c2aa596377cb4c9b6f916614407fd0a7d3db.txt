@@ -1,0 +1,21 @@
+
+³Pull Up Method public parameterizedType() : void from class com.squareup.javapoet.TypesTest to public parameterizedType() : void from class com.squareup.javapoet.AbstractTypesTest
+£Pull Up Method public arrayType() : void from class com.squareup.javapoet.TypesTest to public arrayType() : void from class com.squareup.javapoet.AbstractTypesTest
+ÅPull Up Method public getParameterizedTypeMirror() : void from class com.squareup.javapoet.TypesTest to public getParameterizedTypeMirror() : void from class com.squareup.javapoet.AbstractTypesTest
+ÃPull Up Method public wildcardMirrorExtendsType() : void from class com.squareup.javapoet.TypesTest to public wildcardMirrorExtendsType() : void from class com.squareup.javapoet.AbstractTypesTest
+³Pull Up Method public getVoidTypeMirror() : void from class com.squareup.javapoet.TypesTest to public getVoidTypeMirror() : void from class com.squareup.javapoet.AbstractTypesTest
+³Pull Up Method public getNullTypeMirror() : void from class com.squareup.javapoet.TypesTest to public getNullTypeMirror() : void from class com.squareup.javapoet.AbstractTypesTest
+›Pull Up Method public unbox() : void from class com.squareup.javapoet.TypesTest to public unbox() : void from class com.squareup.javapoet.AbstractTypesTest
+»Pull Up Method public wildcardExtendsObject() : void from class com.squareup.javapoet.TypesTest to public wildcardExtendsObject() : void from class com.squareup.javapoet.AbstractTypesTest
+·Pull Up Method public wildcardExtendsType() : void from class com.squareup.javapoet.TypesTest to public wildcardExtendsType() : void from class com.squareup.javapoet.AbstractTypesTest
+©Pull Up Method public typeVariable() : void from class com.squareup.javapoet.TypesTest to public typeVariable() : void from class com.squareup.javapoet.AbstractTypesTest
+eExtract Superclass com.squareup.javapoet.AbstractTypesTest from class com.squareup.javapoet.TypesTest
+ÇPull Up Method private getMirror(clazz Class) : TypeMirror from class com.squareup.javapoet.TypesTest to private getMirror(clazz Class) : TypeMirror from class com.squareup.javapoet.AbstractTypesTest
+ÃPull Up Method public getTypeVariableTypeMirror() : void from class com.squareup.javapoet.TypesTest to public getTypeVariableTypeMirror() : void from class com.squareup.javapoet.AbstractTypesTest
+½Pull Up Method public getPrimitiveTypeMirror() : void from class com.squareup.javapoet.TypesTest to public getPrimitiveTypeMirror() : void from class com.squareup.javapoet.AbstractTypesTest
+³Pull Up Method public wildcardSuperType() : void from class com.squareup.javapoet.TypesTest to public wildcardSuperType() : void from class com.squareup.javapoet.AbstractTypesTest
+¿Pull Up Method public wildcardMirrorSuperType() : void from class com.squareup.javapoet.TypesTest to public wildcardMirrorSuperType() : void from class com.squareup.javapoet.AbstractTypesTest
+½Pull Up Method public wildcardMirrorNoBounds() : void from class com.squareup.javapoet.TypesTest to public wildcardMirrorNoBounds() : void from class com.squareup.javapoet.AbstractTypesTest
+µPull Up Method public getBasicTypeMirror() : void from class com.squareup.javapoet.TypesTest to public getBasicTypeMirror() : void from class com.squareup.javapoet.AbstractTypesTest
+—Pull Up Method public box() : void from class com.squareup.javapoet.TypesTest to public box() : void from class com.squareup.javapoet.AbstractTypesTest
+µPull Up Method public getArrayTypeMirror() : void from class com.squareup.javapoet.TypesTest to public getArrayTypeMirror() : void from class com.squareup.javapoet.AbstractTypesTestËPull Up Method private getElement(clazz Class) : TypeElement from class com.squareup.javapoet.TypesTest to private getElement(clazz Class) : TypeElement from class com.squareup.javapoet.AbstractTypesTestwMove Class com.squareup.javapoet.TypesTest.Parameterized moved to com.squareup.javapoet.AbstractTypesTest.Parameterized2(5a37c2aa596377cb4c9b6f916614407fd0a7d3db

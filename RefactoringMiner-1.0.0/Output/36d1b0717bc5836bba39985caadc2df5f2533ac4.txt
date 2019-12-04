@@ -1,0 +1,2 @@
+
+ÓMove Class org.springframework.data.jpa.repository.augment.JpaSoftDeleteQueryAugmentor.PropertyChangeEnsuringBeanWrapper moved to org.springframework.data.jpa.repository.augment.PropertyChangeEnsuringBeanWrapper2(36d1b0717bc5836bba39985caadc2df5f2533ac4

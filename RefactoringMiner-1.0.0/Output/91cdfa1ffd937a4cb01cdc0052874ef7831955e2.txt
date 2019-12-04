@@ -1,0 +1,4 @@
+
+éExtract Method private getNewScore(oldParameters INDArray) : double extracted from public optimize(initialStep double, parameters INDArray, gradients INDArray) : double in class org.deeplearning4j.optimize.solvers.BackTrackLineSearch
+ÜExtract Method private getIrisLogisticLayerConfig(activationFunction String, iterations int) : OutputLayer extracted from public testLineSearch() : void in class org.deeplearning4j.optimize.solver.BackTrackLineSearchTest
+ÈMove Method public testBackTrackLine() : void from class org.deeplearning4j.plot.ListenerTest to public testBackTrackLine() : void from class org.deeplearning4j.optimize.solver.BackTrackLineSearchTest2(91cdfa1ffd937a4cb01cdc0052874ef7831955e2

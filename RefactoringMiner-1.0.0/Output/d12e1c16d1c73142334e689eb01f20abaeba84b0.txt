@@ -1,0 +1,2 @@
+
+ÅMove Attribute public ORIGINAL_DOCUMENT : Key from class com.intellij.diff.actions.DocumentFragmentContent to public ORIGINAL_DOCUMENT : Key from class com.intellij.openapi.command.undo.UndoManager2(d12e1c16d1c73142334e689eb01f20abaeba84b0

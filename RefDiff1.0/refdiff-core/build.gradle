@@ -1,0 +1,106 @@
+plugins {
+    id 'java'
+    id 'eclipse'
+    id 'signing'
+    id 'maven'
+}
+
+group = 'com.github.aserg-ufmg'
+version = '0.1.1'
+description = 'An automated tool to detect refactorings in version histories'
+
+signing {
+	sign configurations.archives
+}
+
+sourceSets {
+    main {
+        java {
+            srcDir 'src'
+//            srcDir 'src-test'
+        }
+//        resources  {
+//            srcDir 'res'
+//        }
+    }
+    test {
+        java {
+            srcDir 'src-test'
+        }
+    }
+}
+
+//uploadArchives {
+//    repositories {
+//        mavenDeployer {
+//            // POM signature
+//            beforeDeployment { MavenDeployment deployment -> signing.signPom(deployment) }
+//            // Target repository
+//            repository(url: 'https://oss.sonatype.org/service/local/staging/deploy/maven2/') {
+//                authentication(userName: findProperty('ossrhUser'), password: findProperty('ossrhPassword'))
+//            }
+//            snapshotRepository(url: 'https://oss.sonatype.org/content/repositories/snapshots') {
+//                authentication(userName: findProperty('ossrhUser'), password: findProperty('ossrhPassword'))
+//            }
+//            pom.project {
+//                name project.name
+//                description project.description
+//                packaging 'jar'
+//                url 'https://github.com/aserg-ufmg/RefDiff'
+//
+//                scm {
+//                    connection 'scm:git:https://github.com/aserg-ufmg/RefDiff.git'
+//                    developerConnection 'scm:git:git@github.com:aserg-ufmg/RefDiff.git'
+//                    url 'https://github.com/aserg-ufmg/RefDiff.git'
+//                }
+//
+//                licenses {
+//                    license {
+//                        name 'The MIT License (MIT)'
+//                        url 'http://opensource.org/licenses/MIT'
+//                        distribution 'repo'
+//                    }
+//                }
+//
+//                developers {
+//                    developer {
+//                        id = 'danilofs'
+//                        name = 'Danilo Ferreira e Silva'
+//                        email = 'danilofs@dcc.ufmg.br'
+//                    }
+//                }
+//            }
+//        }
+//    }
+//}
+
+nexusStaging {  
+    username = findProperty('ossrhUser')
+    password = findProperty('ossrhPassword')
+}
+
+dependencies {
+    compile 'org.eclipse.jgit:org.eclipse.jgit:4.7.0.201704051617-r'
+    compile 'org.eclipse.jdt:org.eclipse.jdt.core:3.12.3'
+    compile 'com.fasterxml.jackson.core:jackson-annotations:2.9.0'
+    compile 'org.kohsuke:github-api:1.95'
+    compile 'com.google.protobuf:protobuf-java:3.10.0'
+    compile 'mysql:mysql-connector-java:5.1.48'
+    testCompile 'junit:junit:4.11'
+    testCompile 'com.fasterxml.jackson.core:jackson-annotations:2.9.0'
+    testCompile 'mysql:mysql-connector-java:5.1.48'
+}
+
+task javadocJar(type: Jar) {
+    classifier = 'javadoc'
+    from javadoc
+}
+
+task sourcesJar(type: Jar) {
+    classifier = 'sources'
+    from sourceSets.main.allSource
+}
+
+artifacts {
+    archives javadocJar, sourcesJar
+}

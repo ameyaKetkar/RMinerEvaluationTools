@@ -1,0 +1,3 @@
+
+ŽRename Class com.google.checkstyle.test.chapter4formatting.rule4822variabledistance.InputVariableDeclarationUsageDistanceCheck.writer renamed to com.google.checkstyle.test.chapter4formatting.rule4822variabledistance.InputVariableDeclarationUsageDistanceCheck.otherWriter
+ÀMove Class com.google.checkstyle.test.chapter5naming.rule521packageNames.PackageNameInputBad moved to com.google.checkstyle.test.chapter5naming.rule521packageNamesCamelCase.PackageNameInputBad2(febbc986cb25ed460ea601c0a68c7d2597f89ee4

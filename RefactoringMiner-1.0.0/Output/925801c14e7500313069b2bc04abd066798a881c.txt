@@ -1,0 +1,2 @@
+
+ªMove Method private setupTrustManager(connection HttpsURLConnection, interactive boolean) : void from class eu.siacs.conversations.http.HttpConnection to public setupTrustManager(connection HttpsURLConnection, interactive boolean) : void from class eu.siacs.conversations.http.HttpConnectionManager2(925801c14e7500313069b2bc04abd066798a881c

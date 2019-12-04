@@ -1,0 +1,2 @@
+
+µExtract Method public startRow(rowValue T) : TableRowBuilder extracted from public startRow() : TableRowBuilder in class com.google.gwt.user.cellview.client.AbstractCellTableBuilder2(892d1760c8e4c76c369cd5ec1eaed215d3a22c8a

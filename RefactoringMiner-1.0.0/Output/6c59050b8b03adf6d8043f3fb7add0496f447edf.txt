@@ -1,0 +1,2 @@
+
+àExtract Method private getSchemaProperties(schemaNode SchemaNode) : List extracted from private getPropertiesForView(type Class, view String, schemaNode SchemaNode) : Map in class org.structr.rest.resource.SchemaTypeResource2(6c59050b8b03adf6d8043f3fb7add0496f447edf

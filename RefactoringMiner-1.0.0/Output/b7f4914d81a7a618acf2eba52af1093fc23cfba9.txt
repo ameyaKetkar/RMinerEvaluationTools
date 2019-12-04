@@ -1,0 +1,3 @@
+
+˜Extract Method private tryGetLookupSource() : void extracted from public needsInput() : boolean in class com.facebook.presto.operator.LookupJoinOperator
+”Extract Method private tryGetLookupSource() : void extracted from public getOutput() : Page in class com.facebook.presto.operator.LookupJoinOperator2(b7f4914d81a7a618acf2eba52af1093fc23cfba9

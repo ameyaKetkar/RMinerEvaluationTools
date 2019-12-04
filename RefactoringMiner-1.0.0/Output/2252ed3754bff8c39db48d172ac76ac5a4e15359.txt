@@ -1,0 +1,1 @@
+åInline Method private shouldShowTagToolbar() : boolean inlined to public onCreateView(inflater LayoutInflater, container ViewGroup, savedInstanceState Bundle) : View in class org.wordpress.android.ui.reader.ReaderPostListFragment2(2252ed3754bff8c39db48d172ac76ac5a4e15359

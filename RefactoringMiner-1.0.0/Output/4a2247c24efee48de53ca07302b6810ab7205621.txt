@@ -1,0 +1,11 @@
+
+ŒMove Class org.sonar.server.custommeasure.persistence.CustomMeasureDao moved to org.sonar.server.measure.custom.persistence.CustomMeasureDao
+zMove Class org.sonar.server.custommeasure.ws.CustomMeasuresWs moved to org.sonar.server.measure.custom.ws.CustomMeasuresWs
+”Move Class org.sonar.server.custommeasure.persistence.CustomMeasureDaoTest moved to org.sonar.server.measure.custom.persistence.CustomMeasureDaoTest
+‚Move Class org.sonar.server.custommeasure.ws.CustomMeasuresWsTest moved to org.sonar.server.measure.custom.ws.CustomMeasuresWsTest
+ŽMove Class org.sonar.server.custommeasure.ws.CustomMeasuresWsModuleTest moved to org.sonar.server.measure.custom.ws.CustomMeasuresWsModuleTest
+†Move Class org.sonar.server.custommeasure.ws.CustomMeasuresWsAction moved to org.sonar.server.measure.custom.ws.CustomMeasuresWsAction
+”Move Class org.sonar.server.custommeasure.persistence.CustomMeasureTesting moved to org.sonar.server.measure.custom.persistence.CustomMeasureTesting
+†Move Class org.sonar.server.custommeasure.ws.CustomMeasuresWsModule moved to org.sonar.server.measure.custom.ws.CustomMeasuresWsModule
+rMove Class org.sonar.server.custommeasure.ws.DeleteAction moved to org.sonar.server.measure.custom.ws.DeleteAction
+zMove Class org.sonar.server.custommeasure.ws.DeleteActionTest moved to org.sonar.server.measure.custom.ws.DeleteActionTest2(4a2247c24efee48de53ca07302b6810ab7205621

@@ -1,0 +1,3 @@
+
+µExtract Method private initializeNashornGlobals() : void extracted from private initializeSciptGlobals() : void in class org.openhab.core.jsr223.internal.engine.scriptmanager.Script
+µExtract Method private initializeGeneralGlobals() : void extracted from private initializeSciptGlobals() : void in class org.openhab.core.jsr223.internal.engine.scriptmanager.Script2(cf1efb6d27a4037cdbe5a780afa6053859a60d4a

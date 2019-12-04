@@ -1,0 +1,3 @@
+
+ÊExtract Method private getOperatorFunctionModifier(expr Expression) : String extracted from private rewriteBoxedAssignment(node Assignment) : void in class com.google.devtools.j2objc.translate.Autoboxer
+òExtract Method private getOperatorFunctionModifier(expr Expression) : String extracted from private rewriteBoxedPrefixOrPostfix(node TreeNode, operand Expression, funcName String) : void in class com.google.devtools.j2objc.translate.Autoboxer2(fa3e6fa02dadc675f0d487a15cd842b3ac4a0c11

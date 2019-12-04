@@ -1,0 +1,6 @@
+
+šInline Method private testCachedParsing(lazy boolean) : void inlined to public testCachedParsing() : void in class org.bitcoinj.core.BitcoinSerializerTest
+wInline Method protected parseTransactions() : void inlined to protected parse() : void in class org.bitcoinj.core.Block
+eRename Class org.bitcoinj.core.LazyParseByteCacheTest renamed to org.bitcoinj.core.ParseByteCacheTest
+yInline Method public getMessageSize() : int inlined to protected parse() : void in class org.bitcoinj.core.AddressMessage
+qInline Method protected parseHeader() : void inlined to protected parse() : void in class org.bitcoinj.core.BlockwRename Method protected parseLite() : void renamed to protected parse() : void in class org.bitcoinj.core.RejectMessage{Rename Method protected parseLite() : void renamed to protected parse() : void in class org.bitcoinj.core.TransactionOutputœRename Method public testTransactionsLazyNoRetain() : void renamed to public testTransactionsNoRetain() : void in class org.bitcoinj.core.ParseByteCacheTest˜Rename Method public testTransactionsLazyRetain() : void renamed to public testTransactionsRetain() : void in class org.bitcoinj.core.ParseByteCacheTestwInline Method protected parseLite() : void inlined to protected parse() : void in class org.bitcoinj.core.RejectMessage2(7744a00629514b9539acac05596d64af878fe747

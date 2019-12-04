@@ -1,0 +1,3 @@
+
+¢Extract Method private onUserLoggedIn(uri Uri) : void extracted from protected onNewIntent(intent Intent) : void in class com.github.mobile.accounts.LoginActivity
+¾Rename Method private endAccess(accessToken String, scope String) : void renamed to private endAuth(accessToken String, scope String) : void in class com.github.mobile.accounts.LoginActivity2(a7401e5091c06c68fae499ea1972b40143c66fa9

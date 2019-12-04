@@ -1,0 +1,5 @@
+
+~Move Class org.voltdb.importer.ChannelChangeNotifier.CallbacksRef moved to org.voltdb.importer.ChannelDistributer.CallbacksRef
+çRename Method package fromURIs(uris Set) : Set renamed to package asSpecs(uris Set) : Set in class org.voltdb.importer.TestChannelDistributer
+æMove Attribute private m_callbacks : CallbacksRef from class org.voltdb.importer.ChannelChangeNotifier to package m_callbacks : CallbacksRef from class org.voltdb.importer.ChannelDistributer
+“Move Method package mapByImporter(specs Set) : SetMultimap from class org.voltdb.importer.ChannelChangeNotifier to private mapByImporter(specs Set) : SetMultimap from class org.voltdb.importer.ChannelAssignmentïMove Method public registerCallback(importer String, callback ChannelChangeCallback) : void from class org.voltdb.importer.ChannelChangeNotifier to public registerCallback(importer String, callback ChannelChangeCallback) : void from class org.voltdb.importer.ChannelDistributer2(7527cfc746dc20ddb78002c7b3a65d55026a334e

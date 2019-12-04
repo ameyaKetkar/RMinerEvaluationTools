@@ -1,0 +1,27 @@
+import org.gradle.plugins.ide.eclipse.model.AccessRule
+
+plugins {
+    id 'java'
+    id 'eclipse'
+}
+
+dependencies {
+    compile project(':refdiff-core')
+    compile 'com.eclipsesource.j2v8:j2v8_win32_x86_64:4.6.0'
+    compile 'com.eclipsesource.j2v8:j2v8_linux_x86_64:4.8.0'
+    compile 'com.eclipsesource.j2v8:j2v8_macosx_x86_64:4.6.0'
+    
+	testCompile 'junit:junit:4.11'
+	testCompile project(path: ':refdiff-core', configuration: 'testArtifacts')
+}
+
+eclipse {
+    classpath {
+        file {
+            whenMerged {
+                def jre = entries.find { it.path.contains 'org.eclipse.jdt.launching.JRE_CONTAINER' }
+                jre.accessRules.add(new AccessRule('accessible', 'jdk/nashorn/api/**'))
+            }
+        }
+    }
+}

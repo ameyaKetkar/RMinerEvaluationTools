@@ -1,0 +1,2 @@
+
+èInline Method public getLanguage(id SLanguageId, langName String, version int) : SLanguage inlined to public getLanguage(id SLanguageId, langName String) : SLanguage in class jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory2(2bcd05a827ead109a56cb1f79a83dcd332f42888

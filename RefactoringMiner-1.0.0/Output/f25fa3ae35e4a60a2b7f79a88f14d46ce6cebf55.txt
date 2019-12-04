@@ -1,0 +1,2 @@
+
+“Extract Method private initTimeMap() : Map extracted from public parameters() : Collection in class org.openhab.core.library.types.DateTimeTypeTest2(f25fa3ae35e4a60a2b7f79a88f14d46ce6cebf55

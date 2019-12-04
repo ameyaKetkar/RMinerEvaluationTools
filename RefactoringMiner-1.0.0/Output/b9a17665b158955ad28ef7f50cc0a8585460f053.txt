@@ -1,0 +1,3 @@
+
+ÙRename Method private createTaggedTemplateLiteral(t NodeTraversal, n Node) : void renamed to package visitTaggedTemplateLiteral(t NodeTraversal, n Node) : void in class com.google.javascript.jscomp.Es6TemplateLiterals
+ÄInline Method private createUntaggedTemplateLiteral(n Node) : void inlined to package visitTemplateLiteral(t NodeTraversal, n Node) : void in class com.google.javascript.jscomp.Es6TemplateLiterals2(b9a17665b158955ad28ef7f50cc0a8585460f053

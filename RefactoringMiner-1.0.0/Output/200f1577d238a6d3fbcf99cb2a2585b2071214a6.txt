@@ -1,0 +1,7 @@
+
+±Rename Method public listIsPartiallyOrderedWithComparatorFailure() : void renamed to public listIsOrderedWithComparatorFailure() : void in class com.google.common.truth.ListTest
+çRename Method public isPartiallyOrderedFailure() : void renamed to public isOrderedFailure() : void in class com.google.common.truth.ListTest
+£Rename Method public listIsPartiallyOrderedWithComparator() : void renamed to public listIsOrderedWithComparator() : void in class com.google.common.truth.ListTest
+øRename Method public isPartiallyOrderedWithNonComparableElementsFailure() : void renamed to public isOrderedWithNonComparableElementsFailure() : void in class com.google.common.truth.ListTest
+µExtract Method public isOrdered(comparator Comparator) : void extracted from public isPartiallyOrdered(comparator Comparator) : void in class com.google.common.truth.IterableSubject
+áRename Method public listIsPartiallyOrdered() : void renamed to public listIsOrdered() : void in class com.google.common.truth.ListTestãExtract Method public isOrdered() : void extracted from public isPartiallyOrdered() : void in class com.google.common.truth.IterableSubject2(200f1577d238a6d3fbcf99cb2a2585b2071214a6

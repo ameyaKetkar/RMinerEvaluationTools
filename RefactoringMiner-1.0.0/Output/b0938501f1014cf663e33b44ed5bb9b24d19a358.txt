@@ -1,0 +1,3 @@
+
+ÊExtract Method private getBlockOutStream(filename String, isLocalWrite boolean) : BlockOutStream extracted from public enableLocalWriteTest() : void in class tachyon.client.BlockOutStreamIntegrationTest
+ËExtract Method private getBlockOutStream(filename String, isLocalWrite boolean) : BlockOutStream extracted from public disableLocalWriteTest() : void in class tachyon.client.BlockOutStreamIntegrationTest2(b0938501f1014cf663e33b44ed5bb9b24d19a358

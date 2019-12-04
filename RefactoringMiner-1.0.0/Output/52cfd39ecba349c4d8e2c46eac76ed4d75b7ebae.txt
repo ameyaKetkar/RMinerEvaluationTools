@@ -1,0 +1,4 @@
+
+¹Rename Method public simulatorPlatformSetsLinkerFlags() : void renamed to public iphoneOSSimulatorPlatformSetsLinkerFlags() : void in class com.facebook.buck.apple.AppleCxxPlatformsTest
+²Rename Method public appleSdkPathsBuiltFromDirectory() : void renamed to public iphoneOSSdkPathsBuiltFromDirectory() : void in class com.facebook.buck.apple.AppleCxxPlatformsTest
+ÞExtract Method private createSymLinkSdks(sdks Iterable, root Path, version String) : void extracted from private createSymLinkIosSdks(root Path, version String) : void in class com.facebook.buck.apple.AppleSdkDiscoveryTest2(52cfd39ecba349c4d8e2c46eac76ed4d75b7ebae

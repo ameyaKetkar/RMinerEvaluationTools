@@ -1,0 +1,3 @@
+
+‹Move Class processing.app.contrib.UpdateContribListingPanel moved to processing.app.contrib.UpdateContributionTab.UpdateContribListingPanel
+{Move Class processing.app.contrib.UpdateStatusPanel moved to processing.app.contrib.UpdateContributionTab.UpdateStatusPanel¥Move Class processing.app.contrib.UpdateContribListingPanel.MyTableModel moved to processing.app.contrib.UpdateContributionTab.UpdateContribListingPanel.MyTableModel2(d403a0b2322a74dde824094d67b7997c1c371883

@@ -1,0 +1,2 @@
+
+»Extract Method private standaloneCollect(cli CLI, protocol String, host String, port int) : void extracted from public main(args String[]) : void in class org.jboss.as.jdr.CommandLineMainøExtract And Move Method public setCli(cli CLI) : void extracted from public JdrRunner(protocol String, user String, pass String, host String, port String) in class org.jboss.as.jdr.JdrRunner & moved to class org.jboss.as.jdr.commands.JdrEnvironment2(c0f8a7f2b4341601df63c5470f41f157dbd83781

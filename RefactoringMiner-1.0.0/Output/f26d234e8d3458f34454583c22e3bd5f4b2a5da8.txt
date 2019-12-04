@@ -1,0 +1,2 @@
+
+—Extract Method public getDevices() : List extracted from public adbCall(adbCallable AdbCallable) : boolean in class com.facebook.buck.android.AdbHelper2(f26d234e8d3458f34454583c22e3bd5f4b2a5da8

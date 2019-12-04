@@ -1,0 +1,2 @@
+
+›Extract Method private collectGarbage() : void extracted from public main(args String[]) : void in class com.jwetherell.algorithms.sorts.timing.SortsTiming2(4ffcb5a65e6d24c58ef75a5cd7692e875619548d

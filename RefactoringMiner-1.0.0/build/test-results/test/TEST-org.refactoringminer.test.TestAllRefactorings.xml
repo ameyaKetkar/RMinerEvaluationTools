@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.refactoringminer.test.TestAllRefactorings" tests="1" skipped="1" failures="0" errors="0" timestamp="2019-12-04T18:44:44" hostname="TAHMIDLABPC" time="29.864">
+  <properties/>
+  <testcase name="testAllRefactorings" classname="org.refactoringminer.test.TestAllRefactorings" time="29.864">
+    <skipped/>
+  </testcase>
+  <system-out><![CDATA[8815eb7d947be6d2a0281c15a3a60d8ba040db95 https://github.com/apache/drill.git
+Number of refactorings: 
+27
+TIME: 1302041700|351145800|294187400
+
+]]></system-out>
+  <system-err><![CDATA[log4j:WARN No appenders could be found for logger (org.refactoringminer.rm1.GitHistoryRefactoringMinerImpl).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+]]></system-err>
+</testsuite>

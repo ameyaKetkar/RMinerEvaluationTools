@@ -1,0 +1,3 @@
+
+·Extract Method protected printJoinType(joinType JoinType) : void extracted from public visit(x SQLJoinTableSource) : boolean in class com.alibaba.druid.sql.visitor.SQLASTOutputVisitor
+ÂExtract Method protected printJoinType(joinType JoinType) : void extracted from public visit(x SQLJoinTableSource) : boolean in class com.alibaba.druid.sql.dialect.odps.visitor.OdpsOutputVisitor2(87f3f8144b7a6cb57b6e21cd3753d09ecde0d88f

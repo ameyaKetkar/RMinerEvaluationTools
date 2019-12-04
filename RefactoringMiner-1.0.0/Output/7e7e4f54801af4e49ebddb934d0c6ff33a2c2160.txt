@@ -1,0 +1,2 @@
+
+vMove Class cgeo.geocaching.connector.TerraCachingConnector moved to cgeo.geocaching.connector.tc.TerraCachingConnector2(7e7e4f54801af4e49ebddb934d0c6ff33a2c2160

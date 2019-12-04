@@ -1,0 +1,7 @@
+
+€Move Class org.neo4j.kernel.impl.store.PropertyConstraintRule moved to org.neo4j.kernel.impl.store.record.PropertyConstraintRule
+˜Move Class org.neo4j.kernel.impl.store.RelationshipPropertyConstraintRule moved to org.neo4j.kernel.impl.store.record.RelationshipPropertyConstraintRule
+ˆMove Class org.neo4j.kernel.impl.store.NodePropertyConstraintRule moved to org.neo4j.kernel.impl.store.record.NodePropertyConstraintRule
+ŒMove Class org.neo4j.kernel.impl.store.UniquePropertyConstraintRule moved to org.neo4j.kernel.impl.store.record.UniquePropertyConstraintRule
+ªMove Class org.neo4j.kernel.impl.store.MandatoryRelationshipPropertyConstraintRule moved to org.neo4j.kernel.impl.store.record.MandatoryRelationshipPropertyConstraintRule
+šMove Class org.neo4j.kernel.impl.store.MandatoryNodePropertyConstraintRule moved to org.neo4j.kernel.impl.store.record.MandatoryNodePropertyConstraintRule2(4beba7bbdf927486a5cbf298a0fb2be50905a590

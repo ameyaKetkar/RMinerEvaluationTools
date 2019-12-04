@@ -1,0 +1,4 @@
+
+èMove Class org.wordpress.android.ui.prefs.NotificationsPreference moved to org.wordpress.android.ui.prefs.notifications.NotificationsPreference
+õMove Class org.wordpress.android.ui.prefs.NotificationsSettingsActivity moved to org.wordpress.android.ui.prefs.notifications.NotificationsSettingsActivity
+õMove Class org.wordpress.android.ui.prefs.NotificationsSettingsFragment moved to org.wordpress.android.ui.prefs.notifications.NotificationsSettingsFragment2(9dc3cbd59a20f03406f295a4a8f3b8676dbc939e

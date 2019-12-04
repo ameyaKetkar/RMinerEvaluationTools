@@ -1,0 +1,7 @@
+
+´Move Class org.robobinding.codegen.presentationmodel.nestedIPMexample.PresentationModelExample moved to org.robobinding.codegen.presentationmodel.nestedIPM.PresentationModelExample
+ŒMove Class org.robobinding.codegen.presentationmodel.nestedIPMexample.Item moved to org.robobinding.codegen.presentationmodel.nestedIPM.Item
+ÂMove Class org.robobinding.codegen.presentationmodel.nestedIPMexample.SubItemPresentationModelExample moved to org.robobinding.codegen.presentationmodel.nestedIPM.SubItemPresentationModelExample
+’Move Class org.robobinding.codegen.presentationmodel.nestedIPMexample.SubItem moved to org.robobinding.codegen.presentationmodel.nestedIPM.SubItem
+¼Move Class org.robobinding.codegen.presentationmodel.nestedIPMexample.ItemPresentationModelExample moved to org.robobinding.codegen.presentationmodel.nestedIPM.ItemPresentationModelExample
+÷Extract Method private removeItemPresentationModelFactoryMethod(dataSetProperties Collection) : void extracted from private processDataSetProperties() : void in class org.robobinding.codegen.presentationmodel.processor.PresentationModelInfoBuilder2(b6565814805dfb2d989be25c11d4fb4cf8fb1d84

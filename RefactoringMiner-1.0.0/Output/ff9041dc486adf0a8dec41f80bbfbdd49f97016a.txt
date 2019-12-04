@@ -1,0 +1,2 @@
+
+àExtract Method protected buildFQuery(builder XContentBuilder, params Params) : void extracted from protected doXContent(builder XContentBuilder, params Params) : void in class org.elasticsearch.index.query.QueryFilterBuilder2(ff9041dc486adf0a8dec41f80bbfbdd49f97016a
