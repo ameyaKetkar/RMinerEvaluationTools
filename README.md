@@ -21,8 +21,8 @@ To evaluate this tool over the oracle:
 * Download the latest JSON from the [oracle](http://refactoring.encs.concordia.ca/oracle/) and update [this](https://github.com/ameyaKetkar/TSE_Evaluation_Tools/blob/master/RefDiff0.1.1/refdiff-core/src-test/Data/data.json) file.
 * Fill in your GitHub credentials [here](https://github.com/ameyaKetkar/TSE_Evaluation_Tools/blob/master/RefDiff0.1.1/refdiff-core/github-credentials.properties) 
 * Provide a path to the folder where repositories could be cloned or found, [here](https://github.com/ameyaKetkar/TSE_Evaluation_Tools/blob/master/RefDiff0.1.1/refdiff-core/paths.properties)
-* to run the evaluation, execute [TestAllRefactorings.testAllRefactorings](https://github.com/ameyaKetkar/TSE_Evaluation_Tools/blob/248be92cc60a59f2980a79f6b8962cdbe86b8a80/RefDiff0.1.1/refdiff-core/src-test/test/TestAllRefactoringsRD.java#L12)
-* In the end, the output will be found in the folder named 'Output' in the working directory.
+* Execute [TestAllRefactorings.testAllRefactorings](https://github.com/ameyaKetkar/TSE_Evaluation_Tools/blob/248be92cc60a59f2980a79f6b8962cdbe86b8a80/RefDiff0.1.1/refdiff-core/src-test/test/TestAllRefactoringsRD.java#L12) to run the evaluation
+* Output of the evaluation will be found in the folder named 'Output' in the working directory.
 * Execute the main method in [AnalyseResults](https://github.com/ameyaKetkar/TSE_Evaluation_Tools/blob/master/RefDiff0.1.1/refdiff-core/src-test/test/AnalyseResults.java) to calculate precision and recall per refactoring.
 
 ### [RefDiff 0.1.0](https://github.com/aserg-ufmg/RefDiff/releases/tag/0.1.0)
@@ -36,7 +36,13 @@ We made the following updates to this tool:
 ** If the 'from' and the 'to' methods belong to different classes, we classify it as Extract And Move Method Refactoring
 ** Ensuring that no rename, move and move & rename class refactoring led to this conclusion
 
-
+To evaluate this tool over the oracle: 
+* Download the latest JSON from the [oracle](http://refactoring.encs.concordia.ca/oracle/) and update [this](https://github.com/ameyaKetkar/TSE_Evaluation_Tools/blob/master/RefDiff1.0/refdiff-core/src-test/Data/data.json) file.
+* Fill in your GitHub credentials [here](https://github.com/ameyaKetkar/TSE_Evaluation_Tools/blob/master/RefDiff1.0/refdiff-core/github-credentials.properties) 
+* Provide a path to the folder where repositories could be cloned or found, [here](https://github.com/ameyaKetkar/TSE_Evaluation_Tools/blob/master/RefDiff1.0/refdiff-core/paths.properties)
+* Execute [TestAllRefactorings.testAllRefactorings](https://github.com/ameyaKetkar/TSE_Evaluation_Tools/blob/master/RefDiff1.0/refdiff-core/src-test/test/TestAllRefactoringsRD.java#L13) to run the evaluation
+* Output of the evaluation will be found in the folder named 'Output' in the working directory.
+* Execute the main method in [AnalyseResults](https://github.com/ameyaKetkar/TSE_Evaluation_Tools/blob/master/RefDiff1.0/refdiff-core/src-test/test/AnalyseResults.java) to calculate precision and recall per refactoring.
 
 ### [RefDiff 2x](https://github.com/aserg-ufmg/RefDiff)
 
