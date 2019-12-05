@@ -21,7 +21,7 @@ To evaluate this tool over the oracle:
 * Download the latest JSON from the [oracle](http://refactoring.encs.concordia.ca/oracle/) and update [this](https://github.com/ameyaKetkar/TSE_Evaluation_Tools/blob/master/RefDiff0.1.1/refdiff-core/src-test/Data/data.json) file.
 * Fill in your GitHub credentials [here](https://github.com/ameyaKetkar/TSE_Evaluation_Tools/blob/master/RefDiff0.1.1/refdiff-core/github-credentials.properties) 
 * Provide a path to the folder where repositories could be cloned or found, [here](https://github.com/ameyaKetkar/TSE_Evaluation_Tools/blob/master/RefDiff0.1.1/refdiff-core/paths.properties)
-* Execute [TestAllRefactorings.testAllRefactorings](https://github.com/ameyaKetkar/TSE_Evaluation_Tools/blob/248be92cc60a59f2980a79f6b8962cdbe86b8a80/RefDiff0.1.1/refdiff-core/src-test/test/TestAllRefactoringsRD.java#L12) to run the evaluation
+* Execute [TestAllRefactoringsRD.testAllRefactorings](https://github.com/ameyaKetkar/TSE_Evaluation_Tools/blob/248be92cc60a59f2980a79f6b8962cdbe86b8a80/RefDiff0.1.1/refdiff-core/src-test/test/TestAllRefactoringsRD.java#L12) to run the evaluation
 * Output of the evaluation will be found in the folder named 'Output' in the working directory.
 * Execute the main method in [AnalyseResults](https://github.com/ameyaKetkar/TSE_Evaluation_Tools/blob/master/RefDiff0.1.1/refdiff-core/src-test/test/AnalyseResults.java) to calculate precision and recall per refactoring.
 
@@ -40,7 +40,7 @@ To evaluate this tool over the oracle:
 * Download the latest JSON from the [oracle](http://refactoring.encs.concordia.ca/oracle/) and update [this](https://github.com/ameyaKetkar/TSE_Evaluation_Tools/blob/master/RefDiff1.0/refdiff-core/src-test/Data/data.json) file.
 * Fill in your GitHub credentials [here](https://github.com/ameyaKetkar/TSE_Evaluation_Tools/blob/master/RefDiff1.0/refdiff-core/github-credentials.properties) 
 * Provide a path to the folder where repositories could be cloned or found, [here](https://github.com/ameyaKetkar/TSE_Evaluation_Tools/blob/master/RefDiff1.0/refdiff-core/paths.properties)
-* Execute [TestAllRefactorings.testAllRefactorings](https://github.com/ameyaKetkar/TSE_Evaluation_Tools/blob/master/RefDiff1.0/refdiff-core/src-test/test/TestAllRefactoringsRD.java#L13) to run the evaluation
+* Execute [TestAllRefactoringsRD.testAllRefactorings](https://github.com/ameyaKetkar/TSE_Evaluation_Tools/blob/master/RefDiff1.0/refdiff-core/src-test/test/TestAllRefactoringsRD.java#L13) to run the evaluation
 * Output of the evaluation will be found in the folder named 'Output' in the working directory.
 * Execute the main method in [AnalyseResults](https://github.com/ameyaKetkar/TSE_Evaluation_Tools/blob/master/RefDiff1.0/refdiff-core/src-test/test/AnalyseResults.java) to calculate precision and recall per refactoring.
 
@@ -53,10 +53,26 @@ We made the following updates to this tool:
 To evaluate this tool over the oracle:
 * Download the latest JSON from the [oracle](http://refactoring.encs.concordia.ca/oracle/) and update [this](https://github.com/ameyaKetkar/TSE_Evaluation_Tools/blob/master/RefDiff2x/refdiff-evaluation/data/icse/data.json) file.
 * Since this version of RefDiff does not require the entire repository, it fetches the changed files from this [folder](https://github.com/ameyaKetkar/TSE_Evaluation_Tools/tree/master/projects)
-* Execute [TestAllRefactorings.testAllRefactorings](https://github.com/ameyaKetkar/TSE_Evaluation_Tools/blob/master/RefDiff2x/refdiff-evaluation/src/test/java/refdiff/evaluation/RefDiffVsRMiner/TestAllRefactoringsRD.java#L18) to run the evaluation
+* Execute [TestAllRefactoringsRD.testAllRefactorings](https://github.com/ameyaKetkar/TSE_Evaluation_Tools/blob/master/RefDiff2x/refdiff-evaluation/src/test/java/refdiff/evaluation/RefDiffVsRMiner/TestAllRefactoringsRD.java#L18) to run the evaluation
 * Output of the evaluation will be found in the folder named 'Output' in the working directory.
 * Execute the main method in [AnalyseResults](https://github.com/ameyaKetkar/TSE_Evaluation_Tools/blob/master/RefDiff2x/refdiff-evaluation/src/test/java/refdiff/evaluation/RefDiffVsRMiner/AnalyseResults.java) to calculate precision and recall per refactoring.
 
 ### [RefactoringMiner 1.0](https://github.com/tsantalis/RefactoringMiner/releases/tag/1.0.0)
 
+We made the following updates to this tool:
+* Updated the description format of the reported refactorings to match that of the oracle
+* Updated the tool to not checkout each commit, instead query the changes from using the Github API
+
+To evaluate this tool over the oracle:
+* Download the latest JSON from the [oracle](http://refactoring.encs.concordia.ca/oracle/) and update [this](https://github.com/ameyaKetkar/TSE_Evaluation_Tools/blob/master/RefactoringMiner-1.0.0/src-test/Data/data.json) file.
+* Execute [TestAllRefactorings.testAllRefactorings]https://github.com/ameyaKetkar/TSE_Evaluation_Tools/blob/189ce825610f94ddf23f7e60ab9270aeecd84885/RefactoringMiner-1.0.0/src-test/org/refactoringminer/test/TestAllRefactorings.java#L16) to run the evaluation
+* Output of the evaluation will be found in the folder named 'Output' in the working directory.
+* Execute the main method in [AnalyseResults](https://github.com/ameyaKetkar/TSE_Evaluation_Tools/blob/master/RefactoringMiner-1.0.0/src-test/org/refactoringminer/test/AnalyseResults.java) to calculate precision and recall per refactoring.
+
 ### [RefactoringMiner 2.0](https://github.com/tsantalis/RefactoringMiner)
+
+To evaluate RefactoringMiner 2.0:
+* Get the latest version of it from [here](https://github.com/tsantalis/RefactoringMiner)
+* Follow steps similar to RefactoringMiner 1.0
+
+
