@@ -50,7 +50,12 @@ We made the following updates to this tool:
 * Updated the description format of the reported refactorings to match that of the oracle
 * Updated the tool to not report Move and/or Rename method refactorings when the method itself is abstract
 
-
+To evaluate this tool over the oracle:
+* Download the latest JSON from the [oracle](http://refactoring.encs.concordia.ca/oracle/) and update [this](https://github.com/ameyaKetkar/TSE_Evaluation_Tools/blob/master/RefDiff2x/refdiff-evaluation/data/icse/data.json) file.
+* Since this version of RefDiff does not require the entire repository, it fetches the changed files from this [folder](https://github.com/ameyaKetkar/TSE_Evaluation_Tools/tree/master/projects)
+* Execute [TestAllRefactorings.testAllRefactorings](https://github.com/ameyaKetkar/TSE_Evaluation_Tools/blob/master/RefDiff2x/refdiff-evaluation/src/test/java/refdiff/evaluation/RefDiffVsRMiner/TestAllRefactoringsRD.java#L18) to run the evaluation
+* Output of the evaluation will be found in the folder named 'Output' in the working directory.
+* Execute the main method in [AnalyseResults](https://github.com/ameyaKetkar/TSE_Evaluation_Tools/blob/master/RefDiff2x/refdiff-evaluation/src/test/java/refdiff/evaluation/RefDiffVsRMiner/AnalyseResults.java) to calculate precision and recall per refactoring.
 
 ### [RefactoringMiner 1.0](https://github.com/tsantalis/RefactoringMiner/releases/tag/1.0.0)
 
