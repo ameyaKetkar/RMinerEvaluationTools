@@ -1,7 +1,7 @@
 # TSE_Evaluation_Tools
 Tools used for the evaluation of RefactoringMiner 2.0
 
-## [Oracle] (http://refactoring.encs.concordia.ca/oracle/)
+## [Oracle](http://refactoring.encs.concordia.ca/oracle/)
 We used the >7000 refactorings in this oracle as the ground truth for evaluation the 5 tools for their precision and recall.
 
 ## Tools
