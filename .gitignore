@@ -1,3 +1,12 @@
 
 RefactoringMiner-1.0.0/src-test/org/refactoringminer/test/UpdateDb.java
 *.class
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/shelf
+.idea/**/gradle.xml
+.idea/**/libraries
+out/
+*/.idea/*
