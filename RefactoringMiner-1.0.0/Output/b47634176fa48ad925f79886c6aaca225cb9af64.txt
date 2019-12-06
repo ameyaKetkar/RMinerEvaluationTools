@@ -1,3 +1,3 @@
 
-µExtract Method private findAll(predicate Predicate) : Iterable extracted from public findAll() : Iterable in class org.springframework.boot.actuate.metrics.buffer.BufferMetricReader
-ÂExtract Method private findAll(predicate Predicate) : Iterable extracted from public findAll(prefix String) : Iterable in class org.springframework.boot.actuate.metrics.buffer.BufferMetricReader2(b47634176fa48ad925f79886c6aaca225cb9af64
+ÓExtract Method private findAll(predicate Predicate<String>) : Iterable<Metric<?>> extracted from public findAll() : Iterable<Metric<?>> in class org.springframework.boot.actuate.metrics.buffer.BufferMetricReader
+àExtract Method private findAll(predicate Predicate<String>) : Iterable<Metric<?>> extracted from public findAll(prefix String) : Iterable<Metric<?>> in class org.springframework.boot.actuate.metrics.buffer.BufferMetricReader2(b47634176fa48ad925f79886c6aaca225cb9af64

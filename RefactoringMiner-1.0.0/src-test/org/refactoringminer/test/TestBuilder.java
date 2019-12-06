@@ -156,24 +156,16 @@ public class TestBuilder {
 	 */
 	private static String normalizeSingle(String refactoring) {
 		StringBuilder sb = new StringBuilder();
-		int openGenerics = 0;
 		for (int i = 0; i < refactoring.length(); i++) {
 			char c = refactoring.charAt(i);
-			if (c == '<') {
-				openGenerics++;
-			}
 			if (c == '\t') {
 				c = ' ';
 			}
-			if (openGenerics == 0) {
-				sb.append(c);
-			}
-			if (c == '>') {
-				openGenerics--;
-			}
+			sb.append(c);
 		}
 		return sb.toString();
 	}
+
 
 	public class ProjectMatcher extends RefactoringHandler {
 
@@ -454,11 +446,20 @@ public class TestBuilder {
 		}
 	}
 
-	public List<ResultsOuterClass.Results> readAllResults(){
+
+	private static Optional<ResultsOuterClass.Results> getRes(Path file) {
+		try {
+			return Optional.of(ResultsOuterClass.Results.parseFrom(Files.readAllBytes(file)));
+		} catch (IOException e) {
+			return Optional.empty();
+		}
+	}
+
+	public static List<ResultsOuterClass.Results> readAllResults(String outputPath){
 		try {
 			String s = Paths.get(".").toAbsolutePath().toString() + outputPath ;
 			return Files.walk(Paths.get(s))
-					.map(this::getResults)
+					.map(TestBuilder::getRes)
 					.filter(Optional::isPresent)
 					.map(Optional::get)
 					.collect(Collectors.toList());

@@ -1,2 +1,2 @@
 
-ÑExtract Method package generateSplitsInfo(conf Configuration, numSplits int) : List extracted from package generateSplitsInfo(conf Configuration) : List in class org.apache.hadoop.hive.ql.io.orc.OrcInputFormat2(5f78f9ef1e6c798849d34cc66721e6c1d9709b6f
+åExtract Method package generateSplitsInfo(conf Configuration, numSplits int) : List<OrcSplit> extracted from package generateSplitsInfo(conf Configuration) : List<OrcSplit> in class org.apache.hadoop.hive.ql.io.orc.OrcInputFormat2(5f78f9ef1e6c798849d34cc66721e6c1d9709b6f

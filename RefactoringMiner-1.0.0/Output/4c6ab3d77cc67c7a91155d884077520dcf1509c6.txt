@@ -1,2 +1,2 @@
 
-óExtract Method private closeGraphiteConnection() : void extracted from public report(gauges SortedMap, counters SortedMap, histograms SortedMap, meters SortedMap, timers SortedMap) : void in class com.codahale.metrics.graphite.GraphiteReporter2(4c6ab3d77cc67c7a91155d884077520dcf1509c6
+¿Extract Method private closeGraphiteConnection() : void extracted from public report(gauges SortedMap<String,Gauge>, counters SortedMap<String,Counter>, histograms SortedMap<String,Histogram>, meters SortedMap<String,Meter>, timers SortedMap<String,Timer>) : void in class com.codahale.metrics.graphite.GraphiteReporter2(4c6ab3d77cc67c7a91155d884077520dcf1509c6

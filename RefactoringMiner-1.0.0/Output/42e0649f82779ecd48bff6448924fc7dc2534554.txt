@@ -1,2 +1,2 @@
 
-‘Extract Method private allTopLevelNodes() : List extracted from public topLevelNodes() : List in class org.geometerplus.android.fbreader.MenuData2(42e0649f82779ecd48bff6448924fc7dc2534554
+¥Extract Method private allTopLevelNodes() : List<MenuNode> extracted from public topLevelNodes() : List<MenuNode> in class org.geometerplus.android.fbreader.MenuData2(42e0649f82779ecd48bff6448924fc7dc2534554

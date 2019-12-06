@@ -1,2 +1,2 @@
 
-´Move Attribute private TAG : WeakReference from class com.loopj.android.http.RequestHandle to private TAG : WeakReference from class com.loopj.android.http.AsyncHttpResponseHandler2(af7e9e4bcd90504d6a665dbb21635eb1733fe025
+ÄMove Attribute private TAG : WeakReference<Object> from class com.loopj.android.http.RequestHandle to private TAG : WeakReference<Object> from class com.loopj.android.http.AsyncHttpResponseHandler2(af7e9e4bcd90504d6a665dbb21635eb1733fe025

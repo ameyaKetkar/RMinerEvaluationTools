@@ -1,2 +1,2 @@
 
-ÛExtract Method public format(path String, pegRevision SVNRevision) : String extracted from public put(parameters List, path String, pegRevision SVNRevision) : void in class org.jetbrains.idea.svn.commandLine.CommandUtil2(61215911ef28ca783c5106d7c01e74cf3000a866
+ãExtract Method public format(path String, pegRevision SVNRevision) : String extracted from public put(parameters List<String>, path String, pegRevision SVNRevision) : void in class org.jetbrains.idea.svn.commandLine.CommandUtil2(61215911ef28ca783c5106d7c01e74cf3000a866

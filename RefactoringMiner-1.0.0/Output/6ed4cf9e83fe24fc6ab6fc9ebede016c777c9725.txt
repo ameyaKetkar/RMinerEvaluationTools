@@ -1,6 +1,6 @@
 
-ÝInline Method public sanitize(workingDir Optional, contents String, expandPaths boolean) : String inlined to public sanitize(workingDir Optional, contents String) : String in class com.facebook.buck.cxx.DebugPathSanitizer
 ±Rename Method public sanitizeWithoutAnyMatchesWithExpandPaths() : void renamed to public sanitizeWithoutAnyMatches() : void in class com.facebook.buck.cxx.DebugPathSanitizerTest
 ¨Rename Method public sanitizeProjectRootWithoutExpandPaths() : void renamed to public sanitizeProjectRoot() : void in class com.facebook.buck.cxx.DebugPathSanitizerTest
 æRename Method public sanitizeDirectoriesThatArePrefixOfOtherDirectoriesWithoutExpandPaths() : void renamed to public sanitizeDirectoriesThatArePrefixOfOtherDirectories() : void in class com.facebook.buck.cxx.DebugPathSanitizerTest
+éInline Method public sanitize(workingDir Optional<Path>, contents String, expandPaths boolean) : String inlined to public sanitize(workingDir Optional<Path>, contents String) : String in class com.facebook.buck.cxx.DebugPathSanitizer
 ²Rename Method public sanitizeOtherDirectoriesWithoutExpandPaths() : void renamed to public sanitizeOtherDirectories() : void in class com.facebook.buck.cxx.DebugPathSanitizerTest´Rename Method public sanitizeWithoutAnyMatchesWithoutExpandPaths() : void renamed to public sanitizeWithoutAnyMatches() : void in class com.facebook.buck.cxx.DebugPathSanitizerTest2(6ed4cf9e83fe24fc6ab6fc9ebede016c777c9725

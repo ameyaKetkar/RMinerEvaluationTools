@@ -1,2 +1,2 @@
 
-æExtract Method protected rewriteLinksInDocument(document ODocument, rewrite OIndex) : void extracted from private rewriteLinksInDocument(document ODocument) : void in class com.orientechnologies.orient.core.db.tool.ODatabaseImport2(1089957b645bde069d3864563bbf1f7c7da8045c
+õExtract Method protected rewriteLinksInDocument(document ODocument, rewrite OIndex<OIdentifiable>) : void extracted from private rewriteLinksInDocument(document ODocument) : void in class com.orientechnologies.orient.core.db.tool.ODatabaseImport2(1089957b645bde069d3864563bbf1f7c7da8045c

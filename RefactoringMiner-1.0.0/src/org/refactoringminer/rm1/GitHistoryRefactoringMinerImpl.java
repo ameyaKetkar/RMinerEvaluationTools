@@ -32,10 +32,6 @@ import org.refactoringminer.util.GitServiceImpl;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import javax.xml.ws.soap.MTOM;
-
-import static java.util.stream.Collectors.toMap;
-
 public class GitHistoryRefactoringMinerImpl implements GitHistoryRefactoringMiner {
 
 	Logger logger = LoggerFactory.getLogger(GitHistoryRefactoringMinerImpl.class);
@@ -245,6 +241,9 @@ public class GitHistoryRefactoringMinerImpl implements GitHistoryRefactoringMine
 		gitHub = connectToGitHub();
 		//https://github.com/ is 19 chars
 		String repoName = cloneURL.substring(19, cloneURL.indexOf(".git"));
+		if(currentCommitId.equals("0f9d0b0bf1cd5fb58f47f22bd6d52a9fac31c530") || currentCommitId.equals("b0d5315e8ba95d099f93dc2d16339033a6525b59")){
+			repoName = "vaadin/framework";
+		}
 		GHRepository repository = gitHub.getRepository(repoName);
 		GHCommit currentCommit = repository.getCommit(currentCommitId);
 		final String parentCommitId = currentCommit.getParents().get(0).getSHA1();
@@ -421,8 +420,7 @@ public class GitHistoryRefactoringMinerImpl implements GitHistoryRefactoringMine
 	// This method only uses the Github API to get changes
 	@Override
 	public void detectAtCommit(String cloneUrl, String commitId, RefactoringHandler handler) {
-		String projectName = cloneUrl.substring(cloneUrl.lastIndexOf('/') + 1, cloneUrl.lastIndexOf('.'));
-		this.detectRefactorings(handler, cloneUrl, commitId);
+			this.detectRefactorings(handler, cloneUrl, commitId);
 	}
 
 	@Override

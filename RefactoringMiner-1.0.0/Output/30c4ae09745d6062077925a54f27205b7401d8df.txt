@@ -11,6 +11,7 @@ qRename Class com.hazelcast.internal.metrics.LongProbe renamed to com.hazelcast.
 œExtract Method private renderCluster() : void extracted from public toString() : String in class com.hazelcast.internal.monitors.HealthMonitor.HealthMetrics
 zExtract Interface com.hazelcast.internal.metrics.ProbeFunction from class com.hazelcast.internal.metrics.LongProbeFunction
 yExtract Interface com.hazelcast.internal.metrics.ProbeFunction from class com.hazelcast.internal.metrics.impl.MethodProbe
+ÐRename Method package getObjectMetadata(clazz Class<?>) : SourceMetadata renamed to package loadSourceMetadata(clazz Class<?>) : SourceMetadata in class com.hazelcast.internal.metrics.impl.MetricsRegistryImpl
 ¼Rename Method public getMetric_whenNotExistingMetric() : void renamed to public newGauge_whenNotExistingMetric() : void in class com.hazelcast.internal.metrics.impl.MetricsRegistryImplTest
 ÍMove Attribute private delaySeconds : int from class com.hazelcast.internal.monitors.HealthMonitor to private delaySeconds : int from class com.hazelcast.internal.monitors.HealthMonitor.HealthMonitorThread
 ƒRename Method package getLastHandle() : long renamed to package getLastReadTime() : long in class com.hazelcast.nio.tcp.ReadHandler
@@ -24,7 +25,6 @@ uRename Class com.hazelcast.internal.metrics.DoubleProbe renamed to com.hazelcas
 “Move Class com.hazelcast.internal.metrics.impl.GaugeImplTest.SomeObject moved to com.hazelcast.internal.metrics.impl.DoubleGaugeImplTest.SomeObject
 |Extract Interface com.hazelcast.internal.metrics.ProbeFunction from class com.hazelcast.internal.metrics.DoubleProbeFunction
 ªRename Method public getMetric_whenNullName() : void renamed to public newGauge_whenNullName() : void in class com.hazelcast.internal.metrics.impl.MetricsRegistryImplTest
-ÊRename Method package getObjectMetadata(clazz Class) : SourceMetadata renamed to package loadSourceMetadata(clazz Class) : SourceMetadata in class com.hazelcast.internal.metrics.impl.MetricsRegistryImpl
 ÑMove Attribute private delaySeconds : int from class com.hazelcast.internal.monitors.PerformanceMonitor to private delaySeconds : int from class com.hazelcast.internal.monitors.PerformanceMonitor.MonitorThread
 ŸExtract Method private renderProcessors() : void extracted from public toString() : String in class com.hazelcast.internal.monitors.HealthMonitor.HealthMetrics
 xExtract Interface com.hazelcast.internal.metrics.ProbeFunction from class com.hazelcast.internal.metrics.impl.FieldProbe

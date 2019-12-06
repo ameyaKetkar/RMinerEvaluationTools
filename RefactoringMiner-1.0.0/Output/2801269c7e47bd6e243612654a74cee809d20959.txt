@@ -1,2 +1,2 @@
 
-¢Extract Method private convertPemKeyPair(pemKeyPair PEMKeyPair) : KeyPair extracted from public loadKeys() : Iterable in class org.crsh.auth.FilePublicKeyProvider2(2801269c7e47bd6e243612654a74cee809d20959
+«Extract Method private convertPemKeyPair(pemKeyPair PEMKeyPair) : KeyPair extracted from public loadKeys() : Iterable<KeyPair> in class org.crsh.auth.FilePublicKeyProvider2(2801269c7e47bd6e243612654a74cee809d20959

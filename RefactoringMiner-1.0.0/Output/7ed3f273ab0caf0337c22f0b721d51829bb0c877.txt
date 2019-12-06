@@ -1,2 +1,2 @@
 
-±Extract Method private addCoursesFromStepic(result List, pageNumber int) : boolean extracted from public getCourses() : List in class com.jetbrains.edu.stepic.EduStepicConnector2(7ed3f273ab0caf0337c22f0b721d51829bb0c877
+ÉExtract Method private addCoursesFromStepic(result List<CourseInfo>, pageNumber int) : boolean extracted from public getCourses() : List<CourseInfo> in class com.jetbrains.edu.stepic.EduStepicConnector2(7ed3f273ab0caf0337c22f0b721d51829bb0c877

@@ -1,4 +1,5 @@
 
+’Rename Method protected getAllNodes(propertyValue String) : List<Long> renamed to protected getAllNodesWithProperty(propertyValue String) : List<Long> in class org.neo4j.kernel.api.index.IndexAccessorCompatibility
 Pull Up Attribute private BUFFER_SIZE_LIMIT : int from class org.neo4j.kernel.api.impl.index.LuceneIndexAccessorReaderTest to protected BUFFER_SIZE_LIMIT : int from class org.neo4j.kernel.api.impl.index.AbstractLuceneIndexAccessorReaderTest
 òRename Method public newMatchAllQuery() : Query renamed to public newAllQuery() : Query in class org.neo4j.kernel.api.impl.index.LuceneDocumentStructure
 ™Rename Method public newQuery(value Object) : Query renamed to public newValueQuery(value Object) : Query in class org.neo4j.kernel.api.impl.index.LuceneDocumentStructure
@@ -12,7 +13,6 @@
 °Extract Superclass org.neo4j.kernel.api.impl.index.AbstractLuceneIndexAccessorReaderTest from class org.neo4j.kernel.api.impl.index.LuceneIndexAccessorReaderTest
 êPull Up Attribute private documentLogic : LuceneDocumentStructure from class org.neo4j.kernel.api.impl.index.LuceneIndexAccessorReaderTest to protected documentLogic : LuceneDocumentStructure from class org.neo4j.kernel.api.impl.index.AbstractLuceneIndexAccessorReaderTest
 ¯Pull Up Attribute private searcher : IndexSearcher from class org.neo4j.kernel.api.impl.index.LuceneUniqueIndexAccessorReaderTest to protected searcher : IndexSearcher from class org.neo4j.kernel.api.impl.index.AbstractLuceneIndexAccessorReaderTest
-…Rename Method protected getAllNodes(propertyValue String) : List renamed to protected getAllNodesWithProperty(propertyValue String) : List in class org.neo4j.kernel.api.index.IndexAccessorCompatibility
 ßExtract Superclass org.neo4j.kernel.api.impl.index.AbstractLuceneIndexAccessorReaderTest from class org.neo4j.kernel.api.impl.index.LuceneUniqueIndexAccessorReaderTest
 ¬Rename Method public newQueryForChangeOrRemove(nodeId long) : Term renamed to public newTermForChangeOrRemove(nodeId long) : Term in class org.neo4j.kernel.api.impl.index.LuceneDocumentStructure
 Pull Up Attribute private reader : IndexReader from class org.neo4j.kernel.api.impl.index.LuceneUniqueIndexAccessorReaderTest to protected reader : IndexReader from class org.neo4j.kernel.api.impl.index.AbstractLuceneIndexAccessorReaderTest

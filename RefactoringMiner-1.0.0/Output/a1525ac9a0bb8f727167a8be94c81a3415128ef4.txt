@@ -1,2 +1,2 @@
 
-ÃExtract Method private getAllPathsWork(workingDir Path) : ImmutableBiMap extracted from private getAllPaths(workingDir Optional) : ImmutableBiMap in class com.facebook.buck.cxx.DebugPathSanitizer2(a1525ac9a0bb8f727167a8be94c81a3415128ef4
+ßExtract Method private getAllPathsWork(workingDir Path) : ImmutableBiMap<Path,Path> extracted from private getAllPaths(workingDir Optional<Path>) : ImmutableBiMap<Path,Path> in class com.facebook.buck.cxx.DebugPathSanitizer2(a1525ac9a0bb8f727167a8be94c81a3415128ef4

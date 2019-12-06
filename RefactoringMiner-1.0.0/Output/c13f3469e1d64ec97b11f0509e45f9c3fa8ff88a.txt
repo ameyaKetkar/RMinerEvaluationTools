@@ -1,2 +1,2 @@
 
-ìExtract Method protected getCountQuery(spec Specification, mode QueryMode) : TypedQuery extracted from protected getCountQuery(spec Specification) : TypedQuery in class org.springframework.data.jpa.repository.support.SimpleJpaRepository2(c13f3469e1d64ec97b11f0509e45f9c3fa8ff88a
+þExtract Method protected getCountQuery(spec Specification<T>, mode QueryMode) : TypedQuery<Long> extracted from protected getCountQuery(spec Specification<T>) : TypedQuery<Long> in class org.springframework.data.jpa.repository.support.SimpleJpaRepository2(c13f3469e1d64ec97b11f0509e45f9c3fa8ff88a

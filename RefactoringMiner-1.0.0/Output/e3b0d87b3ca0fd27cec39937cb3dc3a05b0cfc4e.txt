@@ -1,2 +1,2 @@
 
-ÑExtract Method protected waitForCacheToStabilize(cache Cache, cacheConfig Configuration) : void extracted from public perform(ctx InvocationContext) : Object in class org.infinispan.commands.CreateCacheCommand2(e3b0d87b3ca0fd27cec39937cb3dc3a05b0cfc4e
+àExtract Method protected waitForCacheToStabilize(cache Cache<Object,Object>, cacheConfig Configuration) : void extracted from public perform(ctx InvocationContext) : Object in class org.infinispan.commands.CreateCacheCommand2(e3b0d87b3ca0fd27cec39937cb3dc3a05b0cfc4e

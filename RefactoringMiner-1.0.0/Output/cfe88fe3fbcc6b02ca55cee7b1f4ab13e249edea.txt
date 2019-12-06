@@ -1,3 +1,3 @@
 
-ÕExtract Method protected classForName(name String, initialize boolean, loader ClassLoader) : Class extracted from public findClass(className String) : Class in class com.fasterxml.jackson.databind.type.TypeFactory
-­Extract Method protected classForName(name String) : Class extracted from public findClass(className String) : Class in class com.fasterxml.jackson.databind.type.TypeFactory2(cfe88fe3fbcc6b02ca55cee7b1f4ab13e249edea
+ÛExtract Method protected classForName(name String, initialize boolean, loader ClassLoader) : Class<?> extracted from public findClass(className String) : Class<?> in class com.fasterxml.jackson.databind.type.TypeFactory
+³Extract Method protected classForName(name String) : Class<?> extracted from public findClass(className String) : Class<?> in class com.fasterxml.jackson.databind.type.TypeFactory2(cfe88fe3fbcc6b02ca55cee7b1f4ab13e249edea

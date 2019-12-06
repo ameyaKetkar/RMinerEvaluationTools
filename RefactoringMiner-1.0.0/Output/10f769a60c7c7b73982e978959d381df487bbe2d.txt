@@ -1,3 +1,3 @@
 
-ÖMove Method private getJUnit4JarPaths() : List from class com.intellij.codeInsight.daemon.impl.quickfix.OrderEntryFix to public getJUnit4JarPaths() : List from class com.intellij.openapi.projectRoots.ex.JavaSdkUtil
-”Extract Method public getLibraryPaths() : List extracted from public getLibraryPath() : String in class com.intellij.execution.junit.JUnit4Framework2(10f769a60c7c7b73982e978959d381df487bbe2d
+æMove Method private getJUnit4JarPaths() : List<String> from class com.intellij.codeInsight.daemon.impl.quickfix.OrderEntryFix to public getJUnit4JarPaths() : List<String> from class com.intellij.openapi.projectRoots.ex.JavaSdkUtil
+œExtract Method public getLibraryPaths() : List<String> extracted from public getLibraryPath() : String in class com.intellij.execution.junit.JUnit4Framework2(10f769a60c7c7b73982e978959d381df487bbe2d

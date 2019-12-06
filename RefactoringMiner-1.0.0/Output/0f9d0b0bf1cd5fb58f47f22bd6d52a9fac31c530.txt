@@ -1,1 +1,3 @@
-¹Extract Method protected createGrid(container PersonContainer) : Grid extracted from protected setup(request VaadinRequest) : void in class com.vaadin.tests.components.grid.GridEditorUI–Extract Method private getVisibleFrozenColumnCount() : int extracted from private updateFrozenColumns() : void in class com.vaadin.client.widgets.Grid2(0f9d0b0bf1cd5fb58f47f22bd6d52a9fac31c530
+
+¹Extract Method protected createGrid(container PersonContainer) : Grid extracted from protected setup(request VaadinRequest) : void in class com.vaadin.tests.components.grid.GridEditorUI
+–Extract Method private getVisibleFrozenColumnCount() : int extracted from private updateFrozenColumns() : void in class com.vaadin.client.widgets.Grid2(0f9d0b0bf1cd5fb58f47f22bd6d52a9fac31c530

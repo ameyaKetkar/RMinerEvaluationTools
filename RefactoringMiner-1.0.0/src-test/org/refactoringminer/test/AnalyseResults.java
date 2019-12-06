@@ -10,6 +10,7 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
+import java.sql.SQLException;
 import java.text.DecimalFormat;
 import java.util.*;
 import java.util.function.BiFunction;
@@ -30,8 +31,37 @@ public class AnalyseResults {
         prop.load(new FileInputStream("paths.properties"));
         String outputPath = prop.getProperty("ProtoPath");
         TestBuilder test = new TestBuilder(new GitHistoryRefactoringMinerImpl(), RefactoringPopulator.Refactorings.All.getValue(), outputPath);
-        List<ResultsOuterClass.Results> results = new ArrayList<>(test.readAllResults());
+        List<ResultsOuterClass.Results> results = new ArrayList<>(test.readAllResults("/Output/"));
         List<RefactoringPopulator.Root> roots = readJson();
+
+        results.stream().filter(x->x.getSha().equals("0f8a0af934f09deef1b58e961ffe789c7299bcc1"))
+                .findFirst().ifPresent(System.out::println);
+
+
+        Function<String, Optional<Integer>> find = sha ->  roots.stream().filter(x->x.sha1.equals(sha)).findFirst().map(x->x.id);
+
+        List<Tuple2<Integer, String>> fp_rd1x = results.stream()
+                .flatMap(res -> res.getFalsePositivesList().stream().map(x -> new Tuple2<>(res.getSha(), x)))
+                .map(x -> new Tuple2<>(find.apply(x.e1), x.e2))
+                .filter(x -> x.e1.isPresent())
+                .map(x -> new Tuple2<>(x.e1.get(),x.e2))
+                .collect(toList());
+
+
+        UpdateDb db = new UpdateDb();
+        fp_rd1x.forEach( x -> {
+            try {
+                db.processExistingRefactoringInOracle(x.e2, UpdateDb.Tool.RMiner1x,x.e1,"UKN",getRefType(x.e2));
+            } catch (SQLException e) {
+                e.printStackTrace();
+            }
+        });
+
+
+
+
+
+
 
         List<Tuple2<String, List<String>>> fp_refdiff_roots = roots.stream()
                 .map(x -> new Tuple2<>(x.sha1, x.refactorings.stream()
@@ -43,6 +73,9 @@ public class AnalyseResults {
 
         System.out.println("Total Commits: " + results.stream().map(x->x.getSha()).distinct().count());
         Map<String, ResultsOuterClass.Results> collect = results.stream().flatMap(fn).collect(toMap(x -> x.e2, fn1, binOp));
+
+
+
         collect.entrySet().stream().forEach(x -> System.out.println(x.getKey() + getString(x.getValue())));
         System.out.println(getString(collect.values().stream().reduce(ResultsOuterClass.Results.newBuilder().build(), binOp)));
     }

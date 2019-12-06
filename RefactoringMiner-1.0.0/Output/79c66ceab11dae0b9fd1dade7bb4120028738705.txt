@@ -1,3 +1,3 @@
 
-‹Extract Method public getInputs() : Set extracted from public getAllSources() : Set in class org.gradle.platform.base.binary.BaseBinarySpec
- Rename Method public getAllSources() : Set renamed to public getInputs() : Set in class org.gradle.nativeplatform.test.internal.DefaultNativeTestSuiteBinarySpec2(79c66ceab11dae0b9fd1dade7bb4120028738705
+±Extract Method public getInputs() : Set<LanguageSourceSet> extracted from public getAllSources() : Set<LanguageSourceSet> in class org.gradle.platform.base.binary.BaseBinarySpec
+ÆRename Method public getAllSources() : Set<LanguageSourceSet> renamed to public getInputs() : Set<LanguageSourceSet> in class org.gradle.nativeplatform.test.internal.DefaultNativeTestSuiteBinarySpec2(79c66ceab11dae0b9fd1dade7bb4120028738705

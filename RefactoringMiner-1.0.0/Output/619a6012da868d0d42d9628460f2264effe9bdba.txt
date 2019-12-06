@@ -1,2 +1,2 @@
 
-ñExtract Method private fillWithScopeExpansion(elements Set, pattern String) : boolean extracted from public computeInReadAction(indicator ProgressIndicator) : void in class com.intellij.ide.util.gotoByName.ChooseByNameBase.CalcElementsThread2(619a6012da868d0d42d9628460f2264effe9bdba
+ùExtract Method private fillWithScopeExpansion(elements Set<Object>, pattern String) : boolean extracted from public computeInReadAction(indicator ProgressIndicator) : void in class com.intellij.ide.util.gotoByName.ChooseByNameBase.CalcElementsThread2(619a6012da868d0d42d9628460f2264effe9bdba

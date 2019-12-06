@@ -1,2 +1,2 @@
 
-âMove Method public arrayAsCollection(arrayValue Object) : Collection from class org.neo4j.kernel.impl.util.IoPrimitiveUtils to public arrayAsCollection(arrayValue Object) : Collection from class org.neo4j.graphdb.Neo4jMatchers2(a26b61201cd86c9a8773b418d9c84b446e95a601
+òMove Method public arrayAsCollection(arrayValue Object) : Collection<Object> from class org.neo4j.kernel.impl.util.IoPrimitiveUtils to public arrayAsCollection(arrayValue Object) : Collection<Object> from class org.neo4j.graphdb.Neo4jMatchers2(a26b61201cd86c9a8773b418d9c84b446e95a601
