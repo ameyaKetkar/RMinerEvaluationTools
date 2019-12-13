@@ -92,13 +92,14 @@ public class TestBuilder {
 		commitsCount = 0;
 		errorCommitsCount = 0;
 
-		for (ProjectMatcher m : map.values()) {
-			if (m.ignoreNonSpecifiedCommits) {
-				for (String commitId : m.getCommits()) {
-					System.out.println(commitId + " " + m.cloneUrl);
-					refactoringDetector.detectAtCommit(m.cloneUrl, commitId, m);
+		//.parallel()
+		for (ProjectMatcher projectMatcher : map.values()) {
+//			if (projectMatcher.ignoreNonSpecifiedCommits) {
+				for (String commitId : projectMatcher.getCommits()) {
+					System.out.println(commitId + " " + projectMatcher.cloneUrl);
+					refactoringDetector.detectAtCommit(projectMatcher.cloneUrl, commitId, projectMatcher);
 				}
-			}
+//			}
 		}
 		System.out.println(String.format("Commits: %d  Errors: %d", commitsCount, errorCommitsCount));
 
@@ -215,6 +216,7 @@ public class TestBuilder {
 		public void handle(String commitId, List<Refactoring> refactorings) {
 			ResultsOuterClass.Results.Builder result = ResultsOuterClass.Results.newBuilder();
 			refactorings= filterRefactoring(refactorings);
+			
 			CommitMatcher commitMatcher;
 			commitsCount++;
 			//String commitId = curRevision.getId().getName();
@@ -425,7 +427,7 @@ public class TestBuilder {
 		}
 	}
 
-	public void write(ResultsOuterClass.Results msg) {
+ public void write(ResultsOuterClass.Results msg) {
 		String s = Paths.get(".").toAbsolutePath().toString() + outputPath + msg.getSha() + ".txt";
 		try {
 			FileOutputStream output1 = new FileOutputStream(s,true);

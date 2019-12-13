@@ -725,7 +725,7 @@ public class UMLModelDiff {
    private List<RenameClassRefactoring> getRenameClassRefactorings() {
       List<RenameClassRefactoring> refactorings = new ArrayList<RenameClassRefactoring>();
       for(UMLClassRenameDiff classRenameDiff : classRenameDiffList) {
-         RenameClassRefactoring refactoring = new RenameClassRefactoring(classRenameDiff.getOriginalClass().getName(), classRenameDiff.getRenamedClass().getName());
+         RenameClassRefactoring refactoring = new RenameClassRefactoring(classRenameDiff.getOriginalClass(), classRenameDiff.getRenamedClass());
          refactorings.add(refactoring);
       }
       return refactorings;

@@ -1,1 +1,2 @@
-ÓExtract Method private getBlogsForCurrentView() : List<Map<String,Object>> extracted from protected doInBackground(params Void[]) : SiteList in class org.wordpress.android.ui.main.SitePickerAdapter.LoadSitesTaskÔExtract Method private getBlogsForCurrentView() : List<Map<String,Object>> extracted from protected doInBackground(params Void...) : SiteList in class org.wordpress.android.ui.main.SitePickerAdapter.LoadSitesTask2(3b95d10985776fb7b710089ff71074fd2bf860ee
+
+ÔExtract Method private getBlogsForCurrentView() : List<Map<String,Object>> extracted from protected doInBackground(params Void...) : SiteList in class org.wordpress.android.ui.main.SitePickerAdapter.LoadSitesTask2(3b95d10985776fb7b710089ff71074fd2bf860ee

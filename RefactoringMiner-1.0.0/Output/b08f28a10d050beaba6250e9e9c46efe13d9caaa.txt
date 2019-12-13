@@ -1,4 +1,5 @@
 
+¬Inline Method public addIcons(icon T, textViews TextView...) : void inlined to public addIcons(textViews TextView...) : void in class com.joanzapata.android.iconify.Iconify
 ]Move Class android.widget.IconButton moved to com.joanzapata.android.iconify.views.IconButton
 iMove Class android.widget.IconToggleButton moved to com.joanzapata.android.iconify.views.IconToggleButton
-aMove Class android.widget.IconTextView moved to com.joanzapata.android.iconify.views.IconTextViewªInline Method public addIcons(icon T, textViews TextView[]) : void inlined to public addIcons(textViews TextView[]) : void in class com.joanzapata.android.iconify.Iconify¬Inline Method public addIcons(icon T, textViews TextView...) : void inlined to public addIcons(textViews TextView...) : void in class com.joanzapata.android.iconify.Iconify2(b08f28a10d050beaba6250e9e9c46efe13d9caaa
+aMove Class android.widget.IconTextView moved to com.joanzapata.android.iconify.views.IconTextView‘Move And Rename Class com.joanzapata.android.iconify.Iconify.IconValue moved and renamed to com.joanzapata.android.iconify.fonts.FontAwesomeIcons2(b08f28a10d050beaba6250e9e9c46efe13d9caaa

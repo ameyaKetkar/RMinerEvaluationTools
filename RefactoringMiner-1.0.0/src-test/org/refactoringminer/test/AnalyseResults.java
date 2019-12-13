@@ -34,9 +34,6 @@ public class AnalyseResults {
         List<ResultsOuterClass.Results> results = new ArrayList<>(test.readAllResults("/Output/"));
         List<RefactoringPopulator.Root> roots = readJson();
 
-        results.stream().filter(x->x.getSha().equals("0f8a0af934f09deef1b58e961ffe789c7299bcc1"))
-                .findFirst().ifPresent(System.out::println);
-
 
         Function<String, Optional<Integer>> find = sha ->  roots.stream().filter(x->x.sha1.equals(sha)).findFirst().map(x->x.id);
 
@@ -48,28 +45,16 @@ public class AnalyseResults {
                 .collect(toList());
 
 
-        UpdateDb db = new UpdateDb();
-        fp_rd1x.forEach( x -> {
-            try {
-                db.processExistingRefactoringInOracle(x.e2, UpdateDb.Tool.RMiner1x,x.e1,"UKN",getRefType(x.e2));
-            } catch (SQLException e) {
-                e.printStackTrace();
-            }
-        });
-
-
-
-
-
-
-
         List<Tuple2<String, List<String>>> fp_refdiff_roots = roots.stream()
                 .map(x -> new Tuple2<>(x.sha1, x.refactorings.stream()
-                        .filter(r -> r.validation.equalsIgnoreCase("FP") && (r.detectionTools.contains("RefDiff") && r.detectionTools.contains("RD")))
+                        .filter(r -> r.validation.equalsIgnoreCase("FP") && (r.detectionTools.contains("RMiner-1x")))
                         .map(r -> r.description)
                         .collect(toList())))
                 .filter(x->!x.e2.isEmpty())
                 .collect(toList());
+
+
+        falsePos_vs_falseNeg(results, fp_refdiff_roots);
 
         System.out.println("Total Commits: " + results.stream().map(x->x.getSha()).distinct().count());
         Map<String, ResultsOuterClass.Results> collect = results.stream().flatMap(fn).collect(toMap(x -> x.e2, fn1, binOp));
@@ -140,7 +125,7 @@ public class AnalyseResults {
 
         List<Tuple2<ResultsOuterClass.Results, ResultsOuterClass.Results>> result_vs_oracle = roots.stream()
                 .map(r -> {
-                        Map<String, List<String>> refsByValidation = r.refactorings.stream().filter(x -> x.detectionTools.contains("RefDiff") || x.detectionTools.contains("RD"))
+                        Map<String, List<String>> refsByValidation = r.refactorings.stream().filter(x -> x.detectionTools.contains("RMiner-1x"))
                                 .map(x -> new Tuple2<>(x.validation, x.description))
                                 .collect(groupingBy(x -> x.e1, mapping(x -> x.e2, toList())));
                         ResultsOuterClass.Results.Builder res = ResultsOuterClass.Results.newBuilder()
@@ -169,9 +154,9 @@ public class AnalyseResults {
         Function<Tuple2<ResultsOuterClass.Results, ResultsOuterClass.Results>, ResultsOuterClass.Results> subtract = (t) ->
                 ResultsOuterClass.Results.newBuilder()
                         .setSha(t.e1.getSha())
-                        .addAllTruePositives(sub.apply(t.e1.getTruePositivesList(),t.e2.getTruePositivesList()))
+                     //   .addAllTruePositives(sub.apply(t.e1.getTruePositivesList(),t.e2.getTruePositivesList()))
                         .addAllFalsePositives(sub.apply(t.e1.getFalsePositivesList(),t.e2.getFalsePositivesList()))
-                        .addAllTrueNegatives(sub.apply(t.e1.getTrueNegativesList(),t.e2.getTrueNegativesList()))
+                    //    .addAllTrueNegatives(sub.apply(t.e1.getTrueNegativesList(),t.e2.getTrueNegativesList()))
                   //      .addAllFalseNegatives(sub.apply(t.e1.getFalseNegativesList(),t.e2.getFalseNegativesList()))
                         .build();
 
@@ -182,12 +167,17 @@ public class AnalyseResults {
                 .filter(x -> !isEmpty.test(x))
                 .collect(toList());
 
-        System.out.println("FP: " + res.stream().mapToLong(x->x.getFalsePositivesList().size()).sum());
-        System.out.println("TP: " + res.stream().mapToLong(x->x.getTruePositivesList().size()).sum());
+ //       System.out.println("FP: " + res.stream().mapToLong(x->x.getFalsePositivesList().size()).sum());
+      //  System.out.println("TP: " + res.stream().mapToLong(x->x.getTruePositivesList().size()).sum());
 
+        res.stream().flatMap(x->x.getFalsePositivesList().stream().map(tp -> String.join(",", x.getSha(), tp, "FP")))
+                .forEach(System.out::println);
 
-        return Stream.concat(res.stream().flatMap(x->x.getFalsePositivesList().stream().map(tp -> String.join(",", x.getSha(), tp, "FP"))),
-                res.stream().flatMap(x->x.getTruePositivesList().stream().map(tp -> String.join(",", x.getSha(), tp, "TP")))).collect(toList());
+        return Stream.concat(
+                //Stream.empty(),
+                res.stream().flatMap(x->x.getFalsePositivesList().stream().map(tp -> String.join(",", x.getSha(), tp, "FP"))),
+                res.stream().flatMap(x->x.getTruePositivesList().stream().map(tp -> String.join(",", x.getSha(), tp))
+                .peek(System.out::println))).collect(toList());
 
     }
 
@@ -216,9 +206,11 @@ public class AnalyseResults {
                 .forEach(x -> {
                     Optional<Tuple2<String, List<String>>> fp_refdiff_root = fp_refdiff_roots.stream()
                             .filter(z->z.e1.equalsIgnoreCase(x.getSha())).findAny();
+
                     List<String> fp_refdiff_l = x.getFalsePositivesList().stream()
                             .filter(r -> fp_refdiff_root.map(f -> f.e2.stream().noneMatch(r::equals)).orElse(true))
                             .collect(toList());
+
                     if(fp_refdiff_l.size()>0) {
                         System.out.println(x.getSha());
                         System.out.println( "+" + String.join("\n + ", fp_refdiff_l));

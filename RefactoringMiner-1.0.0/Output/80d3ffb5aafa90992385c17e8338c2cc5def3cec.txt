@@ -1,2 +1,3 @@
 
-—Extract Method public readCharacter(checkForAltKeyCombo boolean) : int extracted from public readCharacter() : int in class jline.console.ConsoleReaderµExtract Method public readCharacter(checkForAltKeyCombo boolean, allowed char[]) : int extracted from public readCharacter(allowed char[]) : int in class jline.console.ConsoleReader·Extract Method public readCharacter(checkForAltKeyCombo boolean, allowed char...) : int extracted from public readCharacter(allowed char...) : int in class jline.console.ConsoleReader2(80d3ffb5aafa90992385c17e8338c2cc5def3cec
+·Extract Method public readCharacter(checkForAltKeyCombo boolean, allowed char...) : int extracted from public readCharacter(allowed char...) : int in class jline.console.ConsoleReader
+—Extract Method public readCharacter(checkForAltKeyCombo boolean) : int extracted from public readCharacter() : int in class jline.console.ConsoleReader2(80d3ffb5aafa90992385c17e8338c2cc5def3cec

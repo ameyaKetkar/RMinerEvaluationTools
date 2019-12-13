@@ -62,7 +62,13 @@ public class UMLParameter implements Serializable {
 	public String toString() {
 		if(kind.equals("return"))
 			return type.toString();
-		else
-			return name + " " + type;
+		else {
+			if(varargs) {
+				return name + " " + type.toString().substring(0, type.toString().lastIndexOf("[]")) + "...";
+			}
+			else {
+				return name + " " + type;
+			}
+		}
 	}
 }
