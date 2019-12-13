@@ -1,0 +1,2 @@
+
+›Extract Method protected reset(animateTransition boolean) : void extracted from public reset() : void in class com.android.keyguard.KeyguardAbsKeyInputView2(15fd4f9caea01e53725086e290d3b35ec4bd4cd9

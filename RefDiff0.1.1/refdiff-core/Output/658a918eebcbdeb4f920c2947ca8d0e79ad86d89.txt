@@ -1,0 +1,2 @@
+
+­Extract Method private initTickerView() : void extracted from protected makeStatusBarView() : PhoneStatusBarView in class com.android.systemui.statusbar.phone.PhoneStatusBar2(658a918eebcbdeb4f920c2947ca8d0e79ad86d89

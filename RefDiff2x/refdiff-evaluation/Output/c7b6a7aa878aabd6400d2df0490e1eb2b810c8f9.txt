@@ -1,0 +1,2 @@
+
+…Extract Method public plan(relation AnalyzedRelation, consumerContext ConsumerContext) : PlannedAnalyzedRelation extracted from public plan(rootRelation AnalyzedRelation, plannerContext Planner.Context) : Plan in class io.crate.planner.consumer.ConsumingPlanner2(c7b6a7aa878aabd6400d2df0490e1eb2b810c8f9

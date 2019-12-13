@@ -1,0 +1,2 @@
+
+£Extract Method private installAppleBundleForSimulator(params CommandRunnerParams, appleBundle AppleBundle, projectFilesystem ProjectFilesystem, processExecutor ProcessExecutor) : InstallResult extracted from private installAppleBundle(params CommandRunnerParams, appleBundle AppleBundle, projectFilesystem ProjectFilesystem, processExecutor ProcessExecutor) : InstallResult in class com.facebook.buck.cli.InstallCommand2(89973a5e4f188040c5fcf87fb5a3e9167329d175

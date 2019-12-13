@@ -1,0 +1,3 @@
+
+×Extract Method private testTaskWithExpectedDescription(task Task, expectedDescription String) : void extracted from public testTaskWithVariables() : void in class org.jbpm.services.task.wih.HTWorkItemHandlerBaseTest
+ÖExtract Method private prepareWorkItemWithTaskVariables(taskDescriptionParam String) : WorkItemImpl extracted from public testTaskWithVariables() : void in class org.jbpm.services.task.wih.HTWorkItemHandlerBaseTest2(83cfa21578e63956bca0715eefee2860c3b6d39a

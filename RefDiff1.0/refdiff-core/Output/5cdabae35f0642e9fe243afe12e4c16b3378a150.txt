@@ -1,0 +1,5 @@
+
+gMove Class com.novoda.Base64DecoderException moved to com.novoda.demo.encryption.Base64DecoderException
+§Extract Method private updateTextViews() : void extracted from public onCreate(savedInstanceState Bundle) : void in class com.novoda.demo.encryption.EncryptionActivity
+kMove And Rename Class com.novoda.Encrypt moved and renamed to com.novoda.demo.encryption.EncryptionActivity
+GMove Class com.novoda.Base64 moved to com.novoda.demo.encryption.Base642(5cdabae35f0642e9fe243afe12e4c16b3378a150

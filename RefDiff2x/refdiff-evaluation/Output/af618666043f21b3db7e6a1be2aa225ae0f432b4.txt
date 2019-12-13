@@ -1,0 +1,2 @@
+
+ßExtract Method private isNavigationBlocked(renderer GutterIconRenderer, project Project) : boolean extracted from public mouseReleased(e MouseEvent) : void in class com.intellij.openapi.editor.impl.EditorGutterComponentImpl2(af618666043f21b3db7e6a1be2aa225ae0f432b4

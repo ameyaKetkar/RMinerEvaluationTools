@@ -1,0 +1,2 @@
+
+èExtract Method private post(responseStatus HttpResponseStatus, lastContentFuture ChannelFuture) : void extracted from private post(responseStatus HttpResponseStatus) : void in class ratpack.server.internal.DefaultResponseTransmitter2(da6167af3bdbf7663af6c20fb603aba27dd5e174

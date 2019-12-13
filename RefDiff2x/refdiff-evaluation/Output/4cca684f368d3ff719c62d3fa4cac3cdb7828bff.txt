@@ -1,0 +1,3 @@
+
+ŒMove Class org.springframework.integration.codec.CompositeCodecTests moved to org.springframework.integration.codec.kryo.CompositeCodecTests
+¡Rename Class org.springframework.integration.mail.config.ImapIdelIntegrationTests renamed to org.springframework.integration.mail.config.ImapIdleIntegrationTests2(4cca684f368d3ff719c62d3fa4cac3cdb7828bff

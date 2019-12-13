@@ -1,0 +1,8 @@
+
+ÉExtract Method private createLocationTable(database SQLiteDatabase) : void extracted from public onCreate(database SQLiteDatabase) : void in class com.SecUpwN.AIMSICD.adapters.AIMSICDDbAdapter.DbHelper
+ÊExtract Method private createSilentSmsTable(database SQLiteDatabase) : void extracted from public onCreate(database SQLiteDatabase) : void in class com.SecUpwN.AIMSICD.adapters.AIMSICDDbAdapter.DbHelper
+ËExtract Method private createOpenCellIDTable(database SQLiteDatabase) : void extracted from public onCreate(database SQLiteDatabase) : void in class com.SecUpwN.AIMSICD.adapters.AIMSICDDbAdapter.DbHelper
+ÉExtract Method private createEventLogTable(database SQLiteDatabase) : void extracted from public onCreate(database SQLiteDatabase) : void in class com.SecUpwN.AIMSICD.adapters.AIMSICDDbAdapter.DbHelper
+ÅExtract Method private createCellTable(database SQLiteDatabase) : void extracted from public onCreate(database SQLiteDatabase) : void in class com.SecUpwN.AIMSICD.adapters.AIMSICDDbAdapter.DbHelper
+ËExtract Method private createDefaultMCCTable(database SQLiteDatabase) : void extracted from public onCreate(database SQLiteDatabase) : void in class com.SecUpwN.AIMSICD.adapters.AIMSICDDbAdapter.DbHelper
+ËExtract Method private createCellSignalTable(database SQLiteDatabase) : void extracted from public onCreate(database SQLiteDatabase) : void in class com.SecUpwN.AIMSICD.adapters.AIMSICDDbAdapter.DbHelper2(e235f884f2e0bc258da77b9c80492ad33386fa86

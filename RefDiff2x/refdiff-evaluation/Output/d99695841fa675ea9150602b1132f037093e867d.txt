@@ -1,0 +1,2 @@
+
+£Extract Method protected getGetOAuthRequest(portletRequest PortletRequest, portletResponse PortletResponse) : OAuthRequest extracted from protected remoteRender(renderRequest RenderRequest, renderResponse RenderResponse) : void in class com.liferay.marketplace.store.portlet.RemoteMVCPortlet2(d99695841fa675ea9150602b1132f037093e867d

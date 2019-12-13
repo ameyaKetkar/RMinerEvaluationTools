@@ -1,0 +1,6 @@
+
+ÐMove Method public hasName(aTypeName String) : TypeAssert from class org.voltdb.sqlparser.matchers.TypeAssert to public hasName(aTypeName String) : TypeAssert from class org.voltdb.sqlparser.symtab.TypeAssert
+ÞMove Method public hasNominalSize(aNominalSize int) : TypeAssert from class org.voltdb.sqlparser.matchers.TypeAssert to public hasNominalSize(aNominalSize int) : TypeAssert from class org.voltdb.sqlparser.symtab.TypeAssert
+ÎMove Method public hasMaxSize(aMaxSize int) : TypeAssert from class org.voltdb.sqlparser.matchers.TypeAssert to public hasMaxSize(aMaxSize int) : TypeAssert from class org.voltdb.sqlparser.symtab.TypeAssert
+¦Extract Method public hasSize(size int) : SymbolTableAssert extracted from public isEmpty() : SymbolTableAssert in class org.voltdb.sqlparser.symtab.SymbolTableAssert
+æMove Method public definesType(aTypeName String) : TypeAssert from class org.voltdb.sqlparser.matchers.SymbolTableAssert to public definesType(aTypeName String) : TypeAssert from class org.voltdb.sqlparser.symtab.SymbolTableAssertãMove Method public assertThat(actual Type) : TypeAssert from class org.voltdb.sqlparser.symtab.TypeAssert to public assertThat(actual VoltXMLElement) : VoltXMLElementAssert from class org.hsqldb_voltpatches.VoltXMLElementAssert2(e58c9c3eef4c6e44b21a97cfbd2862bb2eb4627a

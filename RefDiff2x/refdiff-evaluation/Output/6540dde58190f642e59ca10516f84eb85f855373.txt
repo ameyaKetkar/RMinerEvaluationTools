@@ -1,0 +1,2 @@
+
+ÞMove Method public averageAmongMedians(time long[], part int) : long from class com.intellij.testFramework.PlatformTestUtil to public averageAmongMedians(time long[], part int) : long from class com.intellij.util.ArrayUtil2(6540dde58190f642e59ca10516f84eb85f855373

@@ -1,0 +1,2 @@
+
+àExtract Method protected waitForCacheToStabilize(cache Cache<Object,Object>, cacheConfig Configuration) : void extracted from public perform(ctx InvocationContext) : Object in class org.infinispan.commands.CreateCacheCommand–Extract And Move Method public init(cacheManager EmbeddedCacheManager) : void extracted from public createCache(cacheName String, baseCacheName String) : void in class org.infinispan.cli.interpreter.session.SessionImpl & moved to class org.infinispan.commands.CreateCacheCommand2(e3b0d87b3ca0fd27cec39937cb3dc3a05b0cfc4e

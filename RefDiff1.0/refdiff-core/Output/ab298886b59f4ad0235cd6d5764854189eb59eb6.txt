@@ -1,0 +1,3 @@
+
+“Rename Class org.wordpress.android.ui.stats.StatsSinglePostDetailsActivity renamed to org.wordpress.android.ui.stats.StatsSingleItemDetailsActivity
+ŸExtract Method public openPostInReaderOrInAppWebview(ctx Context, remoteBlogID String, remoteItemID String, itemType String, itemURL String) : void extracted from public openPostInReaderOrInAppWebview(ctx Context, post PostModel) : void in class org.wordpress.android.ui.stats.StatsUtils2(ab298886b59f4ad0235cd6d5764854189eb59eb6

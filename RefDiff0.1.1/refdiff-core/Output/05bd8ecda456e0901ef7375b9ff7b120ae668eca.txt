@@ -1,0 +1,11 @@
+
+yMove Class exportbenchmark.procedures.InsertExport1 moved to exportbenchmark2.db.exportbenchmark.procedures.InsertExport1
+yMove Class exportbenchmark.procedures.InsertExport0 moved to exportbenchmark2.db.exportbenchmark.procedures.InsertExport0
+wMove Class exportbenchmark.procedures.InsertExport moved to exportbenchmark2.db.exportbenchmark.procedures.InsertExport
+wMove Class exportbenchmark.procedures.SampleRecord moved to exportbenchmark2.db.exportbenchmark.procedures.SampleRecord
+{Move Class exportbenchmark.procedures.TruncateTables moved to exportbenchmark2.db.exportbenchmark.procedures.TruncateTables
+yMove Class exportbenchmark.procedures.InsertExport5 moved to exportbenchmark2.db.exportbenchmark.procedures.InsertExport5
+gMove Class exportbenchmark.NoOpExporter moved to exportbenchmark2.exporter.exportbenchmark.NoOpExporter
+kMove Class exportbenchmark.SocketExporter moved to exportbenchmark2.exporter.exportbenchmark.SocketExporter
+iMove Class exportbenchmark.Connect2Server moved to exportbenchmark2.client.exportbenchmark.Connect2Server
+{Move Class exportbenchmark.procedures.InsertExport10 moved to exportbenchmark2.db.exportbenchmark.procedures.InsertExport10àMove Method public doInserts(client Client, ratio int) : void from class exportbenchmark.ExportBenchmark to public doInserts(client Client, ratio int) : void from class exportbenchmark2.client.exportbenchmark.ExportBenchmarkkMove Class exportbenchmark.ExportBenchmark moved to exportbenchmark2.client.exportbenchmark.ExportBenchmark2(05bd8ecda456e0901ef7375b9ff7b120ae668eca

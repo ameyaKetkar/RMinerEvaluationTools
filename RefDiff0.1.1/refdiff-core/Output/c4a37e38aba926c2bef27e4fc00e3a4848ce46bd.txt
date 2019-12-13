@@ -1,0 +1,3 @@
+
+ºExtract Method public setMedia(slide Slide, masterSecret MasterSecret) : void extracted from public setMedia(slide Slide) : void in class org.thoughtcrime.securesms.mms.AttachmentManager
+×Rename Method private constructPartFromUri(uri Uri) : PduPart renamed to private constructPartFromByteArrayAndUri(uri Uri, data byte[], encrypted boolean) : PduPart in class org.thoughtcrime.securesms.mms.ImageSlide2(c4a37e38aba926c2bef27e4fc00e3a4848ce46bd

@@ -1,0 +1,2 @@
+
+£Extract Method private createPlatformToolProvider(targetPlatform NativePlatformInternal) : PlatformToolProvider extracted from public select(targetPlatform NativePlatformInternal) : PlatformToolProvider in class org.gradle.nativeplatform.toolchain.internal.gcc.AbstractGccCompatibleToolChain2(681dc6346ce3cf5be5c5985faad120a18949cee0

@@ -1,0 +1,4 @@
+
+{Move Class com.hazelcast.client.protocol.Int2ObjectHashMapTest moved to com.hazelcast.util.collection.Int2ObjectHashMapTest
+}Move Class com.hazelcast.client.impl.protocol.util.Int2ObjectHashMap moved to com.hazelcast.util.collection.Int2ObjectHashMap
+ÖRename Method public getOrDefault(key int, supplier Supplier<V>) : V renamed to public computeIfAbsent(key int, mappingFunction IntFunction<? extends V>) : V in class com.hazelcast.util.collection.Int2ObjectHashMap{Move Class com.hazelcast.client.impl.protocol.util.Int2ObjectHashMap.Supplier moved to com.hazelcast.util.function.Supplier2(69dd55c93fc99c5f7a1e2c21f10e671e311be49e

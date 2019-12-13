@@ -1,0 +1,3 @@
+
+³Extract Method public saveResource(relativePath Path, content byte[]) : void extracted from public save(bytecode byte[]) : void in class net.orfjackal.retrolambda.files.ClassSaver
+™Rename Method public save(bytecode byte[]) : void renamed to public saveClass(bytecode byte[]) : void in class net.orfjackal.retrolambda.files.ClassSaver2(46b0d84de9c309bca48a99e572e6611693ed5236

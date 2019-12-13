@@ -1,0 +1,4 @@
+
+ŸRename Method public testSelectById() : void renamed to public testSelectByIdWithCustomRouting() : void in class io.crate.analyze.where.WhereClauseAnalyzerTest
+ŸExtract Method private getCustomRoutingCol() : ColumnIdent extracted from private getRoutingCol() : ColumnIdent in class io.crate.metadata.doc.DocIndexMetaData
+íRename Method private validateNoUnsupportedFields(function Function, context Context) : String renamed to private rewriteAndValidateFields(function Function, context Context) : Function in class io.crate.lucene.LuceneQueryBuilder.Visitor2(563d281b61e9f8748858e911eaa810e981f1e953

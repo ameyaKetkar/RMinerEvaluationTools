@@ -1,0 +1,2 @@
+
+ËExtract Method private processField(ast DetailAST, parentType int) : void extracted from private processIDENT(ast DetailAST) : void in class com.puppycrawl.tools.checkstyle.checks.coding.RequireThisCheckÅExtract Method private isDeclarationToken(parentType int) : boolean extracted from private processIDENT(ast DetailAST) : void in class com.puppycrawl.tools.checkstyle.checks.coding.RequireThisCheck2(5a9b7249e3d092a78ac8e7d48aeeb62bf1c44e20

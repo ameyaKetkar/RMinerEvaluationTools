@@ -1,0 +1,2 @@
+
+sExtract Interface org.apache.camel.model.OtherAttributesAware from class org.apache.camel.model.ProcessorDefinition2(9f319029ecc031cf8bf1756ab8a0e9e4e52c2902

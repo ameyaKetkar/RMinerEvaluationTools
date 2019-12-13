@@ -1,0 +1,4 @@
+
+ŠExtract Method private setupObjectStore(rdbms RawStore, roles String[], dbNames String[], tokenIds String[], tokens String[], masterKeys String[], now int) : void extracted from public doImport() : void in class org.apache.hadoop.hive.metastore.hbase.TestHBaseImport
+‹Rename Method public doImport() : void renamed to public importAll() : void in class org.apache.hadoop.hive.metastore.hbase.TestHBaseImport
+·Extract Method private copyOneFunction(dbName String, funcName String) : void extracted from private copyFunctions() : void in class org.apache.hadoop.hive.metastore.hbase.HBaseImport2(0fa45e4a562fc2586b1ef06a88e9c186a0835316

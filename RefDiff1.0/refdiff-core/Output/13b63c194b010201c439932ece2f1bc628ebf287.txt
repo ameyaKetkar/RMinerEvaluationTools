@@ -1,0 +1,1 @@
+‹Move Attribute private __propertyPattern : Pattern from class org.eclipse.jetty.xml.XmlConfiguration to class org.eclipse.jetty.start.Props2(13b63c194b010201c439932ece2f1bc628ebf287

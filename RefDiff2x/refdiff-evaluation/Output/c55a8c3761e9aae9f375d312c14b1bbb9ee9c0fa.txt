@@ -1,0 +1,2 @@
+
+ðMove Method private createComponentDto(reportComponent BatchReport.Component, component Component) : ComponentDto from class org.sonar.server.computation.step.PersistComponentsStep to private createComponentDto(reportComponent BatchReport.Component, component Component) : ComponentDto from class org.sonar.server.computation.step.PersistComponentsStep.PersisComponent2(c55a8c3761e9aae9f375d312c14b1bbb9ee9c0fa

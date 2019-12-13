@@ -1,0 +1,3 @@
+
+áMove Method public supportsOverridingKeystore() : void from class com.jayway.restassured.itest.java.SpecificationBuilderITest to public supportsOverridingKeystore() : void from class com.jayway.restassured.itest.java.SSLITest
+áMove Method public supportsSpecifyingKeystore() : void from class com.jayway.restassured.itest.java.SpecificationBuilderITest to public supportsSpecifyingKeystore() : void from class com.jayway.restassured.itest.java.SSLITest2(7cac88b9a28efc05bdc60e585e3291862ffc9da1

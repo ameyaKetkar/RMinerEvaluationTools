@@ -1,0 +1,80 @@
+
+õMove Class org.springframework.data.neo4j.integration.transactions.ApplicationConfig moved to org.springframework.data.neo4j.transactions.ApplicationConfig
+≠Move Class org.springframework.data.neo4j.integration.repositories.ProgrammaticRepositoryTest moved to org.springframework.data.neo4j.repositories.ProgrammaticRepositoryTest
+ëMove Class org.springframework.data.neo4j.integration.extensions.UserRepository moved to org.springframework.data.neo4j.extensions.UserRepository
+°Move Class org.springframework.data.neo4j.integration.template.ExceptionTranslationTest moved to org.springframework.data.neo4j.template.ExceptionTranslationTest
+êMove Class org.springframework.data.neo4j.integration.movies.domain.Rating moved to org.springframework.data.neo4j.examples.movies.domain.Rating
+°Move Class org.springframework.data.neo4j.integration.repositories.repo.MovieRepository moved to org.springframework.data.neo4j.repositories.repo.MovieRepository
+ßMove Class org.springframework.data.neo4j.integration.transactions.TransactionBoundaryTest moved to org.springframework.data.neo4j.transactions.TransactionBoundaryTest
+ÅMove Class org.springframework.data.neo4j.integration.web.domain.Cinema moved to org.springframework.data.neo4j.web.domain.Cinema
+ôMove Class org.springframework.data.neo4j.integration.repositories.RepoScanningTest moved to org.springframework.data.neo4j.repositories.RepoScanningTest
+øMove And Rename Class org.springframework.data.neo4j.integration.helloworld.context.HelloWorldContext moved and renamed to org.springframework.data.neo4j.examples.galaxy.context.GalaxyContext
+©Move Class org.springframework.data.neo4j.integration.repositories.RepositoryDefinitionTest moved to org.springframework.data.neo4j.repositories.RepositoryDefinitionTest
+ûMove Class org.springframework.data.neo4j.integration.movies.repo.ActorRepository moved to org.springframework.data.neo4j.examples.movies.repo.ActorRepository
+∏Move And Rename Class org.springframework.data.neo4j.integration.movies.End2EndIntegrationTest moved and renamed to org.springframework.data.neo4j.examples.movies.MoviesIntegrationTest
+ŒMove Class org.springframework.data.neo4j.integration.movies.domain.queryresult.EntityWrappingQueryResult moved to org.springframework.data.neo4j.examples.movies.domain.queryresult.EntityWrappingQueryResult
+ãMove Class org.springframework.data.neo4j.integration.web.WebIntegrationTest moved to org.springframework.data.neo4j.web.WebIntegrationTest
+êMove Class org.springframework.data.neo4j.integration.movies.domain.Cinema moved to org.springframework.data.neo4j.examples.movies.domain.Cinema
+åMove Class org.springframework.data.neo4j.integration.movies.domain.User moved to org.springframework.data.neo4j.examples.movies.domain.User
+ØMove Class org.springframework.data.neo4j.repository.support.GraphRepositoryFactoryTest moved to org.springframework.data.neo4j.repositories.support.GraphRepositoryFactoryTest
+†Move Class org.springframework.data.neo4j.integration.movies.domain.AbstractEntity moved to org.springframework.data.neo4j.examples.movies.domain.AbstractEntity
+¶Move Class org.springframework.data.neo4j.integration.movies.repo.TempMovieRepository moved to org.springframework.data.neo4j.examples.movies.repo.TempMovieRepository
+úMove Class org.springframework.data.neo4j.integration.helloworld.GalaxyServiceTest moved to org.springframework.data.neo4j.examples.galaxy.GalaxyServiceTest
+üMove Class org.springframework.data.neo4j.integration.repositories.repo.UserRepository moved to org.springframework.data.neo4j.repositories.repo.UserRepository
+∞Move Class org.springframework.data.neo4j.integration.movies.repo.AbstractEntityRepository moved to org.springframework.data.neo4j.examples.movies.repo.AbstractEntityRepository
+©Move Class org.springframework.data.neo4j.integration.template.TemplateApplicationEventTest moved to org.springframework.data.neo4j.template.TemplateApplicationEventTest
+≈Move Class org.springframework.data.neo4j.integration.template.context.DataManipulationEventConfiguration moved to org.springframework.data.neo4j.template.context.DataManipulationEventConfiguration
+éMove Class org.springframework.data.neo4j.integration.movies.DerivedQueryTest moved to org.springframework.data.neo4j.queries.DerivedQueryTest
+®Move Class org.springframework.data.neo4j.integration.movies.domain.queryresult.Gender moved to org.springframework.data.neo4j.examples.movies.domain.queryresult.Gender
+†Move Class org.springframework.data.neo4j.integration.movies.repo.RatingRepository moved to org.springframework.data.neo4j.examples.movies.repo.RatingRepository
+ûMove Class org.springframework.data.neo4j.integration.movies.repo.GenreRepository moved to org.springframework.data.neo4j.examples.movies.repo.GenreRepository
+çMove Class org.springframework.data.neo4j.integration.web.repo.UserRepository moved to org.springframework.data.neo4j.web.repo.UserRepository
+üMove Class org.springframework.data.neo4j.integration.extensions.CustomGraphRepository moved to org.springframework.data.neo4j.extensions.CustomGraphRepository
+ëMove Class org.springframework.data.neo4j.integration.web.context.WebAppContext moved to org.springframework.data.neo4j.web.context.WebAppContext
+éMove Class org.springframework.data.neo4j.integration.movies.domain.Actor moved to org.springframework.data.neo4j.examples.movies.domain.Actor
+¢Move Class org.springframework.data.neo4j.integration.movies.repo.UnmanagedUserPojo moved to org.springframework.data.neo4j.examples.movies.repo.UnmanagedUserPojo
+ëMove Class org.springframework.data.neo4j.integration.repositories.domain.Movie moved to org.springframework.data.neo4j.repositories.domain.Movie
+ãMove Class org.springframework.data.neo4j.integration.extensions.domain.User moved to org.springframework.data.neo4j.extensions.domain.User
+êMove Class org.springframework.data.neo4j.integration.movies.domain.Person moved to org.springframework.data.neo4j.examples.movies.domain.Person
+ûMove Class org.springframework.data.neo4j.integration.movies.domain.ReleasedMovie moved to org.springframework.data.neo4j.examples.movies.domain.ReleasedMovie
+èMove Class org.springframework.data.neo4j.integration.repositories.domain.User moved to org.springframework.data.neo4j.repositories.domain.User
+}Move Class org.springframework.data.neo4j.integration.web.domain.User moved to org.springframework.data.neo4j.web.domain.User
+ºMove And Rename Class org.springframework.data.neo4j.integration.movies.context.PersistenceContext moved and renamed to org.springframework.data.neo4j.examples.movies.context.MoviesContext
+ñMove Class org.springframework.data.neo4j.integration.movies.QueryIntegrationTest moved to org.springframework.data.neo4j.queries.QueryIntegrationTest
+¬Move Class org.springframework.data.neo4j.integration.movies.repo.AbstractAnnotatedEntityRepository moved to org.springframework.data.neo4j.examples.movies.repo.AbstractAnnotatedEntityRepository
+éMove Class org.springframework.data.neo4j.integration.movies.domain.Movie moved to org.springframework.data.neo4j.examples.movies.domain.Movie
+ûMove Class org.springframework.data.neo4j.integration.jsr303.repo.AdultRepository moved to org.springframework.data.neo4j.examples.jsr303.repo.AdultRepository
+«Move Class org.springframework.data.neo4j.integration.repositories.repo.PersistenceContextInTheSamePackage moved to org.springframework.data.neo4j.repositories.repo.PersistenceContextInTheSamePackage
+†Move Class org.springframework.data.neo4j.integration.movies.repo.CinemaRepository moved to org.springframework.data.neo4j.examples.movies.repo.CinemaRepository
+§Move Class org.springframework.data.neo4j.integration.helloworld.service.GalaxyService moved to org.springframework.data.neo4j.examples.galaxy.service.GalaxyService
+™Move Class org.springframework.data.neo4j.integration.jsr303.controller.AdultController moved to org.springframework.data.neo4j.examples.jsr303.controller.AdultController
+ûMove Class org.springframework.data.neo4j.integration.jsr303.service.AdultService moved to org.springframework.data.neo4j.examples.jsr303.service.AdultService
+§Move Class org.springframework.data.neo4j.integration.movies.service.UserServiceImpl moved to org.springframework.data.neo4j.examples.movies.service.UserServiceImpl
+≤Move And Rename Class org.springframework.data.neo4j.integration.jsr303.PersistenceConfiguration moved and renamed to org.springframework.data.neo4j.examples.jsr303.JSR303Context
+úMove Class org.springframework.data.neo4j.integration.movies.repo.UserRepository moved to org.springframework.data.neo4j.examples.movies.repo.UserRepository
+¬Move Class org.springframework.data.neo4j.integration.movies.domain.queryresult.RichUserQueryResult moved to org.springframework.data.neo4j.examples.movies.domain.queryresult.RichUserQueryResult
+≤Move Class org.springframework.data.neo4j.integration.movies.domain.AbstractAnnotatedEntity moved to org.springframework.data.neo4j.examples.movies.domain.AbstractAnnotatedEntity
+úMove Class org.springframework.data.neo4j.integration.movies.service.UserService moved to org.springframework.data.neo4j.examples.movies.service.UserService
+ßMove Class org.springframework.data.neo4j.integration.movies.TransactionIntegrationTest moved to org.springframework.data.neo4j.transactions.TransactionIntegrationTest
+ñMove Class org.springframework.data.neo4j.integration.jsr303.WebConfiguration moved to org.springframework.data.neo4j.examples.jsr303.WebConfiguration
+ßMove Class org.springframework.data.neo4j.integration.extensions.CustomGraphRepositoryTest moved to org.springframework.data.neo4j.extensions.CustomGraphRepositoryTest
+éMove Class org.springframework.data.neo4j.integration.movies.domain.Genre moved to org.springframework.data.neo4j.examples.movies.domain.Genre
+Move Class org.springframework.data.neo4j.integration.web.domain.Genre moved to org.springframework.data.neo4j.web.domain.Genre
+íMove Class org.springframework.data.neo4j.integration.helloworld.domain.World moved to org.springframework.data.neo4j.examples.galaxy.domain.World
+•Move Class org.springframework.data.neo4j.integration.transactions.service.WrapperService moved to org.springframework.data.neo4j.transactions.service.WrapperService
+•Move Class org.springframework.data.neo4j.integration.extensions.CustomPersistenceContext moved to org.springframework.data.neo4j.extensions.CustomPersistenceContext
+∫Move Class org.springframework.data.neo4j.integration.movies.domain.queryresult.UserQueryResult moved to org.springframework.data.neo4j.examples.movies.domain.queryresult.UserQueryResult
+ÃMove Class org.springframework.data.neo4j.integration.movies.domain.queryresult.UserQueryResultInterface moved to org.springframework.data.neo4j.examples.movies.domain.queryresult.UserQueryResultInterface
+ñMove Class org.springframework.data.neo4j.integration.movies.domain.TempMovie moved to org.springframework.data.neo4j.examples.movies.domain.TempMovie
+äMove Class org.springframework.data.neo4j.integration.jsr303.JSR303Test moved to org.springframework.data.neo4j.examples.jsr303.JSR303Test
+éMove Class org.springframework.data.neo4j.integration.jsr303.domain.Adult moved to org.springframework.data.neo4j.examples.jsr303.domain.Adult
+çMove Class org.springframework.data.neo4j.integration.web.service.UserService moved to org.springframework.data.neo4j.web.service.UserService
+ßMove Class org.springframework.data.neo4j.integration.extensions.CustomGraphRepositoryImpl moved to org.springframework.data.neo4j.extensions.CustomGraphRepositoryImpl
+ïMove Class org.springframework.data.neo4j.integration.web.service.UserServiceImpl moved to org.springframework.data.neo4j.web.service.UserServiceImpl
+ßMove Class org.springframework.data.neo4j.integration.transactions.service.BusinessService moved to org.springframework.data.neo4j.transactions.service.BusinessService
+èMove Class org.springframework.data.neo4j.integration.web.repo.GenreRepository moved to org.springframework.data.neo4j.web.repo.GenreRepository
+…Move And Rename Class org.springframework.data.neo4j.integration.repositories.context.PersistenceContext moved and renamed to org.springframework.data.neo4j.repositories.context.RepositoriesTestContext
+ìMove Class org.springframework.data.neo4j.integration.template.Neo4jTemplateTest moved to org.springframework.data.neo4j.template.Neo4jTemplateTest
+°Move Class org.springframework.data.neo4j.integration.web.context.WebPersistenceContext moved to org.springframework.data.neo4j.web.context.WebPersistenceContext
+ôMove Class org.springframework.data.neo4j.integration.web.controller.UserController moved to org.springframework.data.neo4j.web.controller.UserController
+ùMove Class org.springframework.data.neo4j.integration.template.TestNeo4jEventListener moved to org.springframework.data.neo4j.template.TestNeo4jEventListenerœMove Method public getId() : Long from class org.springframework.data.neo4j.integration.helloworld.domain.World to public getId() : Long from class org.springframework.data.neo4j.examples.galaxy.domain.World2(071588a418dbc743e0f7dbfe218cd8a6c0f97421

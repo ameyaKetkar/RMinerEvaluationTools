@@ -1,0 +1,1 @@
+©Extract Method private listSnapshots() : List<File> extracted from public getSnapshotDetails() : Map<String,Pair<Long,Long>> in class org.apache.cassandra.db.Directories2(b70f7ea0ce27b5defa0a7773d448732364e7aee0

@@ -1,0 +1,2 @@
+
+çExtract Method public getTokenForLogging() : String extracted from public toString() : String in class com.zegoggles.smssync.auth.OAuth2Token2(c265bde2ace252bc1e1c65c6af93520e5994edd2

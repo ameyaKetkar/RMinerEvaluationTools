@@ -1,0 +1,6 @@
+
+ÜPull Up Method public getName() : String from class org.broadleafcommerce.openadmin.dto.override.FieldMetadataOverride to public getName() : String from class org.broadleafcommerce.openadmin.dto.override.MetadataOverride
+žExtract Superclass org.broadleafcommerce.openadmin.dto.override.MetadataOverride from class org.broadleafcommerce.openadmin.dto.override.FieldMetadataOverride
+àPull Up Method public getOrder() : Integer from class org.broadleafcommerce.openadmin.dto.override.FieldMetadataOverride to public getOrder() : Integer from class org.broadleafcommerce.openadmin.dto.override.MetadataOverride
+îPull Up Method public setName(name String) : void from class org.broadleafcommerce.openadmin.dto.override.FieldMetadataOverride to public setName(name String) : void from class org.broadleafcommerce.openadmin.dto.override.MetadataOverride
+ôPull Up Method public setOrder(order Integer) : void from class org.broadleafcommerce.openadmin.dto.override.FieldMetadataOverride to public setOrder(order Integer) : void from class org.broadleafcommerce.openadmin.dto.override.MetadataOverride2(abba5d83602c7ae23901bd579ba9fbb7dc36adc0

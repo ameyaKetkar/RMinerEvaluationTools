@@ -1,0 +1,8 @@
+
+¬Move Attribute private LOG_FILE_NAME : String from class org.jetbrains.jps.cmdline.BuildMain to private LOG_FILE_NAME : String from class org.jetbrains.jps.cmdline.LogSetup
+¤Move Method private initLoggers() : void from class org.jetbrains.jps.cmdline.BuildMain to public initLoggers() : void from class org.jetbrains.jps.cmdline.LogSetup
+®Move Attribute private LOG_FILE_MACRO : String from class org.jetbrains.jps.cmdline.BuildMain to private LOG_FILE_MACRO : String from class org.jetbrains.jps.cmdline.LogSetup
+zMove Class org.jetbrains.jps.cmdline.BuildMain.MyLoggerFactory moved to org.jetbrains.jps.cmdline.LogSetup.MyLoggerFactory
+ºMove Attribute private LOG_CONFIG_FILE_NAME : String from class org.jetbrains.jps.cmdline.BuildMain to private LOG_CONFIG_FILE_NAME : String from class org.jetbrains.jps.cmdline.LogSetup
+¼Move Attribute private DEFAULT_LOGGER_CONFIG : String from class org.jetbrains.jps.cmdline.BuildMain to private DEFAULT_LOGGER_CONFIG : String from class org.jetbrains.jps.cmdline.LogSetup
+ÕMove Method private ensureLogConfigExists(logConfig File) : void from class org.jetbrains.jps.cmdline.BuildMain to private ensureLogConfigExists(logConfig File) : void from class org.jetbrains.jps.cmdline.LogSetup2(97811cf971f7ccf6a5fc5e90a491db2f58d49da1

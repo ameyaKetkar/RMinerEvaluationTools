@@ -1,0 +1,1 @@
+ÁMove Attribute private KAFKA_TOPIC : String from class com.spotify.helios.agent.TaskHistoryWriter to public KAFKA_TOPIC : String from class com.spotify.helios.common.descriptors.TaskStatusEvent2(687bda5a3ea1b5daae2764653843d318c77f4590

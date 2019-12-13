@@ -1,0 +1,2 @@
+
+èExtract Method private getShortErrorMessage(methodName String, filePath String, error RequestError) : String extracted from private logError(methodName String, filePath String, error RequestError) : void in class com.jetbrains.lang.dart.analyzer.DartAnalysisServerService2(83b3092c1ee11b70489732f9e69b8e01c2a966f0

@@ -1,0 +1,1 @@
+ðExtract Method protected getFromNearCache(keyData Data, async boolean) : Object extracted from protected getInternal(key K, expiryPolicy ExpiryPolicy, async boolean) : Object in class com.hazelcast.client.cache.impl.AbstractClientCacheProxy2(679d38d4316c16ccba4982d7f3ba13c147a451cb

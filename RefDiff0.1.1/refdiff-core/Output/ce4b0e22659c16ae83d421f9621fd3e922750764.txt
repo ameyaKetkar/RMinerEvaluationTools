@@ -1,0 +1,2 @@
+
+®Extract Method protected renameModels(oldName String, newName String) : void extracted from public rename(newName String) : void in class jetbrains.mps.project.AbstractModule2(ce4b0e22659c16ae83d421f9621fd3e922750764

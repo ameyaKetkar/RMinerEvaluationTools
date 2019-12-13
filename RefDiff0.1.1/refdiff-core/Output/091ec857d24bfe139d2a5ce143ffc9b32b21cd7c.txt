@@ -1,0 +1,6 @@
+
+ÁRename Method public not_update_create_at() : void renamed to public do_not_update_created_at_on_existing_component() : void in class org.sonar.server.computation.step.PersistComponentsStepTest
+lMove Class org.sonar.core.component.SnapshotQueryTest moved to org.sonar.core.component.db.SnapshotQueryTest
+°Rename Class org.sonar.server.computation.step.PersistComponentsStep.PersisComponent renamed to org.sonar.server.computation.step.PersistComponentsStep.PersistComponentExecutor
+dMove Class org.sonar.core.component.SnapshotQuery moved to org.sonar.core.component.db.SnapshotQuery
+àRename Method public fail_to_get_periods_if_not_initialized() : void renamed to public get_periods_throws_illegal_state_exception_if_not_initialized() : void in class org.sonar.server.computation.period.PeriodsHolderImplTest2(091ec857d24bfe139d2a5ce143ffc9b32b21cd7c

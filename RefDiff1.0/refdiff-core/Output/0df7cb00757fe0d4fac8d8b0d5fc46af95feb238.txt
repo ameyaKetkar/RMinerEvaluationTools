@@ -1,0 +1,2 @@
+
+ñExtract Method public findPsiFile(project Project, path String) : PsiFile extracted from private getElementForNavigationTarget(project Project, target PluginNavigationTarget) : PsiElement in class com.jetbrains.lang.dart.resolve.DartResolver2(0df7cb00757fe0d4fac8d8b0d5fc46af95feb238

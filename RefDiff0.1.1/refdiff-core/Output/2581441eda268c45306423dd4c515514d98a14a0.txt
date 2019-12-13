@@ -1,0 +1,2 @@
+
+UMove Class ratpack.jackson.JacksonModule moved to ratpack.jackson.guice.JacksonModule2(2581441eda268c45306423dd4c515514d98a14a0

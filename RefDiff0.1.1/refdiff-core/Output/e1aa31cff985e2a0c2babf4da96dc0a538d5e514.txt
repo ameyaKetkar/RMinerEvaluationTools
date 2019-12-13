@@ -1,0 +1,3 @@
+
+¹Move Method private escapeLiteral(str String) : String from class com.querydsl.jpa.JPQLSerializer to private escapeLiteral(str String) : String from class com.querydsl.jpa.JPQLTemplates
+ÖExtract And Move Method public asLiteral(constant Object) : String extracted from public visitLiteral(constant Object) : void in class com.querydsl.jpa.JPQLSerializer & moved to class com.querydsl.jpa.JPQLTemplates2(e1aa31cff985e2a0c2babf4da96dc0a538d5e514

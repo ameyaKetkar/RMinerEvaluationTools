@@ -1,0 +1,2 @@
+
+šExtract Method private doAppendNode(node SNode) : void extracted from public appendNode(node SNode) : void in class jetbrains.mps.text.impl.TextGenSupportÚExtract And Move Method public hasTextGen(node SNode) : boolean extracted from public appendNode(node SNode) : void in class jetbrains.mps.text.impl.TextGenSupport & moved to class jetbrains.mps.textGen.TextGenRegistry2(797fb7fc1415ac0ebe9a8262677dfa4462ed6cb4

@@ -1,0 +1,3 @@
+
+üExtract Method private allocateBytes(size long) : void extracted from public allocateNew(valueCount int) : void in class org.apache.drill.exec.vector.BitVector
+òExtract Method private allocateBytes(size long) : void extracted from public allocateNewSafe() : boolean in class org.apache.drill.exec.vector.BitVectorêExtract Method private allocateBytes(size long) : void extracted from public allocateNewSafe() : boolean in class org.apache.drill.exec.vector.$2(b2bbd9941be6b132a83d27c0ae02c935e1dec5dd

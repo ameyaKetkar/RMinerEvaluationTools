@@ -1,0 +1,3 @@
+
+sExtract Interface org.apache.drill.exec.ops.OptimizerRulesContext from class org.apache.drill.exec.ops.QueryContext
+çExtract Interface org.apache.drill.exec.expr.fn.FunctionLookupContext from class org.apache.drill.exec.expr.fn.FunctionImplementationRegistry2(f8197cfe1bc3671aa6878ef9d1869b2fe8e57331

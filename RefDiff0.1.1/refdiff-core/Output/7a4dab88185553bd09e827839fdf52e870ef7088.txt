@@ -1,0 +1,3 @@
+
+ÇExtract Method private getDocumentationText(sourceEditorText String) : String extracted from public testImagesInsideJavadocJar() : void in class com.intellij.codeInsight.JavaExternalDocumentationTest
+³Extract Method private getDataFile(name String) : File extracted from private getJarFile(name String) : VirtualFile in class com.intellij.codeInsight.JavaExternalDocumentationTest2(7a4dab88185553bd09e827839fdf52e870ef7088

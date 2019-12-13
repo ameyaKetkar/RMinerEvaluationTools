@@ -1,0 +1,3 @@
+
+»Extract Method private assertExistsAndReturn(content String) : Object extracted from public exists(content String) : void in class org.springframework.test.util.JsonPathExpectationsHelper
+ÏExtract Method private assertExistsAndReturn(content String) : Object extracted from public assertValueIsArray(responseContent String) : void in class org.springframework.test.util.JsonPathExpectationsHelper2(fffdd1e9e9dc887c3e8973147904d47d9fffbb47

@@ -1,0 +1,1 @@
+èExtract Method protected updateSyncDLObject(syncDLObject SyncDLObject) : void extracted from public onAfterUpdate(resourcePermission ResourcePermission) : void in class com.liferay.sync.hook.listeners.ResourcePermissionModelListener2(7c7ecf4cffda166938efd0ae34830e2979c25c73

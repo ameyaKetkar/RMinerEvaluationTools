@@ -1,0 +1,4 @@
+
+|Extract Method private poolInactive() : boolean extracted from public getNumWaiters() : int in class redis.clients.util.Pool
+yExtract Method private poolInactive() : boolean extracted from public getNumIdle() : int in class redis.clients.util.Pool
+{Extract Method private poolInactive() : boolean extracted from public getNumActive() : int in class redis.clients.util.Pool2(d4b4aecbc69bbd04ba87c4e32a52cff3d129906a

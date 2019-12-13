@@ -1,0 +1,2 @@
+
+µExtract Method private doTestMissingClass(tempDir File) : void extracted from public testMissingClass() : void in class com.google.auto.value.processor.AutoAnnotationCompilationTest2(8967e7c33c59e1336e1e3b4671293ced5697fca6

@@ -1,0 +1,5 @@
+
+ßRename Class org.glassfish.jersey.server.internal.scanning.ResourceFinderStackTest renamed to org.glassfish.jersey.server.internal.scanning.CompositeResourceFinderTest
+îExtract Method public close() : void extracted from public hasNext() : boolean in class org.glassfish.jersey.server.internal.scanning.JarFileScanner
+çExtract Method private init() : void extracted from public reset() : void in class org.glassfish.jersey.server.internal.scanning.FilesScanner
+üRename Class org.glassfish.jersey.server.internal.scanning.ResourceFinderStack renamed to org.glassfish.jersey.server.internal.scanning.CompositeResourceFinder≤Extract Method private init() : void extracted from public FilesScanner(fileNames String[], recursive boolean) in class org.glassfish.jersey.server.internal.scanning.FilesScanner2(fab1516773d50bf86d9cc37e2f6db13496f0ecae

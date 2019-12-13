@@ -1,0 +1,27 @@
+
+xMove Class redis.clients.jedis.ScriptingCommandsPipeline moved to redis.clients.jedis.commands.ScriptingCommandsPipeline
+fMove Class redis.clients.jedis.MultiKeyCommands moved to redis.clients.jedis.commands.MultiKeyCommands
+tMove Class redis.clients.jedis.BinaryScriptingCommands moved to redis.clients.jedis.commands.BinaryScriptingCommands
+dMove Class redis.clients.jedis.ClusterCommands moved to redis.clients.jedis.commands.ClusterCommands
+`Move Class redis.clients.jedis.JedisCommands moved to redis.clients.jedis.commands.JedisCommands
+lMove Class redis.clients.jedis.BinaryRedisPipeline moved to redis.clients.jedis.commands.BinaryRedisPipeline
+ŠMove Class redis.clients.jedis.MultiKeyBinaryJedisClusterCommands moved to redis.clients.jedis.commands.MultiKeyBinaryJedisClusterCommands
+„Move Class redis.clients.jedis.BinaryScriptingCommandsPipeline moved to redis.clients.jedis.commands.BinaryScriptingCommandsPipeline
+zMove Class redis.clients.jedis.BinaryJedisClusterCommands moved to redis.clients.jedis.commands.BinaryJedisClusterCommands
+ŒMove Class redis.clients.jedis.JedisClusterBinaryScriptingCommands moved to redis.clients.jedis.commands.JedisClusterBinaryScriptingCommands
+nMove Class redis.clients.jedis.JedisClusterCommands moved to redis.clients.jedis.commands.JedisClusterCommands
+hMove Class redis.clients.jedis.ScriptingCommands moved to redis.clients.jedis.commands.ScriptingCommands
+~Move Class redis.clients.jedis.MultiKeyJedisClusterCommands moved to redis.clients.jedis.commands.MultiKeyJedisClusterCommands
+|Move Class redis.clients.jedis.MultiKeyBinaryRedisPipeline moved to redis.clients.jedis.commands.MultiKeyBinaryRedisPipeline
+dMove Class redis.clients.jedis.ProtocolCommand moved to redis.clients.jedis.commands.ProtocolCommand
+€Move Class redis.clients.jedis.JedisClusterScriptingCommands moved to redis.clients.jedis.commands.JedisClusterScriptingCommands
+`Move Class redis.clients.jedis.BasicCommands moved to redis.clients.jedis.commands.BasicCommands
+pMove Class redis.clients.jedis.AdvancedJedisCommands moved to redis.clients.jedis.commands.AdvancedJedisCommands
+VMove Class redis.clients.jedis.Commands moved to redis.clients.jedis.commands.Commands
+|Move Class redis.clients.jedis.AdvancedBinaryJedisCommands moved to redis.clients.jedis.commands.AdvancedBinaryJedisCommands
+fMove Class redis.clients.jedis.SentinelCommands moved to redis.clients.jedis.commands.SentinelCommands
+dMove Class redis.clients.jedis.ClusterPipeline moved to redis.clients.jedis.commands.ClusterPipeline
+lMove Class redis.clients.jedis.BinaryJedisCommands moved to redis.clients.jedis.commands.BinaryJedisCommands
+jMove Class redis.clients.jedis.BasicRedisPipeline moved to redis.clients.jedis.commands.BasicRedisPipeline
+vMove Class redis.clients.jedis.MultiKeyCommandsPipeline moved to redis.clients.jedis.commands.MultiKeyCommandsPipeline
+rMove Class redis.clients.jedis.MultiKeyBinaryCommands moved to redis.clients.jedis.commands.MultiKeyBinaryCommands2(6c3dde45e8cbd0c1fa73072fad7610275afc6240

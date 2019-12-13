@@ -1,0 +1,2 @@
+
+´Extract Method private showStatus(txt String) : void extracted from private showStatus(realm Realm) : void in class io.realm.examples.realmmigrationexample.MigrationExampleActivityÂExtract Method private showStatus(txt String) : void extracted from protected onCreate(savedInstanceState Bundle) : void in class io.realm.examples.realmmigrationexample.MigrationExampleActivity2(6cf596df183b3c3a38ed5dd9bb3b0100c6548ebb

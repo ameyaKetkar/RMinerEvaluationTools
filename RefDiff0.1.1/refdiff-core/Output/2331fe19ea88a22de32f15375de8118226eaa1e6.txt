@@ -1,0 +1,2 @@
+
+äExtract Method private registerMetricsForModel(resourceModel ResourceModel) : void extracted from public onEvent(event ApplicationEvent) : void in class io.dropwizard.metrics.jersey2.InstrumentedResourceMethodApplicationListener2(2331fe19ea88a22de32f15375de8118226eaa1e6

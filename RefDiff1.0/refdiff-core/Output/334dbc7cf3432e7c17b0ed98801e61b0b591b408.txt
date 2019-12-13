@@ -1,0 +1,2 @@
+
+‰Move Class org.opentripplanner.analyst.cluster.AnalystWorker.WorkerIdDefiner moved to org.opentripplanner.analyst.cluster.WorkerIdDefiner2(334dbc7cf3432e7c17b0ed98801e61b0b591b408

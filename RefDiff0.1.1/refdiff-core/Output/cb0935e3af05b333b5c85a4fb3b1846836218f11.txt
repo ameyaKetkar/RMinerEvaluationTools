@@ -1,0 +1,2 @@
+
+¿Extract Method private storeCamelContextInQuartzContext() : SchedulerContext extracted from private createAndInitScheduler() : void in class org.apache.camel.component.quartz2.QuartzComponent2(cb0935e3af05b333b5c85a4fb3b1846836218f11

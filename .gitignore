@@ -10,5 +10,5 @@ RefactoringMiner-1.0.0/src-test/org/refactoringminer/test/UpdateDb.java
 .idea/**/libraries
 out/
 */.idea/*
-*/build/*
-*/.gradle/*
+.gradle
+/build/

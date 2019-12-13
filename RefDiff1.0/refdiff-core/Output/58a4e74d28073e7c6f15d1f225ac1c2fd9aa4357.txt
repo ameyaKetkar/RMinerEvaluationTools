@@ -1,0 +1,2 @@
+
+ŽExtract Method private millis(temporal Temporal) : long extracted from public from(from Object) : U in class org.jooq.tools.Convert.ConvertAll2(58a4e74d28073e7c6f15d1f225ac1c2fd9aa4357

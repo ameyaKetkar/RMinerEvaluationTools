@@ -1,0 +1,10 @@
+
+ˆMove Class org.elasticsearch.index.merge.policy.ElasticsearchMergePolicy moved to org.elasticsearch.index.shard.ElasticsearchMergePolicy
+€Move Class org.elasticsearch.index.merge.policy.VersionFieldUpgrader moved to org.elasticsearch.index.shard.VersionFieldUpgrader
+ˆMove Class org.elasticsearch.index.merge.policy.VersionFieldUpgraderTest moved to org.elasticsearch.index.shard.VersionFieldUpgraderTest
+†Move Class org.elasticsearch.index.merge.policy.FilterDocValuesProducer moved to org.elasticsearch.index.shard.FilterDocValuesProducer
+óMove Method public formatNoCFSRatio(ratio double) : String from class org.elasticsearch.index.merge.policy.AbstractMergePolicyProvider to public formatNoCFSRatio(ratio double) : String from class org.elasticsearch.index.shard.MergePolicyConfig
+™Move And Rename Class org.elasticsearch.index.merge.policy.TieredMergePolicyProvider moved and renamed to org.elasticsearch.index.shard.MergePolicyConfig
+ûMove Method public parseNoCFSRatio(noCFSRatio String) : double from class org.elasticsearch.index.merge.policy.AbstractMergePolicyProvider to public parseNoCFSRatio(noCFSRatio String) : double from class org.elasticsearch.index.shard.MergePolicyConfig
+‡Move Method public onRefreshSettings(settings Settings) : void from class org.elasticsearch.index.merge.policy.TieredMergePolicyProvider.ApplySettings to public onRefreshSettings(settings Settings) : void from class org.elasticsearch.index.shard.MergePolicyConfig
+†Move Class org.elasticsearch.index.merge.policy.MergePolicySettingsTest moved to org.elasticsearch.index.shard.MergePolicySettingsTest©Rename Method public getMergePolicyProvider() : MergePolicyProvider renamed to public getMergePolicy() : MergePolicy in class org.elasticsearch.index.engine.EngineConfig2(f77804dad35c13d9ff96456e85737883cf7ddd99

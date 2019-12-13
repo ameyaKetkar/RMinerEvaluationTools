@@ -1,0 +1,3 @@
+
+ÅExtract Method private printNotifyBulkInsert(writer JavaWriter, uri UriContract) : void extracted from public write(filer Filer) : void in class net.simonvt.schematic.compiler.ContentProviderWriter
+ÁExtract Method private printNotifyInsert(writer JavaWriter, uri UriContract) : void extracted from public write(filer Filer) : void in class net.simonvt.schematic.compiler.ContentProviderWriter2(c1a9dd63aca8bf488f9a671aa6281538540397f8

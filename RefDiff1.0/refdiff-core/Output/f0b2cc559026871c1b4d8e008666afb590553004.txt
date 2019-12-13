@@ -1,0 +1,2 @@
+
+‘Extract Method private craftIntent(context Context, intentAction String, extras Bundle) : PendingIntent extracted from public getMarkAsReadIntent(context Context, masterSecret MasterSecret) : PendingIntent in class org.thoughtcrime.securesms.notifications.NotificationState2(f0b2cc559026871c1b4d8e008666afb590553004

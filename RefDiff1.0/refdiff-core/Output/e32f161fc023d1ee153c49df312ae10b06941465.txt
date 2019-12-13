@@ -1,0 +1,9 @@
+
+pMove Class org.opentripplanner.analyst.qbroker.BrokerMain moved to org.opentripplanner.analyst.broker.BrokerMain
+tMove Class org.opentripplanner.analyst.qbroker.CircularList moved to org.opentripplanner.analyst.broker.CircularList
+nMove Class org.opentripplanner.analyst.qbroker.QueueType moved to org.opentripplanner.analyst.broker.QueueType
+~Move Class org.opentripplanner.analyst.qbroker.BrokerHttpHandler moved to org.opentripplanner.analyst.broker.BrokerHttpHandler
+bMove Class org.opentripplanner.analyst.qbroker.Job moved to org.opentripplanner.analyst.broker.Job
+nMove Class org.opentripplanner.analyst.qbroker.QueuePath moved to org.opentripplanner.analyst.broker.QueuePath
+dMove Class org.opentripplanner.analyst.qbroker.User moved to org.opentripplanner.analyst.broker.User
+hMove Class org.opentripplanner.analyst.qbroker.Broker moved to org.opentripplanner.analyst.broker.Broker2(e32f161fc023d1ee153c49df312ae10b06941465

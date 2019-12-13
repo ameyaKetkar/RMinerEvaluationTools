@@ -1,0 +1,2 @@
+
+ÍExtract Method private copy(inputStream InputStream, outputFile File) : void extracted from package resourceToFile(context Context, resourceName String) : File in class com.joanzapata.android.iconify.Utils2(eb500cca282e39d01a9882e1d0a83186da6d1a26

@@ -1,0 +1,1 @@
+ŠExtract Method public createExchange(message Message, endpoint Endpoint, keyFormatStrategy KeyFormatStrategy) : Exchange extracted from public createExchange(message Message, endpoint Endpoint) : Exchange in class org.apache.camel.component.sjms.jms.JmsMessageHelper2(ab1d1dd78fe53edb50c4ede447e4ac5a55ee2ac9

@@ -1,0 +1,2 @@
+
+ÄExtract Method protected setMaxHeight(maxHeight int) : void extracted from protected wrapMenuBar(menuBar ToolbarMenuBar) : Widget in class org.rstudio.core.client.widget.ScrollableToolbarPopupMenu2(cb49e436b9d7ee55f2531ebc2ef1863f5c9ba9fe

@@ -1,0 +1,2 @@
+
+ƒExtract Method private throttle(currTimeMillis long) : void extracted from public run() : void in class com.yahoo.ycsb.ClientThread2(0b024834549c53512ef18bce89f60ef9225d4819

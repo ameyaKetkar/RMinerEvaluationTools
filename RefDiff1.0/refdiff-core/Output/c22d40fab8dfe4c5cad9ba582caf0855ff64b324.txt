@@ -1,0 +1,2 @@
+
+ÈExtract Method protected failedSubscribe(s Subscription) : void extracted from public onSubscribe(s Subscription) : void in class co.paralleluniverse.strands.channels.reactivestreams.ChannelSubscriberäExtract Method protected failedSubscribe(s Subscriber<? super T>, t Throwable) : void extracted from public subscribe(s Subscriber<? super T>) : void in class co.paralleluniverse.strands.channels.reactivestreams.ChannelPublisher2(c22d40fab8dfe4c5cad9ba582caf0855ff64b324

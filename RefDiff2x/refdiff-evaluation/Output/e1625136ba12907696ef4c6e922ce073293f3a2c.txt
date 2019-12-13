@@ -1,0 +1,2 @@
+
+˜Extract Method private addAnnotationProcessorOption(compilerArg String, optionsMap Map<String,String>) : void extracted from private getAnnotationProcessorOptionsFromCompilerConfig(compilerConfig Element) : Map<String,String> in class org.jetbrains.idea.maven.project.MavenProject2(e1625136ba12907696ef4c6e922ce073293f3a2c

@@ -1,0 +1,3 @@
+
+ÅMove Class org.springframework.aop.interceptor.AsyncExecutionInterceptor.CompletableFutureDelegate moved to org.springframework.aop.interceptor.AsyncExecutionAspectSupport.CompletableFutureDelegate
+ÖExtract And Move Method protected doSubmit(task Callable<Object>, executor AsyncTaskExecutor, returnType Class<?>) : Object extracted from public invoke(invocation MethodInvocation) : Object in class org.springframework.aop.interceptor.AsyncExecutionInterceptor & moved to class org.springframework.aop.interceptor.AsyncExecutionAspectSupport2(dd4bc630c3de70204081ab196945d6b55ab03beb

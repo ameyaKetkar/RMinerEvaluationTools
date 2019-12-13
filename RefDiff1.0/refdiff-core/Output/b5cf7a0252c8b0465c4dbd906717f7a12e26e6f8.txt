@@ -1,0 +1,4 @@
+
+SMove Class test.testng234.ParentTest moved to test.inheritance.testng234.ParentTest
+kMove Class test.testng234.PolymorphicFailureTest moved to test.inheritance.testng234.PolymorphicFailureTest
+QMove Class test.testng234.ChildTest moved to test.inheritance.testng234.ChildTest2(b5cf7a0252c8b0465c4dbd906717f7a12e26e6f8

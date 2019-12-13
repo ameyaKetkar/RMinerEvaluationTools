@@ -1,0 +1,1 @@
+ÁExtract Method private getConfiguration() : Configuration extracted from package getFileCollection() : FileCollection in class org.gradle.play.plugins.PlayPluginConfigurations.PlayConfiguration2(0e7345a9c10863dca9217ad902b825db50fed01f

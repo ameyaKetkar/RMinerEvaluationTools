@@ -1,0 +1,5 @@
+
+hMove Class com.netflix.genie.server.health.HealthCheck moved to com.netflix.genie.web.health.HealthCheck
+|Move Class com.netflix.genie.server.startup.TestGenieApplication moved to com.netflix.genie.web.startup.TestGenieApplication
+pMove Class com.netflix.genie.server.health.TestHealthCheck moved to com.netflix.genie.web.health.TestHealthCheck
+tMove Class com.netflix.genie.server.startup.GenieApplication moved to com.netflix.genie.web.startup.GenieApplication2(b77de40c0f3dd43a16f2491558594a61682271fc

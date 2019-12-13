@@ -1,0 +1,2 @@
+
+°Extract Method protected toByteArray(image BufferedImage) : byte[] extracted from public takeScreenshot() : byte[] in class io.selendroid.standalone.android.impl.AbstractDevice2(e4a309c160285708f917ea23238573da3b677f7f

@@ -1,0 +1,1 @@
+ÎExtract Method private createConfigurable(ep ConfigurableEP<T>, log boolean) : T extracted from public wrapConfigurable(ep ConfigurableEP<T>) : T in class com.intellij.openapi.options.ex.ConfigurableWrapper2(7dd55014f9840ce03867bb175cf37a4c151dc806

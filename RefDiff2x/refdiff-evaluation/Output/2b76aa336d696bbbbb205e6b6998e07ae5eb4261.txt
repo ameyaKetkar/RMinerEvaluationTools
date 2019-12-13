@@ -1,0 +1,2 @@
+
+qMove Class org.jetbrains.plugins.groovy.util.ResolveProfiler moved to com.intellij.util.profiling.ResolveProfiler‡Move Class org.jetbrains.plugins.groovy.util.ResolveProfiler.ThreadInfo moved to com.intellij.util.profiling.ResolveProfiler.ThreadInfo2(2b76aa336d696bbbbb205e6b6998e07ae5eb4261

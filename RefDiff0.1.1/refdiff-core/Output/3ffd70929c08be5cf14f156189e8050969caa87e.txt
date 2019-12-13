@@ -1,0 +1,2 @@
+
+œExtract Method private isRolloutTimedOut(deploymentGroup DeploymentGroup, client ZooKeeperClient) : boolean extracted from private rollingUpdateAwaitRunning(deploymentGroup DeploymentGroup, host String) : RollingUpdateTaskResult in class com.spotify.helios.master.ZooKeeperMasterModel2(3ffd70929c08be5cf14f156189e8050969caa87e

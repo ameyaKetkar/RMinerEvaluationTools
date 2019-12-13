@@ -1,0 +1,2 @@
+
+åExtract Method public migration(dao Dao, klass Class<?>, add boolean, del boolean, tableName Object) : void extracted from public migration(dao Dao, klass Class<?>, add boolean, del boolean) : void in class org.nutz.dao.util.Daos2(de7efe40dad0f4bb900c4fffa80ed377745532b3

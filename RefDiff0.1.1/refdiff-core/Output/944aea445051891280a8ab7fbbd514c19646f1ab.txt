@@ -1,0 +1,2 @@
+
+ Extract Method protected launchTask(request SingularityRequest, deploy SingularityDeploy, launchTime long, updateTime long, instanceNo int, initialTaskState TaskState) : SingularityTask extracted from protected launchTask(request SingularityRequest, deploy SingularityDeploy, launchTime long, instanceNo int, initialTaskState TaskState) : SingularityTask in class com.hubspot.singularity.SingularitySchedulerTestBase2(944aea445051891280a8ab7fbbd514c19646f1ab

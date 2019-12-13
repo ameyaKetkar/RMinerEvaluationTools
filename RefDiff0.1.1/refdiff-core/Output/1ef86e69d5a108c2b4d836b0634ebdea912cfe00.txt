@@ -1,0 +1,4 @@
+
+‚Move Class org.robovm.compiler.plugin.lambda2.LambdaClassGenerator moved to org.robovm.compiler.plugin.lambda.LambdaClassGenerator
+rMove Class org.robovm.compiler.plugin.lambda2.LambdaPlugin moved to org.robovm.compiler.plugin.lambda.LambdaPlugin
+pMove Class org.robovm.compiler.plugin.lambda2.LambdaClass moved to org.robovm.compiler.plugin.lambda.LambdaClass2(1ef86e69d5a108c2b4d836b0634ebdea912cfe00

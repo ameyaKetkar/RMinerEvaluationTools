@@ -1,0 +1,2 @@
+
+jMove Class com.facebook.buck.java.ReportGenerator moved to com.facebook.buck.java.coverage.ReportGenerator2(84b7b3974ae8171a4de2f804eb94fcd1d6cd6647

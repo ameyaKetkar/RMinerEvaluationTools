@@ -1,0 +1,13 @@
+
+aMove Class com.google.common.truth.ListTest.Bar moved to com.google.common.truth.IterableTest.Bar
+aMove Class com.google.common.truth.ListTest.Foo moved to com.google.common.truth.IterableTest.Foo
+ÛMove And Rename Method public listOrderedByBaseClassComparator() : void from class com.google.common.truth.ListTest to public iterableOrderedByBaseClassComparator() : void from class com.google.common.truth.IterableTest
+ÑMove And Rename Method public listIsOrderedWithComparator() : void from class com.google.common.truth.ListTest to public iterableIsOrderedWithComparator() : void from class com.google.common.truth.IterableTest
+ßMove And Rename Method public listIsOrderedWithComparatorFailure() : void from class com.google.common.truth.ListTest to public iterableIsOrderedWithComparatorFailure() : void from class com.google.common.truth.IterableTest
+ïMove And Rename Method public listIsStrictlyOrderedWithComparatorFailure() : void from class com.google.common.truth.ListTest to public iterableIsStrictlyOrderedWithComparatorFailure() : void from class com.google.common.truth.IterableTest
+¬Move Method public isOrderedFailure() : void from class com.google.common.truth.ListTest to public isOrderedFailure() : void from class com.google.common.truth.IterableTest
+áMove And Rename Method public listIsStrictlyOrderedWithComparator() : void from class com.google.common.truth.ListTest to public iterableIsStrictlyOrderedWithComparator() : void from class com.google.common.truth.IterableTest
+œRename Method public listContainsExactlyArray() : void renamed to public iterableContainsExactlyArray() : void in class com.google.common.truth.IterableTest
+îMove Method public isStrictlyOrderedWithNonComparableElementsFailure() : void from class com.google.common.truth.ListTest to public isStrictlyOrderedWithNonComparableElementsFailure() : void from class com.google.common.truth.IterableTest
+¼Move Method public isStrictlyOrderedFailure() : void from class com.google.common.truth.ListTest to public isStrictlyOrderedFailure() : void from class com.google.common.truth.IterableTest
+ÞMove Method public isOrderedWithNonComparableElementsFailure() : void from class com.google.common.truth.ListTest to public isOrderedWithNonComparableElementsFailure() : void from class com.google.common.truth.IterableTestµMove And Rename Method public listIsOrdered() : void from class com.google.common.truth.ListTest to public iterableIsOrdered() : void from class com.google.common.truth.IterableTestÅMove And Rename Method public listIsStrictlyOrdered() : void from class com.google.common.truth.ListTest to public iterableIsStrictlyOrdered() : void from class com.google.common.truth.IterableTest2(1768840bf1e69892fd2a23776817f620edfed536

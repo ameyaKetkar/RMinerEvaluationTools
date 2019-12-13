@@ -1,0 +1,2 @@
+
+¡Move Method private flipComparison(type ComparisonExpression.Type) : ComparisonExpression.Type from class com.facebook.presto.sql.planner.RelationPlanner to public flipComparison(type ComparisonExpression.Type) : ComparisonExpression.Type from class com.facebook.presto.sql.ExpressionUtils2(cb2deceea993128c22710b0f64f1b755c9d176f7

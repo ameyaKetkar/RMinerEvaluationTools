@@ -1,0 +1,1 @@
+©Extract Method private ensurePreviewUnloaded() : boolean extracted from public onClosed() : void in class org.terasology.rendering.nui.layers.mainMenu.PreviewWorldScreen2(8f63cc5c8edb8e740026447bc4827f8e8e6c34b1

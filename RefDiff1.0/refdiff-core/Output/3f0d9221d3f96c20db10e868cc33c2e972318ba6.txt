@@ -1,0 +1,2 @@
+
+ÚExtract Method public createNewWrapperCurrent(batchRecordCount int) : SelectionVector4 extracted from public createNewWrapperCurrent() : SelectionVector4 in class org.apache.drill.exec.record.selection.SelectionVector42(3f0d9221d3f96c20db10e868cc33c2e972318ba6

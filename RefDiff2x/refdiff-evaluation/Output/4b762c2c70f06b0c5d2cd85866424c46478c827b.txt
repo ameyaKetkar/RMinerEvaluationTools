@@ -1,0 +1,2 @@
+
+úExtract And Move Method public onStatusMessage(termId int, termOffset int, receiverWindowLength int, srcAddress InetSocketAddress) : void extracted from private onStatusMessage(statusMsg StatusMessageFlyweight, srcAddress InetSocketAddress) : void in class uk.co.real_logic.aeron.driver.media.SendChannelEndpoint & moved to class uk.co.real_logic.aeron.driver.NetworkPublication2(4b762c2c70f06b0c5d2cd85866424c46478c827b

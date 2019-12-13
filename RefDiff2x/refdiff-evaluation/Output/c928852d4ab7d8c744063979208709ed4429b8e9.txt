@@ -1,0 +1,3 @@
+
+ÉRename Method public parse(parseContext QueryParseContext) : Query renamed to public fromXContent(parseContext QueryParseContext) : QueryBuilder in class org.elasticsearch.index.query.ExistsQueryParser
+ÅMove Method public newFilter(parseContext QueryParseContext, fieldPattern String, queryName String) : Query from class org.elasticsearch.index.query.ExistsQueryParser to public newFilter(parseContext QueryParseContext, fieldPattern String, queryName String) : Query from class org.elasticsearch.index.query.ExistsQueryBuilder2(c928852d4ab7d8c744063979208709ed4429b8e9

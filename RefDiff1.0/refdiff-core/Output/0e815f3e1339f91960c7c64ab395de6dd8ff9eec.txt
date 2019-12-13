@@ -1,0 +1,3 @@
+
+ÜMove Method private getMultipleObjectFactoryLogMessage() : String from class cucumber.runtime.java.JavaBackend to private getMultipleObjectFactoryLogMessage() : String from class cucumber.runtime.java.ObjectFactoryLoader
+WMove Class cucumber.runtime.java.ObjectFactory moved to cucumber.api.java.ObjectFactory“Move Method public loadObjectFactory(classFinder ClassFinder) : ObjectFactory from class cucumber.runtime.java.JavaBackend to public loadObjectFactory(classFinder ClassFinder, objectFactoryClassName String) : ObjectFactory from class cucumber.runtime.java.ObjectFactoryLoader2(0e815f3e1339f91960c7c64ab395de6dd8ff9eec

@@ -1,0 +1,2 @@
+
+\Inline Method private makeFdPair() : void inlined to public Signaler() in class zmq.Signaler2(02d3fa171d02c9d82c7bdcaeb739f47d0c0006a0

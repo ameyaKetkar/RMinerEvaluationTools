@@ -1,0 +1,4 @@
+
+¤Move Method private initLoggers() : void from class org.jetbrains.jps.cmdline.BuildMain to public initLoggers() : void from class org.jetbrains.jps.cmdline.LogSetup
+zMove Class org.jetbrains.jps.cmdline.BuildMain.MyLoggerFactory moved to org.jetbrains.jps.cmdline.LogSetup.MyLoggerFactory
+ÕMove Method private ensureLogConfigExists(logConfig File) : void from class org.jetbrains.jps.cmdline.BuildMain to private ensureLogConfigExists(logConfig File) : void from class org.jetbrains.jps.cmdline.LogSetup2(97811cf971f7ccf6a5fc5e90a491db2f58d49da1

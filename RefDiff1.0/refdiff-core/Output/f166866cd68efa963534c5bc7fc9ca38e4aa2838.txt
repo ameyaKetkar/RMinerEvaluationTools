@@ -1,0 +1,2 @@
+
+¸Inline Method public is24HourFormatLocale(context Context) : boolean inlined to public is24HourFormat(context Context, userHandle int) : boolean in class android.text.format.DateFormat2(f166866cd68efa963534c5bc7fc9ca38e4aa2838

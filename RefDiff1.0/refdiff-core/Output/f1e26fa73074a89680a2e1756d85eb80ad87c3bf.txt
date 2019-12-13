@@ -1,0 +1,15 @@
+
+tMove Class com.hazelcast.query.Predicates.RegexPredicate moved to com.hazelcast.query.impl.predicates.RegexPredicate
+nMove Class com.hazelcast.query.Predicates.OrPredicate moved to com.hazelcast.query.impl.predicates.OrPredicate
+tMove Class com.hazelcast.query.Predicates.EqualPredicate moved to com.hazelcast.query.impl.predicates.EqualPredicate
+~Move Class com.hazelcast.query.Predicates.InstanceOfPredicate moved to com.hazelcast.query.impl.predicates.InstanceOfPredicate
+pMove Class com.hazelcast.query.Predicates.NotPredicate moved to com.hazelcast.query.impl.predicates.NotPredicate
+€Move Class com.hazelcast.query.Predicates.GreaterLessPredicate moved to com.hazelcast.query.impl.predicates.GreaterLessPredicate
+‚Move Method private readAttribute(entry Map.Entry, attribute String) : Comparable from class com.hazelcast.query.Predicates to package readAttribute(entry Map.Entry, attribute String) : Comparable from class com.hazelcast.query.impl.predicates.AttributeUtils
+pMove Class com.hazelcast.query.Predicates.AndPredicate moved to com.hazelcast.query.impl.predicates.AndPredicate
+rMove Class com.hazelcast.query.Predicates.LikePredicate moved to com.hazelcast.query.impl.predicates.LikePredicate
+xMove Class com.hazelcast.query.Predicates.BetweenPredicate moved to com.hazelcast.query.impl.predicates.BetweenPredicate
+nMove Class com.hazelcast.query.Predicates.InPredicate moved to com.hazelcast.query.impl.predicates.InPredicate
+zMove Class com.hazelcast.query.Predicates.AbstractPredicate moved to com.hazelcast.query.impl.predicates.AbstractPredicate
+zMove Class com.hazelcast.query.Predicates.NotEqualPredicate moved to com.hazelcast.query.impl.predicates.NotEqualPredicate
+tMove Class com.hazelcast.query.Predicates.ILikePredicate moved to com.hazelcast.query.impl.predicates.ILikePredicate2(f1e26fa73074a89680a2e1756d85eb80ad87c3bf

@@ -1,0 +1,9 @@
+
+íPush Down Method public setTasks(taskNames List<String>) : void from class org.gradle.testkit.functional.GradleRunner to public setTasks(taskNames List<String>) : void from class org.gradle.testkit.functional.internal.DefaultGradleRunner
+ÙPush Down Method public getGradleUserHomeDir() : File from class org.gradle.testkit.functional.GradleRunner to public getGradleUserHomeDir() : File from class org.gradle.testkit.functional.internal.DefaultGradleRunner
+ÑPush Down Method public getTasks() : List<String> from class org.gradle.testkit.functional.GradleRunner to public getTasks() : List<String> from class org.gradle.testkit.functional.internal.DefaultGradleRunner
+ËPush Down Method public getWorkingDir() : File from class org.gradle.testkit.functional.GradleRunner to public getWorkingDir() : File from class org.gradle.testkit.functional.internal.DefaultGradleRunner
+õPush Down Method public setWorkingDir(workingDirectory File) : void from class org.gradle.testkit.functional.GradleRunner to public setWorkingDir(workingDirectory File) : void from class org.gradle.testkit.functional.internal.DefaultGradleRunner
+…Push Down Method public setGradleUserHomeDir(gradleUserHomeDir File) : void from class org.gradle.testkit.functional.GradleRunner to public setGradleUserHomeDir(gradleUserHomeDir File) : void from class org.gradle.testkit.functional.internal.DefaultGradleRunner
+õPush Down Method public setArguments(arguments List<String>) : void from class org.gradle.testkit.functional.GradleRunner to public setArguments(arguments List<String>) : void from class org.gradle.testkit.functional.internal.DefaultGradleRunner
+ÙPush Down Method public getArguments() : List<String> from class org.gradle.testkit.functional.GradleRunner to public getArguments() : List<String> from class org.gradle.testkit.functional.internal.DefaultGradleRunner2(b1fb1192daa1647b0bd525600dd41063765eca70

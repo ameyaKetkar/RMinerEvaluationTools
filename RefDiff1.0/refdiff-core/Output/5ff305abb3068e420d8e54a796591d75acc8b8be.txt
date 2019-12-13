@@ -1,0 +1,3 @@
+
+oExtract Interface org.sonar.api.utils.ProjectTempFolder from class org.sonar.api.utils.internal.JUnitTempFolder
+qExtract Interface org.sonar.api.utils.ProjectTempFolder from class org.sonar.api.utils.internal.DefaultTempFolder2(5ff305abb3068e420d8e54a796591d75acc8b8be

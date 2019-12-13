@@ -1,0 +1,2 @@
+
+öExtract Method private unionTester(ws Schema, rs Schema, record GenericData.Record) : ResultPair extracted from private unionTester(s Schema, record GenericData.Record) : ResultPair in class org.apache.hadoop.hive.serde2.avro.TestAvroDeserializer2(7eb3567e7880511b76b8b65e8eb7d373927f2fb6

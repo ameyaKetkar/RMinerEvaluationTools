@@ -1,0 +1,3 @@
+
+çExtract Method private checkRemap() : void extracted from public getLine() : int in class com.intellij.debugger.engine.RemappedSourcePosition
+èExtract Method private checkRemap() : void extracted from public getOffset() : int in class com.intellij.debugger.engine.RemappedSourcePosition2(7655200f58293e5a30bf8b3cbb29ebadae374564

@@ -1,0 +1,6 @@
+
+¢Move Class org.docx4j.schemas.microsoft.com.office.word_2006.wordml.CTVbaSuppData moved to org.docx4j.com.microsoft.schemas.office.word.x2006.wordml.CTVbaSuppData
+žMove Class org.docx4j.schemas.microsoft.com.office.word_2006.wordml.CTDocEvents moved to org.docx4j.com.microsoft.schemas.office.word.x2006.wordml.CTDocEvents
+’Move Class org.docx4j.schemas.microsoft.com.office.word_2006.wordml.CTMcd moved to org.docx4j.com.microsoft.schemas.office.word.x2006.wordml.CTMcd
+”Move Class org.docx4j.schemas.microsoft.com.office.word_2006.wordml.CTMcds moved to org.docx4j.com.microsoft.schemas.office.word.x2006.wordml.CTMcds
+¢Move Class org.docx4j.schemas.microsoft.com.office.word_2006.wordml.ObjectFactory moved to org.docx4j.com.microsoft.schemas.office.word.x2006.wordml.ObjectFactory2(1ba361438ab4d7f6a0305428ba40ba62e2e6ff3c

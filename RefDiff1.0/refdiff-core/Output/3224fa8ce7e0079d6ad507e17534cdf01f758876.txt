@@ -1,0 +1,2 @@
+
+¥Inline Method private processTypeHintForNestedDocuments(source Object, info TypeInformation<?>) : TypeInformation<?> inlined to private getTypeHintForEntity(source Object, entity MongoPersistentEntity<?>) : TypeInformation<?> in class org.springframework.data.mongodb.core.convert.UpdateMapper2(3224fa8ce7e0079d6ad507e17534cdf01f758876

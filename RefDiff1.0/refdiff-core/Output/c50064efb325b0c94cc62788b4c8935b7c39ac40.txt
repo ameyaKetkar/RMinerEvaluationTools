@@ -1,0 +1,2 @@
+
+¥Extract Method private getOptimizer(oa OptimizationAlgorithm, conf NeuralNetConfiguration, m Model) : ConvexOptimizer extracted from public testSphereFnOptHelper(oa OptimizationAlgorithm, numLineSearchIter int, nDimensions int) : void in class org.deeplearning4j.optimize.solver.TestOptimizers2(c50064efb325b0c94cc62788b4c8935b7c39ac40

@@ -1,0 +1,3 @@
+
+½Rename Method public configDeploymentGroups(name String) : String renamed to public configDeploymentGroup(name String) : String in class com.spotify.helios.servicescommon.coordination.Paths
+àExtract Method private getDeploymentGroup(client ZooKeeperClient, name String) : DeploymentGroup extracted from public getDeploymentGroup(name String) : DeploymentGroup in class com.spotify.helios.master.ZooKeeperMasterModel2(dd8753cfb0f67db4dde6c5254e2df3104b635dae

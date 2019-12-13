@@ -1,0 +1,3 @@
+
+ºRename Method package spewInternal() : void renamed to package sendCachedDataOnNetworkThread() : void in class com.koushikdutta.async.http.cache.ResponseCacheMiddleware.CachedBodyEmitter
+˜Extract Method private terminate() : void extracted from protected report(e Exception) : void in class com.koushikdutta.async.http.AsyncHttpResponseImpl£Rename Method package spew() : void renamed to package sendCachedData() : void in class com.koushikdutta.async.http.cache.ResponseCacheMiddleware.CachedBodyEmitter2(1bc7905b07821f840068089343e6b77a8686d1ab

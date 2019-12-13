@@ -1,0 +1,2 @@
+
+¡Extract Method public from(dao Dao, obj Object, filter FieldFilter, ignoreNull boolean, ignoreZero boolean, ignoreDate boolean, ignoreId boolean, ignoreName boolean, ignorePk boolean) : Cnd extracted from public from(dao Dao, obj Object, filter FieldFilter) : Cnd in class org.nutz.dao.Cnd2(6599c748ef35d38085703cf3bd41b9b5b6af5f32

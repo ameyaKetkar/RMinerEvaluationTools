@@ -1,0 +1,4 @@
+
+¨Rename Method public getInvocationOffest() : int renamed to public getInvocationOffset() : int in class melnorme.lang.ide.ui.editor.actions.AbstractOpenElementOperation
+«Extract Method public contains(otherOffset int) : boolean extracted from public inclusiveContains(otherOffset int) : boolean in class melnorme.lang.tooling.ast.SourceRange
+¯Extract Method public contains(other SourceRange) : boolean extracted from public inclusiveContains(other SourceRange) : boolean in class melnorme.lang.tooling.ast.SourceRange2(851ab757698304e9d8d4ae24ab75be619ddae31a

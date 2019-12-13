@@ -1,0 +1,34 @@
+
+dMove Class com.facebook.samples.switchuser.MainActivity moved to com.example.switchuser.MainActivity
+\Move Class com.facebook.samples.rps.OpenGraphConsts moved to com.example.rps.OpenGraphConsts
+jMove Class com.facebook.samples.switchuser.ProfileFragment moved to com.example.switchuser.ProfileFragment
+ÞExtract Method private getAndroidIdViaReflection(context Context) : AttributionIdentifiers extracted from private getAndroidId(context Context) : AttributionIdentifiers in class com.facebook.internal.AttributionIdentifiers
+\Move Class com.facebook.samples.rps.ContentFragment moved to com.example.rps.ContentFragment
+XMove Class com.facebook.iconicus.MainActivity moved to com.example.iconicus.MainActivity
+‚Move Class com.facebook.scrumptious.picker.GraphObjectPagingLoader moved to com.example.scrumptious.picker.GraphObjectPagingLoader
+XMove Class com.facebook.samples.rps.CommonObjects moved to com.example.rps.CommonObjects
+ˆMove Class com.facebook.scrumptious.usersettings.UserSettingsFragment moved to com.example.scrumptious.usersettings.UserSettingsFragment
+ˆMove Class com.facebook.samples.hellofacebook.HelloFacebookSampleActivity moved to com.example.hellofacebook.HelloFacebookSampleActivity
+bMove Class com.facebook.scrumptious.PickerActivity moved to com.example.scrumptious.PickerActivity
+xMove Class com.facebook.scrumptious.picker.GraphObjectAdapter moved to com.example.scrumptious.picker.GraphObjectAdapter
+TMove Class com.facebook.samples.switchuser.Slot moved to com.example.switchuser.Slot
+RMove Class com.facebook.iconicus.GameBoard moved to com.example.iconicus.GameBoard
+VMove Class com.facebook.samples.rps.MainActivity moved to com.example.rps.MainActivity
+TMove Class com.facebook.samples.rps.RpsFragment moved to com.example.rps.RpsFragment
+^Move Class com.facebook.scrumptious.FullListView moved to com.example.scrumptious.FullListView
+hMove Class com.facebook.scrumptious.SelectionFragment moved to com.example.scrumptious.SelectionFragment
+zMove Class com.facebook.scrumptious.picker.PlacePickerFragment moved to com.example.scrumptious.picker.PlacePickerFragment
+|Move Class com.facebook.scrumptious.picker.FriendPickerFragment moved to com.example.scrumptious.picker.FriendPickerFragment
+VMove Class com.facebook.samples.rps.RpsGameUtils moved to com.example.rps.RpsGameUtils
+\Move Class com.facebook.samples.switchuser.UserInfo moved to com.example.switchuser.UserInfo
+ŽMove Class com.facebook.samples.hellofacebook.HelloFacebookBroadcastReceiver moved to com.example.hellofacebook.HelloFacebookBroadcastReceiver
+\Move Class com.facebook.iconicus.GameController moved to com.example.iconicus.GameController
+^Move Class com.facebook.scrumptious.MainActivity moved to com.example.scrumptious.MainActivity
+vMove Class com.facebook.scrumptious.picker.GraphObjectCursor moved to com.example.scrumptious.picker.GraphObjectCursor
+€Move Class com.facebook.samples.rps.usersettings.UserSettingsFragment moved to com.example.rps.usersettings.UserSettingsFragment
+rMove Class com.facebook.scrumptious.ScrumptiousApplication moved to com.example.scrumptious.ScrumptiousApplication
+pMove Class com.facebook.scrumptious.picker.PickerFragment moved to com.example.scrumptious.picker.PickerFragment
+fMove Class com.facebook.samples.switchuser.UserInfoCache moved to com.example.switchuser.UserInfoCache
+dMove Class com.facebook.scrumptious.BaseListElement moved to com.example.scrumptious.BaseListElement
+lMove Class com.facebook.samples.switchuser.SettingsFragment moved to com.example.switchuser.SettingsFragment
+bMove Class com.facebook.scrumptious.SplashFragment moved to com.example.scrumptious.SplashFragmentÛExtract Method private getAndroidIdViaService(context Context) : AttributionIdentifiers extracted from private getAndroidId(context Context) : AttributionIdentifiers in class com.facebook.internal.AttributionIdentifiers2(e813a0be86c87366157a0201e6c61662cadee586

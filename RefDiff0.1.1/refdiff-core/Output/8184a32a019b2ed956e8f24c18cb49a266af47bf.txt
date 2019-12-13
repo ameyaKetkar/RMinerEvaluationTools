@@ -1,0 +1,3 @@
+
+ÔExtract Method private generateSingleCopyFilesBuildPhase(target PBXNativeTarget, destinationSpec CopyFilePhaseDestinationSpec, targetNodes Iterable<TargetNode<?>>) : void extracted from private generateCopyFilesBuildPhases(target PBXNativeTarget, copiedNodes Iterable<TargetNode<?>>) : void in class com.facebook.buck.apple.ProjectGenerator
+ˆRename Method private getDestination(targetNode TargetNode<?>) : Optional<PBXCopyFilesBuildPhase.Destination> renamed to private getDestinationSpec(targetNode TargetNode<?>) : Optional<CopyFilePhaseDestinationSpec> in class com.facebook.buck.apple.ProjectGenerator2(8184a32a019b2ed956e8f24c18cb49a266af47bf

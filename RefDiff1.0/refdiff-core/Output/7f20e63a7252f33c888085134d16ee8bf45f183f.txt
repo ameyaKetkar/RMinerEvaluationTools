@@ -1,0 +1,41 @@
+
+fExtract Superclass org.mockito.MockitoMatcher from class org.mockito.internal.matchers.EqualsWithDelta
+[Extract Superclass org.mockito.MockitoMatcher from class org.mockito.internal.matchers.Same
+lExtract Superclass org.mockito.MockitoMatcher from class org.mockitousage.matchers.CustomMatchersTest.IsSorZ
+ïRename Method public describeTo(description Description) : void renamed to public describe() : String in class org.mockito.internal.matchers.Contains
+ïRename Method public describeTo(description Description) : void renamed to public describe() : String in class org.mockito.internal.matchers.EndsWith
+rExtract Superclass org.mockito.MockitoMatcher from class org.mockitousage.matchers.CustomMatchersTest.IsAnyBoolean
+tMove Class org.mockito.internal.matchers.MatchersPrinter moved to org.mockito.internal.matchers.text.MatchersPrinter
+uExtract Superclass org.mockito.MockitoMatcher from class org.mockito.internal.matchers.apachecommons.ReflectionEquals
+ëRename Method public describeTo(description Description) : void renamed to public describe() : String in class org.mockito.internal.matchers.Find
+YExtract Superclass org.mockito.MockitoMatcher from class org.mockito.internal.matchers.Or
+gExtract Superclass org.mockito.MockitoMatcher from class org.mockito.internal.matchers.LocalizedMatcher
+qExtract Superclass org.mockito.MockitoMatcher from class org.mockitousage.matchers.CustomMatchersTest.ContainsFoo
+mExtract Superclass org.mockito.MockitoMatcher from class org.mockito.internal.matchers.VarargCapturingMatcher
+`Extract Superclass org.mockito.MockitoMatcher from class org.mockito.internal.matchers.AnyVararg
+aExtract Superclass org.mockito.MockitoMatcher from class org.mockito.internal.matchers.StartsWith
+ñRename Method public describeTo(description Description) : void renamed to public describe() : String in class org.mockito.internal.matchers.CompareTo
+uMove Class org.mockito.internal.util.text.HamcrestPrinter moved to org.mockito.internal.matchers.text.HamcrestPrinter
+´Rename Method public describeTo(description Description) : void renamed to public describe() : String in class org.mockito.internal.matchers.apachecommons.ReflectionEquals
+aExtract Superclass org.mockito.MockitoMatcher from class org.mockito.internal.matchers.InstanceOf
+[Extract Superclass org.mockito.MockitoMatcher from class org.mockito.internal.matchers.Find
+ZExtract Superclass org.mockito.MockitoMatcher from class org.mockito.internal.matchers.Not
+]Extract Superclass org.mockito.MockitoMatcher from class org.mockito.internal.matchers.Equals
+ZExtract Superclass org.mockito.MockitoMatcher from class org.mockito.internal.matchers.And
+òRename Method public describeTo(description Description) : void renamed to public describe() : String in class org.mockito.internal.matchers.ArrayEquals
+óRename Method public describeTo(description Description) : void renamed to public describe() : String in class org.mockito.internal.matchers.StartsWith
+îRename Method public describeTo(description Description) : void renamed to public describe() : String in class org.mockito.internal.matchers.Matches
+qExtract Superclass org.mockito.MockitoMatcher from class org.mockitousage.matchers.CustomMatchersTest.IsZeroOrOne
+{Extract Superclass org.mockito.MockitoMatcher from class org.mockitousage.matchers.CustomMatchersTest.StringThatContainsXxx
+qMove Class org.mockito.internal.util.text.ArrayIterator moved to org.mockito.internal.matchers.text.ArrayIterator
+ZExtract Superclass org.mockito.MockitoMatcher from class org.mockito.internal.matchers.Any
+`Extract Superclass org.mockito.MockitoMatcher from class org.mockito.internal.matchers.CompareTo
+_Extract Superclass org.mockito.MockitoMatcher from class org.mockito.internal.matchers.EndsWith
+[Extract Superclass org.mockito.MockitoMatcher from class org.mockito.internal.matchers.Null
+^Extract Superclass org.mockito.MockitoMatcher from class org.mockito.internal.matchers.Matches
+óRename Method public describeTo(description Description) : void renamed to public describe() : String in class org.mockito.internal.matchers.InstanceOf
+gExtract Superclass org.mockito.MockitoMatcher from class org.mockito.internal.matchers.CapturingMatcher
+_Extract Superclass org.mockito.MockitoMatcher from class org.mockito.internal.matchers.Contains
+^Extract Superclass org.mockito.MockitoMatcher from class org.mockito.internal.matchers.NotNull
+úRename Method public describeTo(description Description) : void renamed to public describe() : String in class org.mockito.internal.matchers.EqualsWithDelta
+oMove Class org.mockito.internal.util.text.ValuePrinter moved to org.mockito.internal.matchers.text.ValuePrinterrExtract Superclass org.mockito.MockitoMatcher from class org.mockitousage.matchers.CustomMatcherDoesYieldCCETest$1gExtract Superclass org.mockito.MockitoMatcher from class org.mockitousage.matchers.CustomMatchersTest$1bExtract Superclass org.mockito.MockitoMatcher from class org.mockito.internal.matchers.ArrayEqualsùRename Method public describeTo(description Description) : void renamed to public describe() : String in class org.mockito.internal.matchers.LocalizedMatcherìRename Method public describeTo(description Description) : void renamed to public describe() : String in class org.mockito.internal.matchers.EqualsîRename Method public describeTo(description Description) : void renamed to public describe() : String in class org.mockito.internal.matchers.NotNullêRename Method public describeTo(description Description) : void renamed to public describe() : String in class org.mockito.internal.matchers.AndêRename Method public describeTo(description Description) : void renamed to public describe() : String in class org.mockito.internal.matchers.Not£Rename Method public describeTo(description Description) : void renamed to public describe() : String in class org.mockito.internal.matchers.VarargCapturingMatcherùRename Method public describeTo(description Description) : void renamed to public describe() : String in class org.mockito.internal.matchers.CapturingMatcherèRename Method public describeTo(description Description) : void renamed to public describe() : String in class org.mockito.internal.matchers.OrêRename Method public describeTo(description Description) : void renamed to public describe() : String in class org.mockito.internal.matchers.AnyëRename Method public describeTo(description Description) : void renamed to public describe() : String in class org.mockito.internal.matchers.Null2(7f20e63a7252f33c888085134d16ee8bf45f183f

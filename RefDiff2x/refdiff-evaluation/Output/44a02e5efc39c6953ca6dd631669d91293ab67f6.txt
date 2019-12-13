@@ -1,0 +1,12 @@
+
+€Move Class org.hibernate.test.bytecode.enhancement.entity.Country moved to org.hibernate.test.bytecode.enhancement.dirty.Country
+“Move Method private decompileDumpedClass(className String) : void from class org.hibernate.test.bytecode.enhancement.EnhancerTestUtils to public decompileDumpedClass(workingDir String, className String) : void from class org.hibernate.test.bytecode.enhancement.DecompileUtils
+‹Move Class org.hibernate.test.bytecode.enhancement.entity.customer.Group moved to org.hibernate.test.bytecode.enhancement.association.Group
+¬Move And Rename Class org.hibernate.test.bytecode.enhancement.MostBasicEnhancementTest moved and renamed to org.hibernate.test.bytecode.enhancement.basic.BasicInSessionTest
+žMove And Rename Class org.hibernate.test.bytecode.enhancement.entity.SubEntity moved and renamed to org.hibernate.test.bytecode.enhancement.basic.SimpleEntity
+ŠMove Class org.hibernate.test.bytecode.enhancement.entity.SimpleEntity moved to org.hibernate.test.bytecode.enhancement.dirty.SimpleEntity
+‰Move Class org.hibernate.test.bytecode.enhancement.entity.customer.User moved to org.hibernate.test.bytecode.enhancement.association.User
+€Move Class org.hibernate.test.bytecode.enhancement.entity.Address moved to org.hibernate.test.bytecode.enhancement.dirty.Address
+‚Move Class org.hibernate.test.bytecode.enhancement.entity.MyEntity moved to org.hibernate.test.bytecode.enhancement.basic.MyEntity
+£Move Class org.hibernate.test.bytecode.enhancement.entity.customer.CustomerInventory moved to org.hibernate.test.bytecode.enhancement.association.CustomerInventory
+‘Move Class org.hibernate.test.bytecode.enhancement.entity.customer.Customer moved to org.hibernate.test.bytecode.enhancement.association.Customer×Move And Rename Class org.hibernate.test.bytecode.enhancement.EnhancerTestUtils.LocalPersistentAttributeInterceptor moved and renamed to org.hibernate.test.bytecode.enhancement.basic.ObjectAttributeMarkerInterceptor2(44a02e5efc39c6953ca6dd631669d91293ab67f6

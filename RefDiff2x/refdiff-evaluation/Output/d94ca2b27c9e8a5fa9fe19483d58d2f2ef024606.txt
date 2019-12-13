@@ -1,0 +1,4 @@
+
+vMove Class org.glassfish.jersey.client.HttpUrlConnector moved to org.glassfish.jersey.client.internal.HttpUrlConnector
+ÚExtract Method protected secureConnection(client Client, uc HttpURLConnection) : void extracted from private _apply(request ClientRequest) : ClientResponse in class org.glassfish.jersey.client.internal.HttpUrlConnector
+ÉExtract Method protected createHttpUrlConnector(client Client, connectionFactory ConnectionFactory, chunkSize int, fixLengthStreaming boolean, setMethodWorkaround boolean) : Connector extracted from public getConnector(client Client, config Configuration) : Connector in class org.glassfish.jersey.client.HttpUrlConnectorProvider2(d94ca2b27c9e8a5fa9fe19483d58d2f2ef024606

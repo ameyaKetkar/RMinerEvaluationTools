@@ -1,0 +1,2 @@
+
+‰Extract Method private closeOpenStatements() : void extracted from public close() : void in class com.zaxxer.hikari.proxy.ConnectionProxy2(e19c6874431dc2c3046436c2ac249a0ab2ef3457

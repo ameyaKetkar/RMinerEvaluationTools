@@ -1,0 +1,1 @@
+­Inline Method public setCheckBoxRight(right boolean) : void inlined to public CheckBox(text String, style CheckBoxStyle) in class com.badlogic.gdx.scenes.scene2d.ui.CheckBox2(2bd1557bc293cb8c2348374771aad832befbe26f

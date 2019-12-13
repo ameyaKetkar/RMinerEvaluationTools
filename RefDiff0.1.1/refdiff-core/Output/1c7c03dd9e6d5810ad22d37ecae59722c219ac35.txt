@@ -1,0 +1,15 @@
+
+dRename Class com.facebook.buck.cli.AdbOptions renamed to com.facebook.buck.cli.AdbCommandLineOptions
+YMove Class com.facebook.buck.cli.TestDevice moved to com.facebook.buck.android.TestDevice
+gMove Class com.facebook.buck.cli.StartActivityEvent moved to com.facebook.buck.event.StartActivityEvent
+gMove Class com.facebook.buck.cli.UninstallEventTest moved to com.facebook.buck.event.UninstallEventTest
+óRename Method public shouldReturnAnAbsentOptionalIfNoTargetDeviceOptionsSet() : void renamed to public shouldReturnAnAbsentOptionalIfNoTargetDeviceCommandLineOptionsSet() : void in class com.facebook.buck.cli.TargetDeviceCommandLineOptionsTest
+cMove Class com.facebook.buck.cli.InstallEventTest moved to com.facebook.buck.event.InstallEventTest
+¬Move Method public getAdbThreadCount() : int from class com.facebook.buck.cli.AdbOptions to public getAdbThreadCount() : int from class com.facebook.buck.android.AdbOptions
+~Rename Class com.facebook.buck.cli.TargetDeviceOptionsTest renamed to com.facebook.buck.cli.TargetDeviceCommandLineOptionsTest
+WMove Class com.facebook.buck.cli.AdbHelper moved to com.facebook.buck.android.AdbHelper
+_Move Class com.facebook.buck.cli.UninstallEvent moved to com.facebook.buck.event.UninstallEvent
+vRename Class com.facebook.buck.cli.TargetDeviceOptions renamed to com.facebook.buck.cli.TargetDeviceCommandLineOptions
+oMove Class com.facebook.buck.cli.StartActivityEventTest moved to com.facebook.buck.event.StartActivityEventTest
+[Move Class com.facebook.buck.cli.InstallEvent moved to com.facebook.buck.event.InstallEvent
+_Move Class com.facebook.buck.cli.AdbHelperTest moved to com.facebook.buck.android.AdbHelperTestžRename Method public isMultiInstallModeEnabled() : boolean renamed to public getAdbOptions() : AdbOptions in class com.facebook.buck.cli.AdbCommandLineOptionsÄMove Method public isMultiInstallModeEnabled() : boolean from class com.facebook.buck.cli.AdbOptions to public isMultiInstallModeEnabled() : boolean from class com.facebook.buck.android.AdbOptions2(1c7c03dd9e6d5810ad22d37ecae59722c219ac35

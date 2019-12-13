@@ -1,0 +1,4 @@
+
+ºExtract Method private restoreLocalInfoFromTableInfo() : void extracted from package setTableInfo(thatTableInfo HCatTableInfo) : void in class org.apache.hive.hcatalog.mapreduce.PartInfo
+©Extract Method private dedupWithTableInfo() : void extracted from private writeObject(oos ObjectOutputStream) : void in class org.apache.hive.hcatalog.mapreduce.PartInfo
+´Extract Method private restoreLocalInfoFromTableInfo() : void extracted from private writeObject(oos ObjectOutputStream) : void in class org.apache.hive.hcatalog.mapreduce.PartInfo2(4ccc0c37aabbd90ecaa36fcc491e2270e7e9bea6

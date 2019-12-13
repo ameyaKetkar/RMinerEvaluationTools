@@ -1,0 +1,2 @@
+
+‡Extract Method package getPreparedQuery(type QueryType, columns Set<ColumnMapper<?>>, options Option...) : PreparedStatement extracted from package getPreparedQuery(type QueryType, options Option...) : PreparedStatement in class com.datastax.driver.mapping.Mapper2(d5134b15fe6545ec8ab5c2256006cd6fe19eac92

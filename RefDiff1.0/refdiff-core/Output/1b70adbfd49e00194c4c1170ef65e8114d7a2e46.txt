@@ -1,0 +1,1 @@
+ØExtract Method private getFieldInitializerNullness(expression PsiExpression) : Nullness extracted from private calcInherentNullability() : Nullness in class com.intellij.codeInspection.dataFlow.value.DfaVariableValue2(1b70adbfd49e00194c4c1170ef65e8114d7a2e46

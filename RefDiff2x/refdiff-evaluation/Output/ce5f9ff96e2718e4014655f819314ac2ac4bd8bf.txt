@@ -1,0 +1,3 @@
+
+ÖMove Method private getLiveIndicator(base Icon) : Icon from class com.intellij.execution.ui.RunContentManagerImpl to public getLiveIndicator(base Icon) : Icon from class com.intellij.execution.runners.ExecutionUtil
+úRename Method private getConfiguration(project Project) : RunnerAndConfigurationSettings renamed to private getSelectedConfiguration(project Project) : RunnerAndConfigurationSettings in class com.intellij.execution.ExecutorRegistryImpl.ExecutorAction2(ce5f9ff96e2718e4014655f819314ac2ac4bd8bf

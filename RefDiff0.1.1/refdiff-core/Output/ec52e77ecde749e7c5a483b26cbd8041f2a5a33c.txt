@@ -1,0 +1,3 @@
+
+éExtract And Move Method public getBackgroundCompactionTaskSubmitter() : Runnable extracted from protected setup() : void in class org.apache.cassandra.service.CassandraDaemon & moved to class org.apache.cassandra.db.ColumnFamilyStore
+ïExtract Method public submitBackground(cfs ColumnFamilyStore, autoFill boolean) : List<Future<?>> extracted from public submitBackground(cfs ColumnFamilyStore) : List<Future<?>> in class org.apache.cassandra.db.compaction.CompactionManager2(ec52e77ecde749e7c5a483b26cbd8041f2a5a33c

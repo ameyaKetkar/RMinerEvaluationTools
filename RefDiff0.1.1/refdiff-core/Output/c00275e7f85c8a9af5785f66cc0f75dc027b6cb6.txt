@@ -1,0 +1,4 @@
+
+oRename Method public Init() : void renamed to public init() : void in class com.hazelcast.jca.XATransactionTest
+ÖPush Down Method protected getConnection() : HazelcastConnection from class com.hazelcast.jca.AbstractDeploymentTest to protected getConnection() : HazelcastConnection from class com.hazelcast.jca.XATransactionTest
+éPush Down Attribute protected connectionFactory : HazelcastConnectionFactory from class com.hazelcast.jca.AbstractDeploymentTest to private connectionFactory : HazelcastConnectionFactory from class com.hazelcast.jca.XATransactionTest2(c00275e7f85c8a9af5785f66cc0f75dc027b6cb6

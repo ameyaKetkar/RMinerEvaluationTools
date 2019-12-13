@@ -1,0 +1,2 @@
+
+¶Extract Method protected doSomething(virtualFile VirtualFile, module Module, project Project, title String, withProgress boolean) : boolean extracted from protected doSomething(virtualFile VirtualFile, module Module, project Project, title String) : boolean in class com.goide.actions.fmt.GoExternalToolsAction2(0b93231025f51c7ec62fd8588985c5dc807854e4

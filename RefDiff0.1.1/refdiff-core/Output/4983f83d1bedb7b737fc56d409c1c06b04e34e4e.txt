@@ -1,0 +1,3 @@
+
+°Extract Method private setValue(value boolean, force boolean) : void extracted from public setValue(value boolean) : void in class org.rstudio.core.client.widget.ThemedCheckBox
+ÐExtract Method private verticalSpacer(sizeInPixels int) : FlowPanel extracted from public ChunkOptionsPopupPanel() in class org.rstudio.studio.client.workbench.views.source.editors.text.ChunkOptionsPopupPanel2(4983f83d1bedb7b737fc56d409c1c06b04e34e4e

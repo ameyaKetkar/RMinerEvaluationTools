@@ -1,0 +1,8 @@
+
+½Move Class org.glassfish.jersey.examples.hello.spring.annotations.annotations.NorwegianGoodbyeService moved to org.glassfish.jersey.examples.hello.spring.annotations.NorwegianGoodbyeService
+¹Move Class org.glassfish.jersey.examples.hello.spring.annotations.annotations.EnglishGoodbyeService moved to org.glassfish.jersey.examples.hello.spring.annotations.EnglishGoodbyeService
+ÁMove Class org.glassfish.jersey.examples.hello.spring.annotations.annotations.SpringRequestResourceTest moved to org.glassfish.jersey.examples.hello.spring.annotations.SpringRequestResourceTest
+«Move Class org.glassfish.jersey.examples.hello.spring.annotations.annotations.GoodbyeService moved to org.glassfish.jersey.examples.hello.spring.annotations.GoodbyeService
+»Move Class org.glassfish.jersey.examples.hello.spring.annotations.annotations.SpringAnnotationConfig moved to org.glassfish.jersey.examples.hello.spring.annotations.SpringAnnotationConfig
+¹Move Class org.glassfish.jersey.examples.hello.spring.annotations.annotations.SpringRequestResource moved to org.glassfish.jersey.examples.hello.spring.annotations.SpringRequestResource
+­Move Class org.glassfish.jersey.examples.hello.spring.annotations.annotations.GreetingService moved to org.glassfish.jersey.examples.hello.spring.annotations.GreetingService§Move Class org.glassfish.jersey.examples.hello.spring.annotations.annotations.JerseyConfig moved to org.glassfish.jersey.examples.hello.spring.annotations.JerseyConfig2(ee5aa50af6b4586fbe92cab718abfae8113a81aa

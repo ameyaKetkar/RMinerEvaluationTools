@@ -1,0 +1,2 @@
+
+µExtract Method private dumpConfig(conf Configuration, sb StringBuilder) : void extracted from private dumpEnvironent() : String in class org.apache.hive.hcatalog.templeton.AppConfig2(f664789737d516ac664462732664121acc111a1e

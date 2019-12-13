@@ -1,0 +1,2 @@
+
+´Extract Method public startInsertMode(editorContext EditorContext, anchorCell EditorCell, insertBefore boolean) : void extracted from public insertNewChild(editorContext EditorContext, anchorCell EditorCell, insertBefore boolean) : void in class jetbrains.mps.nodeEditor.cellProviders.AbstractCellListHandler2(61b5decd4a4e5e6bbdea99eb76f136ca10915b73

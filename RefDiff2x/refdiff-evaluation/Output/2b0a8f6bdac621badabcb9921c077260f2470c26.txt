@@ -1,0 +1,2 @@
+
+ºExtract Method public deleteRowAt(metadata CFMetaData, timestamp long, localDeletionTime int, key Object, clusteringValues Object...) : Mutation extracted from public deleteRow(metadata CFMetaData, timestamp long, key Object, clusteringValues Object...) : Mutation in class org.apache.cassandra.db.RowUpdateBuilder2(2b0a8f6bdac621badabcb9921c077260f2470c26

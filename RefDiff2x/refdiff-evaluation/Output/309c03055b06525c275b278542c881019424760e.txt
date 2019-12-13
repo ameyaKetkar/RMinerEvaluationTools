@@ -1,0 +1,2 @@
+
+ñExtract Method package sigTag(argcount int, v Var) : Object extracted from public InvokeExpr(source String, line int, column int, tag Symbol, fexpr Expr, args IPersistentVector, tailPosition boolean) in class clojure.lang.Compiler.InvokeExpr2(309c03055b06525c275b278542c881019424760e

@@ -1,0 +1,2 @@
+
+ÏExtract Method private registerSerializer(kryo HadoopKryo, className String, serializer Serializer) : void extracted from private createKryo() : HadoopKryo in class org.apache.giraph.writable.kryo.HadoopKryo2(add1d4f07c925b8a9044cb3aa5bb4abdeaf49fc7

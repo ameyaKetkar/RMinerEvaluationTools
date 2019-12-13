@@ -1,0 +1,8 @@
+
+‰Rename Method public getServerUrl() : URL renamed to private getDefaultServerUrl() : URL in class integration.util.graylog.GraylogControl
+µPull Up Method protected jsonResourceForMethod() : byte[] from class integration.BaseRestTest to protected jsonResourceForMethod() : byte[] from class integration.BaseRestTestHelper
+qMove Class integration.BaseRestTest.KeysPresentMatcher moved to integration.BaseRestTestHelper.KeysPresentMatcher
+¢Move And Rename Method public setupTestSuite() : void from class integration.BaseRestTest to protected before() : void from class integration.RestAssuredSetupRule
+UExtract Superclass integration.BaseRestTestHelper from class integration.BaseRestTest
+ïPull Up Method public containsAllKeys(keys String...) : ResponseAwareMatcher<Response> from class integration.BaseRestTest to public containsAllKeys(keys String...) : ResponseAwareMatcher<Response> from class integration.BaseRestTestHelper
+ÑPull Up Method protected jsonResource(relativeFileName String) : byte[] from class integration.BaseRestTest to protected jsonResource(relativeFileName String) : byte[] from class integration.BaseRestTestHelperçMove And Rename Method public onTestStart(iTestResult ITestResult) : void from class integration.SeedListener to public apply(base Statement, method FrameworkMethod, target Object) : Statement from class integration.MongoDbSeedRuleúMove And Rename Method public run(callBack IHookCallBack, testResult ITestResult) : void from class integration.BaseRestTest to public apply(base Statement, method FrameworkMethod, target Object) : Statement from class integration.RequiredVersionRule2(2ef067fc70055fc4d55c75937303414ddcf07e0e

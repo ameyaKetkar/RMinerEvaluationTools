@@ -1,0 +1,3 @@
+
+tMove Class org.jboss.as.quickstarts.poh5helloworld.HelloWorld moved to org.jboss.as.quickstarts.html5rest.HelloWorld
+xMove Class org.jboss.as.quickstarts.poh5helloworld.HelloService moved to org.jboss.as.quickstarts.html5rest.HelloService2(983e0e0e22ab5bd2c6ea44235518057ea45dcca9

@@ -1,0 +1,7 @@
+
+¹Move Method private isSourceCMD(cmd String) : boolean from class org.apache.hive.beeline.BeeLine to private isSourceCMD(cmd String) : boolean from class org.apache.hive.beeline.Commands
+ÏMove Method private getFirstCmd(cmd String, length int) : String from class org.apache.hive.beeline.BeeLine to private getFirstCmd(cmd String, length int) : String from class org.apache.hive.beeline.Commands
+yMove Class org.apache.hadoop.hive.ql.parse.VariableSubstitution moved to org.apache.hadoop.hive.conf.VariableSubstitution
+ÕExtract Method private executeInternal(sql String, call boolean) : boolean extracted from private execute(line String, call boolean, entireLineAsCommand boolean) : boolean in class org.apache.hive.beeline.Commands
+ÉExtract Method public handleMultiLineCmd(line String) : String extracted from private execute(line String, call boolean, entireLineAsCommand boolean) : boolean in class org.apache.hive.beeline.Commands
+¿Move Method private cliToBeelineCmd(cmd String) : String from class org.apache.hive.beeline.BeeLine to private cliToBeelineCmd(cmd String) : String from class org.apache.hive.beeline.Commands·Move Method private sourceFile(cmd String) : boolean from class org.apache.hive.beeline.BeeLine to private sourceFile(cmd String) : boolean from class org.apache.hive.beeline.Commands2(102b23b16bf26cbf439009b4b95542490a082710

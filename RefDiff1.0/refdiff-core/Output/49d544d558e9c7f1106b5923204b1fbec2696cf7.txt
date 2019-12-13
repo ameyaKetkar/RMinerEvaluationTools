@@ -1,0 +1,3 @@
+
+‡Move Class org.sufficientlysecure.keychain.util.orbot.TorServiceUtils moved to org.sufficientlysecure.keychain.util.tor.TorServiceUtils
+Move Class org.sufficientlysecure.keychain.util.orbot.OrbotHelper moved to org.sufficientlysecure.keychain.util.tor.OrbotHelper2(49d544d558e9c7f1106b5923204b1fbec2696cf7

@@ -1,0 +1,2 @@
+
+‹Extract Method private nextRowInternally() : boolean extracted from public next() : boolean in class org.apache.drill.jdbc.impl.DrillCursor2(711992f22ae6d6dfc43bdb4c01bf8f921d175b38

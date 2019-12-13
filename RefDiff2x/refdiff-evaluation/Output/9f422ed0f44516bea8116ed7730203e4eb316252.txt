@@ -1,0 +1,2 @@
+
+«Extract Method private initConnectionAndController() : void extracted from public setup() : void in class io.netty.handler.codec.http2.DefaultHttp2RemoteFlowControllerTest˜Extract Method private resetCtx() : void extracted from public setup() : void in class io.netty.handler.codec.http2.DefaultHttp2RemoteFlowControllerTest¹Extract Method private resetCtx() : void extracted from public windowUpdateAndFlushShouldTriggerWrite() : void in class io.netty.handler.codec.http2.DefaultHttp2RemoteFlowControllerTest2(9f422ed0f44516bea8116ed7730203e4eb316252

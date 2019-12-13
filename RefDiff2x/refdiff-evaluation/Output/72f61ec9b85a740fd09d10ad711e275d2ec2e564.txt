@@ -1,0 +1,4 @@
+
+wMove Class net.jeeeyul.eclipse.themes.test.e4app.TestView moved to net.jeeeyul.eclipse.themes.test.e4app.views.TestView
+„Move Class net.jeeeyul.eclipse.themes.test.e4app.SplashHandler moved to net.jeeeyul.eclipse.themes.test.e4app.handlers.SplashHandler
+‚Move Class net.jeeeyul.eclipse.themes.test.e4app.AboutHandler moved to net.jeeeyul.eclipse.themes.test.e4app.handlers.AboutHandler2(72f61ec9b85a740fd09d10ad711e275d2ec2e564

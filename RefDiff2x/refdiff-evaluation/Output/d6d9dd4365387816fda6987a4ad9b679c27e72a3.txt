@@ -1,0 +1,2 @@
+
+eMove Class de.greenrobot.dao.PropertyConverter moved to de.greenrobot.dao.converter.PropertyConverter2(d6d9dd4365387816fda6987a4ad9b679c27e72a3

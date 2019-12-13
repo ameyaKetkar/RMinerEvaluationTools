@@ -1,0 +1,2 @@
+
+fMove Class com.intellij.execution.console.RunIdeConsoleAction.IDE moved to com.intellij.ide.script.IDE2(6b90205e9f7bbd1570f600d3812fd3efa1a0597e

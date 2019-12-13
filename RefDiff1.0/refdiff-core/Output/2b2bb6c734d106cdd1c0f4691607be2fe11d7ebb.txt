@@ -1,0 +1,2 @@
+
+ÆMove Attribute public UI_THREAD_HANDLER : Handler from class org.quantumbadger.redreader.common.General to public UI_THREAD_HANDLER : Handler from class org.quantumbadger.redreader.common.AndroidApi2(2b2bb6c734d106cdd1c0f4691607be2fe11d7ebb

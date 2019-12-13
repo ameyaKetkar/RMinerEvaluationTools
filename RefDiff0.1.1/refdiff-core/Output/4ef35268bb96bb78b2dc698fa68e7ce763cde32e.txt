@@ -1,0 +1,4 @@
+
+ÊPull Up Method public getColumn() : Integer from class org.broadleafcommerce.openadmin.dto.BasicFieldMetadata to public getColumn() : Integer from class org.broadleafcommerce.openadmin.dto.FieldMetadata
+ÇPull Up Attribute protected column : Integer from class org.broadleafcommerce.openadmin.dto.BasicFieldMetadata to private column : Integer from class org.broadleafcommerce.openadmin.dto.FieldMetadata
+àPull Up Method public setColumn(column Integer) : void from class org.broadleafcommerce.openadmin.dto.BasicFieldMetadata to public setColumn(column Integer) : void from class org.broadleafcommerce.openadmin.dto.FieldMetadata2(4ef35268bb96bb78b2dc698fa68e7ce763cde32e

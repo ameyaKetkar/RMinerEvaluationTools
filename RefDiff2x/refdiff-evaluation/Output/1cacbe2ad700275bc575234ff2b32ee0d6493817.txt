@@ -1,0 +1,2 @@
+
+òExtract Method protected fireEvent(event DiscoveryEvent) : void extracted from protected onRemoteStatusChanged(oldStatus InstanceInfo.InstanceStatus, newStatus InstanceInfo.InstanceStatus) : void in class com.netflix.discovery.DiscoveryClientjExtract Superclass com.netflix.discovery.DiscoveryEvent from class com.netflix.discovery.StatusChangeEvent2(1cacbe2ad700275bc575234ff2b32ee0d6493817

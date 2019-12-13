@@ -1,0 +1,17 @@
+
+ŽMove Class org.sonar.server.notifications.email.EmailNotificationChannel moved to org.sonar.server.notification.email.EmailNotificationChannel
+~Move Class org.sonar.server.notifications.NotificationCenterTest moved to org.sonar.server.notification.NotificationCenterTest
+}Move Class org.sonar.core.notification.NotificationChannelTest moved to org.sonar.server.notification.NotificationChannelTest
+uMove Class org.sonar.core.notification.NotificationManager moved to org.sonar.server.notification.NotificationManager
+‹Move Class org.sonar.core.notification.NotificationDispatcherMetadata moved to org.sonar.server.notification.NotificationDispatcherMetadata
+„Move Class org.sonar.server.notifications.email.AlertsEmailTemplate moved to org.sonar.server.notification.email.AlertsEmailTemplate
+{Move Class org.sonar.core.notification.NotificationDispatcher moved to org.sonar.server.notification.NotificationDispatcher
+€Move Class org.sonar.server.notifications.NotificationServiceTest moved to org.sonar.server.notification.NotificationServiceTest
+–Move Class org.sonar.server.notifications.email.EmailNotificationChannelTest moved to org.sonar.server.notification.email.EmailNotificationChannelTest
+ƒMove Class org.sonar.core.notification.DefaultNotificationManager moved to org.sonar.server.notification.DefaultNotificationManager
+xMove Class org.sonar.server.notifications.NotificationService moved to org.sonar.server.notification.NotificationService
+rMove Class org.sonar.server.notifications.NotificationTest moved to org.sonar.server.notification.NotificationTest
+‹Move Class org.sonar.core.notification.DefaultNotificationManagerTest moved to org.sonar.server.notification.DefaultNotificationManagerTest
+ƒMove Class org.sonar.core.notification.NotificationDispatcherTest moved to org.sonar.server.notification.NotificationDispatcherTest
+ŒMove Class org.sonar.server.notifications.email.AlertsEmailTemplateTest moved to org.sonar.server.notification.email.AlertsEmailTemplateTest
+vMove Class org.sonar.server.notifications.NotificationCenter moved to org.sonar.server.notification.NotificationCenter“Move Class org.sonar.core.notification.NotificationDispatcherMetadataTest moved to org.sonar.server.notification.NotificationDispatcherMetadataTest2(abbf32571232db81a5343db17a933a9ce6923b44

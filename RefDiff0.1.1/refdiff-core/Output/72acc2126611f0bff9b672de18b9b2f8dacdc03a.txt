@@ -1,0 +1,8 @@
+
+uMove Class org.graylog2.bootstrap.commands.journal.JournalDecode moved to org.graylog2.commands.journal.JournalDecode
+:Move Class org.graylog2.UI moved to org.graylog2.shared.UI
+‡Move Class org.graylog2.bootstrap.commands.journal.AbstractJournalCommand moved to org.graylog2.commands.journal.AbstractJournalCommand
+[Move Class org.graylog2.bootstrap.commands.Radio moved to org.graylog2.radio.commands.Radio
+yMove Class org.graylog2.bootstrap.commands.journal.JournalTruncate moved to org.graylog2.commands.journal.JournalTruncate
+WMove Class org.graylog2.bootstrap.commands.Server moved to org.graylog2.commands.Server
+qMove Class org.graylog2.bootstrap.commands.journal.JournalShow moved to org.graylog2.commands.journal.JournalShowaExtract Interface org.graylog2.bootstrap.CliCommand from class org.graylog2.bootstrap.CmdLineTooljExtract Interface org.graylog2.bootstrap.CliCommand from class org.graylog2.bootstrap.commands.ShowVersion2(72acc2126611f0bff9b672de18b9b2f8dacdc03a

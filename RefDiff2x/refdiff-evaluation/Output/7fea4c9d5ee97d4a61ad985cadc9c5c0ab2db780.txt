@@ -1,0 +1,14 @@
+
+|Move Class com.addthis.hydra.job.spawn.SpawnBalancer.HostAndScore moved to com.addthis.hydra.job.spawn.balancer.HostAndScore
+xMove Class com.addthis.hydra.job.spawn.SpawnBalancerTest moved to com.addthis.hydra.job.spawn.balancer.SpawnBalancerTest
+~Move Class com.addthis.hydra.job.spawn.SpawnBalancer.RebalanceType moved to com.addthis.hydra.job.spawn.balancer.RebalanceType
+ˆMove Class com.addthis.hydra.job.spawn.SpawnBalancer.MoveAssignmentList moved to com.addthis.hydra.job.spawn.balancer.MoveAssignmentList
+|Move Class com.addthis.hydra.job.spawn.SpawnBalancerConfig moved to com.addthis.hydra.job.spawn.balancer.SpawnBalancerConfig
+”Move Class com.addthis.hydra.job.spawn.SpawnBalancer.AggregateStatUpdaterTask moved to com.addthis.hydra.job.spawn.balancer.AggregateStatUpdaterTask
+ŒMove Class com.addthis.hydra.job.spawn.SpawnBalancer.JobTaskItemByHostMap moved to com.addthis.hydra.job.spawn.balancer.JobTaskItemByHostMap
+‚Move Class com.addthis.hydra.job.spawn.SpawnBalancer.RebalanceWeight moved to com.addthis.hydra.job.spawn.balancer.RebalanceWeight
+zMove Class com.addthis.hydra.job.spawn.SpawnBalancer.JobTaskItem moved to com.addthis.hydra.job.spawn.balancer.JobTaskItem
+vMove Class com.addthis.hydra.job.spawn.SpawnBalancer.HostScore moved to com.addthis.hydra.job.spawn.balancer.HostScore
+pMove Class com.addthis.hydra.job.spawn.SpawnBalancer moved to com.addthis.hydra.job.spawn.balancer.SpawnBalancer
+‚Move Class com.addthis.hydra.job.spawn.SpawnBalancer.AutobalanceTask moved to com.addthis.hydra.job.spawn.balancer.AutobalanceTask
+‚Move Class com.addthis.hydra.job.spawn.SpawnBalancerTaskSizer moved to com.addthis.hydra.job.spawn.balancer.SpawnBalancerTaskSizer2(7fea4c9d5ee97d4a61ad985cadc9c5c0ab2db780

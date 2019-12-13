@@ -1,0 +1,3 @@
+
+åExtract Method private readClassFromCamelResource(file File, buffer StringBuilder, buildContext BuildContext) : String extracted from public prepareLanguage(log Log, project MavenProject, projectHelper MavenProjectHelper, languageOutDir File, schemaOutDir File, buildContext BuildContext) : void in class org.apache.camel.maven.packaging.PackageLanguageMojo
+ëExtract Method private readClassFromCamelResource(file File, buffer StringBuilder, buildContext BuildContext) : String extracted from public prepareDataFormat(log Log, project MavenProject, projectHelper MavenProjectHelper, dataFormatOutDir File, schemaOutDir File, buildContext BuildContext) : void in class org.apache.camel.maven.packaging.PackageDataFormatMojo2(14a7dd79148f9306dcd2f748b56fd6550e9406ab

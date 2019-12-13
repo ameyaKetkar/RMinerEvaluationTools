@@ -1,0 +1,2 @@
+
+§Extract Method public output(x INDArray, test boolean) : INDArray extracted from public output(x INDArray) : INDArray in class org.deeplearning4j.nn.layers.OutputLayer2(d4992887291cc0a7eeda87ad547fa9e1e7fda41c

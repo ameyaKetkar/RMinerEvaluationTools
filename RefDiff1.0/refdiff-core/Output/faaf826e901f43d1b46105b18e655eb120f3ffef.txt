@@ -1,0 +1,2 @@
+
+hExtract Interface com.xabber.android.ui.ContactAdder from class com.xabber.android.ui.ContactAddFragment2(faaf826e901f43d1b46105b18e655eb120f3ffef

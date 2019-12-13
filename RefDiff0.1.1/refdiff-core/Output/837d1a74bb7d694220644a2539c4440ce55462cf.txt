@@ -1,0 +1,2 @@
+
+ßExtract Method private testTransparentProxyWithQuery(proxyToContext String, prefix String, target String) : void extracted from public testTransparentProxyWithQuery() : void in class org.eclipse.jetty.proxy.ProxyServletTest2(837d1a74bb7d694220644a2539c4440ce55462cf

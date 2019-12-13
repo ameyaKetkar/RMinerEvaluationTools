@@ -1,0 +1,3 @@
+
+ªMove Class springfox.documentation.schema.property.provider.DefaultModelPropertiesProvider moved to springfox.documentation.schema.property.DefaultModelPropertiesProvider
+œMove Class springfox.documentation.schema.property.provider.ModelPropertiesProvider moved to springfox.documentation.schema.property.ModelPropertiesProvider2(e70b04810eb1e73f60e3d8b3980b8271ce473565

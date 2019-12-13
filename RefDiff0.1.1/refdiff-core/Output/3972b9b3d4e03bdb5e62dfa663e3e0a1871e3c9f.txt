@@ -1,0 +1,2 @@
+
+‡Move Class com.intellij.psi.codeStyle.autodetect.NewLineBlocksIterator moved to com.intellij.psi.formatter.common.NewLineBlocksIterator2(3972b9b3d4e03bdb5e62dfa663e3e0a1871e3c9f

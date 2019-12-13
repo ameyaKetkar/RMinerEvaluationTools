@@ -1,0 +1,2 @@
+
+ÌExtract Method public removeNodes(paths Collection<TreePath>) : void extracted from public removeNode(nodePath TreePath) : void in class com.intellij.compiler.options.AnnotationProcessorsPanel.MyTreeModel2(484038e916dc40bf87eca10c77889d79eca96c4d

@@ -1,0 +1,2 @@
+
+èExtract Method protected getProbe(prefix String) : Probe extracted from protected getLivenessProbe() : Probe in class io.fabric8.maven.JsonMojo2(8127b21a220ca677c4e59961d019e7753da7ea6e

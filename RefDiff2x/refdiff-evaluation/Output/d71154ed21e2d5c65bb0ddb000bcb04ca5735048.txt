@@ -1,0 +1,2 @@
+
+ Extract Method public canonicalizePath(url String, baseUrl Url, baseUrlIsFile boolean) : String extracted from protected canonicalizeUrl(url String, baseUrl Url, trimFileScheme boolean, sourceIndex int, baseUrlIsFile boolean) : Url in class org.jetbrains.debugger.sourcemap.SourceResolver2(d71154ed21e2d5c65bb0ddb000bcb04ca5735048

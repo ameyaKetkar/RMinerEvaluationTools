@@ -1,0 +1,3 @@
+
+èExtract Method public showItemPopupOptionsMenu(point FavouritePoint, view View) : void extracted from public onChildClick(parent ExpandableListView, v View, groupPosition int, childPosition int, id long) : boolean in class net.osmand.plus.activities.FavoritesTreeFragment
+˚Extract Method public showItemPopupOptionsMenu(point FavouritePoint, activity Activity, view View) : void extracted from public onListItemClick(l ListView, v View, position int, id long) : void in class net.osmand.plus.activities.FavoritesListFragment2(e95aa8ab32a0334b9c941799060fd601297d05e4

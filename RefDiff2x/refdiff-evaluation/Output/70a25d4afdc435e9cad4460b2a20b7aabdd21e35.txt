@@ -1,0 +1,2 @@
+
+êExtract Method private performBasicMappingTest() : void extracted from public testBasicMapping() : void in class org.mongodb.morphia.TestMapping2(70a25d4afdc435e9cad4460b2a20b7aabdd21e35

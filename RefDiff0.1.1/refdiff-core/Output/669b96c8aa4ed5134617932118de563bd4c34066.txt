@@ -1,0 +1,11 @@
+
+QMove Class reactor.core.alloc.Recyclable moved to reactor.core.support.Recyclable
+QMove Class reactor.bus.alloc.EventAllocator moved to reactor.alloc.EventAllocator
+jMove Class reactor.core.alloc.ReferenceCountingAllocator moved to reactor.alloc.ReferenceCountingAllocator
+[Move Class reactor.bus.alloc.EventAllocatorTests moved to reactor.alloc.EventAllocatorTests
+VMove Class reactor.core.alloc.RecyclableString moved to reactor.alloc.RecyclableString
+]Move Class reactor.bus.alloc.EventFactorySupplier moved to reactor.alloc.EventFactorySupplier
+XMove Class reactor.core.alloc.AbstractReference moved to reactor.alloc.AbstractReference
+HMove Class reactor.core.alloc.Allocator moved to reactor.alloc.Allocator
+HMove Class reactor.core.alloc.Reference moved to reactor.alloc.Reference
+VMove Class reactor.core.alloc.RecyclableNumber moved to reactor.alloc.RecyclableNumber2(669b96c8aa4ed5134617932118de563bd4c34066

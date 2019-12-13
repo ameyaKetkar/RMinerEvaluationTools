@@ -1,0 +1,2 @@
+
+ƒMove Class org.activiti.engine.impl.persistence.entity.UserEntityTest moved to org.activiti.engine.test.api.identity.UserEntityTest2(ca7d0c3b33a0863bed04c77932b9ef6b1317f34e

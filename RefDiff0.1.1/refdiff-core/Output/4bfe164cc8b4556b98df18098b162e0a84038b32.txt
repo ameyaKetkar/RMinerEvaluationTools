@@ -1,0 +1,2 @@
+
+ Extract Method private trackLastVisibleTab(position int) : void extracted from protected onResume() : void in class org.wordpress.android.ui.main.WPMainActivity2(4bfe164cc8b4556b98df18098b162e0a84038b32

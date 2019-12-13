@@ -1,0 +1,2 @@
+
+°Extract Method public getItemViewType(message Message) : int extracted from public getItemViewType(position int) : int in class eu.siacs.conversations.ui.adapter.MessageAdapter2(e6cb12dfe414497b4317820497985c110cb81864

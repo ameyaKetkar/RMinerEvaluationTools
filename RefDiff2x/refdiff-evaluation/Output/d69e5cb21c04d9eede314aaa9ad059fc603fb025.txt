@@ -1,0 +1,2 @@
+
+ÒMove Method public setTag(tag byte) : void from class org.apache.hadoop.hive.ql.exec.SparkHashTableSinkOperator to public setTag(tag byte) : void from class org.apache.hadoop.hive.ql.plan.SparkHashTableSinkDescþExtract Method protected getCountQuery(spec Specification<T>, mode QueryMode) : TypedQuery<Long> extracted from protected getCountQuery(spec Specification<T>) : TypedQuery<Long> in class org.springframework.data.jpa.repository.support.SimpleJpaRepository2(d69e5cb21c04d9eede314aaa9ad059fc603fb025

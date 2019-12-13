@@ -1,0 +1,4 @@
+
+¶Extract Method protected query(session Session) : ResultSet extracted from protected query() : ResultSet in class com.datastax.driver.core.policies.AbstractRetryPolicyIntegrationTest
+¹Extract Method package sendRequest(reportNoMoreHosts boolean) : boolean extracted from package sendRequest() : void in class com.datastax.driver.core.RequestHandler.SpeculativeExecution
+·Extract Method private retry(retryCurrent boolean, newConsistencyLevel ConsistencyLevel, connection Connection, response Message.Response) : void extracted from private retry(retryCurrent boolean, newConsistencyLevel ConsistencyLevel) : void in class com.datastax.driver.core.RequestHandler.SpeculativeExecution2(9de5f0d408f861455716b8410fd53f62b360787d

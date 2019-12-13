@@ -1,0 +1,2 @@
+
+ËExtract Method private getFileNamesToCreate() : Set<String> extracted from private createPropertiesFiles() : List<PsiFile> in class com.intellij.lang.properties.create.CreateResourceBundleDialogComponent2(98ecc4cfd927f388645f6a6bc492c80868b1a11d

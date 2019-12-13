@@ -1,0 +1,2 @@
+
+cMove Class org.ansj.app.crf.pojo.TempFeature moved to org.ansj.app.crf.CrfppModelParser.TempFeatureÙRename Method private parseFile(path String, templatePath String) : void renamed to public parseWapitiCRFModel(modelFile String, templateFile String, maxSize int) : Model in class org.ansj.app.crf.WapitiCRFModelParservMove And Rename Class org.ansj.app.crf.model.WapitiCRFModel moved and renamed to org.ansj.app.crf.WapitiCRFModelParser2(913704e835169255530c7408cad11ce9a714d4ec

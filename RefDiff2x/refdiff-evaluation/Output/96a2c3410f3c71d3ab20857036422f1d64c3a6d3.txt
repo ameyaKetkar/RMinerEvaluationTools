@@ -1,0 +1,2 @@
+
+ùExtract Method private cleanupProximityLocked() : void extracted from private cleanupProximity() : void in class com.android.server.power.PowerManagerService2(96a2c3410f3c71d3ab20857036422f1d64c3a6d3

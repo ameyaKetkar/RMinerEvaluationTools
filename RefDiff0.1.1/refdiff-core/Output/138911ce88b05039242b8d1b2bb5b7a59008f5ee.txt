@@ -1,0 +1,2 @@
+
+µExtract Method public getHTMLEditorKit(noGapsBetweenParagraphs boolean) : HTMLEditorKit extracted from public getHTMLEditorKit() : HTMLEditorKit in class com.intellij.util.ui.UIUtil2(138911ce88b05039242b8d1b2bb5b7a59008f5ee

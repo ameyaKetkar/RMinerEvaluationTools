@@ -1,0 +1,2 @@
+
+¹Extract Method public clearFailedUnlockAttempts(clearFingers boolean) : void extracted from public clearFailedUnlockAttempts() : void in class com.android.keyguard.KeyguardUpdateMonitor2(76331570e68446c17e4ff5287f5b7b2b6b472895

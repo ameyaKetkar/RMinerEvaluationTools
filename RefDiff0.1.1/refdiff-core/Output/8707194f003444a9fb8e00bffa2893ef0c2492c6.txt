@@ -1,0 +1,2 @@
+
+¢Inline Method private setFrameCentered() : void inlined to public placeWindow(location int[], editorLocation int[]) : void in class processing.opengl.PSurfaceJOGL2(8707194f003444a9fb8e00bffa2893ef0c2492c6

@@ -1,0 +1,2 @@
+
+¦Extract Method private toCanonicalPath(path String, separatorChar char, removeLastSlash boolean, resolveSymlinksIfNecessary boolean) : String extracted from private toCanonicalPath(path String, separatorChar char, removeLastSlash boolean) : String in class com.intellij.openapi.util.io.FileUtil2(a9379ee529ed87e28c0736c3c6657dcd6a0680e4

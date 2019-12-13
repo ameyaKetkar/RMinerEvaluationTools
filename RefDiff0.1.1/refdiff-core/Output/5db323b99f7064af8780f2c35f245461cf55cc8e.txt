@@ -1,0 +1,2 @@
+
+êExtract Method private performBasicMappingTest() : void extracted from public testBasicMapping() : void in class org.mongodb.morphia.TestMapping€Extract And Move Method public getClassNameCache() : Map<String,Class> extracted from public testBasicMapping() : void in class org.mongodb.morphia.TestMapping & moved to class org.mongodb.morphia.mapping.DefaultCreator2(5db323b99f7064af8780f2c35f245461cf55cc8e

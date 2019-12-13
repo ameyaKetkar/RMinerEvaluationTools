@@ -1,0 +1,3 @@
+
+šMove Method public sendResponse(channel ChannelHandlerContext, request HttpRequest, messageBody String, status HttpResponseStatus) : void from class com.rackspacecloud.blueflood.inputs.handlers.HttpMetricsIngestionHandler to public sendResponse(channel ChannelHandlerContext, request HttpRequest, messageBody String, status HttpResponseStatus) : void from class com.rackspacecloud.blueflood.http.DefaultHandler
+åMove Attribute private sendResponseTimer : Timer from class com.rackspacecloud.blueflood.inputs.handlers.HttpMetricsIngestionHandler to private sendResponseTimer : Timer from class com.rackspacecloud.blueflood.http.DefaultHandler2(fce2d1f07c14bbac286e16ec666fd4bf26abd43d

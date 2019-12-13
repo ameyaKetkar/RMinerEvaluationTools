@@ -1,0 +1,2 @@
+
+yExtract Method public clear() : void extracted from public close() : void in class com.intellij.util.io.CachingEnumerator2(9fbf6b852bd9766060307aff960fb597d55e24d3

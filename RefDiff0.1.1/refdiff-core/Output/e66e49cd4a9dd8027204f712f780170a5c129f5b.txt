@@ -1,0 +1,2 @@
+
+cMove Class com.hazelcast.spi.ServiceInfo moved to com.hazelcast.spi.impl.servicemanager.ServiceInfo2(e66e49cd4a9dd8027204f712f780170a5c129f5b

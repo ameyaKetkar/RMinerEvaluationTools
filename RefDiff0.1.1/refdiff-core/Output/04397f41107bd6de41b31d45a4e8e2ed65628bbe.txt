@@ -1,0 +1,2 @@
+
+•Inline Method private checkForTestRoots(srcModule Module, testFolders Set<VirtualFile>, processed Set<Module>) : void inlined to protected checkForTestRoots(srcModule Module, testFolders Set<VirtualFile>) : void in class com.intellij.testIntegration.createTest.CreateTestAction2(04397f41107bd6de41b31d45a4e8e2ed65628bbe

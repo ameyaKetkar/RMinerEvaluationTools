@@ -1,0 +1,2 @@
+
+xExtract Interface org.gradle.internal.file.RelativeFilePathResolver from class org.gradle.api.internal.file.FileResolverëPull Up Method package resolveAsRelativePath(path Object) : String from class org.gradle.api.internal.file.FileResolver to package resolveAsRelativePath(path Object) : String from class org.gradle.internal.file.RelativeFilePathResolver2(44aab6242f8c93059612c953af950eb1870e0774

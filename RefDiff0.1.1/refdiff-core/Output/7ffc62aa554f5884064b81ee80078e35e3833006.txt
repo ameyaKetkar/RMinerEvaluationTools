@@ -1,0 +1,2 @@
+
+×Extract Method protected addInterceptor(interceptor Interceptor, store boolean) : void extracted from public addInterceptor(interceptor Interceptor) : void in class org.drools.persistence.SingleSessionCommandService2(7ffc62aa554f5884064b81ee80078e35e3833006

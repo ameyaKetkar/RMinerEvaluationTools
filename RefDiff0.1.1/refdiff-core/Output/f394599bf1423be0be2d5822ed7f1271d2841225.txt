@@ -1,0 +1,2 @@
+
+`Move Class org.gradle.jvm.plugins.JarBinaryRules moved to org.gradle.jvm.internal.JarBinaryRules2(f394599bf1423be0be2d5822ed7f1271d2841225

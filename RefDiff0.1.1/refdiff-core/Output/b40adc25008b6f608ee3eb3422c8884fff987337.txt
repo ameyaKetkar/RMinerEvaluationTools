@@ -1,0 +1,4 @@
+
+èExtract Method public serializeValue(listener OAbstractCommandResultListener, result Object) : void extracted from private indexGet() : void in class com.orientechnologies.orient.server.network.protocol.binary.ONetworkProtocolBinary
+ùExtract Method protected readSynchResult(network OChannelBinaryAsynchClient, database ODatabaseDocument) : Object extracted from public command(iCommand OCommandRequestText) : Object in class com.orientechnologies.orient.client.remote.OStorageRemote
+éExtract Method public serializeValue(listener OAbstractCommandResultListener, result Object) : void extracted from protected command() : void in class com.orientechnologies.orient.server.network.protocol.binary.ONetworkProtocolBinary2(b40adc25008b6f608ee3eb3422c8884fff987337

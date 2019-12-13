@@ -1,0 +1,2 @@
+
+ŽExtract Method private doStop(swallowException boolean) : void extracted from public stop() : void in class org.sonar.batch.bootstrapper.Batch2(0d9fcaa4415ee996e423a97cfe0d965586ca59a5
