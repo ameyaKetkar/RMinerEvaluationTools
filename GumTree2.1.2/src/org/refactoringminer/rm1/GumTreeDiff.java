@@ -45,16 +45,30 @@ public class GumTreeDiff {
 	} 
  
 	public Set<RefactoringInfo> treeDiffFile(Map<String, String> fileContentsBefore, Map<String, String> fileContentsCurrent) throws IOException { 
-		Set<RefactoringInfo> refactorings = new LinkedHashSet<RefactoringInfo>(); 
-		for(String filePath : fileContentsBefore.keySet()) { 
-			if(fileContentsCurrent.containsKey(filePath)) { 
-				TreeContext src = new JdtTreeGenerator().generateFromString(fileContentsBefore.get(filePath)); 
-				TreeContext dst = new JdtTreeGenerator().generateFromString(fileContentsCurrent.get(filePath)); 
-				refactorings.addAll(treeDiffForVariableRenames(src, dst, filePath, fileContentsBefore.get(filePath), fileContentsCurrent.get(filePath)));
-				refactorings.addAll(treeDiffForTypeChanges(src, dst, filePath, fileContentsBefore.get(filePath), fileContentsCurrent.get(filePath)));
+		Set<RefactoringInfo> refactorings = new LinkedHashSet<>();
 
-			} 
-		} 
+		fileContentsBefore.keySet().parallelStream()
+				.filter(fileContentsCurrent::containsKey)
+				.forEach(filePath -> {
+					try {
+						TreeContext src = new JdtTreeGenerator().generateFromString(fileContentsBefore.get(filePath));
+						TreeContext dst = new JdtTreeGenerator().generateFromString(fileContentsCurrent.get(filePath));
+						refactorings.addAll(treeDiffForVariableRenames(src, dst, filePath, fileContentsBefore.get(filePath), fileContentsCurrent.get(filePath)));
+						refactorings.addAll(treeDiffForTypeChanges(src, dst, filePath, fileContentsBefore.get(filePath), fileContentsCurrent.get(filePath)));
+					}catch (Exception e){
+						e.printStackTrace();
+					}
+				});
+
+//		for (String filePath : fileContentsBefore.keySet()) {
+//			if (fileContentsCurrent.containsKey(filePath)) {
+//				TreeContext src = new JdtTreeGenerator().generateFromString(fileContentsBefore.get(filePath));
+//				TreeContext dst = new JdtTreeGenerator().generateFromString(fileContentsCurrent.get(filePath));
+//				refactorings.addAll(treeDiffForVariableRenames(src, dst, filePath, fileContentsBefore.get(filePath), fileContentsCurrent.get(filePath)));
+//				refactorings.addAll(treeDiffForTypeChanges(src, dst, filePath, fileContentsBefore.get(filePath), fileContentsCurrent.get(filePath)));
+//
+//			}
+//		}
 		return refactorings; 
 	}
 	public static final String systemFileSeparator = Matcher.quoteReplacement(File.separator);

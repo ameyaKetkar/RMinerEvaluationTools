@@ -143,7 +143,7 @@ public class RefactoringPopulator {
 		List<Root> roots = mapper.readValue(new File(jsonFile),
 				mapper.getTypeFactory().constructCollectionType(List.class, Root.class));
 
-
+		System.out.println(roots.size());
 
 		List<Root> filtered = new ArrayList<>();
 		List<String> deletedCommits = getDeletedCommits();
@@ -172,7 +172,6 @@ public class RefactoringPopulator {
 		try {
 			BigInteger value = Enum.valueOf(Refactorings.class, refactoring.type.replace(" ", "")).getValue();
 			return value.and(flag).compareTo(BigInteger.ZERO) == 1;
-
 		} catch (Exception e) {
 			return false;
 		}

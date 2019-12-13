@@ -178,6 +178,7 @@ public class GitHistoryRefactoringMinerImpl implements GitHistoryRefactoringMine
 			if (!filePathsBefore.isEmpty() && !filePathsCurrent.isEmpty() && currentCommit.getParentCount() > 0) {
 				RevCommit parentCommit = currentCommit.getParent(0);
 				populateFileContents(repository, parentCommit, filePathsBefore, fileContentsBefore, repositoryDirectoriesBefore);
+				populateFileContents(repository, currentCommit, filePathsCurrent, fileContentsCurrent, repositoryDirectoriesCurrent);
 				refactoringsAtRevision = gumTree.treeDiffFile(fileContentsBefore, fileContentsCurrent);
 //				UMLModel parentUMLModel = createModel(fileContentsBefore, repositoryDirectoriesBefore);
 //
