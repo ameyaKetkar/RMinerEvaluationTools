@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="187720b5-40fe-4a56-bd20-aa0e74541f2f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../GumTree2.1.2/paths.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GumTree2.1.2/src-test/Data/commitParentCommit.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GumTree2.1.2/src/org/refactoringminer/api/CodeRangeProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.5/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.5/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/refdiff-evaluation/paths.properties" beforeDir="false" afterPath="$PROJECT_DIR$/refdiff-evaluation/paths.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GumTree2.1.2/src-test/org/refactoringminer/test/AnalyseResults.java" beforeDir="false" afterPath="$PROJECT_DIR$/../GumTree2.1.2/src-test/org/refactoringminer/test/AnalyseResults.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../RefactoringMiner-1.0.0/.gradle/4.8.1/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../RefactoringMiner-1.0.0/.gradle/4.8.1/fileContent/fileContent.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../RefactoringMiner-1.0.0/.gradle/4.8.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../RefactoringMiner-1.0.0/.gradle/4.8.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../RefactoringMiner-1.0.0/.gradle/4.8.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../RefactoringMiner-1.0.0/.gradle/4.8.1/fileHashes/fileHashes.lock" afterDir="false" />
@@ -173,7 +165,7 @@
       <option name="presentableId" value="Default" />
       <updated>1575496221579</updated>
       <workItem from="1576249382212" duration="1808000" />
-      <workItem from="1576253715524" duration="663000" />
+      <workItem from="1576253715524" duration="772000" />
     </task>
     <servers />
   </component>

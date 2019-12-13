@@ -59,20 +59,17 @@ public class AnalyseResults {
     public static void main(String[] a){
 
         List<ResultsOuterClass.Results> results = TestBuilder.readAllResults();
-        results.stream().filter(x ->x.getTruePositivesCount() > 0 || x.getFalsePositivesCount() > 0)
-                .findFirst().ifPresent(System.out::println);
-        falsePos_vs_falseNeg(results);
 
         System.out.println("Total Commits: " + results.stream().map(x->x.getSha()).distinct().count());
 
         Map<String, ResultsOuterClass.Results> collect = results.stream().flatMap(fn).collect(toMap(x -> x.e2, fn1, binOp));
 
         collect.entrySet().stream().forEach(x -> System.out.println(getNameOfRefactoring(x.getKey()) + "  "
-                + getSbar(x.getValue())));
+                + getString(x.getValue())));
 
         System.out.println(getString(collect.values().stream().reduce(ResultsOuterClass.Results.newBuilder().build(), binOp)));
 
-        //Move Method & \sbar{245}{254} & \sbar{245}{268} & \sbar{206}{738} & \sbar{206}{268} \\
+    
 
 
     }
