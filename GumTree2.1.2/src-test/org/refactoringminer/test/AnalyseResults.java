@@ -69,7 +69,7 @@ public class AnalyseResults {
 
         System.out.println(getString(collect.values().stream().reduce(ResultsOuterClass.Results.newBuilder().build(), binOp)));
 
-    
+
 
 
     }

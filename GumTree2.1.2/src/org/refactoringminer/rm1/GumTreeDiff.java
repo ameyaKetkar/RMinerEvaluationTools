@@ -50,7 +50,9 @@ public class GumTreeDiff {
 			if(fileContentsCurrent.containsKey(filePath)) { 
 				TreeContext src = new JdtTreeGenerator().generateFromString(fileContentsBefore.get(filePath)); 
 				TreeContext dst = new JdtTreeGenerator().generateFromString(fileContentsCurrent.get(filePath)); 
-				refactorings.addAll(treeDiffForTypeChanges(src, dst, filePath, fileContentsBefore.get(filePath), fileContentsCurrent.get(filePath))); 
+				refactorings.addAll(treeDiffForVariableRenames(src, dst, filePath, fileContentsBefore.get(filePath), fileContentsCurrent.get(filePath)));
+				refactorings.addAll(treeDiffForTypeChanges(src, dst, filePath, fileContentsBefore.get(filePath), fileContentsCurrent.get(filePath)));
+
 			} 
 		} 
 		return refactorings; 
@@ -63,8 +65,11 @@ public class GumTreeDiff {
 				File f1 = new File(parentFolder + File.separator + filePath.replaceAll("/", systemFileSeparator));
 				File f2 = new File(currentFolder + File.separator + filePath.replaceAll("/", systemFileSeparator));
 				TreeContext src = new JdtTreeGenerator().generateFromFile(f1); 
-				TreeContext dst = new JdtTreeGenerator().generateFromFile(f2); 
-				refactorings.addAll(treeDiffForTypeChanges(src, dst, filePath, readFileContents(f1), readFileContents(f2))); 
+				TreeContext dst = new JdtTreeGenerator().generateFromFile(f2);
+				String fileContentsBefore = readFileContents(f1);
+				String fileContentsCurrent = readFileContents(f2);
+				refactorings.addAll(treeDiffForVariableRenames(src, dst, filePath, fileContentsBefore, fileContentsCurrent));
+				refactorings.addAll(treeDiffForTypeChanges(src, dst, filePath, fileContentsBefore, fileContentsCurrent));
 			} 
 		} 
 		return refactorings; 
