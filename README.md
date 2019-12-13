@@ -65,7 +65,7 @@ We made the following updates to this tool:
 
 To evaluate this tool over the oracle:
 * Download the latest JSON from the [oracle](http://refactoring.encs.concordia.ca/oracle/) and update [this](https://github.com/ameyaKetkar/TSE_Evaluation_Tools/blob/master/RefactoringMiner-1.0.0/src-test/Data/data.json) file.
-* Execute [TestAllRefactorings.testAllRefactorings]https://github.com/ameyaKetkar/TSE_Evaluation_Tools/blob/189ce825610f94ddf23f7e60ab9270aeecd84885/RefactoringMiner-1.0.0/src-test/org/refactoringminer/test/TestAllRefactorings.java#L16) to run the evaluation
+* Execute [TestAllRefactorings.testAllRefactorings](https://github.com/ameyaKetkar/TSE_Evaluation_Tools/blob/189ce825610f94ddf23f7e60ab9270aeecd84885/RefactoringMiner-1.0.0/src-test/org/refactoringminer/test/TestAllRefactorings.java#L16) to run the evaluation
 * Output of the evaluation will be found in the folder named 'Output' in the working directory.
 * Execute the main method in [AnalyseResults](https://github.com/ameyaKetkar/TSE_Evaluation_Tools/blob/master/RefactoringMiner-1.0.0/src-test/org/refactoringminer/test/AnalyseResults.java) to calculate precision and recall per refactoring.
 
@@ -74,5 +74,15 @@ To evaluate this tool over the oracle:
 To evaluate RefactoringMiner 2.0:
 * Get the latest version of it from [here](https://github.com/tsantalis/RefactoringMiner)
 * Follow steps similar to RefactoringMiner 1.0
+
+### [GumTree 2.1.2](https://github.com/GumTreeDiff/gumtree/releases/tag/v2.1.2)
+GumTree is used for the evaluation of Rename and Change Type refactoring.
+To evaluate GumTree 2.1.2:
+To evaluate this tool over the oracle:
+* Download the latest JSON from the [oracle](http://refactoring.encs.concordia.ca/oracle/) and update [this](https://github.com/ameyaKetkar/TSE_Evaluation_Tools/blob/master/GumTree2.1.2/src-test/Data/data.json) file.
+* Execute [TestAllRefactorings.testAllRefactorings](https://github.com/ameyaKetkar/TSE_Evaluation_Tools/blob/master/GumTree2.1.2/src-test/org/refactoringminer/test/TestAllRefactorings.java#L16) to run the evaluation
+* Output of the evaluation will be found in the folder named 'Output' in the working directory.
+* Execute the main method in [AnalyseResults](https://github.com/ameyaKetkar/TSE_Evaluation_Tools/blob/master/GumTree2.1.2/src-test/org/refactoringminer/test/AnalyseResults.java) to calculate precision and recall per refactoring.
+
 
 
