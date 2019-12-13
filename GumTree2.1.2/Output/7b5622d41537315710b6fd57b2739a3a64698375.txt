@@ -1,0 +1,1 @@
+¯Change Variable Type components : String[] to components : List<String> in method private stringToPath(pathString String) : TreePath in class jetbrains.mps.ide.ui.tree.MPSTree2(7b5622d41537315710b6fd57b2739a3a64698375

@@ -1,0 +1,1 @@
+‘Change Return Type Class to Class<?> in method public getAuthorizerInterface() : Class<?> in class org.apache.hadoop.hive.ql.session.SessionState2(8398fbf3dd0937a0a4a3d540977a95f97425f566

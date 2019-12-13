@@ -1,0 +1,1 @@
+¨Change Return Type void to double in method protected normalize(vector Map<Node,Double>) : double in class org.neo4j.graphalgo.impl.centrality.EigenvectorCentralityBase2(4712de476aabe69cd762233c9641dd3cf9f8361b

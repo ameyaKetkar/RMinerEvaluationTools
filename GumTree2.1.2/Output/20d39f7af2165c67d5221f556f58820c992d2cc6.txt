@@ -1,0 +1,1 @@
+ÖRename Variable object : Object to item : Object in method private flatten(properties Properties, input Map<String,Object>, path String) : void in class org.springframework.boot.cloudfoundry.VcapApplicationListener2(20d39f7af2165c67d5221f556f58820c992d2cc6

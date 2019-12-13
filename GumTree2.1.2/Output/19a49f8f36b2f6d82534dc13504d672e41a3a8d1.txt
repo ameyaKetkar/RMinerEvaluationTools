@@ -1,0 +1,1 @@
+ Change Return Type CompletableFuture<RaftState> to void in method protected transition(state RaftState) : void in class net.kuujo.copycat.raft.state.ActiveState2(19a49f8f36b2f6d82534dc13504d672e41a3a8d1

@@ -1,0 +1,1 @@
+éChange Variable Type hm : SimpleUrlHandlerMapping to hm : WebSocketHandlerMapping in method public getHandlerMapping() : AbstractHandlerMapping in class org.springframework.web.socket.config.annotation.ServletWebSocketHandlerRegistry2(e083683f4fe9206609201bb39a60bbd8ee0c8a0f

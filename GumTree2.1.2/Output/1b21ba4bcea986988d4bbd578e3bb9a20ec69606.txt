@@ -1,0 +1,1 @@
+zRename Attribute mSaveItem : MenuItem to mUndoItem : MenuItem in class org.wordpress.android.ui.prefs.SiteSettingsFragment›Rename Attribute mVisibilityPreference : ListPreference to mPrivacyPreference : ListPreference in class org.wordpress.android.ui.prefs.SiteSettingsFragment2(1b21ba4bcea986988d4bbd578e3bb9a20ec69606

@@ -1,0 +1,1 @@
+¸Change Parameter Type blockingAction : Action1<BlockingObservable<Void>> to blockingAction : Action1<BlockingObservable<T>> in method private startBlockingAndInterrupt(observable Observable<T>, blockingAction Action1<BlockingObservable<T>>) : void in class rx.observables.BlockingObservableTest.InterruptionTests2(8ad226067434cd39ce493b336bd0659778625959

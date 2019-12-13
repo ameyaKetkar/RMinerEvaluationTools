@@ -1,0 +1,1 @@
+§Rename Variable set : Set<Group> to groups : Set<Group> in method public addGroup(group Group) : void in class org.hibernate.test.bytecode.enhancement.association.User2(44a02e5efc39c6953ca6dd631669d91293ab67f6

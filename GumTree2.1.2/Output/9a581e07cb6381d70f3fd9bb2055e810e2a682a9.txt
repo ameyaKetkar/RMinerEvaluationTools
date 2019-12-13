@@ -1,0 +1,1 @@
+…Change Variable Type state : TriStateCheckBox.State to state : State in method public onValueChange(event ValueChangeEvent<State>) : void in class org.rstudio.studio.client.workbench.views.source.editors.text.ChunkOptionsPopupPanel.makeTriStateCheckBox.checkBox2(9a581e07cb6381d70f3fd9bb2055e810e2a682a9
