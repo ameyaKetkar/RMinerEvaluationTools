@@ -25,7 +25,7 @@ To evaluate this tool over the oracle:
 * Output of the evaluation will be found in the folder named 'Output' in the working directory.
 * Execute the main method in [AnalyseResults](https://github.com/ameyaKetkar/TSE_Evaluation_Tools/blob/master/RefDiff0.1.1/refdiff-core/src-test/test/AnalyseResults.java) to calculate precision and recall per refactoring.
 
-### [RefDiff 1.0](https://github.com/aserg-ufmg/RefDiff/releases/tag/0.1.0)
+### [RefDiff 1.0](https://github.com/aserg-ufmg/RefDiff/tree/1.x)
 
 We made the following updates to this tool:
 * Updated the description format of the reported refactorings to match that of the oracle
