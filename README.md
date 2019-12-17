@@ -85,4 +85,8 @@ To evaluate this tool over the oracle:
 * Execute the main method in [AnalyseResults](https://github.com/ameyaKetkar/TSE_Evaluation_Tools/blob/master/GumTree2.1.2/src-test/org/refactoringminer/test/AnalyseResults.java) to calculate precision and recall per refactoring.
 
 
+## Results
+
+![RefactoringMiner and RefDiff](https://github.com/ameyaKetkar/RMinerEvaluationTools/blob/master/RMinerEvaluation1.PNG)
+![RefactoringMiner and Gumtree](https://github.com/ameyaKetkar/RMinerEvaluationTools/blob/master/RMinerEvaluation2.PNG)
 
