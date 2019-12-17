@@ -1,4 +1,4 @@
-# TSE_Evaluation_Tools
+# RMinerEvaluationTools
 Tools used for the evaluation of RefactoringMiner 2.0
 
 ## [Oracle](http://refactoring.encs.concordia.ca/oracle/)
