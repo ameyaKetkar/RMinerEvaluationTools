@@ -89,4 +89,4 @@ To evaluate this tool over the oracle:
 
 ![RefactoringMiner and RefDiff](https://github.com/ameyaKetkar/RMinerEvaluationTools/blob/master/RMinerEvaluation1.PNG)
 ![RefactoringMiner and Gumtree](https://github.com/ameyaKetkar/RMinerEvaluationTools/blob/master/RMinerEvaluation2.PNG)
-
+![Runtime comparison](https://github.com/ameyaKetkar/RMinerEvaluationTools/blob/master/Runtimes/runtimes.pdf)
