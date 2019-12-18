@@ -2,7 +2,7 @@
 Tools used for the evaluation of RefactoringMiner 2.0
 
 ## [Oracle](http://refactoring.encs.concordia.ca/oracle/)
-We used the >7000 refactorings in this oracle as the ground truth for evaluation the 5 tools for their precision and recall.
+We used the >7000 refactorings in this oracle as the ground truth for evaluating the precision and recall of the 6 tools.
 
 ## Tools
 
@@ -78,7 +78,6 @@ To evaluate RefactoringMiner 2.0:
 ### [GumTree 2.1.2](https://github.com/GumTreeDiff/gumtree/releases/tag/v2.1.2)
 GumTree is used for the evaluation of Rename and Change Type refactoring.
 To evaluate GumTree 2.1.2:
-To evaluate this tool over the oracle:
 * Download the latest JSON from the [oracle](http://refactoring.encs.concordia.ca/oracle/) and update [this](https://github.com/ameyaKetkar/TSE_Evaluation_Tools/blob/master/GumTree2.1.2/src-test/Data/data.json) file.
 * Execute [TestAllRefactorings.testAllRefactorings](https://github.com/ameyaKetkar/TSE_Evaluation_Tools/blob/master/GumTree2.1.2/src-test/org/refactoringminer/test/TestAllRefactorings.java#L16) to run the evaluation
 * Output of the evaluation will be found in the folder named 'Output' in the working directory.
