@@ -1,0 +1,3 @@
+
+°Change Parameter Type message : StandardMessage to message : Object in method public handle(message Object) : void in class net.engio.mbassy.listeners.ExceptionThrowingListener
+³Rename Variable publishAndCheck : Runnable to asynchronousPublication : Runnable in method public testExceptionInHandlerInvocation() : void in class net.engio.mbassy.SyncAsyncTest‡Rename Attribute PublicationError : String to PublicationErrorHandlers : String in class net.engio.mbassy.bus.common.Properties.Handler2(40e41d11d7847d660bba6691859b0506514bd0ac

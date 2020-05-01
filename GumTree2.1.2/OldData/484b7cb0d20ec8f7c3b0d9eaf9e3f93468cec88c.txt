@@ -1,0 +1,1 @@
+“Change Variable Type splits : ImmutableList<ConnectorSplit> to splits : List<ConnectorSplit> in method public getPartitionSplits(table ConnectorTableHandle, partitions List<ConnectorPartition>) : ConnectorSplitSource in class com.facebook.presto.connector.jmx.JmxSplitManager2(484b7cb0d20ec8f7c3b0d9eaf9e3f93468cec88c

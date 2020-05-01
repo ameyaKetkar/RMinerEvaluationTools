@@ -1,0 +1,1 @@
+ãRename Parameter definition : String to genericDefinition : String in method public setGenericDefinition(genericDefinition String) : void in class org.springframework.roo.classpath.details.AbstractInvocableMemberMetadataBuilder2(0bb4cca1105fc6eb86e7c4b75bfff3dbbd55f0c8

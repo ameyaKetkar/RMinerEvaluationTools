@@ -1,0 +1,1 @@
+—Rename Variable pathToCatalog : String to ddl : String in method public testCreateDropIndexonView() : void in class org.voltdb.TestAdhocCreateDropIndex2(c1359c843bd03a694f846c8140e24ed646bbb913

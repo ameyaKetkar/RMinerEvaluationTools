@@ -1,0 +1,1 @@
+·Change Return Type String[] to Set<String> in method private getPackagesToScan(metadata AnnotationMetadata) : Set<String> in class org.springframework.boot.orm.jpa.EntityScanRegistrar2(1cfc6f64f64353bc5530a8ce8cdacfc3eba3e7b2

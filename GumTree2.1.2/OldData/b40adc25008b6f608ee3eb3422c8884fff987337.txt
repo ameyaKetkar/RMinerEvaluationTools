@@ -1,0 +1,3 @@
+
+ Change Attribute Type REQUEST_INDEX_PUT : int to REQUEST_INDEX_PUT : byte in class com.orientechnologies.orient.enterprise.channel.binary.OChannelBinaryProtocol
+ Change Attribute Type REQUEST_INDEX_GET : int to REQUEST_INDEX_GET : byte in class com.orientechnologies.orient.enterprise.channel.binary.OChannelBinaryProtocol¦Change Attribute Type REQUEST_INDEX_REMOVE : int to REQUEST_INDEX_REMOVE : byte in class com.orientechnologies.orient.enterprise.channel.binary.OChannelBinaryProtocol¾Change Return Type ODatabase<ORecord> to ODatabaseDocumentInternal in method protected getDatabase() : ODatabaseDocumentInternal in class com.orientechnologies.orient.core.index.OIndexRemote2(b40adc25008b6f608ee3eb3422c8884fff987337

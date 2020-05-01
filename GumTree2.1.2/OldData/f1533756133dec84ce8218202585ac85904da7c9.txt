@@ -1,0 +1,2 @@
+
+†Change Attribute Type memberList : List<String> to memberList : List<InetSocketAddress> in class org.jgroups.auth.FixedMembershipToken§Rename Variable member : String to addr : InetSocketAddress in method public isInMembersList(sender IpAddress) : boolean in class org.jgroups.auth.FixedMembershipToken¬Change Variable Type member : String to addr : InetSocketAddress in method public isInMembersList(sender IpAddress) : boolean in class org.jgroups.auth.FixedMembershipToken2(f1533756133dec84ce8218202585ac85904da7c9

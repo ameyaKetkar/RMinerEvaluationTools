@@ -1,1 +1,1 @@
-2(5a37c2aa596377cb4c9b6f916614407fd0a7d3db
+†Rename Method public getVoidTypeMirror() : void renamed to protected getElements() : Elements in class com.squareup.javapoet.TypesTest2(5a37c2aa596377cb4c9b6f916614407fd0a7d3db

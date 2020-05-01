@@ -1,0 +1,10 @@
+
+ºRename Attribute resourceFinderStack : ResourceFinderStack to compositeResourceFinder : CompositeResourceFinder in class org.glassfish.jersey.server.internal.scanning.PackageNamesScanner
+¬Rename Attribute resourceFinderStack : ResourceFinderStack to compositeResourceFinder : CompositeResourceFinder in class org.glassfish.jersey.servlet.WebAppResourcesScanner
+±Change Attribute Type resourceFinderStack : ResourceFinderStack to compositeResourceFinder : CompositeResourceFinder in class org.glassfish.jersey.servlet.WebAppResourcesScanner
+ÝChange Attribute Type resourceFinderStack : ResourceFinderStack to compositeResourceFinder : CompositeResourceFinder in class org.glassfish.jersey.server.internal.scanning.FileSchemeResourceFinderFactory.FileSchemeScanner
+ØRename Attribute resourceFinderStack : ResourceFinderStack to compositeResourceFinder : CompositeResourceFinder in class org.glassfish.jersey.server.internal.scanning.FileSchemeResourceFinderFactory.FileSchemeScanner
+‹Rename Variable f : File to file : File in method private init() : void in class org.glassfish.jersey.server.internal.scanning.FilesScanner
+ÔRename Variable s : String to scheme : String in method private add(uriSchemeResourceFinderFactory UriSchemeResourceFinderFactory) : void in class org.glassfish.jersey.server.internal.scanning.PackageNamesScanner
+¿Change Attribute Type resourceFinderStack : ResourceFinderStack to compositeResourceFinder : CompositeResourceFinder in class org.glassfish.jersey.server.internal.scanning.PackageNamesScanner
+¸Change Attribute Type resourceFinderStack : ResourceFinderStack to compositeResourceFinder : CompositeResourceFinder in class org.glassfish.jersey.server.internal.scanning.FilesScanner³Rename Attribute resourceFinderStack : ResourceFinderStack to compositeResourceFinder : CompositeResourceFinder in class org.glassfish.jersey.server.internal.scanning.FilesScannerÕChange Variable Type iteratorStack : ResourceFinderStack to iteratorStack : CompositeResourceFinder in method public test() : void in class org.glassfish.jersey.server.internal.scanning.CompositeResourceFinderTest2(fab1516773d50bf86d9cc37e2f6db13496f0ecae

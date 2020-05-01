@@ -1,0 +1,2 @@
+
+øRename Variable processorDefinition : ProcessorDefinition<?> to other : OtherAttributesAware in method public resolvePropertyPlaceholders(camelContext CamelContext, definition Object) : void in class org.apache.camel.model.ProcessorDefinitionHelperýChange Variable Type processorDefinition : ProcessorDefinition<?> to other : OtherAttributesAware in method public resolvePropertyPlaceholders(camelContext CamelContext, definition Object) : void in class org.apache.camel.model.ProcessorDefinitionHelper2(9f319029ecc031cf8bf1756ab8a0e9e4e52c2902

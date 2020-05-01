@@ -1,0 +1,3 @@
+
+´Change Variable Type deserializedQuery : QB to deserializedQuery : QueryBuilder in method public testSerialization() : void in class org.elasticsearch.index.query.BaseQueryTestCase
+®Change Return Type Query to QueryBuilder in method public fromXContent(parseContext QueryParseContext) : QueryBuilder in class org.elasticsearch.index.query.ExistsQueryParser2(c928852d4ab7d8c744063979208709ed4429b8e9

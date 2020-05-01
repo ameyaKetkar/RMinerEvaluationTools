@@ -1,0 +1,4 @@
+
+¯Change Attribute Type outputComboBox_ : SelectWidget to outputComboBox_ : ListBox in class org.rstudio.studio.client.workbench.views.source.editors.text.ChunkOptionsPopupPanel
+ÐRename Variable labelPanel : HorizontalPanel to nameAndOutputGrid : Grid in method public ChunkOptionsPopupPanel() in class org.rstudio.studio.client.workbench.views.source.editors.text.ChunkOptionsPopupPanel
+ÕChange Variable Type labelPanel : HorizontalPanel to nameAndOutputGrid : Grid in method public ChunkOptionsPopupPanel() in class org.rstudio.studio.client.workbench.views.source.editors.text.ChunkOptionsPopupPanelÔRename Variable spacer : FlowPanel to panel : FlowPanel in method private verticalSpacer(sizeInPixels int) : FlowPanel in class org.rstudio.studio.client.workbench.views.source.editors.text.ChunkOptionsPopupPanel2(4983f83d1bedb7b737fc56d409c1c06b04e34e4e

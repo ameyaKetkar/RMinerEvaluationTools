@@ -1,0 +1,4 @@
+
+ŽChange Attribute Type periods : List<Period> to periods : ImmutableList<Period> in class org.sonar.server.computation.period.PeriodsHolderImpl
+ËRename Variable persisComponent : PersisComponent to persistComponentExecutor : PersistComponentExecutor in method public execute() : void in class org.sonar.server.computation.step.PersistComponentsStep
+ÐChange Variable Type persisComponent : PersisComponent to persistComponentExecutor : PersistComponentExecutor in method public execute() : void in class org.sonar.server.computation.step.PersistComponentsStep2(091ec857d24bfe139d2a5ce143ffc9b32b21cd7c

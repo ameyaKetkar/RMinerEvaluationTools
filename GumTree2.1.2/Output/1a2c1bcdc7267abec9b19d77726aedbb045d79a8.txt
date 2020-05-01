@@ -1,0 +1,1 @@
+°Rename Method public testTriggerMinorCompaction() : void renamed to public testTriggerMinorCompactionLCS() : void in class org.apache.cassandra.db.compaction.CompactionsCQLTest2(1a2c1bcdc7267abec9b19d77726aedbb045d79a8

@@ -1,0 +1,3 @@
+
+áRename Variable tag : int to rsTag : int in method private deserializeUnion(datum Object, fileSchema Schema, recordSchema Schema, columnType UnionTypeInfo) : Object in class org.apache.hadoop.hive.serde2.avro.AvroDeserializer
+ÇRename Parameter s : Schema to ws : Schema in method private unionTester(ws Schema, rs Schema, record GenericData.Record) : ResultPair in class org.apache.hadoop.hive.serde2.avro.TestAvroDeserializer¼Rename Parameter s : Schema to ws : Schema in method private unionTester(ws Schema, record GenericData.Record) : ResultPair in class org.apache.hadoop.hive.serde2.avro.TestAvroDeserializer2(7eb3567e7880511b76b8b65e8eb7d373927f2fb6

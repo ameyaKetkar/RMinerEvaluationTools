@@ -1,0 +1,1 @@
+¾Change Return Type Exception to PrimitiveLongIterator in method public query(query Query) : PrimitiveLongIterator in class org.neo4j.kernel.api.impl.index.LuceneIndexAccessorReaderTest.setup2(b83e6a535cbca21d5ea764b0c49bfca8a9ff9db4

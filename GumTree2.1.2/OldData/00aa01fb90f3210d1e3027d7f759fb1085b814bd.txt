@@ -1,0 +1,4 @@
+
+ŸRename Variable jsonString : String to controls : String in method public pauseOnSpecificBit() : void in class org.apache.drill.exec.testing.TestPauseInjection
+šRename Variable jsonString : String to controls : String in method public pauseInjected() : void in class org.apache.drill.exec.testing.TestPauseInjection
+£Rename Variable jsonString : String to controls : String in method public latchInjected() : void in class org.apache.drill.exec.testing.TestCountDownLatchInjectionhChange Attribute Type logger : Logger to REPEAT_RULE : TestRule in class org.apache.drill.test.DrillTest­Rename Parameter bitName : String to name : String in method private getEndpoint(name String) : DrillbitEndpoint in class org.apache.drill.exec.server.TestDrillbitResilience2(00aa01fb90f3210d1e3027d7f759fb1085b814bd

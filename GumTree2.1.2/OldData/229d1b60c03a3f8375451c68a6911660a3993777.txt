@@ -1,0 +1,4 @@
+
+¬Change Return Type boolean to void in method protected validateAsync(input T, onValidated OperationWithInput<Boolean>) : void in class org.rstudio.core.client.widget.Wizard
+ÓChange Return Type boolean to void in method protected validateAsync(input RSConnectPublishResult, onValidated OperationWithInput<Boolean>) : void in class org.rstudio.studio.client.rsconnect.ui.PublishFilesPage
+±Change Return Type boolean to void in method public validateResult(onComplete OperationWithInput<Boolean>) : void in class org.rstudio.studio.client.rsconnect.ui.RSConnectDeploy2(229d1b60c03a3f8375451c68a6911660a3993777

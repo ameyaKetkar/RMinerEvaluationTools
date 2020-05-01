@@ -1,0 +1,1 @@
+«Change Return Type void to boolean in method package sendRequest(reportNoMoreHosts boolean) : boolean in class com.datastax.driver.core.RequestHandler.SpeculativeExecution2(9de5f0d408f861455716b8410fd53f62b360787d

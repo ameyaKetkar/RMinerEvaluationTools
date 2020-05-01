@@ -1,0 +1,2 @@
+
+ªChange Variable Type mpd : MPD to status : MPDStatus in method protected onHandleIntent(intent Intent) : void in class com.namelessdev.mpdroid.widgets.WidgetHelperService¥Rename Variable mpd : MPD to status : MPDStatus in method protected onHandleIntent(intent Intent) : void in class com.namelessdev.mpdroid.widgets.WidgetHelperService2(885771d57c97bd2dd48951e8aeaaa87ceb87532b

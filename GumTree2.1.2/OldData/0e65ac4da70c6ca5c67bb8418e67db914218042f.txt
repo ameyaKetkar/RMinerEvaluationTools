@@ -1,0 +1,1 @@
+ÆRename Variable intervalHistogram : EncodableHistogram to histogram : EncodableHistogram in method private getIntervalHistogram() : EncodableHistogram in class org.HdrHistogram.HistogramLogProcessor2(0e65ac4da70c6ca5c67bb8418e67db914218042f

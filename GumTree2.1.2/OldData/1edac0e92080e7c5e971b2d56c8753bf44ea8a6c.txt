@@ -1,0 +1,7 @@
+
+íRename Attribute maxSimultaneousRequestsPerHostLocal : int to maxRequestsPerConnectionLocal : int in class com.datastax.driver.core.PoolingOptions
+ûRename Attribute DEFAULT_MAX_REQUESTS_PER_HOST_LOCAL : int to DEFAULT_MAX_REQUESTS_PER_CONNECTION_LOCAL : int in class com.datastax.driver.core.PoolingOptions
+†Rename Attribute DEFAULT_MAX_REQUESTS_PER_HOST_REMOTE : int to DEFAULT_MAX_REQUESTS_PER_CONNECTION_REMOTE : int in class com.datastax.driver.core.PoolingOptions
+êRename Attribute maxSimultaneousRequestsPerConnection : int[] to newConnectionThreshold : int[] in class com.datastax.driver.core.PoolingOptions
+ïRename Attribute DEFAULT_MAX_REQUESTS_PER_CONNECTION : int to DEFAULT_NEW_CONNECTION_THRESHOLD : int in class com.datastax.driver.core.PoolingOptions
+îRename Attribute maxSimultaneousRequestsPerHostRemote : int to maxRequestsPerConnectionRemote : int in class com.datastax.driver.core.PoolingOptions’Rename Parameter newMaxSimultaneousRequests : int to newValue : int in method public setNewConnectionThreshold(distance HostDistance, newValue int) : PoolingOptions in class com.datastax.driver.core.PoolingOptions2(1edac0e92080e7c5e971b2d56c8753bf44ea8a6c

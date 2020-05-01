@@ -1,0 +1,2 @@
+
+ÒRename Variable clazz : Class<? extends PersistentObject> to persistentObjectClass : Class<? extends PersistentObject> in method protected flushInserts() : void in class org.activiti.engine.impl.db.DbSqlSession2(a70ca1d9ad2ea07b19c5e1f9540c809d7a12d3fb

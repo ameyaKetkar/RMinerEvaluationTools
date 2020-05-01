@@ -1,0 +1,5 @@
+
+tRename Attribute deploymentId : String to playToolProvider : PlayToolProvider in class org.gradle.play.tasks.PlayRun
+ŠChange Parameter Type runner : PlayApplicationRunner to runnerToken : PlayApplicationRunnerToken in method public PlayApplicationDeploymentHandle(id String, runnerToken PlayApplicationRunnerToken) in class org.gradle.play.internal.run.PlayApplicationDeploymentHandle
+…Rename Parameter runner : PlayApplicationRunner to runnerToken : PlayApplicationRunnerToken in method public PlayApplicationDeploymentHandle(id String, runnerToken PlayApplicationRunnerToken) in class org.gradle.play.internal.run.PlayApplicationDeploymentHandle
+yChange Attribute Type deploymentId : String to playToolProvider : PlayToolProvider in class org.gradle.play.tasks.PlayRun2(527ac38334000e105daacb2aca25cb345d77c01e

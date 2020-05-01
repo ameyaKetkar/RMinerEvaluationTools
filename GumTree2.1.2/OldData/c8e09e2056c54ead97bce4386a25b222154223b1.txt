@@ -1,0 +1,7 @@
+
+—Change Attribute Type classLoader : PackageClassLoader to classLoader : ClassLoader in class org.drools.core.rule.JavaDialectRuntimeData.WiringExecutor
+üChange Parameter Type classLoader : PackageClassLoader to classLoader : ClassLoader in method private wireAll(classLoader ClassLoader, invokerLookups Map<String,Object>, wireList List<String>) : void in class org.drools.core.rule.JavaDialectRuntimeData
+‹Change Parameter Type classLoader : PackageClassLoader to classLoader : ClassLoader in method private WiringExecutor(classLoader ClassLoader, invokerLookups Map<String,Object>, wireList List<String>) in class org.drools.core.rule.JavaDialectRuntimeData.WiringExecutor
+ˆChange Attribute Type classLoader : PackageClassLoader to classLoader : ClassLoader in class org.drools.core.rule.JavaDialectRuntimeData
+ôChange Parameter Type classLoader : PackageClassLoader to classLoader : ClassLoader in method private wire(classLoader ClassLoader, invokerLookups Map<String,Object>, className String) : void in class org.drools.core.rule.JavaDialectRuntimeData
+áChange Parameter Type classLoader : PackageClassLoader to classLoader : ClassLoader in method private wire(classLoader ClassLoader, className String, invoker Object) : void in class org.drools.core.rule.JavaDialectRuntimeData2(c8e09e2056c54ead97bce4386a25b222154223b1

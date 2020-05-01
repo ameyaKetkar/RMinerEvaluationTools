@@ -1,0 +1,14 @@
+
+­Change Variable Type socket : Socket to conn : SecureSocketConnection in method private serverResponds(host String, port int) : boolean in class org.neo4j.ext.NDPExtensionIT
+âChange Parameter Type keyStorePath : String to keyStore : KeyStore in method public KeyStoreInformation(keyStore KeyStore, keyStorePassword char[], keyPassword char[]) in class org.neo4j.server.security.ssl.KeyStoreInformation
+ÀChange Variable Type certFactory : SslCertificateFactory to certFactory : Certificates in method protected initHttpsKeyStore() : KeyStoreInformation in class org.neo4j.server.AbstractNeoServer
+ƒRename Attribute workerGroup : EventLoopGroup to selectorGroup : EventLoopGroup in class org.neo4j.ndp.transport.socket.NettyServer
+}Change Attribute Type keyStorePath : String to keyStore : KeyStore in class org.neo4j.server.security.ssl.KeyStoreInformation
+ÝRename Parameter keyStorePath : String to keyStore : KeyStore in method public KeyStoreInformation(keyStore KeyStore, keyStorePassword char[], keyPassword char[]) in class org.neo4j.server.security.ssl.KeyStoreInformation
+îRename Parameter config : KeyStoreInformation to ksInfo : KeyStoreInformation in method private createSslConnectionFactory(ksInfo KeyStoreInformation) : SslConnectionFactory in class org.neo4j.server.security.ssl.SslSocketConnectorFactory
+“Rename Attribute sslCertificateFactory : SslCertificateFactory to certFactory : Certificates in class org.neo4j.server.security.ssl.KeyStoreFactory
+ÒChange Variable Type sslFactory : SslCertificateFactory to sslFactory : Certificates in method public shouldCreateASelfSignedCertificate() : void in class org.neo4j.server.security.ssl.TestSslCertificateFactory
+xRename Attribute keyStorePath : String to keyStore : KeyStore in class org.neo4j.server.security.ssl.KeyStoreInformation
+ŠChange Return Type String to KeyStore in method public getKeyStore() : KeyStore in class org.neo4j.server.security.ssl.KeyStoreInformation
+˜Change Attribute Type sslCertificateFactory : SslCertificateFactory to certFactory : Certificates in class org.neo4j.server.security.ssl.KeyStoreFactory
+¨Rename Variable socket : Socket to conn : SecureSocketConnection in method private serverResponds(host String, port int) : boolean in class org.neo4j.ext.NDPExtensionIT½Rename Variable socket : Socket to conn : SecureSocketConnection in method private assertEventuallyServerResponds(host String, port int) : void in class org.neo4j.server.Neo4jDataProtocolITÐChange Variable Type testBootstrapper : WrappingNeoServerBootstrapper to server : CommunityNeoServer in method public shouldDisallowDirectoryListings() : void in class org.neo4j.server.web.TestJetty9WebServer2(d3533c1a0716ca114d294b3ea183504c9725698f

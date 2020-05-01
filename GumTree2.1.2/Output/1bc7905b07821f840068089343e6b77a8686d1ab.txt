@@ -1,2 +1,4 @@
 
-¢Rename Attribute spewRunnable : Runnable to sendCachedDataRunnable : Runnable in class com.koushikdutta.async.http.cache.ResponseCacheMiddleware.CachedBodyEmitter2(1bc7905b07821f840068089343e6b77a8686d1ab
+¢Rename Attribute spewRunnable : Runnable to sendCachedDataRunnable : Runnable in class com.koushikdutta.async.http.cache.ResponseCacheMiddleware.CachedBodyEmitter
+ºRename Method package spewInternal() : void renamed to package sendCachedDataOnNetworkThread() : void in class com.koushikdutta.async.http.cache.ResponseCacheMiddleware.CachedBodyEmitter
+£Rename Method package spew() : void renamed to package sendCachedData() : void in class com.koushikdutta.async.http.cache.ResponseCacheMiddleware.CachedBodyEmitter2(1bc7905b07821f840068089343e6b77a8686d1ab

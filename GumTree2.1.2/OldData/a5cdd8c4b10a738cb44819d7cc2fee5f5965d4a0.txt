@@ -1,0 +1,11 @@
+
+ùRename Variable request : StackRequest to requestStack : ItemStack in method public getRequest(slot int) : ItemStack in class buildcraft.builders.TileBuilder
+éChange Return Type StackRequest to ItemStack in method public getRequest(slot int) : ItemStack in class buildcraft.api.robots.IRequestProvider
+ÜChange Return Type StackRequest to ItemStack in method public getRequest(i int) : ItemStack in class buildcraft.robotics.TileRequester
+ÅRename Parameter i : int to slot : int in method public getRequest(slot int) : ItemStack in class buildcraft.builders.TileBuilder
+áChange Return Type StackRequest to ItemStack in method public getRequest(slot int) : ItemStack in class buildcraft.builders.TileBuilder
+ñChange Variable Type r : StackRequest to request : ItemStack in method public getRequest(i int) : ItemStack in class buildcraft.robotics.TileRequester
+ëRename Parameter i : int to slot : int in method public offerItem(slot int, stack ItemStack) : ItemStack in class buildcraft.builders.TileBuilder
+àRename Parameter i : int to slot : int in method public getRequest(slot int) : ItemStack in class buildcraft.api.robots.IRequestProvider
+òRename Parameter i : int to slot : int in method public offerItem(slot int, stack ItemStack) : ItemStack in class buildcraft.api.robots.IRequestProvider
+¢Change Variable Type request : StackRequest to requestStack : ItemStack in method public getRequest(slot int) : ItemStack in class buildcraft.builders.TileBuilder2(a5cdd8c4b10a738cb44819d7cc2fee5f5965d4a0

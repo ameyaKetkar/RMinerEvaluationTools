@@ -1,0 +1,2 @@
+
+àRename Variable type : MediaType to mediaType : MediaType in method protected addDefaultHeaders(headers HttpHeaders, t T, contentType MediaType) : void in class org.springframework.http.converter.AbstractHttpMessageConverter2(31a5434ea433bdec2283797bf9415c02bb2f41c1

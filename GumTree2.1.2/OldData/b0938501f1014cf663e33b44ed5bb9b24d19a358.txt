@@ -1,0 +1,2 @@
+
+bRename Attribute mOpen : boolean to mClosed : boolean in class tachyon.client.RemoteBlockOutStream Change Variable Type fs : TachyonFS to os : BlockOutStream in method public cancelRemoteWriteTest() : void in class tachyon.client.BlockOutStreamIntegrationTest2(b0938501f1014cf663e33b44ed5bb9b24d19a358

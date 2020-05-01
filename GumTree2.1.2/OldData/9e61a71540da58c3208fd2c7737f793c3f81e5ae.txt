@@ -1,0 +1,1 @@
+üChange Return Type void to boolean in method public createGogsWebhook(kubernetes KubernetesClient, log Log, gogsUser String, gogsPwd String, repoName String, webhookUrl String, webhookSecret String) : boolean in class io.fabric8.maven.CreateGogsWebhook2(9e61a71540da58c3208fd2c7737f793c3f81e5ae

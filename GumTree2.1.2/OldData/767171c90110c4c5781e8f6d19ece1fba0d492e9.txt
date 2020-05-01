@@ -1,0 +1,1 @@
+‘Change Attribute Type INDEX_NAME : String to indexRangeService : EsIndexRangeService in class org.graylog2.indexer.ranges.EsIndexRangeServiceTest£Change Attribute Type indexRangeService : IndexRangeService to indexRangeService : EsIndexRangeService in class org.graylog2.indexer.ranges.EsIndexRangeServiceTest2(767171c90110c4c5781e8f6d19ece1fba0d492e9

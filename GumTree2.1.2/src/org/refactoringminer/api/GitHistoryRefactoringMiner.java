@@ -67,6 +67,8 @@ public interface GitHistoryRefactoringMiner {
 	 */
 	void detectAtCommit(Repository repository, String commitId, RefactoringHandler handler);
 
+	void detectAtCommit(String project, String commitId, RefactoringHandler handler);
+
 	/**
 	 * Detect refactorings performed in the specified commit.
 	 *

@@ -1,0 +1,4 @@
+
+ÓChange Variable Type pair : CodeUtil.Pair<DataSchema,String> to pair : CodeUtil.Pair<DataSchema,DataSchemaLocation> in method public run(resolverPath String, defaultPackage String, generateImported boolean, targetDirectoryPath String, sources String[]) : GeneratorResult in class com.linkedin.pegasus.generator.PegasusDataTemplateGenerator
+æRename Attribute _schemaAndNames : Collection<CodeUtil.Pair<DataSchema,String>> to _schemaAndLocations : Collection<CodeUtil.Pair<DataSchema,DataSchemaLocation>> in class com.linkedin.pegasus.generator.DataSchemaParser.ParseResult
+¤Change Return Type Collection<CodeUtil.Pair<DataSchema,String>> to Collection<CodeUtil.Pair<DataSchema,DataSchemaLocation>> in method public getSchemaAndLocations() : Collection<CodeUtil.Pair<DataSchema,DataSchemaLocation>> in class com.linkedin.pegasus.generator.DataSchemaParser.ParseResult2(f61db44ca4a862f1a84450643d92f85449016cfa

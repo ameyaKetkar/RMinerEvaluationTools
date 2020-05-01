@@ -1,0 +1,34 @@
+syntax = "proto3";
+
+
+option java_package = "com.models";
+
+message GumTreeResults {
+
+    repeated RefactoringReported refactoringsReported = 1;
+
+    message RefactoringReported {
+        string description = 1;
+        string cloneUrl = 5;
+        string sha = 4;
+        ProtoCodeRange left = 2;
+        ProtoCodeRange right = 3;
+
+        message ProtoCodeRange {
+            string filePath = 1;
+            int32 startLine = 5;
+            int32 startColumn = 6;
+            int32 endLine = 7;
+            int32 endColumn = 8;
+            string codeElementType = 9;
+            string codeElement = 10;
+            // Will actually be the same description
+
+            string description = 11;
+        }
+    }
+}
+
+// protoc -I=/Users/ameya/Research/RMinerEvaluationTools/GumTree2.1.2/ --java_out=/Users/ameya/Research/RMinerEvaluationTools/GumTree2.1.2/src/ /Users/ameya/Research/RMinerEvaluationTools/GumTree2.1.2/GumTreeResults.proto
+// protoc -I=/Users/ameya/Research/TypeChangeStudy/DataAnalysis/Models/src/main/resources/Protos --python_out=/Users/ameya/Research/TypeChangeStudy/DataAnalysis/Models/Models /Users/ameya/Research/TypeChangeStudy/DataAnalysis/Models/src/main/resources/Protos/*
+

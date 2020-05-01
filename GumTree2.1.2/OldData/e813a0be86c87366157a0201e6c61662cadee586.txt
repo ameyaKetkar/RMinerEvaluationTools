@@ -1,0 +1,3 @@
+
+óRename Parameter uiName : String to contextName : String in method public AppEvent(contextName String, eventName String, valueToSum Double, parameters Bundle, isImplicitlyLogged boolean) in class com.facebook.appevents.AppEventsLogger.AppEvent
+hRename Attribute uiName : String to contextName : String in class com.facebook.appevents.AppEventsLogger2(e813a0be86c87366157a0201e6c61662cadee586

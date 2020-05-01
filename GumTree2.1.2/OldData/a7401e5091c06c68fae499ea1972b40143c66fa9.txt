@@ -1,0 +1,1 @@
+£Rename Variable chooser : Intent to intent : Intent in method private openLoginInBrowser(client ApiClient) : void in class com.github.mobile.accounts.LoginActivity2(a7401e5091c06c68fae499ea1972b40143c66fa9

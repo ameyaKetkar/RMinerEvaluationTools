@@ -1,0 +1,3 @@
+
+°Change Parameter Type activity : Activity to activity : BaseActivity in method private addSubscriptionItem(activity BaseActivity, menu Menu, subredditSubscriptionState RedditSubredditSubscriptionManager.SubredditSubscriptionState) : void in class org.quantumbadger.redreader.activities.OptionsMenuUtility
+çChange Parameter Type activity : Activity to activity : BaseActivity in method private add(activity BaseActivity, menu Menu, option Option, longText boolean) : void in class org.quantumbadger.redreader.activities.OptionsMenuUtility2(51b8b0e1ad4be1b137d67774eab28dc0ef52cb0a

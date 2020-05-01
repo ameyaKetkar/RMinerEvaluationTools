@@ -1,11 +1,15 @@
 package org.refactoringminer.test;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.models.GumTreeResultsOuterClass.GumTreeResults;
 import org.refactoringminer.api.RefactoringType;
 import refdiff.core.ResultModels.ResultsOuterClass;
 
 import java.io.File;
 import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.text.DecimalFormat;
 import java.util.*;
 import java.util.function.BiFunction;
@@ -46,7 +50,7 @@ public class AnalyseResults {
     static Set<String> refTypes = Arrays.stream(RefactoringType.values()).map(x -> x.getDisplayName())
             .collect(Collectors.toSet());
     static BiFunction<String, List<String>, Stream<Tuple3<String>>> extract =  (k, rs) -> rs.stream()
-            .map(r->new Tuple3<>(k,refTypes.stream().filter(r::startsWith).findFirst().get(),r));
+            .map(r->new Tuple3<>(k,refTypes.stream().filter(r::startsWith).findFirst().orElse("Blah"),r));
 
     static Function<ResultsOuterClass.Results, Stream<Tuple3<String>>> fn = res ->
             concat(concat(extract.apply("FN", res.getFalseNegativesList()), extract.apply("TN",res.getTrueNegativesList()))
@@ -69,9 +73,14 @@ public class AnalyseResults {
 
     public static DecimalFormat df = new DecimalFormat("#.###");
 
-    public static void main(String[] a){
+    public static void main(String[] a) throws IOException {
 
         List<ResultsOuterClass.Results> results = TestBuilder.readAllResults();
+
+        var rr = GumTreeResults
+                .parseFrom(Files.readAllBytes(Paths.get(System.getProperty("user.dir") + "/Output/GumTreeResult")));
+//        List<GumTreeResults> rr = readAllResults(Paths.get(System.getProperty("user.dir") + "/Output/GumTreeResults/"));
+
 //        results.stream().filter(x->x.getSha().equals("e78cda0fcf23de3973b659bc54f58a4e9b1f3bd3"))
 //                .findFirst().ifPresent(System.out::println);
         List<RefactoringPopulator.Root> roots = null;
@@ -100,7 +109,7 @@ public class AnalyseResults {
 
     private static List<RefactoringPopulator.Root> readJson() throws IOException {
         ObjectMapper mapper = new ObjectMapper();
-        String jsonFile ="D:\\MyProjects\\RefDiff-master\\refdiff-evaluation\\data\\icse" + "\\data.json";;
+        String jsonFile ="/Users/ameya/Research/RMinerEvaluationTools/GumTree2.1.2/src-test/Data/data.json";;
         return mapper.readValue(new File(jsonFile),
                 mapper.getTypeFactory().constructCollectionType(List.class, RefactoringPopulator.Root.class));
     }
@@ -140,8 +149,12 @@ public class AnalyseResults {
                 .filter(x->x.getFalsePositivesCount() > 0 && x.getFalseNegativesCount() > 0)
                 .forEach(x -> {
                     System.out.println(x.getSha());
-                    System.out.println(x.getFalsePositivesList().stream().collect(Collectors.joining("\n + ")));
-                    System.out.println(x.getFalseNegativesList().stream().collect(Collectors.joining("\n - ")));
+                    System.out.println(x.getFalsePositivesList().stream()
+                            .filter(z -> z.startsWith("Rename Method"))
+                            .collect(Collectors.joining("\n + ")));
+                    System.out.println(x.getFalseNegativesList().stream()
+                            .filter(z -> z.startsWith("Rename Method"))
+                            .collect(Collectors.joining("\n - ")));
                     System.out.println("--------------------");
                 });
     }
@@ -153,7 +166,8 @@ public class AnalyseResults {
         List<Tuple2<ResultsOuterClass.Results, ResultsOuterClass.Results>> result_vs_oracle;
         result_vs_oracle = roots.stream()
                 .map(r -> {
-                    Map<String, List<String>> refsByValidation = r.refactorings.stream().filter(x -> x.detectionTools.contains("GumTree"))
+                    Map<String, List<String>> refsByValidation = r.refactorings.stream()
+                            .filter(x -> x.detectionTools.contains("GumTree") || x.description.startsWith("Rename Method "))
                             .map(x -> new Tuple2<>(x.validation, x.description))
                             .collect(groupingBy(x -> x.e1, mapping(x -> x.e2, toList())));
                     ResultsOuterClass.Results.Builder res = ResultsOuterClass.Results.newBuilder()
@@ -204,6 +218,27 @@ public class AnalyseResults {
                 Stream.concat(rs.stream().flatMap(x-> x.getFalseNegativesList().stream().map(fn ->new Tuple2<>(x.getSha(), fn))),
                         rs.stream().flatMap(x-> x.getFalsePositivesList().stream().map(fp->new Tuple2<>(x.getSha(), fp))))).collect(toList());
 
+    }
+
+
+    public static List<GumTreeResults> readAllResults(Path folder) {
+        try {
+            return Files.walk(folder)
+                    .flatMap(p -> getGumTreeResults(p))
+                    .collect(Collectors.toList());
+        } catch (Exception e) {
+            System.out.println(e.toString());
+            System.out.println("TFG protos could not be deserialised");
+            return new ArrayList<>();
+        }
+    }
+
+    private static Stream<GumTreeResults> getGumTreeResults(Path file) {
+        try {
+            return Stream.of(GumTreeResults.parseFrom(Files.readAllBytes(file)));
+        } catch (IOException e) {
+            return Stream.empty();
+        }
     }
 
 }

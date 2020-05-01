@@ -1,0 +1,2 @@
+
+ÇRename Variable possibleSend : boolean to entireMessageSent : boolean in method private sendMessageTo(addresses List<String>, message Message) : void in class com.fsck.k9.mail.transport.SmtpTransportëRename Variable l : MessagingListener to listener : MessagingListener in method private notifySynchronizeMailboxFailed(account Account, localFolder Folder, exception Exception) : void in class com.fsck.k9.controller.MessagingController2(9d44f0e06232661259681d64002dd53c7c43099d

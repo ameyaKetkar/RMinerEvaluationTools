@@ -1,0 +1,2 @@
+
+’Change Variable Type cli : Cli<Runnable> to cli : Cli<CliCommand> in method public main(args String[]) : void in class org.graylog2.bootstrap.MainÐChange Variable Type journalCommands : Set<Class<? extends Runnable>> to commandsProviders : ServiceLoader<CliCommandsProvider> in method public main(args String[]) : void in class org.graylog2.bootstrap.Main¨Change Variable Type builder : CliBuilder<Runnable> to builder : CliBuilder<CliCommand> in method public main(args String[]) : void in class org.graylog2.bootstrap.Main2(72acc2126611f0bff9b672de18b9b2f8dacdc03a

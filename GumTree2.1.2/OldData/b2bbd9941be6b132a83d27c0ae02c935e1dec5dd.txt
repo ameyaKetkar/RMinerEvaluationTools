@@ -1,0 +1,16 @@
+
+‡Change Attribute Type logger : org.slf4j.Logger to logger : Logger in class org.apache.drill.exec.physical.impl.flatten.FlattenTemplate
+xChange Attribute Type logger : org.slf4j.Logger to logger : Logger in class org.apache.drill.exec.vector.BaseValueVector
+˜Rename Parameter numRecords : int to valueCount : int in method public setInitialCapacity(valueCount int) : void in class org.apache.drill.exec.vector.$
+‘Rename Variable valueSize : int to size : int in method public allocateNew(valueCount int) : void in class org.apache.drill.exec.vector.BitVector
+¶Rename Variable v : NullableVarCharVector to vector : NullableVarCharVector in method public testNullableVarLen2() : void in class org.apache.drill.exec.record.vector.TestValueVector
+˜Rename Variable v : BitVector to vector : BitVector in method public testBitVector() : void in class org.apache.drill.exec.record.vector.TestValueVector
+vRename Attribute allocationTotalByteCount : int to allocationSizeInBytes : int in class org.apache.drill.exec.vector.$
+†Rename Attribute childIndex : int to currentInnerValueIndex : int in class org.apache.drill.exec.physical.impl.flatten.FlattenTemplate
+ Rename Parameter numRecords : int to valueCount : int in method public setInitialCapacity(valueCount int) : void in class org.apache.drill.exec.vector.BitVector
+²Rename Variable v : NullableFloat4Vector to vector : NullableFloat4Vector in method public testNullableFloat() : void in class org.apache.drill.exec.record.vector.TestValueVector
+´Rename Variable v : NullableUInt4Vector to vector : NullableUInt4Vector in method public testNullableFixedType() : void in class org.apache.drill.exec.record.vector.TestValueVector
+ÄRename Variable v : NullableFloat4Vector to vector : NullableFloat4Vector in method public testReAllocNullableFixedWidthVector() : void in class org.apache.drill.exec.record.vector.TestValueVector
+zRename Attribute allocationValueCount : int to allocationSizeInBytes : int in class org.apache.drill.exec.vector.BitVector
+ŽRename Attribute childIndexWithinCurrGroup : int to innerValueIndex : int in class org.apache.drill.exec.physical.impl.flatten.FlattenTemplate
+ÉRename Variable v : NullableVarCharVector to vector : NullableVarCharVector in method public testReAllocNullableVariableWidthVector() : void in class org.apache.drill.exec.record.vector.TestValueVector‚Rename Variable valueSize : int to curSize : int in method public reAlloc() : void in class org.apache.drill.exec.vector.BitVectorªRename Variable v : UInt4Vector to vector : UInt4Vector in method public testFixedVectorReallocation() : void in class org.apache.drill.exec.record.vector.TestValueVectorœRename Variable v : UInt4Vector to vector : UInt4Vector in method public testFixedType() : void in class org.apache.drill.exec.record.vector.TestValueVector’Rename Variable valueSize : int to curSize : int in method private allocateBytes(size long) : void in class org.apache.drill.exec.vector.BitVector2(b2bbd9941be6b132a83d27c0ae02c935e1dec5dd

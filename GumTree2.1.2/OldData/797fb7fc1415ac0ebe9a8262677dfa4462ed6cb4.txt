@@ -1,0 +1,2 @@
+
+±Rename Attribute stringSwitchCases_1htk8d_a0a0jb : String[] to stringSwitchCases_1htk8d_a0a0kb : String[] in class jetbrains.mps.lang.textGen.structure.StructureAspectDescriptor2(797fb7fc1415ac0ebe9a8262677dfa4462ed6cb4

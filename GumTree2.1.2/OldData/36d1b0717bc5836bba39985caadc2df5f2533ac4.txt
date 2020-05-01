@@ -1,0 +1,2 @@
+
+ÙRename Variable augmentor : JpaSoftDeleteQueryAugmentor to jpaAugmentor : JpaSoftDeleteQueryAugmentor in method public setUp() : void in class org.springframework.data.jpa.repository.support.SoftDeleteIntegrationTests2(36d1b0717bc5836bba39985caadc2df5f2533ac4

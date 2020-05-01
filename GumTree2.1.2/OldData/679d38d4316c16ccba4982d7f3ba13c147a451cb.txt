@@ -1,0 +1,2 @@
+
+±Rename Variable newPut : boolean to oldRecord : R in method public put(key K, value V) : void in class com.hazelcast.cache.impl.nearcache.impl.store.AbstractNearCacheRecordStore¶Change Variable Type newPut : boolean to oldRecord : R in method public put(key K, value V) : void in class com.hazelcast.cache.impl.nearcache.impl.store.AbstractNearCacheRecordStore2(679d38d4316c16ccba4982d7f3ba13c147a451cb

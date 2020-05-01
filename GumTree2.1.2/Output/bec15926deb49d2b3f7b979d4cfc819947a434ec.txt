@@ -1,0 +1,1 @@
+«Rename Method private hasRequiredPosTag(posTagsToFind Collection<String>, tokenReadings AnalyzedTokenReadings) : boolean renamed to private getReadingWithVidmPosTag(posTagsToFind Collection<String>, tokenReadings AnalyzedTokenReadings) : boolean in class org.languagetool.rules.uk.TokenAgreementRule2(bec15926deb49d2b3f7b979d4cfc819947a434ec

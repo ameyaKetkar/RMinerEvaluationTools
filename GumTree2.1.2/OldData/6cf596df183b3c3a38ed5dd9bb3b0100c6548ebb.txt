@@ -1,0 +1,1 @@
+ÌChange Variable Type path3 : String to config0 : RealmConfiguration in method protected onCreate(savedInstanceState Bundle) : void in class io.realm.examples.realmmigrationexample.MigrationExampleActivity2(6cf596df183b3c3a38ed5dd9bb3b0100c6548ebb

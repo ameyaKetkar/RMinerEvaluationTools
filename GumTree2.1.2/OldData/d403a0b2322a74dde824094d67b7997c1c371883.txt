@@ -1,0 +1,2 @@
+
+ªChange Attribute Type updatesContributionTab : ContributionTab to updatesContributionTab : UpdateContributionTab in class processing.app.contrib.ContributionManagerDialog2(d403a0b2322a74dde824094d67b7997c1c371883

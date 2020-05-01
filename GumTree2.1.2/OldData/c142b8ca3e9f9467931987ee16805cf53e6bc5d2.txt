@@ -1,0 +1,3 @@
+
+¨Change Variable Type oxConnector : OXConnector to oxConnector : IConnector in method public testCanHandle() : void in class cgeo.geocaching.connector.ox.OXConnectorTest
+¬Change Variable Type connector : OXConnector to connector : IConnector in method public testGetGeocodeFromUrl() : void in class cgeo.geocaching.connector.ox.OXConnectorTest2(c142b8ca3e9f9467931987ee16805cf53e6bc5d2

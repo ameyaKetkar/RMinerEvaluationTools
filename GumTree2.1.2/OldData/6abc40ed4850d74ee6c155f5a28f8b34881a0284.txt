@@ -1,0 +1,1 @@
+ŸChange Return Type void to GuiBetterButton in method public setToolTip(tips ToolTip) : GuiBetterButton in class buildcraft.core.lib.gui.buttons.GuiBetterButton2(6abc40ed4850d74ee6c155f5a28f8b34881a0284

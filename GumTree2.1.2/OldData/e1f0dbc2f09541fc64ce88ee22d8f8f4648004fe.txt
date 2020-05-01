@@ -1,0 +1,2 @@
+
+áChange Variable Type result : Ref<NewLibraryConfiguration> to result : Ref<List<OrderRoot>> in method public resolveAndDownloadImpl(project Project, coord String, attachJavaDoc boolean, attachSources boolean, copyTo String, repositories List<MavenRepositoryInfo>) : List<OrderRoot> in class org.jetbrains.idea.maven.utils.library.RepositoryAttachHandler2(e1f0dbc2f09541fc64ce88ee22d8f8f4648004fe

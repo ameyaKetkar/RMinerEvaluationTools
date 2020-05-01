@@ -1,0 +1,1 @@
+qChange Variable Type pipe : Pipe to exception : IOException in method public close() : void in class zmq.SignalerlRename Variable pipe : Pipe to exception : IOException in method public close() : void in class zmq.Signaler2(02d3fa171d02c9d82c7bdcaeb739f47d0c0006a0

@@ -1,1 +1,2 @@
-£Rename Variable chooser : Intent to intent : Intent in method private openLoginInBrowser(client ApiClient) : void in class com.github.mobile.accounts.LoginActivity2(a7401e5091c06c68fae499ea1972b40143c66fa9
+
+æRename Method private endAccess(accessToken String, scope String) : void renamed to private endAuth(accessToken String, scope String) : void in class com.github.mobile.accounts.LoginActivityùRename Method protected onNewIntent(intent Intent) : void renamed to private onUserLoggedIn(uri Uri) : void in class com.github.mobile.accounts.LoginActivity£Rename Variable chooser : Intent to intent : Intent in method private openLoginInBrowser(client ApiClient) : void in class com.github.mobile.accounts.LoginActivity2(a7401e5091c06c68fae499ea1972b40143c66fa9

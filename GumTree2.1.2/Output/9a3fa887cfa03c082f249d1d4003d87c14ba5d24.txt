@@ -1,0 +1,1 @@
+†Rename Method public package getBootstrapTokens(metadata TokenMetadata) : Collection<Token> renamed to private package getSpecifiedTokens(metadata TokenMetadata, initialTokens Collection<String>) : Collection<Token> in class org.apache.cassandra.dht.BootStrapper2(9a3fa887cfa03c082f249d1d4003d87c14ba5d24

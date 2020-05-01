@@ -1,0 +1,6 @@
+
+°Rename Parameter value : long[] to values : long[] in method public writeLongArray(values long[]) : void in class org.elasticsearch.common.io.stream.StreamOutput
+≥Change Return Type QueryFilterBuilder to FQueryFilterBuilder in method public getBuilderPrototype() : FQueryFilterBuilder in class org.elasticsearch.index.query.FQueryFilterParser
+•Rename Parameter value : float[] to values : float[] in method public writeFloatArray(values float[]) : void in class org.elasticsearch.common.io.stream.StreamOutput
+©Rename Parameter value : double[] to values : double[] in method public writeDoubleArray(values double[]) : void in class org.elasticsearch.common.io.stream.StreamOutput
+ùRename Parameter value : int[] to values : int[] in method public writeIntArray(values int[]) : void in class org.elasticsearch.common.io.stream.StreamOutput2(ff9041dc486adf0a8dec41f80bbfbdd49f97016a

@@ -1,0 +1,2 @@
+
+—Rename Parameter parent : TreePath to path : TreePath in method public removeNode(path TreePath) : void in class com.intellij.util.ui.EditableTreeModel2(484038e916dc40bf87eca10c77889d79eca96c4d

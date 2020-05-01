@@ -1,0 +1,2 @@
+
+ÈChange Return Type void to boolean in method private processDots(result StringBuilder, dots int, start int, resolveSymlinksIfNecessary boolean) : boolean in class com.intellij.openapi.util.io.FileUtil2(a9379ee529ed87e28c0736c3c6657dcd6a0680e4

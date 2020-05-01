@@ -1,0 +1,1 @@
+½Move And Rename Method public processRename(project Project, directory PsiDirectory, course Course) : boolean from class com.jetbrains.edu.coursecreator.actions.CCRenameTask to private renameTask(project Project, course Course, directory PsiDirectory) : void from class com.jetbrains.edu.coursecreator.CCRenameHandler2(6905d569a1e39d0d7b1ec5ceee4f0bbe60b85947

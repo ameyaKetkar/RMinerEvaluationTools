@@ -1,0 +1,1 @@
+ÃChange Attribute Type writeServerResource : WriteServerResource to eurekaDeploymentResource : EurekaDeploymentResource in class com.netflix.eureka2.testkit.embedded.server.EmbeddedWriteServerTest2(5103ace802b2819438318dd53b5b07512aae0d25

@@ -1,0 +1,1 @@
+¸Rename Variable root : Artifact to repoSys : RepositorySystem in method private downloadArtifact(artifactToDownload Artifact, repoSys RepositorySystem, session RepositorySystemSession, buckFiles Map<Path,SortedSet<Prebuilt>>, graph MutableDirectedGraph<Artifact>) : void in class com.facebook.buck.maven.Resolver2(7e104c3ed4b80ec8e9b72356396f879d1067cc40

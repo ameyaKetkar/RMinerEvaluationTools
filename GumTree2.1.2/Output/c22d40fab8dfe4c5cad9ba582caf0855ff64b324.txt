@@ -1,0 +1,1 @@
+ÓChange Variable Type e : Exception to t : Throwable in method protected failedSubscribe(s Subscriber<? super T>, t Throwable) : void in class co.paralleluniverse.strands.channels.reactivestreams.ChannelPublisher2(c22d40fab8dfe4c5cad9ba582caf0855ff64b324

@@ -1,0 +1,3 @@
+
+ÑRename Method package should_include_enumtype_in_accessor_string() : void renamed to public should_allow_enum_as_string_in_accessor_params() : void in class com.datastax.driver.mapping.MapperAccessorParamsTest
+ÏRename Method package should_include_enumtype_in_accessor_ordinal() : void renamed to public should_allow_enum_as_int_in_accessor_params() : void in class com.datastax.driver.mapping.MapperAccessorParamsTest2(14abb6919a99a0d6d500198dd2e30c83b1bb6709

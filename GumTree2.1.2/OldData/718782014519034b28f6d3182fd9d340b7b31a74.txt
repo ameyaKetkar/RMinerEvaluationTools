@@ -1,0 +1,4 @@
+
+†Rename Attribute server : DatagramSocketImpl to socket : DatagramSocketImpl in class io.vertx.core.datagram.impl.DatagramServerHandler
+ÞRename Parameter server : DatagramSocketImpl to socket : DatagramSocketImpl in method package DatagramServerHandler(vertx VertxInternal, socket DatagramSocketImpl) in class io.vertx.core.datagram.impl.DatagramServerHandler
+zRename Attribute vertx : VertxInternal to connectionMap : Map<Channel,C> in class io.vertx.core.http.impl.VertxHttpHandler´Rename Parameter connectionMap : Map<Channel,C> to channel : Channel in method protected abstract removeConnection(channel Channel) : C in class io.vertx.core.net.impl.VertxHandlerChange Attribute Type vertx : VertxInternal to connectionMap : Map<Channel,C> in class io.vertx.core.http.impl.VertxHttpHandler2(718782014519034b28f6d3182fd9d340b7b31a74

@@ -1,0 +1,2 @@
+
+¨Rename Variable ext : String to extension : String in method private isExtensionIn(filename String, extensions List<String>) : boolean in class com.gh4a.utils.FileUtilshRename Attribute imageExts : List<String> to IMAGE_EXTS : List<String> in class com.gh4a.utils.FileUtils2(b8fffb706258db4c4d2f608d8e8dad9312e2230d

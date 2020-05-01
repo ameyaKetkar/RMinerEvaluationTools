@@ -1,0 +1,2 @@
+
+£Rename Method public subjectIsCorrect() : void renamed to public bodyContainsItemsFromModel() : void in class com.seyren.core.util.velocity.VelocityEmailHelperTest2(5fb36a321af7df470d4c845cb18da8f85be31c38

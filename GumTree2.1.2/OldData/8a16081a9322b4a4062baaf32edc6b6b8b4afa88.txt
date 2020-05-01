@@ -1,0 +1,4 @@
+
+¤Change Return Type ByteBuf to ByteString in method public debugData() : ByteString in class io.netty.handler.codec.http2.StreamBufferingEncoder.Http2GoAwayException
+•Change Attribute Type debugData : ByteBuf to debugData : ByteString in class io.netty.handler.codec.http2.StreamBufferingEncoder.Http2GoAwayException
+óChange Parameter Type debugData : ByteBuf to debugData : ByteString in method public Http2GoAwayException(lastStreamId int, errorCode long, debugData ByteString) in class io.netty.handler.codec.http2.StreamBufferingEncoder.Http2GoAwayException¢Change Variable Type e : Exception to e : Http2ChannelClosedException in method public close() : void in class io.netty.handler.codec.http2.StreamBufferingEncoder2(8a16081a9322b4a4062baaf32edc6b6b8b4afa88

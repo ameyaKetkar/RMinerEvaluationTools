@@ -1,0 +1,1 @@
+ëChange Return Type boolean to void in method public printCreationReferenceCall(returnType ITypeBinding, functionalTypeBinding ITypeBinding, methodBinding IMethodBinding) : void in class com.google.devtools.j2objc.gen.StatementGenerator2(d05d92de40542e85f9f26712d976e710be82914e

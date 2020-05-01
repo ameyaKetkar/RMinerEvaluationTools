@@ -1,0 +1,1 @@
+¥Change Variable Type bis : BufferedInputStream to sourceFileInputStream : InputStream in method private handleInputStreamMessage(sourceFileInputStream InputStream, originalFile File, tempFile File, resultFile File) : File in class org.springframework.integration.file.FileWritingMessageHandler2(247232bdde24b81814a82100743f77d881aaf06b

@@ -1,0 +1,329 @@
+==========================================================================================================================
+truePositives: "Rename Method public shouldReturnAnAbsentOptionalIfNoTargetDeviceOptionsSet() : void renamed to public shouldReturnAnAbsentOptionalIfNoTargetDeviceCommandLineOptionsSet() : void in class com.facebook.buck.cli.TargetDeviceCommandLineOptionsTest"
+sha: "1c7c03dd9e6d5810ad22d37ecae59722c219ac35"
+
+-----------------------------------
+truePositives: "Rename Method public newGraph(dir Directory, is3D boolean) : GraphStorage renamed to public newGHStorage(dir Directory, is3D boolean) : GraphHopperStorage in class com.graphhopper.storage.GraphHopperStorageCHTest"
+truePositives: "Rename Method package abstract createGraph(location String, is3D boolean) : GraphStorage renamed to package abstract createGHStorage(location String, is3D boolean) : GraphHopperStorage in class com.graphhopper.storage.AbstractGraphStorageTester"
+truePositives: "Rename Parameter g : Graph to ghStorage : GraphHopperStorage in method package createAlgos(ghStorage GraphHopperStorage, idx LocationIndex, encoder FlagEncoder, withCh boolean, tMode TraversalMode, weighting Weighting, manager EncodingManager) : List<AlgoHelperEntry> in class com.graphhopper.routing.RoutingAlgorithmIT"
+sha: "7f80425b6a0af9bdfef12c8a873676e39e0a04a6"
+
+-----------------------------------
+truePositives: "Rename Method public get8BIMData() : CGImageProperty8BIMData renamed to public getData() : CGImageProperty8BIMData in class org.robovm.apple.imageio.CGImageProperties"
+truePositives: "Rename Method public isContainingFloatingPointPixels() : boolean renamed to public containsFloatingPointPixels() : boolean in class org.robovm.apple.imageio.CGImageProperties"
+truePositives: "Rename Method public setContactInfo(contactInfo CGImagePropertyIPTCContactInfoData) : CGImagePropertyIPTCData renamed to public setCreatorContactInfo(creatorContactInfo CGImagePropertyIPTCContactInfoData) : CGImagePropertyIPTCData in class org.robovm.apple.imageio.CGImagePropertyIPTCData"
+truePositives: "Rename Method public getContactInfo() : CGImagePropertyIPTCContactInfoData renamed to public getCreatorContactInfo() : CGImagePropertyIPTCContactInfoData in class org.robovm.apple.imageio.CGImagePropertyIPTCData"
+truePositives: "Rename Method public setIndexed(isIndexed boolean) : CGImageProperties renamed to public setIsIndexed(isIndexed boolean) : CGImageProperties in class org.robovm.apple.imageio.CGImageProperties"
+sha: "bf5ee44b3b576e01ab09cae9f50300417b01dc07"
+
+-----------------------------------
+truePositives: "Rename Method private addCheckboxController(optionName String, label String) : void renamed to private makeTriStateCheckBox(label String, option String) : TriStateCheckBox in class org.rstudio.studio.client.workbench.views.source.editors.text.ChunkOptionsPopupPanel"
+sha: "9a581e07cb6381d70f3fd9bb2055e810e2a682a9"
+
+-----------------------------------
+truePositives: "Rename Method public findById(id Object, columns String) : M renamed to public findByIdLoadColumns(idValues Object[], columns String) : M in class com.jfinal.plugin.activerecord.Model"
+truePositives: "Rename Method public encrypt(algorithm String, srcStr String) : String renamed to public hash(algorithm String, srcStr String) : String in class com.jfinal.kit.HashKit"
+truePositives: "Rename Method public sha1Encrypt(srcStr String) : String renamed to public sha1(srcStr String) : String in class com.jfinal.kit.HashKit"
+truePositives: "Rename Method public sha256Encrypt(srcStr String) : String renamed to public sha256(srcStr String) : String in class com.jfinal.kit.HashKit"
+truePositives: "Rename Method public sha384Encrypt(srcStr String) : String renamed to public sha384(srcStr String) : String in class com.jfinal.kit.HashKit"
+truePositives: "Rename Method public sha512Encrypt(srcStr String) : String renamed to public sha512(srcStr String) : String in class com.jfinal.kit.HashKit"
+truePositives: "Rename Method public md5Encrypt(srcStr String) : String renamed to public md5(srcStr String) : String in class com.jfinal.kit.HashKit"
+truePositives: "Rename Method protected validateString(field String, notBlank boolean, minLen int, maxLen int, errorKey String, errorMessage String) : void renamed to private validateStringValue(value String, minLen int, maxLen int, errorKey String, errorMessage String) : void in class com.jfinal.validate.Validator"
+truePositives: "Rename Parameter ai : ActionInvocation to inv : Invocation in method public intercept(inv Invocation) : void in class com.jfinal.ext.interceptor.Restful"
+truePositives: "Rename Parameter id : Object to idValues : Object... in method private deleteById(table Table, idValues Object...) : boolean in class com.jfinal.plugin.activerecord.Model"
+truePositives: "Rename Variable columnsArray : String[] to arr : String[] in method public forModelFindById(table Table, columns String) : String in class com.jfinal.plugin.activerecord.dialect.MysqlDialect"
+truePositives: "Rename Variable columnsArray : String[] to arr : String[] in method public forModelFindById(table Table, columns String) : String in class com.jfinal.plugin.activerecord.dialect.PostgreSqlDialect"
+truePositives: "Change Parameter Type ai : ActionInvocation to inv : Invocation in method public intercept(inv Invocation) : void in class com.jfinal.ext.interceptor.Restful"
+truePositives: "Change Parameter Type idValue : Number to idValue : Object... in method public findById(tableName String, primaryKey String, idValue Object...) : Record in class com.jfinal.plugin.activerecord.Db"
+truePositives: "Change Parameter Type invocation : ActionInvocation to invocation : Invocation in method public intercept(invocation Invocation) : void in class com.jfinal.validate.Validator"
+truePositives: "Change Attribute Type fileRenamePolicy : DefaultFileRenamePolicy to fileRenamePolicy : FileRenamePolicy in class com.jfinal.upload.MultipartRequest"
+truePositives: "Change Attribute Type invocation : ActionInvocation to invocation : Invocation in class com.jfinal.validate.Validator"
+truePositives: "Rename Parameter ai : ActionInvocation to inv : Invocation in method public abstract doIntercept(inv Invocation) : void in class com.jfinal.aop.PrototypeInterceptor"
+truePositives: "Rename Parameter primaryKey : String to pKeys : String[] in method public abstract forDbFindById(tableName String, pKeys String[]) : String in class com.jfinal.plugin.activerecord.dialect.Dialect"
+truePositives: "Rename Parameter primaryKey : String to pKeys : String[] in method public abstract forDbDeleteById(tableName String, pKeys String[]) : String in class com.jfinal.plugin.activerecord.dialect.Dialect"
+truePositives: "Rename Parameter primaryKey : String to pKeys : String[] in method public abstract forDbUpdate(tableName String, pKeys String[], ids Object[], record Record, sql StringBuilder, paras List<Object>) : void in class com.jfinal.plugin.activerecord.dialect.Dialect"
+truePositives: "Rename Parameter id : Object to ids : Object[] in method public abstract forDbUpdate(tableName String, pKeys String[], ids Object[], record Record, sql StringBuilder, paras List<Object>) : void in class com.jfinal.plugin.activerecord.dialect.Dialect"
+truePositives: "Change Parameter Type ai : ActionInvocation to inv : Invocation in method public abstract doIntercept(inv Invocation) : void in class com.jfinal.aop.PrototypeInterceptor"
+sha: "881baed894540031bd55e402933bcad28b74ca88"
+
+-----------------------------------
+truePositives: "Rename Variable spdyConnection : SpdyConnection to framedConnection : FramedConnection in method public processConnection() : void in class com.squareup.okhttp.mockwebserver.MockWebServer.serveConnection.execute"
+truePositives: "Rename Variable spdySocketHandler : SpdySocketHandler to framedSocketHandler : FramedSocketHandler in method public processConnection() : void in class com.squareup.okhttp.mockwebserver.MockWebServer.serveConnection.execute"
+truePositives: "Change Variable Type spdySocketHandler : SpdySocketHandler to framedSocketHandler : FramedSocketHandler in method public processConnection() : void in class com.squareup.okhttp.mockwebserver.MockWebServer.serveConnection.execute"
+truePositives: "Change Variable Type spdyConnection : SpdyConnection to framedConnection : FramedConnection in method public processConnection() : void in class com.squareup.okhttp.mockwebserver.MockWebServer.serveConnection.execute"
+truePositives: "Change Variable Type s : Iterator<SpdyConnection> to s : Iterator<FramedConnection> in method protected execute() : void in class com.squareup.okhttp.mockwebserver.MockWebServer.start.execute"
+sha: "c753d2e41ba667f9b5a31451a16ecbaecdc65d80"
+
+-----------------------------------
+truePositives: "Rename Method private addToPutMetricDataList(putMetricDataList List<PutMetricDataType>, cloudWatchSupplier Supplier<InstanceUsageEvent>) : void renamed to private addToQueueItems(queueItems List<AbsoluteMetricQueueItem>, cloudWatchSupplier Supplier<InstanceUsageEvent>) : void in class com.eucalyptus.cluster.callback.cloudwatch.CloudWatchHelper"
+sha: "5a38d0bca0e48853c3f7c00a0f098bada64797df"
+
+-----------------------------------
+truePositives: "Rename Method private hasRequiredPosTag(posTagsToFind Collection<String>, tokenReadings AnalyzedTokenReadings) : boolean renamed to private getReadingWithVidmPosTag(posTagsToFind Collection<String>, tokenReadings AnalyzedTokenReadings) : boolean in class org.languagetool.rules.uk.TokenAgreementRule"
+sha: "bec15926deb49d2b3f7b979d4cfc819947a434ec"
+
+-----------------------------------
+truePositives: "Rename Parameter resourceIds : long... to resourceId : long in method public tryExclusiveLock(resourceType Locks.ResourceType, resourceId long) : boolean in class org.neo4j.kernel.ha.lock.SlaveLocksClient"
+truePositives: "Rename Parameter resourceIds : long... to resourceId : long in method public trySharedLock(resourceType Locks.ResourceType, resourceId long) : boolean in class org.neo4j.kernel.ha.lock.SlaveLocksClient"
+truePositives: "Rename Parameter resourceIds : long... to resourceId : long in method public tryExclusiveLock(resourceType Locks.ResourceType, resourceId long) : boolean in class org.neo4j.kernel.impl.locking.NoOpClient"
+truePositives: "Rename Parameter resourceIds : long... to resourceId : long in method public acquireExclusive(resourceType Locks.ResourceType, resourceId long) : void in class org.neo4j.kernel.ha.lock.SlaveLocksClient"
+truePositives: "Rename Parameter resourceIds : long... to resourceId : long in method public acquireShared(resourceType Locks.ResourceType, resourceId long) : void in class org.neo4j.kernel.ha.lock.SlaveLocksClient"
+truePositives: "Rename Parameter resourceIds : long... to resourceId : long in method public trySharedLock(resourceType Locks.ResourceType, resourceId long) : boolean in class org.neo4j.kernel.impl.locking.NoOpClient"
+truePositives: "Rename Parameter resourceIds : long... to resourceId : long in method public acquireShared(resourceType ResourceType, resourceId long) : void in class org.neo4j.kernel.impl.locking.Locks.Client"
+truePositives: "Rename Parameter resourceIds : long... to resourceId : long in method public acquireExclusive(resourceType ResourceType, resourceId long) : void in class org.neo4j.kernel.impl.locking.Locks.Client"
+truePositives: "Rename Parameter resourceIds : long... to resourceId : long in method public tryExclusiveLock(resourceType ResourceType, resourceId long) : boolean in class org.neo4j.kernel.impl.locking.Locks.Client"
+truePositives: "Rename Parameter resourceIds : long... to resourceId : long in method public trySharedLock(resourceType ResourceType, resourceId long) : boolean in class org.neo4j.kernel.impl.locking.Locks.Client"
+truePositives: "Rename Parameter resourceIds : long... to resourceId : long in method public releaseShared(resourceType ResourceType, resourceId long) : void in class org.neo4j.kernel.impl.locking.Locks.Client"
+truePositives: "Rename Parameter resourceIds : long... to resourceId : long in method public releaseExclusive(resourceType ResourceType, resourceId long) : void in class org.neo4j.kernel.impl.locking.Locks.Client"
+sha: "77fab3caea4495798a248035f0e928f745c7c2db"
+
+-----------------------------------
+truePositives: "Rename Method package rotateDone() : void renamed to package checkPointDone() : void in class synchronization.TestConcurrentRotation"
+sha: "001de307492df8f84ad15f6aaa0bd1e748d4ce27"
+
+-----------------------------------
+truePositives: "Rename Method public deny(requirementNotMet AvailabilityRequirement) : void renamed to public require(requirement AvailabilityRequirement) : void in class org.neo4j.kernel.AvailabilityGuard"
+truePositives: "Rename Method public checkAvailability(millis long, cls Class<EXCEPTION>) : void renamed to public await(millis long) : void in class org.neo4j.kernel.AvailabilityGuard"
+truePositives: "Rename Method public grant(requirementNowMet AvailabilityRequirement) : void renamed to public fulfill(requirement Object) : void in class org.neo4j.kernel.AvailabilityGuard"
+sha: "74d2cc420e5590ba3bc0ffcc15b30b76a9cbef0b"
+
+-----------------------------------
+truePositives: "Rename Method public describeTo(description Description) : void renamed to public describe() : String in class org.mockito.internal.matchers.NotNull"
+truePositives: "Rename Method public describeTo(description Description) : void renamed to public describe() : String in class org.mockito.internal.matchers.Contains"
+truePositives: "Rename Method public describeTo(description Description) : void renamed to public describe() : String in class org.mockito.internal.matchers.EndsWith"
+truePositives: "Rename Method public describeTo(description Description) : void renamed to public describe() : String in class org.mockito.internal.matchers.InstanceOf"
+truePositives: "Rename Method public describeTo(description Description) : void renamed to public describe() : String in class org.mockito.internal.matchers.StartsWith"
+truePositives: "Rename Method public describeTo(description Description) : void renamed to public describe() : String in class org.mockito.internal.matchers.Matches"
+truePositives: "Rename Method public describeTo(description Description) : void renamed to public describe() : String in class org.mockito.internal.matchers.Find"
+truePositives: "Rename Method public describeTo(description Description) : void renamed to public describe() : String in class org.mockito.internal.matchers.CompareTo"
+truePositives: "Rename Method public describeTo(description Description) : void renamed to public describe() : String in class org.mockito.internal.matchers.Any"
+truePositives: "Rename Method public describeTo(description Description) : void renamed to public describe() : String in class org.mockito.internal.matchers.Equals"
+truePositives: "Rename Method public describeTo(description Description) : void renamed to public describe() : String in class org.mockito.internal.matchers.apachecommons.ReflectionEquals"
+truePositives: "Rename Method public describeTo(description Description) : void renamed to public describe() : String in class org.mockito.internal.matchers.EqualsWithDelta"
+truePositives: "Rename Method public describeTo(description Description) : void renamed to public describe() : String in class org.mockito.internal.matchers.Null"
+truePositives: "Rename Method public describeTo(description Description) : void renamed to public describe() : String in class org.mockito.internal.matchers.VarargCapturingMatcher"
+truePositives: "Rename Method public describeTo(description Description) : void renamed to public describe() : String in class org.mockito.internal.matchers.CapturingMatcher"
+truePositives: "Rename Method public describeTo(description Description) : void renamed to public describe() : String in class org.mockito.internal.matchers.ArrayEquals"
+truePositives: "Rename Method public describeTo(description Description) : void renamed to public describe() : String in class org.mockito.internal.matchers.Or"
+truePositives: "Rename Method public describeTo(description Description) : void renamed to public describe() : String in class org.mockito.internal.matchers.Not"
+truePositives: "Rename Method public describeTo(description Description) : void renamed to public describe() : String in class org.mockito.internal.matchers.LocalizedMatcher"
+sha: "7f20e63a7252f33c888085134d16ee8bf45f183f"
+
+-----------------------------------
+truePositives: "Rename Method public settingNoopInjectionsAndQuery() : void renamed to public settingNoOpInjectionsAndQuery() : void in class org.apache.drill.exec.server.TestDrillbitResilience"
+sha: "00aa01fb90f3210d1e3027d7f759fb1085b814bd"
+
+-----------------------------------
+truePositives: "Change Attribute Type securityGroups : ListWithAutoConstructFlag<String> to securityGroups : SdkInternalList<String> in class com.amazonaws.services.elasticfilesystem.model.CreateMountTargetRequest"
+truePositives: "Change Attribute Type tags : ListWithAutoConstructFlag<Tag> to tags : SdkInternalList<Tag> in class com.amazonaws.services.elasticfilesystem.model.CreateTagsRequest"
+truePositives: "Change Attribute Type tagKeys : ListWithAutoConstructFlag<String> to tagKeys : SdkInternalList<String> in class com.amazonaws.services.elasticfilesystem.model.DeleteTagsRequest"
+truePositives: "Change Attribute Type fileSystems : ListWithAutoConstructFlag<FileSystemDescription> to fileSystems : SdkInternalList<FileSystemDescription> in class com.amazonaws.services.elasticfilesystem.model.DescribeFileSystemsResult"
+truePositives: "Change Attribute Type securityGroups : ListWithAutoConstructFlag<String> to securityGroups : SdkInternalList<String> in class com.amazonaws.services.elasticfilesystem.model.DescribeMountTargetSecurityGroupsResult"
+truePositives: "Change Attribute Type mountTargets : ListWithAutoConstructFlag<MountTargetDescription> to mountTargets : SdkInternalList<MountTargetDescription> in class com.amazonaws.services.elasticfilesystem.model.DescribeMountTargetsResult"
+truePositives: "Change Attribute Type tags : ListWithAutoConstructFlag<Tag> to tags : SdkInternalList<Tag> in class com.amazonaws.services.elasticfilesystem.model.DescribeTagsResult"
+truePositives: "Change Attribute Type securityGroups : ListWithAutoConstructFlag<String> to securityGroups : SdkInternalList<String> in class com.amazonaws.services.elasticfilesystem.model.ModifyMountTargetSecurityGroupsRequest"
+truePositives: "Change Attribute Type artifactList : ListWithAutoConstructFlag<Artifact> to artifactList : SdkInternalList<Artifact> in class com.amazonaws.services.importexport.model.CreateJobResult"
+truePositives: "Change Attribute Type jobIds : ListWithAutoConstructFlag<String> to jobIds : SdkInternalList<String> in class com.amazonaws.services.importexport.model.GetShippingLabelRequest"
+truePositives: "Change Attribute Type artifactList : ListWithAutoConstructFlag<Artifact> to artifactList : SdkInternalList<Artifact> in class com.amazonaws.services.importexport.model.GetStatusResult"
+truePositives: "Change Attribute Type jobs : ListWithAutoConstructFlag<Job> to jobs : SdkInternalList<Job> in class com.amazonaws.services.importexport.model.ListJobsResult"
+truePositives: "Change Attribute Type artifactList : ListWithAutoConstructFlag<Artifact> to artifactList : SdkInternalList<Artifact> in class com.amazonaws.services.importexport.model.UpdateJobResult"
+truePositives: "Change Variable Type jobIdsList : List<String> to jobIdsList : SdkInternalList<String> in method public marshall(getShippingLabelRequest GetShippingLabelRequest) : Request<GetShippingLabelRequest> in class com.amazonaws.services.importexport.model.transform.GetShippingLabelRequestMarshaller"
+truePositives: "Change Variable Type securityGroupsList : ListWithAutoConstructFlag<String> to securityGroupsList : SdkInternalList<String> in method public marshall(modifyMountTargetSecurityGroupsRequest ModifyMountTargetSecurityGroupsRequest) : Request<ModifyMountTargetSecurityGroupsRequest> in class com.amazonaws.services.elasticfilesystem.model.transform.ModifyMountTargetSecurityGroupsRequestMarshaller"
+truePositives: "Change Variable Type tagsList : ListWithAutoConstructFlag<Tag> to tagsList : SdkInternalList<Tag> in method public marshall(createTagsRequest CreateTagsRequest) : Request<CreateTagsRequest> in class com.amazonaws.services.elasticfilesystem.model.transform.CreateTagsRequestMarshaller"
+truePositives: "Change Variable Type securityGroupsList : ListWithAutoConstructFlag<String> to securityGroupsList : SdkInternalList<String> in method public marshall(createMountTargetRequest CreateMountTargetRequest) : Request<CreateMountTargetRequest> in class com.amazonaws.services.elasticfilesystem.model.transform.CreateMountTargetRequestMarshaller"
+truePositives: "Change Variable Type tagKeysList : ListWithAutoConstructFlag<String> to tagKeysList : SdkInternalList<String> in method public marshall(deleteTagsRequest DeleteTagsRequest) : Request<DeleteTagsRequest> in class com.amazonaws.services.elasticfilesystem.model.transform.DeleteTagsRequestMarshaller"
+sha: "4baf0a4de8d03022df48d696d210cc8b3117d38a"
+
+-----------------------------------
+truePositives: "Rename Method public getPartitionHashBucket(partitionCount int, position int, page Page) : int renamed to public getPartitionBucket(partitionCount int, position int, page Page) : int in class com.facebook.presto.operator.HashGenerator"
+sha: "364f50274d4b4b83d40930c0d2c4d0e57fb34589"
+
+-----------------------------------
+truePositives: "Change Parameter Type lhs : UniquenessConstraintRule to lhs : UniquePropertyConstraintRule in method private uniquenessConstraintEquals(lhs UniquePropertyConstraintRule, rhs UniquePropertyConstraintRule) : boolean in class org.neo4j.consistency.checking.SchemaRuleContent"
+truePositives: "Change Parameter Type rhs : UniquenessConstraintRule to rhs : UniquePropertyConstraintRule in method private uniquenessConstraintEquals(lhs UniquePropertyConstraintRule, rhs UniquePropertyConstraintRule) : boolean in class org.neo4j.consistency.checking.SchemaRuleContent"
+truePositives: "Change Variable Type rule2 : UniquenessConstraintRule to rule2 : UniquePropertyConstraintRule in method public shouldReportInvalidConstraintBackReferences() : void in class org.neo4j.consistency.checking.full.FullCheckIntegrationTest"
+truePositives: "Change Variable Type constraint : UniquenessConstraint to constraint : PropertyConstraint in method private asConstraintDefinitions(readOperations ReadOperations, constraints Iterator<PropertyConstraint>) : Iterable<ConstraintDefinition> in class org.neo4j.kernel.impl.coreapi.schema.SchemaImpl"
+sha: "8d9bedbf96b14beb027ebc1338bc6d5750e1feb5"
+
+-----------------------------------
+truePositives: "Rename Method public getAllocatedPages() : long renamed to public getWriteCacheSize() : long in class com.orientechnologies.orient.core.storage.cache.local.OWOWCache"
+sha: "f50f234b24e6ada29c82ce57830118508bf55d51"
+
+-----------------------------------
+truePositives: "Change Variable Type albums : List<Album> to albums : Set<Album> in method public getArtistAlbums(artist Artist, onlyIfCached boolean) : Promise<Set<Album>,Throwable,Void> in class org.tomahawk.libtomahawk.collection.NativeCollection"
+truePositives: "Change Variable Type queries : List<Query> to queries : Set<Query> in method public getAlbumTracks(album Album, onlyIfCached boolean) : Promise<Set<Query>,Throwable,Void> in class org.tomahawk.libtomahawk.collection.NativeCollection"
+truePositives: "Change Variable Type albums : List<Album> to albums : Set<Album> in method public onReportResults(results JsonArray) : void in class org.tomahawk.libtomahawk.collection.ScriptResolverCollection.getArtistAlbums.done.onDone.start"
+truePositives: "Change Variable Type queries : List<Query> to queries : Set<Query> in method public onReportResults(results JsonArray) : void in class org.tomahawk.libtomahawk.collection.ScriptResolverCollection.getAlbumTracks.done.onDone.start"
+truePositives: "Change Variable Type result : List<Query> to result : Set<Query> in method private setupContextMenuItems(view View) : void in class org.tomahawk.tomahawk_android.fragments.ContextMenuFragment"
+sha: "56c273ee11296288cb15320c3de781b94a1e8eb4"
+
+-----------------------------------
+truePositives: "Rename Method private createTaggedTemplateLiteral(t NodeTraversal, n Node) : void renamed to package visitTaggedTemplateLiteral(t NodeTraversal, n Node) : void in class com.google.javascript.jscomp.Es6TemplateLiterals"
+sha: "b9a17665b158955ad28ef7f50cc0a8585460f053"
+
+-----------------------------------
+truePositives: "Rename Method public preHandleSetsCacheSecondsOnMatchingRequestWithCachingDisabled() : void renamed to public emptyCacheConfiguration() : void in class org.springframework.web.servlet.mvc.WebContentInterceptorTests"
+truePositives: "Rename Method public preHandleSetsCacheSecondsOnMatchingRequestWithNoCaching() : void renamed to public preventCacheConfiguration() : void in class org.springframework.web.servlet.mvc.WebContentInterceptorTests"
+sha: "ef0eb01f93d6c485cf37692fd193833a6821272a"
+
+-----------------------------------
+truePositives: "Rename Method public isTrustedSession(account Account, contact AxolotlAddress) : boolean renamed to public isIdentityKeyTrusted(account Account, name String, fingerprint String) : AxolotlService.SQLiteAxolotlStore.Trust in class eu.siacs.conversations.persistance.DatabaseBackend"
+sha: "bdc9f9a44f337ab595a3570833dc6a0558df904c"
+
+-----------------------------------
+truePositives: "Rename Method public getOrDefault(key int, supplier Supplier<V>) : V renamed to public computeIfAbsent(key int, mappingFunction IntFunction<? extends V>) : V in class com.hazelcast.util.collection.Int2ObjectHashMap"
+sha: "69dd55c93fc99c5f7a1e2c21f10e671e311be49e"
+
+-----------------------------------
+truePositives: "Rename Parameter relationshipId : long to relId : long in method protected nextFrom(relId long, type int, startNode long, endNode long) : Long in class org.neo4j.unsafe.batchinsert.BatchInserterImpl.getRelationshipIds.neoStore"
+sha: "a26b61201cd86c9a8773b418d9c84b446e95a601"
+
+-----------------------------------
+truePositives: "Rename Method public parseAndValidatateMetadata(method Method) : MethodMetadata renamed to protected parseAndValidateMetadata(targetType Class<?>, method Method) : MethodMetadata in class feign.Contract.Default"
+sha: "b2b4085348de32f10903970dded99fdf0376a43c"
+
+-----------------------------------
+truePositives: "Rename Method private convertToLibraryRoot(libPath String) : VirtualFile renamed to private refreshAndConvertToUrl(jarPath String) : String in class com.intellij.codeInsight.daemon.impl.quickfix.OrderEntryFix"
+sha: "7c59f2a4f9b03a9e48ca15554291a03477aa19c1"
+
+-----------------------------------
+truePositives: "Rename Method public testAnyType() : void renamed to public testAnyTypeParams() : void in class com.intellij.lang.java.parser.partial.ReferenceParserTest"
+truePositives: "Rename Variable description : String to text : String in method package checkReferenceTypeUsedAsTypeArgument(typeElement PsiTypeElement, level LanguageLevel) : HighlightInfo in class com.intellij.codeInsight.daemon.impl.analysis.GenericsHighlightUtil"
+sha: "9f7de200c9aef900596b09327a52d33241a68d9c"
+
+-----------------------------------
+truePositives: "Rename Method public testAnyType() : void renamed to public testAnyTypeParams() : void in class com.intellij.lang.java.parser.partial.ReferenceParserTest"
+truePositives: "Rename Variable description : String to text : String in method package checkReferenceTypeUsedAsTypeArgument(typeElement PsiTypeElement, level LanguageLevel) : HighlightInfo in class com.intellij.codeInsight.daemon.impl.analysis.GenericsHighlightUtil"
+sha: "106d1d51754f454fa673976665e41f463316e084"
+
+-----------------------------------
+truePositives: "Change Return Type AugmentedRestLiResponseData to RestLiResponseEnvelope in method public buildExceptionResponseData(request RestRequest, routingResult RoutingResult, object Object, headers Map<String,String>) : RestLiResponseEnvelope in class com.linkedin.restli.internal.server.RestLiResponseHandler"
+truePositives: "Change Return Type AugmentedRestLiResponseData to RestLiResponseEnvelope in method public buildRestLiResponseData(request RestRequest, routingResult RoutingResult, result Object, headers Map<String,String>) : RestLiResponseEnvelope in class com.linkedin.restli.internal.server.methods.response.ActionResponseBuilder"
+truePositives: "Change Return Type AugmentedRestLiResponseData to RestLiResponseEnvelope in method public buildRestLiResponseData(request RestRequest, routingResult RoutingResult, result Object, headers Map<String,String>) : RestLiResponseEnvelope in class com.linkedin.restli.internal.server.methods.response.BatchCreateResponseBuilder"
+truePositives: "Change Return Type AugmentedRestLiResponseData to RestLiResponseEnvelope in method public buildRestLiResponseData(request RestRequest, routingResult RoutingResult, object Object, headers Map<String,String>) : RestLiResponseEnvelope in class com.linkedin.restli.internal.server.methods.response.CollectionResponseBuilder"
+truePositives: "Change Return Type AugmentedRestLiResponseData to RestLiResponseEnvelope in method private buildRestLiResponseData(request RestRequest, routingResult RoutingResult, elements List<? extends RecordTemplate>, pageIncrement PageIncrement, customMetadata RecordTemplate, totalResults Integer, headers Map<String,String>) : RestLiResponseEnvelope in class com.linkedin.restli.internal.server.methods.response.CollectionResponseBuilder"
+truePositives: "Change Return Type AugmentedRestLiResponseData to RestLiResponseEnvelope in method public buildRestLiResponseData(request RestRequest, routingResult RoutingResult, result Object, headers Map<String,String>) : RestLiResponseEnvelope in class com.linkedin.restli.internal.server.methods.response.CreateResponseBuilder"
+truePositives: "Change Return Type AugmentedRestLiResponseData to RestLiResponseEnvelope in method public buildRestLiResponseData(request RestRequest, routingResult RoutingResult, object Object, headers Map<String,String>) : RestLiResponseEnvelope in class com.linkedin.restli.internal.server.methods.response.ErrorResponseBuilder"
+truePositives: "Change Return Type AugmentedRestLiResponseData to RestLiResponseEnvelope in method public buildRestLiResponseData(request RestRequest, routingResult RoutingResult, result Object, headers Map<String,String>) : RestLiResponseEnvelope in class com.linkedin.restli.internal.server.methods.response.GetResponseBuilder"
+truePositives: "Change Return Type AugmentedRestLiResponseData to RestLiResponseEnvelope in method public buildRestLiResponseData(request RestRequest, routingResult RoutingResult, result Object, headers Map<String,String>) : RestLiResponseEnvelope in class com.linkedin.restli.internal.server.methods.response.UpdateResponseBuilder"
+truePositives: "Change Variable Type responseData : AugmentedRestLiResponseData to responseData : RestLiResponseEnvelope in method public testBuilder(results Object, protocolVersion ProtocolVersion, expectedResults Map<String,UpdateStatus>, expectedErrors Map<String,ErrorResponse>) : void in class com.linkedin.restli.internal.server.methods.response.TestBatchUpdateResponseBuilder"
+truePositives: "Change Variable Type responseData : AugmentedRestLiResponseData to responseData : RestLiResponseEnvelope in method public unsupportedNullKeyMapTest(results Object, protocolVersion ProtocolVersion, expectedResults Map<String,UpdateStatus>) : void in class com.linkedin.restli.internal.server.methods.response.TestBatchUpdateResponseBuilder"
+sha: "ec5ea36faa3dd74585bb339beabdba6149ed63be"
+
+-----------------------------------
+truePositives: "Rename Method private parseStack(reader XMLExtendedStreamReader, subsystemAddress PathAddress, operations List<ModelNode>) : void renamed to private parseChannels(reader XMLExtendedStreamReader, address PathAddress, operations Map<PathAddress,ModelNode>) : void in class org.infinispan.server.jgroups.subsystem.JGroupsSubsystemXMLReader"
+truePositives: "Rename Method private setPropertyNoOverride(protocol ProtocolConfiguration, config ProtocolConfiguration, name String, value String) : void renamed to private setSocketBindingProperty(introspector Introspector, config ProtocolConfiguration, name String, value String) : void in class org.infinispan.server.jgroups.JChannelFactory"
+sha: "8f446b6ddf540e1b1fefca34dd10f45ba7256095"
+
+-----------------------------------
+truePositives: "Rename Method package fromURIs(uris Set<URI>) : Set<ChannelSpec> renamed to package asSpecs(uris Set<URI>) : Set<ChannelSpec> in class org.voltdb.importer.TestChannelDistributer"
+sha: "7527cfc746dc20ddb78002c7b3a65d55026a334e"
+
+-----------------------------------
+truePositives: "Rename Method package getObjectMetadata(clazz Class<?>) : SourceMetadata renamed to package loadSourceMetadata(clazz Class<?>) : SourceMetadata in class com.hazelcast.internal.metrics.impl.MetricsRegistryImpl"
+truePositives: "Rename Method public toString() : String renamed to public render() : String in class com.hazelcast.internal.monitors.HealthMonitor.HealthMetrics"
+truePositives: "Rename Method public readDouble_whenDoubleGauge() : void renamed to public whenDoubleProbe() : void in class com.hazelcast.internal.metrics.impl.DoubleGaugeImplTest"
+truePositives: "Rename Method public readDouble_whenDoubleGaugeField() : void renamed to public whenDoubleGaugeField() : void in class com.hazelcast.internal.metrics.impl.DoubleGaugeImplTest"
+truePositives: "Rename Method public readDouble_whenExceptionalInput() : void renamed to public whenProbeThrowsException() : void in class com.hazelcast.internal.metrics.impl.DoubleGaugeImplTest"
+truePositives: "Rename Method public readDouble_whenLongGauge() : void renamed to public whenLongProbe() : void in class com.hazelcast.internal.metrics.impl.DoubleGaugeImplTest"
+truePositives: "Rename Method public readDouble_whenLongGaugeField() : void renamed to public whenLongGaugeField() : void in class com.hazelcast.internal.metrics.impl.DoubleGaugeImplTest"
+sha: "30c4ae09745d6062077925a54f27205b7401d8df"
+
+-----------------------------------
+truePositives: "Rename Parameter extensionBean : Bean to bean : Bean in method package getBeanReference(clazz Class<T>, bean Bean, beanManager BeanManager) : T in class org.glassfish.jersey.ext.cdi1x.internal.CdiUtil"
+sha: "d57b1401f874f96a53f1ec1c0f8a6089ae66a4ce"
+
+-----------------------------------
+truePositives: "Rename Method public shouldComputeIndexUpdatesOnAnEmptyTxState() : void renamed to public shouldComputeIndexUpdatesForScanOrSeekOnAnEmptyTxState() : void in class org.neo4j.kernel.impl.api.state.TxStateTest"
+truePositives: "Rename Method private filterIndexStateChangesForPrefix(state KernelStatement, index IndexDescriptor, prefix String, nodeIds PrimitiveLongIterator) : PrimitiveLongIterator renamed to private filterIndexStateChangesForRangeSeekByPrefix(state KernelStatement, index IndexDescriptor, prefix String, nodeIds PrimitiveLongIterator) : PrimitiveLongIterator in class org.neo4j.kernel.impl.api.StateHandlingStatementOperations"
+truePositives: "Rename Method private addToIndex(labelId int, propertyKeyId int, nodeIds long[]) : void renamed to public withStringProperties(nodesWithValues Collection<Pair<Long,String>>) : void in class org.neo4j.kernel.impl.api.state.TxStateTest.addNodesToIndex"
+sha: "dc199688d69416da58b370ca2aa728e935fc8e0d"
+
+-----------------------------------
+truePositives: "Rename Variable i : int to fIdx : int in method public loadModel(inputStream InputStream) : Model in class org.ansj.app.crf.Model"
+truePositives: "Rename Parameter path : String to outputStream : OutputStream in method public writeModel(model Model, outputStream OutputStream) : void in class org.ansj.app.crf.Model"
+truePositives: "Change Parameter Type path : String to outputStream : OutputStream in method public writeModel(model Model, outputStream OutputStream) : void in class org.ansj.app.crf.Model"
+sha: "913704e835169255530c7408cad11ce9a714d4ec"
+
+-----------------------------------
+truePositives: "Rename Method private createSubsystemList() : Collection<EngineSubsystem> renamed to private populateSubsystems(builder TerasologyEngineBuilder) : void in class org.terasology.engine.Terasology"
+truePositives: "Rename Method public dispose() : void renamed to public shutdown() : void in class org.terasology.engine.subsystem.common.ThreadManagerSubsystem"
+truePositives: "Rename Method public shutdown(config Config) : void renamed to public preShutdown() : void in class org.terasology.engine.subsystem.EngineSubsystem"
+truePositives: "Rename Method public dispose() : void renamed to public shutdown() : void in class org.terasology.engine.subsystem.EngineSubsystem"
+sha: "543a9808a85619dbe5acc2373cb4fe5344442de7"
+
+-----------------------------------
+truePositives: "Rename Method package buildUDF(name FunctionName, argNames List<ColumnIdentifier>, argTypes List<AbstractType<?>>, returnType AbstractType<?>, calledOnNullInput boolean, body String) : UDFunction renamed to package JavaBasedUDFunction(name FunctionName, argNames List<ColumnIdentifier>, argTypes List<AbstractType<?>>, returnType AbstractType<?>, calledOnNullInput boolean, body String) in class org.apache.cassandra.cql3.functions.JavaBasedUDFunction"
+sha: "5790b4a44ba85e7e8ece64613d9e6a1b737a6cde"
+
+-----------------------------------
+truePositives: "Rename Method public length() : int renamed to public bufLength() : int in class jadx.core.codegen.CodeWriter"
+sha: "2d8d4164830631d3125575f055b417c5addaa22f"
+
+-----------------------------------
+truePositives: "Rename Method public getKeyTypeInsideMap(type String) : String renamed to public getFirstGenericParameterType(type String) : String in class com.hazelcast.client.protocol.generator.CodeGenerationUtils"
+truePositives: "Rename Method public getTypeInsideCollection(type String) : String renamed to public getGenericType(type String) : String in class com.hazelcast.client.protocol.generator.CodeGenerationUtils"
+truePositives: "Rename Method public getValueTypeInsideMap(type String) : String renamed to public getSecondGenericParameterType(type String) : String in class com.hazelcast.client.protocol.generator.CodeGenerationUtils"
+sha: "e84e96ff5c2bdc48cea7f75fd794506159c4e1f7"
+
+-----------------------------------
+truePositives: "Rename Method public sanitizeProjectRootWithoutExpandPaths() : void renamed to public sanitizeProjectRoot() : void in class com.facebook.buck.cxx.DebugPathSanitizerTest"
+truePositives: "Rename Method public sanitizeDirectoriesThatArePrefixOfOtherDirectoriesWithoutExpandPaths() : void renamed to public sanitizeDirectoriesThatArePrefixOfOtherDirectories() : void in class com.facebook.buck.cxx.DebugPathSanitizerTest"
+truePositives: "Rename Method public sanitizeOtherDirectoriesWithoutExpandPaths() : void renamed to public sanitizeOtherDirectories() : void in class com.facebook.buck.cxx.DebugPathSanitizerTest"
+truePositives: "Rename Method public sanitizeWithoutAnyMatchesWithoutExpandPaths() : void renamed to public sanitizeWithoutAnyMatches() : void in class com.facebook.buck.cxx.DebugPathSanitizerTest"
+sha: "6ed4cf9e83fe24fc6ab6fc9ebede016c777c9725"
+
+-----------------------------------
+truePositives: "Rename Method public testTransactionsLazyNoRetain() : void renamed to public testTransactionsNoRetain() : void in class org.bitcoinj.core.ParseByteCacheTest"
+truePositives: "Rename Method public testTransactionsLazyRetain() : void renamed to public testTransactionsRetain() : void in class org.bitcoinj.core.ParseByteCacheTest"
+sha: "7744a00629514b9539acac05596d64af878fe747"
+
+-----------------------------------
+truePositives: "Rename Method public setWebsocketSubProtocol(subProtocols String) : HttpServerOptions renamed to public setWebsocketSubProtocols(subProtocols String) : HttpServerOptions in class io.vertx.core.http.HttpServerOptions"
+sha: "0ef66582ffaba9a8df1cad846880df2074d34505"
+
+-----------------------------------
+truePositives: "Rename Method public setQuorum(quorum int) : void renamed to public requireQuorum(quorum int) : SingletonServiceBuilder<T> in class org.wildfly.clustering.server.singleton.CacheSingletonServiceBuilder"
+truePositives: "Rename Method public setElectionPolicy(electionPolicy SingletonElectionPolicy) : void renamed to public electionPolicy(electionPolicy SingletonElectionPolicy) : SingletonServiceBuilder<T> in class org.wildfly.clustering.server.singleton.CacheSingletonServiceBuilder"
+sha: "4aa2e8746b5492bbc1cf2b36af956cf3b01e40f5"
+
+-----------------------------------
+truePositives: "Rename Method public convertName(name CharSequence) : CharSequence renamed to public validate(name CharSequence) : void in class io.netty.handler.codec.http.DefaultLastHttpContent.TrailingHttpHeaders.TrailingHttpHeadersNameValidator"
+truePositives: "Rename Method private convertName(name T) : T renamed to private validateName(name T) : void in class io.netty.handler.codec.DefaultHeaders"
+truePositives: "Rename Method public setShouldReplacePreviousValues() : void renamed to public setShouldOverWritePreviousValue() : void in class io.netty.handler.codec.DefaultBinaryHeadersTest"
+truePositives: "Rename Method public getInt(name T, defaultValue short) : short renamed to public getShort(name T, defaultValue short) : short in class io.netty.handler.codec.Headers"
+truePositives: "Change Return Type AsciiString to CharSequence in method public convertTimeMillis(value long) : CharSequence in class io.netty.handler.codec.DefaultTextHeaders.CharSequenceConverter"
+sha: "d31fa31cdcc5ea2fa96116e3b1265baa180df58a"
+
+-----------------------------------
+truePositives: "Rename Method public initiator(createdById String...) : TaskQueryBuilder renamed to public createdBy(createdById String...) : TaskQueryBuilder in class org.jbpm.services.task.impl.TaskQueryBuilderImpl"
+truePositives: "Rename Method public taskOwner(taskOwnerId String...) : TaskQueryBuilder renamed to public actualOwner(taskOwnerId String...) : TaskQueryBuilder in class org.jbpm.services.task.impl.TaskQueryBuilderImpl"
+truePositives: "Rename Method public addAppropriateParam(listId String, param T...) : QueryCriteria renamed to public addParameter(listId String, param T...) : QueryCriteria in class org.jbpm.query.jpa.data.QueryWhere"
+truePositives: "Rename Method public getQueryData() : QueryData renamed to public getQueryWhere() : QueryWhere in class org.jbpm.query.jpa.builder.impl.AbstractQueryBuilderImpl"
+truePositives: "Rename Method public orderBy(orderBy OrderBy) : TaskQueryBuilder renamed to private getOrderByListId(field OrderBy) : String in class org.jbpm.services.task.impl.TaskQueryBuilderImpl"
+truePositives: "Rename Method public queryProcessInstanceLogs(queryData QueryData) : List<org.kie.api.runtime.manager.audit.ProcessInstanceLog> renamed to public queryLogs(queryData QueryWhere, queryClass Class<T>, resultClass Class<R>) : List<R> in class org.jbpm.process.audit.JPAAuditLogService"
+truePositives: "Rename Method public startGroup() : void renamed to public newGroup() : void in class org.jbpm.query.jpa.data.QueryWhere"
+truePositives: "Rename Method public getQueryData() : QueryData renamed to public getQueryWhere() : QueryWhere in class org.jbpm.services.task.commands.TaskQueryWhereCommand"
+truePositives: "Rename Method public setQueryData(queryData QueryData) : void renamed to public setQueryWhere(queryWhere QueryWhere) : void in class org.jbpm.services.task.commands.TaskQueryWhereCommand"
+truePositives: "Change Variable Type cmd : TaskQueryDataCommand to cmd : TaskQueryWhereCommand in method public build() : ParametrizedQuery<TaskSummary> in class org.jbpm.services.task.impl.TaskQueryBuilderImpl"
+truePositives: "Rename Method public queryNodeInstanceLogs(queryData QueryData) : List<org.kie.api.runtime.manager.audit.NodeInstanceLog> renamed to public queryLogs(queryWhere QueryWhere, queryType Class<T>, resultType Class<R>) : List<R> in class org.jbpm.process.audit.AuditLogService"
+truePositives: "Rename Method public queryNodeInstanceLogs(queryData QueryData) : List<org.kie.api.runtime.manager.audit.NodeInstanceLog> renamed to public queryLogs(queryData QueryWhere, queryClass Class<T>, resultClass Class<R>) : List<R> in class org.jbpm.process.audit.JPAAuditLogService"
+sha: "3815f293ba9338f423315d93a373608c95002b15"
+
+-----------------------------------
+truePositives: "Change Parameter Type parameters : OgrFormat to parameters : Format in method public addFormat(parameters Format) : void in class org.geoserver.wfs.response.Ogr2OgrOutputFormat"
+sha: "e78cda0fcf23de3973b659bc54f58a4e9b1f3bd3"
+
+-----------------------------------
+truePositives: "Rename Method public unpackUtf8() : byte[] renamed to public unpackUTF8() : byte[] in class org.neo4j.packstream.PackStream.Unpacker"
+sha: "e0072aac53b3b88de787e7ca653c7e17f9499018"
+
+-----------------------------------
+truePositives: "Rename Method private addErlangModules(module Module, onlyTestModules boolean, erlangModules Collection<ErlangFile>) : Collection<ErlangFile> renamed to private addErlangFiles(module Module, onlyTestModules boolean, erlangModules Collection<ErlangFile>, type ErlangFileType) : Collection<ErlangFile> in class org.intellij.erlang.utils.ErlangModulesUtil"
+sha: "e3b84c8753a21b1b15cfc9aa90b5e0c56d290f41"
+
+-----------------------------------
+
+BUILD SUCCESSFUL in 1s
+2 actionable tasks: 1 executed, 1 up-to-date
+8:41:10 PM: Task execution finished 'AnalyseResults.main()'.

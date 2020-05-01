@@ -1,0 +1,1 @@
+ÝChange Variable Type channel : StoreChannel to exception : IOException in method private closeAndCollectExceptions(channelIndex int, exception IOException) : void in class org.neo4j.io.pagecache.impl.SingleFilePageSwapper2(03ece4f24163204d8a3948eb53576f1feaa86a61

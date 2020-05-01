@@ -1,0 +1,2 @@
+
+ˆRename Attribute usesImplicitMatch : boolean to isStructuralInterface : boolean in class com.google.javascript.rhino.jstype.FunctionTypeÀChange Variable Type that : ArrowType to other : JSType in method protected isSubtype(other JSType, implicitImplCache ImplCache) : boolean in class com.google.javascript.rhino.jstype.ArrowType˜Rename Parameter other : JSType to that : JSType in method public isSubtype(that JSType) : boolean in class com.google.javascript.rhino.jstype.ArrowType2(545a7d027b4c55c116dc52d9cd8121fbb09777f0

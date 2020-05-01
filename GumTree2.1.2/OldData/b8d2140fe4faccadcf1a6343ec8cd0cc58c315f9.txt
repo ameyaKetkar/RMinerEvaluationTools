@@ -1,0 +1,1 @@
+’Change Return Type boolean to void in method private doFirstFetchIfNeeded() : void in class org.apache.hadoop.hive.ql.exec.CommonMergeJoinOperator2(b8d2140fe4faccadcf1a6343ec8cd0cc58c315f9

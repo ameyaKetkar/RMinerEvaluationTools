@@ -1,0 +1,2 @@
+
+°Rename Variable jFileChooser : JFileChooser to fileChooser : JFileChooser in method private fileSelection() : File in class org.neo4j.desktop.ui.BrowseForDatabaseActionListener2(d1a6ae2a16ba1d53b1de02eea8745d67c6a1a005

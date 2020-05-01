@@ -1,0 +1,2 @@
+
+qRename Attribute neostore : NeoStore to neoStore : NeoStore in class org.neo4j.kernel.impl.store.StoreFactoryTest2(5fa74fbb4a307571e3807c1201b8b05d3d60a99b

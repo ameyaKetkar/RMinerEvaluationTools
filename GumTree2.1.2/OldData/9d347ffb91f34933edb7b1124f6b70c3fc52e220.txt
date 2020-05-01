@@ -1,0 +1,4 @@
+
+ËChange Parameter Type sb : CharSequence to sb : AppendableCharSequence in method private findWhitespace(sb AppendableCharSequence, offset int) : int in class io.netty.handler.codec.http.HttpObjectDecoder
+ÎChange Parameter Type sb : CharSequence to sb : AppendableCharSequence in method private findNonWhitespace(sb AppendableCharSequence, offset int) : int in class io.netty.handler.codec.http.HttpObjectDecoder
+ÀChange Parameter Type sb : CharSequence to sb : AppendableCharSequence in method private findEndOfString(sb AppendableCharSequence) : int in class io.netty.handler.codec.http.HttpObjectDecoder2(9d347ffb91f34933edb7b1124f6b70c3fc52e220

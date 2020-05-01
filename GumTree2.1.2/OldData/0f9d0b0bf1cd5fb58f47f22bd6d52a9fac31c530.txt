@@ -1,0 +1,1 @@
+|Change Return Type void to int in method private getVisibleFrozenColumnCount() : int in class com.vaadin.client.widgets.Grid2(0f9d0b0bf1cd5fb58f47f22bd6d52a9fac31c530

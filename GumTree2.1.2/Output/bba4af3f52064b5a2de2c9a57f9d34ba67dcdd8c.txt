@@ -1,0 +1,4 @@
+
+ÃRename Method public testDeletingAccountShouldDeleteSplits() : void renamed to public shouldDeleteSplitsWhenAccountDeleted() : void in class org.gnucash.android.test.unit.db.AccountsDbAdapterTest
+¶Rename Method public testAlphabeticalSorting() : void renamed to public shouldBeAlphabeticallySortedByDefault() : void in class org.gnucash.android.test.unit.db.AccountsDbAdapterTest
+²Rename Method public testAddAccountWithTransaction() : void renamed to public shouldAddAccountsToDatabase() : void in class org.gnucash.android.test.unit.db.AccountsDbAdapterTest2(bba4af3f52064b5a2de2c9a57f9d34ba67dcdd8c

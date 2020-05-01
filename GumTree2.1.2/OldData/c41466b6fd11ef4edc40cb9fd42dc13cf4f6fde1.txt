@@ -1,0 +1,3 @@
+
+±Change Return Type ModuleComponentArtifactMetaData to ModuleDescriptorArtifactMetaData in method private getMetaDataArtifactFor(moduleComponentIdentifier ModuleComponentIdentifier) : ModuleDescriptorArtifactMetaData in class org.gradle.api.internal.artifacts.repositories.resolver.ExternalResourceResolver
+ãChange Variable Type artifact : ModuleComponentArtifactMetaData to artifact : ModuleDescriptorArtifactMetaData in method protected resolveMetaDataArtifacts(module ModuleComponentResolveMetaData, result BuildableArtifactSetResolveResult) : void in class org.gradle.api.internal.artifacts.repositories.resolver.ExternalResourceResolver.LocalRepositoryAccess2(c41466b6fd11ef4edc40cb9fd42dc13cf4f6fde1

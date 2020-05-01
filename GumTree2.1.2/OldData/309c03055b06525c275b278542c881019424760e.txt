@@ -1,0 +1,5 @@
+
+bChange Attribute Type tag : Symbol to tag : Object in class clojure.lang.Compiler.StaticInvokeExpr
+ÅChange Parameter Type tag : Symbol to tag : Object in method package StaticInvokeExpr(target Type, retClass Class, paramclasses Class[], paramtypes Type[], variadic boolean, args IPersistentVector, tag Object) in class clojure.lang.Compiler.StaticInvokeExpr
+cRename Attribute isStatic : boolean to canBeDirect : boolean in class clojure.lang.Compiler.ObjExpr
+ûChange Parameter Type tag : Symbol to tag : Object in method public parse(v Var, args ISeq, tag Object) : Expr in class clojure.lang.Compiler.StaticInvokeExpr©Rename Parameter isStatic : boolean to rettag : Object in method package parse(objx ObjExpr, form ISeq, rettag Object) : FnMethod in class clojure.lang.Compiler.FnMethodÆChange Parameter Type isStatic : boolean to rettag : Object in method package parse(objx ObjExpr, form ISeq, rettag Object) : FnMethod in class clojure.lang.Compiler.FnMethod2(309c03055b06525c275b278542c881019424760e

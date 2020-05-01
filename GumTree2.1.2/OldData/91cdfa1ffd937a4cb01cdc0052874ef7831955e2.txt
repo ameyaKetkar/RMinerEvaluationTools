@@ -1,0 +1,3 @@
+
+ÛRename Parameter function : Model to layer : Model in method public BackTrackLineSearch(layer Model, stepFunction StepFunction, optimizer ConvexOptimizer) in class org.deeplearning4j.optimize.solvers.BackTrackLineSearch
+sRename Attribute function : Model to layer : Model in class org.deeplearning4j.optimize.solvers.BackTrackLineSearch£Rename Variable l : OutputLayer to layer : OutputLayer in method public testLineSearch() : void in class org.deeplearning4j.optimize.solver.BackTrackLineSearchTestšRename Variable d : DataSet to data : DataSet in method public testLineSearch() : void in class org.deeplearning4j.optimize.solver.BackTrackLineSearchTest2(91cdfa1ffd937a4cb01cdc0052874ef7831955e2

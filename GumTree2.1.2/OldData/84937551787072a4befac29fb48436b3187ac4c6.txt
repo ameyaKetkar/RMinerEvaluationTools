@@ -1,0 +1,2 @@
+
+–Change Variable Type settings : Settings to settings : MavenSettings in method public apply(session DefaultRepositorySystemSession, repositorySystem RepositorySystem) : void in class org.springframework.boot.cli.compiler.grape.SettingsXmlRepositorySystemSessionAutoConfiguration2(84937551787072a4befac29fb48436b3187ac4c6
