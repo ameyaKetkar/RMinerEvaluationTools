@@ -1,11 +1,11 @@
 package gr.uom.java.xmi.diff;
 
-import java.util.Set;
-
 import gr.uom.java.xmi.UMLAttribute;
 import gr.uom.java.xmi.UMLOperation;
 import gr.uom.java.xmi.decomposition.AbstractCodeMapping;
 import gr.uom.java.xmi.decomposition.VariableDeclaration;
+
+import java.util.Set;
 
 public class CandidateAttributeRefactoring {
 	private String originalVariableName;

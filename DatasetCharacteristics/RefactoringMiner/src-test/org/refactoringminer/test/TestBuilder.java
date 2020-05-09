@@ -1,6 +1,7 @@
 package org.refactoringminer.test;
 
 import gr.uom.java.xmi.decomposition.AbstractCodeMapping;
+import gr.uom.java.xmi.decomposition.UMLOperationBodyMapper;
 import gr.uom.java.xmi.decomposition.replacement.Replacement;
 import gr.uom.java.xmi.diff.*;
 import org.eclipse.jgit.lib.Repository;
@@ -315,6 +316,12 @@ public class TestBuilder {
 						.setProject(cloneUrl).setCommit(commit)
 						.addAllStatements(getStatementsFor(r)).build();
 
+		}
+
+		public List<StatementReplacements>  getStatementReplacement(UMLOperationBodyMapper bodyMapper){
+				return Optional.ofNullable(bodyMapper).map(x -> x.getMappings())
+						.map(x -> getStatementReplacement(x))
+						.orElse(new ArrayList<>());
 		}
 
 		private List<StatementReplacements> getStatementsFor(Refactoring r) {
