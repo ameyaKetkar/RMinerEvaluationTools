@@ -490,7 +490,7 @@ public class GumTreeDiff {
         StringBuilder sb = new StringBuilder();
         List<ITree> children = methodDeclaration.getChildren();
         String returnType = null;
-        boolean modifierFound = false;
+        boolean accessModifierFound = false;
         boolean bodyFound = false;
         for (int i = 0; i < children.size(); i++) {
             ITree child = children.get(i);
@@ -501,15 +501,16 @@ public class GumTreeDiff {
             } else if (context.getTypeLabel(child).equals("Modifier")) {
                 if (child.getLabel().equals("public") ||
                         child.getLabel().equals("private") ||
-                        child.getLabel().equals("protected") ||
-                        child.getLabel().equals("abstract")) {
+                        child.getLabel().equals("protected")) {
                     sb.append(child.getLabel()).append(" ");
-                    modifierFound = true;
-                }else if(!modifierFound && child.getLabel().equals("default")){
-                    sb.append("public ");
+                    accessModifierFound = true;
                 }
-                else if(!modifierFound && child.getLabel().equals("static")){
-                    sb.append("package ");
+                else if (child.getLabel().equals("abstract")) {
+                    sb.append(child.getLabel()).append(" ");
+                }
+                else if (child.getLabel().equals("default")) {
+                    sb.append("public ");
+                    accessModifierFound = true;
                 }
             } else if (context.getTypeLabel(child).equals("SingleVariableDeclaration")) {
                 String type = null;
@@ -541,7 +542,7 @@ public class GumTreeDiff {
         if (returnType != null) {
             sb.append(" : ").append(returnType);
         }
-        if (!modifierFound) {
+        if (!accessModifierFound) {
             if (bodyFound) {
                 return "package " + sb.toString();
             } else {
