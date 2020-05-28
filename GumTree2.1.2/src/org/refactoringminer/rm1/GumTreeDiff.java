@@ -499,16 +499,16 @@ public class GumTreeDiff {
             } else if (isTypeNode(context, child) && returnType == null) {
                 returnType = child.getLabel();
             } else if (context.getTypeLabel(child).equals("Modifier")) {
-                modifierFound = true;
                 if (child.getLabel().equals("public") ||
                         child.getLabel().equals("private") ||
                         child.getLabel().equals("protected") ||
                         child.getLabel().equals("abstract")) {
                     sb.append(child.getLabel()).append(" ");
-                }else if(child.getLabel().equals("default")){
+                    modifierFound = true;
+                }else if(!modifierFound && child.getLabel().equals("default")){
                     sb.append("public ");
                 }
-                else if(child.getLabel().equals("static")){
+                else if(!modifierFound && child.getLabel().equals("static")){
                     sb.append("package ");
                 }
             } else if (context.getTypeLabel(child).equals("SingleVariableDeclaration")) {
